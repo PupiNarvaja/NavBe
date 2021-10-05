@@ -1,6 +1,5 @@
 body .header {
   display: flex;
-  align-items: center;
   background-color: rgba(198, 247, 238, 0.3);
   position: absolute;
   width: 100%;
@@ -8,14 +7,11 @@ body .header {
   left: 0px;
   top: -3px;
   font-family: 'Source Sans Pro', sans-serif;
-  font-style: normal;
   font-weight: 600;
-  font-size: 19px;
-  line-height: 24px; }
+  font-size: 19px; }
   body .header .headerContainer {
-    margin: 0 176px;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center; }
     body .header .headerContainer .backBtn {
       display: none; }
@@ -29,18 +25,20 @@ body .header {
       display: flex;
       justify-content: space-between;
       list-style-type: none;
-      margin: 0 153px;
+      margin: 10px 153px 0 153px;
       width: 650px; }
       body .header .headerContainer .navbar ul a {
         text-decoration: none;
         color: black; }
         body .header .headerContainer .navbar ul a img {
           display: none; }
-        body .header .headerContainer .navbar ul a li {
-          margin: 0 auto; }
     body .header .headerContainer .inicioSesionBtn {
       background-color: #2FEDC8;
-      color: #5B3D80;
+      color: #5B3D80; }
+    body .header .headerContainer .registrarmeBtn {
+      background-color: #5B3D80;
+      color: white; }
+    body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
       width: 185px;
       height: 45px;
       border-radius: 100px;
@@ -50,74 +48,93 @@ body .header {
       font-size: 18px;
       font-style: normal;
       font-weight: 700; }
+
+@media (max-width: 1440px) {
+  body .header {
+    font-size: 16px; }
+    body .header .headerContainer .logo {
+      width: 154px; }
+    body .header .headerContainer .navbar ul {
+      margin: 10px 40px 0 40px;
+      width: 400px; }
+    body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
+      width: 155px; }
+    body .header .headerContainer .inicioSesionBtn {
+      margin: 0 0 0 15px; }
     body .header .headerContainer .registrarmeBtn {
-      background-color: #5B3D80;
-      color: white;
-      width: 185px;
-      height: 45px;
-      border-radius: 100px;
-      border: none;
-      font-family: Source Sans Pro;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 700; }
+      margin: 0 0 0 30px; } }
+
+@media (max-width: 768px) {
+  body .header {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px; }
+    body .header .headerContainer .logo {
+      display: none; }
+    body .header .headerContainer .logo-smartphone {
+      display: block;
+      width: 48px; }
+    body .header .headerContainer .navbar ul {
+      width: 233px;
+      margin: 16px 25px 0 25px; }
+    body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
+      height: 40px;
+      width: 120px;
+      font-size: 14px; } }
 
 @media (max-width: 425px) {
   body .header {
-    max-width: 425px;
     height: 170px;
     background-color: rgba(91, 61, 128, 0.1); }
-    body .header .headerContainer {
+    body .header .headerContainer .backBtn {
+      display: block;
+      position: absolute;
+      border: none;
+      left: 19px;
+      top: 69px; }
+    body .header .headerContainer .logo {
+      display: none; }
+    body .header .headerContainer .logo-smartphone {
+      display: block;
+      position: absolute;
+      left: calc(50% - 23px);
+      top: 50px;
+      margin: 0; }
+    body .header .headerContainer .notificaciones {
+      display: block;
+      position: absolute;
+      top: 63px;
+      right: 45px; }
+    body .header .headerContainer .navbar {
+      height: 56px;
       width: 100%;
-      margin: 0;
-      flex-flow: row wrap; }
-      body .header .headerContainer .backBtn {
-        display: block;
-        position: absolute;
-        border: none;
-        left: 19px;
-        top: 69px; }
-      body .header .headerContainer .logo {
-        display: none; }
-      body .header .headerContainer .logo-smartphone {
-        display: block;
-        position: absolute;
-        left: 181px;
-        top: 50px; }
-      body .header .headerContainer .notificaciones {
-        display: block;
-        position: absolute;
-        top: 63px;
-        right: 45px; }
-      body .header .headerContainer .navbar {
-        order: 2;
-        height: 56px;
+      background-color: #5B3D80;
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      bottom: 0%;
+      display: flex;
+      margin: 0 auto; }
+      body .header .headerContainer .navbar ul {
         width: 100%;
-        background-color: #5B3D80;
-        position: absolute;
-        left: 0%;
-        right: 0%;
-        bottom: 0%;
-        display: flex;
-        justify-content: flex-end; }
-        body .header .headerContainer .navbar ul {
-          width: 100%;
-          margin: 0 35px;
-          font-family: 'Roboto', sans-serif;
-          font-size: 12px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: 14px;
-          letter-spacing: 0em;
-          text-align: left; }
-          body .header .headerContainer .navbar ul a {
-            color: white;
-            align-self: center; }
-            body .header .headerContainer .navbar ul a img {
-              display: block;
-              margin: 0 auto 4px auto; }
-      body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
-        display: none; } }
+        margin: 0 35px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        font-weight: 500; }
+        body .header .headerContainer .navbar ul a {
+          color: white;
+          align-self: center; }
+          body .header .headerContainer .navbar ul a img {
+            display: block;
+            margin: 0 auto 4px auto; }
+    body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
+      display: none; } }
+
+@media (max-width: 375px) {
+  body .header .headerContainer .notificaciones {
+    right: 27px; }
+  body .header .headerContainer .navbar ul {
+    margin: 0 24px; } }
 
 * {
   margin: 0;

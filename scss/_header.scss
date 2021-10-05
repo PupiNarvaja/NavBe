@@ -1,7 +1,7 @@
 body {
     .header {
         display: flex;
-        align-items: center;
+        // align-items: center;
         background-color: rgba(198, 247, 238, .3);
         position: absolute;
         width: 100%;
@@ -9,14 +9,14 @@ body {
         left: 0px;
         top: -3px;
         font-family: 'Source Sans Pro', sans-serif;
-        font-style: normal;
+        // font-style: normal;
         font-weight: 600;
         font-size: 19px;
-        line-height: 24px;
+        // line-height: 24px;
         .headerContainer {
-            margin: 0 176px;
+            margin: 0 auto;
             display: flex;
-            justify-content: space-between;
+            // justify-content: space-between;
             align-items: center;
             .backBtn {
                 display: none;
@@ -35,7 +35,7 @@ body {
                     display: flex;
                     justify-content: space-between;
                     list-style-type: none;
-                    margin: 0 153px;
+                    margin: 10px 153px 0 153px;
                     width: 650px;
                     a {
                         text-decoration: none;
@@ -43,15 +43,21 @@ body {
                         img {
                             display: none;
                         }
-                        li {
-                            margin: 0 auto;
-                        }
+                        // li {
+                        //     // margin: 0 auto;
+                        // }
                     }
                 }
             }
             .inicioSesionBtn {
                 background-color: #2FEDC8;
                 color: #5B3D80;
+            }
+            .registrarmeBtn {
+                background-color: #5B3D80;
+                color: white;
+            }
+            .inicioSesionBtn, .registrarmeBtn {
                 width: 185px;
                 height: 45px;
                 border-radius: 100px;
@@ -62,32 +68,97 @@ body {
                 font-style: normal;
                 font-weight: 700;
             }
-            .registrarmeBtn {
-                background-color: #5B3D80;
-                color: white;
-                width: 185px;
-                height: 45px;
-                border-radius: 100px;
-                border: none;
-                font-family: Source Sans Pro;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 700;
+        }
+    }
+}
+@media (max-width: 1440px) {
+    body {
+        .header {
+            font-size: 16px;
+            .headerContainer {
+                .logo {
+                    width: 154px;
+                }
+                .navbar {
+                    ul {
+                        margin: 10px 40px 0 40px;
+                        width: 400px
+                    };
+                }
+                .inicioSesionBtn, .registrarmeBtn {
+                    width: 155px;
+                    
+                }
+                .inicioSesionBtn {
+                    margin: 0 0 0 15px;
+                }
+                .registrarmeBtn {
+                    margin: 0 0 0 30px;
+                }
             }
         }
     }
 }
 
+
+
+@media (max-width: 768px) {
+    body {
+        .header {
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            .headerContainer {
+                .logo {
+                    display: none;
+                }
+                .logo-smartphone {
+                    display: block;
+                    width: 48px;
+                    // margin: 0 0 0 34px;
+                }
+                .navbar {
+                    ul {
+                        width: 233px;
+                        margin: 16px 25px 0 25px;
+                    }
+                }
+                .inicioSesionBtn, .registrarmeBtn {
+                    height: 40px;
+                    width: 120px;
+                    font-size: 14px;
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 425px) {
     body {
         .header {
-            max-width: 425px;
             height: 170px;
             background-color: rgba(91, 61, 128, .1);
             .headerContainer {
-                width: 100%;
-                margin: 0;
-                flex-flow: row wrap;
+                // width: 100%;
+                // margin: 0;
+                // flex-flow: row wrap;
                 .backBtn{
                     display: block;
                     position: absolute;
@@ -101,8 +172,9 @@ body {
                 .logo-smartphone {
                     display: block;
                     position: absolute;
-                    left: 181px;
+                    left: calc(50% - 23px);
                     top: 50px;
+                    margin: 0;
                 }
                 .notificaciones {
                     display: block;
@@ -111,7 +183,7 @@ body {
                     right: 45px;
                 }
                 .navbar {
-                    order: 2;
+                    // order: 2;
                     height: 56px;
                     width: 100%;
                     background-color: #5B3D80;
@@ -120,17 +192,17 @@ body {
                     right: 0%;
                     bottom: 0%;
                     display: flex;
-                    justify-content: flex-end;
+                    margin: 0 auto;
                     ul {
                         width: 100%;
                         margin: 0 35px;
                         font-family: 'Roboto', sans-serif;
                         font-size: 12px;
-                        font-style: normal;
+                        // font-style: normal;
                         font-weight: 500;
-                        line-height: 14px;
-                        letter-spacing: 0em;
-                        text-align: left;
+                        // line-height: 14px;
+                        // letter-spacing: 0em;
+                        // text-align: left;
                         a {
                             color: white;
                             align-self: center;
@@ -143,6 +215,23 @@ body {
                 }
                 .inicioSesionBtn, .registrarmeBtn {
                     display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    body {
+        .header {
+            .headerContainer {
+                .notificaciones {
+                    right: 27px;
+                }
+                .navbar {
+                    ul {
+                        margin: 0 24px;
+                    }
                 }
             }
         }
