@@ -1,23 +1,18 @@
 body {
     .header {
         display: flex;
-        // align-items: center;
-        background-color: rgba(198, 247, 238, .8);
-        // background-color: rgba(198, 247, 238, .3);
+        background-color: rgba(198, 247, 238, .3);
         position: absolute;
         width: 100%;
         height: 183px;
         left: 0px;
         top: -3px;
         font-family: 'Source Sans Pro', sans-serif;
-        // font-style: normal;
         font-weight: 600;
         font-size: 19px;
-        // line-height: 24px;
         .headerContainer {
             margin: 0 auto;
             display: flex;
-            // justify-content: space-between;
             align-items: center;
             .backBtn {
                 display: none;
@@ -44,9 +39,6 @@ body {
                         img {
                             display: none;
                         }
-                        // li {
-                        //     // margin: 0 auto;
-                        // }
                     }
                 }
             }
@@ -88,7 +80,6 @@ body {
         }
     }
 }
-
 
 @media (max-width: 1024px) {
     body {
@@ -134,7 +125,6 @@ body {
                 .logo-smartphone {
                     display: block;
                     width: 56px;
-                    // margin: 0 0 0 34px;
                 }
                 .navbar {
                     ul {
@@ -159,9 +149,6 @@ body {
             height: 170px;
             background-color: rgba(91, 61, 128, .1);
             .headerContainer {
-                // width: 100%;
-                // margin: 0;
-                // flex-flow: row wrap;
                 .backBtn{
                     display: block;
                     position: absolute;
@@ -179,6 +166,7 @@ body {
                     left: calc(50% - 23px);
                     top: 50px;
                     margin: 0;
+                    width: 46px;
                 }
                 .notificaciones {
                     display: block;
@@ -187,7 +175,6 @@ body {
                     right: 45px;
                 }
                 .navbar {
-                    // order: 2;
                     height: 56px;
                     width: 100%;
                     background-color: #5B3D80;
@@ -202,11 +189,7 @@ body {
                         margin: 0 35px;
                         font-family: 'Roboto', sans-serif;
                         font-size: 12px;
-                        // font-style: normal;
                         font-weight: 500;
-                        // line-height: 14px;
-                        // letter-spacing: 0em;
-                        // text-align: left;
                         a {
                             color: white;
                             align-self: center;
