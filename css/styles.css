@@ -50,12 +50,12 @@ body .header {
       font-weight: 700;
       cursor: pointer; }
 
-@media (max-width: 1440px) {
+@media (max-width: 1580px) {
   body .header .headerContainer .navbar ul {
     margin: 10px 83px 0 93px;
     width: 550px; } }
 
-@media (max-width: 1024px) {
+@media (max-width: 1370px) {
   body .header {
     font-size: 16px; }
     body .header .headerContainer .logo {
@@ -72,7 +72,7 @@ body .header {
       height: 40px;
       font-size: 16px; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   body .header {
     height: 120px;
     font-weight: 600;
@@ -92,7 +92,7 @@ body .header {
       font-size: 12px;
       font-weight: bold; } }
 
-@media (max-width: 425px) {
+@media (max-width: 700px) {
   body .header {
     height: 170px;
     background-color: rgba(91, 61, 128, 0.1); }
@@ -129,10 +129,11 @@ body .header {
       margin: 0 auto; }
       body .header .headerContainer .navbar ul {
         width: 100%;
-        margin: 0 35px;
+        margin: 0;
         font-family: 'Roboto', sans-serif;
         font-size: 12px;
-        font-weight: 500; }
+        font-weight: 500;
+        justify-content: space-evenly; }
         body .header .headerContainer .navbar ul a {
           color: white;
           align-self: center; }
@@ -146,12 +147,8 @@ body .header {
   body .header .headerContainer .notificaciones {
     right: 27px; }
   body .header .headerContainer .navbar ul {
-    margin: 0 24px; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+    margin: 0 24px;
+    justify-content: space-between; } }
 
 body .main {
   position: absolute;
@@ -160,76 +157,140 @@ body .main {
   left: 0px;
   top: 150px;
   background: url(../media/cohete-background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
   z-index: -1; }
-  body .main .h1Container {
+  body .main .mainContainer {
     position: absolute;
     width: 750px;
-    height: 270px;
-    left: 912px;
-    top: 170px; }
-    body .main .h1Container h1 {
-      font-family: 'Nunito', sans-serif;
-      font-size: 72px;
-      font-style: normal;
-      font-weight: 900;
-      line-height: 85px;
-      letter-spacing: 0em;
-      text-align: left;
-      color: #5B3D80; }
-  body .main p {
-    position: absolute;
-    width: 665px;
-    height: 130px;
-    left: 912px;
-    top: 480px;
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    color: #5B3D80; }
-  body .main .descargaBtn {
-    font-family: Source Sans Pro;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
-    position: absolute;
-    width: 380px;
-    height: 55px;
-    left: 1030px;
-    top: 725px;
-    background: #6000D9;
-    color: white;
-    border-radius: 100px;
-    border: none; }
-
-@media (max-width: 425px) {
-  body .main {
-    background: url(../media/cohete-background-smartphone.png);
-    background-repeat: no-repeat;
-    background-position: top -20px left 54px; }
-    body .main .h1Container {
-      display: none; }
-    body .main p {
-      position: absolute;
-      width: 292px;
-      height: 132px;
-      left: 74px;
-      top: 340px;
-      font-family: Source Sans Pro;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 18px;
-      line-height: 23px; }
-    body .main .descargaBtn {
-      position: absolute;
-      width: 270px;
-      height: 48px;
-      left: 71px;
-      top: 524px;
+    height: 610px;
+    right: 13.4%;
+    top: 170px;
+    display: flex;
+    flex-flow: column nowrap; }
+    body .main .mainContainer .h1Container {
+      margin: 0 0 50px 0; }
+      body .main .mainContainer .h1Container h1 {
+        font-family: 'Nunito', sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 85px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #5B3D80; }
+    body .main .mainContainer p {
+      width: 665px;
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 18px;
-      line-height: 23px; } }
+      font-size: 24px;
+      line-height: 30px;
+      color: #5B3D80; }
+    body .main .mainContainer .descargaBtn {
+      width: 380px;
+      height: 55px;
+      margin: 155px 19% 0 0;
+      align-self: center;
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      background: #6000D9;
+      color: white;
+      border-radius: 100px;
+      border: none;
+      cursor: pointer; }
+
+@media (max-width: 1600px) {
+  body .main .mainContainer {
+    top: 140px;
+    width: 650px;
+    right: 9%; }
+    body .main .mainContainer .h1Container h1 {
+      font-size: 60px;
+      line-height: 70px; }
+    body .main .mainContainer p {
+      font-size: 20px;
+      width: 576px; }
+    body .main .mainContainer .descargaBtn {
+      margin: 100px 17% 0 0; } }
+
+@media (max-width: 1200px) {
+  body .main .mainContainer {
+    width: 500px;
+    top: 80px;
+    right: 5%; }
+    body .main .mainContainer .h1Container {
+      margin: 0 0 30px 0; }
+      body .main .mainContainer .h1Container h1 {
+        font-size: 42px;
+        line-height: 55px; }
+    body .main .mainContainer p {
+      font-size: 16px;
+      width: 420px;
+      line-height: 25px; }
+    body .main .mainContainer .descargaBtn {
+      width: 260px;
+      height: 37.5px;
+      font-size: 16px; } }
+
+@media (max-width: 880px) {
+  body .main .mainContainer {
+    width: 380px;
+    top: 40px; }
+    body .main .mainContainer .h1Container h1 {
+      font-size: 36px;
+      line-height: 50px; }
+    body .main .mainContainer p {
+      font-size: 14px;
+      width: 360px; }
+    body .main .mainContainer .descargaBtn {
+      width: 220px;
+      height: 35px;
+      font-size: 14px;
+      margin: 70px 17% 0 0; } }
+
+@media (max-width: 700px) {
+  body .main {
+    background: url(../media/Cohete.png);
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position: 50% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    body .main .mainContainer {
+      position: unset;
+      margin: 300px 0 0 0; }
+      body .main .mainContainer .h1Container {
+        display: none; }
+      body .main .mainContainer p {
+        width: 292px;
+        height: 132px;
+        margin: 0  0 0 61px;
+        font-size: 18px;
+        line-height: 22.63px;
+        font-weight: 600; }
+        body .main .mainContainer p br {
+          display: none; }
+      body .main .mainContainer .descargaBtn {
+        margin: 52px 0 0 0;
+        width: 270px;
+        height: 48px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px; } }
+
+@media (max-width: 355px) {
+  body .main .mainContainer p {
+    width: 90%;
+    margin: 0 auto; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
