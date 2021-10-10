@@ -25,6 +25,16 @@ $violeta: #5B3D80;
     background-size: contain;
 }
 
+@mixin mobile-backgrounds {
+    background: url(../media/background-mobile.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin descargaButton {
     width: 380px;
     height: 55px;

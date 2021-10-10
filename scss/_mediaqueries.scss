@@ -1,5 +1,4 @@
-//---------- Solo de las secciones -----------
-
+//--------------------------- Solo de las secciones ------------------
 @media (max-width: 1600px) {
     body {
         .main {
@@ -39,6 +38,29 @@
                 }
             }
         }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            top: 1800px;
+            height: 900px;
+            .aprendo--container {
+                .aprendo--container__h2 {
+                    font-size: 60px;
+                    margin: 0 0 36.7px 0;
+                }
+                p {
+                    font-size: 20px;
+                }
+                .cards--container {
+                    margin: 91.6px 0 0 0;
+                    div {
+                        margin: 25px 0;
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -56,6 +78,58 @@
                 p {
                     font-size: 18px;
                     height: 102px;
+                }
+            }
+        }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            top: 1620px;
+            height: 810px;
+            .aprendo--container {
+                .aprendo--container__h2 {
+                    font-size: 54px;
+                    margin: 0 0 22.5px 0;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 22.5px;
+                    width: 530px;
+                }
+                .cards--container {
+                    margin: 0 0 82.5px 0;
+                    div {
+                        margin: 22.5px 0;
+                        .img1 {
+                            width: 37.335px;
+                        }
+                        .img2 {
+                            width: 33.75px;
+                        }
+                        .img3 {
+                            width: 30px;
+                        }
+                        .img4 {
+                            width: 30px;
+                        }
+                        .img5 {
+                            width: 33.75px;
+                        }
+                        span {
+                            font-size: 18px;
+                        }
+                        .m1 {
+                            margin: 0 0 0 31.6px;
+                        }
+                        .m2 {
+                            margin: 0 0 0 33.51px;
+                        }
+                        .m3, .m4 {
+                            margin: 0 0 0 36.75px;
+                        }
+                        .m5 {
+                            margin: 0 0 0 33.27px;
+                        }
+                    }
                 }
             }
         }
@@ -104,6 +178,43 @@
                 }
             }
         }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            top: 1500px;
+            height: 675px;
+            .aprendo--container {
+                .aprendo--container__h2 {
+                    font-size: 45px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 18.75px;
+                    width: 442px;
+                }
+                .cards--container {
+                    div {
+                        .img1 {
+                            width: 31.1125px;
+                        }
+                        .img2 {
+                            width: 28.325px;
+                        }
+                        .img3 {
+                            width: 25px;
+                        }
+                        .img4 {
+                            width: 25px;
+                        }
+                        .img5 {
+                            width: 28.525px;
+                        }
+                        span {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -111,6 +222,7 @@
     body {
 //----------------------------- Sección Woman Question --------------------
         .womanQuestion {
+            top: 700px;
             height: 576px;
             .womanQuestion--container {
                 .womanQuestion__questions {
@@ -119,9 +231,63 @@
                     }
                 }
                 p {
-                    line-height: 24px;
+                    line-height: 20px;
                     font-size: 14px;
                     height: 72.5px;
+                }
+            }
+        }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            top: 1300px;
+            height: 576px;
+            .aprendo--container {
+                top: 7%;
+                .aprendo--container__h2 {
+                    font-size: 38.4px;
+                    height: 90px;
+                    margin: 0;
+                }
+                p {
+                    font-size: 12.8px;
+                    line-height: 16px;
+                    width: 375px;
+                    height: 75px;
+                }
+                .cards--container {
+                    div {
+                        margin: 16px 0;
+                        .img1 {
+                            width: 26.55px;
+                        }
+                        .img2 {
+                            width: 24.17px;
+                        }
+                        .img3 {
+                            width: 21.332px;
+                        }
+                        .img4 {
+                            width: 21.332px;
+                        }
+                        .img5 {
+                            width: 24.34px;
+                        }
+                        span {
+                            font-size: 12.8px;
+                        }
+                        .m1 {
+                            margin: 0 0 0 22.52px;
+                        }
+                        .m2 {
+                            margin: 0 0 0 23.8px;
+                        }
+                        .m3, .m4 {
+                            margin: 0 0 0 26.1px;
+                        }
+                        .m5 {
+                            margin: 0 0 0 23.66px;
+                        }
+                    }
                 }
             }
         }
@@ -154,6 +320,7 @@
         }
 //----------------------------- Sección Woman Question --------------------
         .womanQuestion {
+            top: 600px;
             height: 495px;
             .womanQuestion--container {
                 width: 50%;
@@ -166,9 +333,71 @@
                     }
                 }
                 p {
-                    line-height: 24px;
+                    line-height: 16px;
                     font-size: 12px;
                     height: 62.3px;
+                }
+            }
+        }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            top: 1100px;
+            height: 495px;
+            .aprendo--container {
+                top: 6%;
+                .aprendo--container__h2 {
+                    font-size: 33px;
+                    height: 90px;
+                    margin: 0;
+                }
+                p {
+                    font-size: 11px;
+                    width: 322px;
+                }
+                .cards--container {
+                    div {
+                        .img1 {
+                            width: 22.8px;
+                        }
+                        .img2 {
+                            width:20.8px;
+                        }
+                        .img3 {
+                            width: 18.32px;
+                        }
+                        .img4 {
+                            width: 18.32px;
+                        }
+                        .img5 {
+                            width: 20.9px;
+                        }
+                        span {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:768px) {
+    body {
+//----------------------------- Sección Woman Question --------------------
+        .womanQuestion {
+            .womanQuestion--container {
+                .womanQuestion__questions {
+                    list-style-image: url(../media/item-lista-mobile.svg);
+                }
+            }
+        }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            top: 1050px;
+            .aprendo--container {
+                top: 3%;
+                p {
+                    height: 55px;
                 }
             }
         }
@@ -206,26 +435,15 @@
                     margin: 52px 0 0 0;
                     width: 270px;
                     height: 48px;
-                    font-family: Source Sans Pro;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 18px;
-                    line-height: 23px;
+                    @include parrafo24px(bold, 18px, 23px)
                 }
             }
         }
 //----------------------------- Sección Woman Question --------------------
         .womanQuestion {
-            // height: 393.3px;
-            // height: 1460px;
+            top: 800px;
             height: 1080px;
-            background: url(../media/background-mobile.jpg);
-            background-repeat: repeat-x;
-            background-position: center center;
-            background-size: contain;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include mobile-backgrounds;
             .womanQuestionsAlone {
                 display: block;
                 // width: 100%;
@@ -244,7 +462,6 @@
                 padding: 0 0 0 20px;
                 .womanQuestion__questions {
                     order: 2;
-                    list-style-image: url(../media/item-lista-mobile.svg);
                     height: 180px;
                     li {
                         @include parrafo24px(700, 19px, 23.88px);
@@ -255,6 +472,50 @@
                     order: 1;
                     color: $violeta;
                     @include parrafo24px(600, 15px, 22px); //18.86px
+                }
+            }
+        }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            @include mobile-backgrounds;
+            top: 1850px;
+            height: 1080px;
+            .womanNeetbookAlone {
+                display: block;
+                position: absolute;
+                top: 0;
+            }
+            .aprendo--container {
+                height: 350px;
+                top: 45%;
+                left: unset;
+                .aprendo--container__h2 {
+                    font-size: 30px;
+                    font-weight: 900;
+                    width: 320px;
+                    margin: 0;
+                }
+                p {
+                    font-size: 15px;
+                    font-weight: 600;
+                    line-height: 19px;
+                    height: 85px;
+                    width: 316px;
+                    text-align: center;
+                    color: $violeta;
+                }
+                .dots {
+                    display: block;
+                    position: relative;
+                    top: 30px;
+                    left: calc(50% - 25px);
+                }
+                .cards--container {
+                    div {
+                        span {
+                            font-size: 11px;
+                        }
+                    }
                 }
             }
         }
@@ -269,6 +530,12 @@
             justify-content: center;
             align-items: center;
             .womanQuestionsAlone {
+                width: 100%;
+            }
+        }
+//----------------------------- Sección Aprende con nosotros --------------------
+        .aprendo {
+            .womanNeetbookAlone { 
                 width: 100%;
             }
         }

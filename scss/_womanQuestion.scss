@@ -1,15 +1,7 @@
 body {
     .womanQuestion {
         background: url(../media/woman-preguntas.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-
-
-        position: absolute;
-        width: 100%;
-        height: 1080px;
-        // height: calc($width100 * 56.25%);
-        left: 0px;
+        @include backgrounds;
         top: 1080px;
         .womanQuestionsAlone {
             display: none;

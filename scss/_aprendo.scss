@@ -3,19 +3,25 @@ body {
         background: url(../media/woman-aprendo.svg);
         @include backgrounds;
         top: 2160px;
+        .womanNeetbookAlone {
+            display: none;
+        }
         .aprendo--container {
             position: absolute;
-            top: 153px;
-            left: 165px;
+            top: 14.17%; //153px
+            left: 8.6%; //165px;
            .aprendo--container__h2 {
             @include titulo2;
-            margin: 0 0 44px 0
+            margin: 0 0 44px 0;
            }
            p {
                @include parrafo24px (normal, 24px, 30px);
                width: 703px;
                height: 85px;
                color: #131313;
+           }
+           .dots {
+               display: none;
            }
            .cards--container {
                margin: 110px 0 0 0;

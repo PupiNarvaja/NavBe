@@ -205,12 +205,12 @@ body .main {
 
 body .womanQuestion {
   background: url(../media/woman-preguntas.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
   position: absolute;
   width: 100%;
   height: 1080px;
   left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
   top: 1080px; }
   body .womanQuestion .womanQuestionsAlone {
     display: none; }
@@ -259,10 +259,12 @@ body .aprendo {
   background-repeat: no-repeat;
   background-size: contain;
   top: 2160px; }
+  body .aprendo .womanNeetbookAlone {
+    display: none; }
   body .aprendo .aprendo--container {
     position: absolute;
-    top: 153px;
-    left: 165px; }
+    top: 14.17%;
+    left: 8.6%; }
     body .aprendo .aprendo--container .aprendo--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -280,6 +282,8 @@ body .aprendo {
       width: 703px;
       height: 85px;
       color: #131313; }
+    body .aprendo .aprendo--container .dots {
+      display: none; }
     body .aprendo .aprendo--container .cards--container {
       margin: 110px 0 0 0; }
       body .aprendo .aprendo--container .cards--container div {
@@ -368,7 +372,21 @@ body .consulta {
       font-size: 20px; }
     body .womanQuestion .womanQuestion--container p {
       font-size: 20px;
-      height: 113px; } }
+      height: 113px; }
+  body .aprendo {
+    top: 1800px;
+    height: 900px; }
+    body .aprendo .aprendo--container .aprendo--container__h2 {
+      font-size: 60px;
+      margin: 0 0 36.7px 0; }
+    body .aprendo .aprendo--container p {
+      font-size: 20px; }
+    body .aprendo .aprendo--container .cards--container {
+      margin: 91.6px 0 0 0; }
+      body .aprendo .aprendo--container .cards--container div {
+        margin: 25px 0; }
+        body .aprendo .aprendo--container .cards--container div span {
+          font-size: 20px; } }
 
 @media (max-width: 1440px) {
   body .womanQuestion {
@@ -378,7 +396,41 @@ body .consulta {
       font-size: 18px; }
     body .womanQuestion .womanQuestion--container p {
       font-size: 18px;
-      height: 102px; } }
+      height: 102px; }
+  body .aprendo {
+    top: 1620px;
+    height: 810px; }
+    body .aprendo .aprendo--container .aprendo--container__h2 {
+      font-size: 54px;
+      margin: 0 0 22.5px 0; }
+    body .aprendo .aprendo--container p {
+      font-size: 18px;
+      line-height: 22.5px;
+      width: 530px; }
+    body .aprendo .aprendo--container .cards--container {
+      margin: 0 0 82.5px 0; }
+      body .aprendo .aprendo--container .cards--container div {
+        margin: 22.5px 0; }
+        body .aprendo .aprendo--container .cards--container div .img1 {
+          width: 37.335px; }
+        body .aprendo .aprendo--container .cards--container div .img2 {
+          width: 33.75px; }
+        body .aprendo .aprendo--container .cards--container div .img3 {
+          width: 30px; }
+        body .aprendo .aprendo--container .cards--container div .img4 {
+          width: 30px; }
+        body .aprendo .aprendo--container .cards--container div .img5 {
+          width: 33.75px; }
+        body .aprendo .aprendo--container .cards--container div span {
+          font-size: 18px; }
+        body .aprendo .aprendo--container .cards--container div .m1 {
+          margin: 0 0 0 31.6px; }
+        body .aprendo .aprendo--container .cards--container div .m2 {
+          margin: 0 0 0 33.51px; }
+        body .aprendo .aprendo--container .cards--container div .m3, body .aprendo .aprendo--container .cards--container div .m4 {
+          margin: 0 0 0 36.75px; }
+        body .aprendo .aprendo--container .cards--container div .m5 {
+          margin: 0 0 0 33.27px; } }
 
 @media (max-width: 1200px) {
   body .main .mainContainer {
@@ -405,17 +457,75 @@ body .consulta {
     body .womanQuestion .womanQuestion--container p {
       line-height: 24px;
       font-size: 16px;
-      height: 85px; } }
+      height: 85px; }
+  body .aprendo {
+    top: 1500px;
+    height: 675px; }
+    body .aprendo .aprendo--container .aprendo--container__h2 {
+      font-size: 45px; }
+    body .aprendo .aprendo--container p {
+      font-size: 15px;
+      line-height: 18.75px;
+      width: 442px; }
+    body .aprendo .aprendo--container .cards--container div .img1 {
+      width: 31.1125px; }
+    body .aprendo .aprendo--container .cards--container div .img2 {
+      width: 28.325px; }
+    body .aprendo .aprendo--container .cards--container div .img3 {
+      width: 25px; }
+    body .aprendo .aprendo--container .cards--container div .img4 {
+      width: 25px; }
+    body .aprendo .aprendo--container .cards--container div .img5 {
+      width: 28.525px; }
+    body .aprendo .aprendo--container .cards--container div span {
+      font-size: 15px; } }
 
 @media (max-width: 1024px) {
   body .womanQuestion {
+    top: 700px;
     height: 576px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
       font-size: 14px; }
     body .womanQuestion .womanQuestion--container p {
-      line-height: 24px;
+      line-height: 20px;
       font-size: 14px;
-      height: 72.5px; } }
+      height: 72.5px; }
+  body .aprendo {
+    top: 1300px;
+    height: 576px; }
+    body .aprendo .aprendo--container {
+      top: 7%; }
+      body .aprendo .aprendo--container .aprendo--container__h2 {
+        font-size: 38.4px;
+        height: 90px;
+        margin: 0; }
+      body .aprendo .aprendo--container p {
+        font-size: 12.8px;
+        line-height: 16px;
+        width: 375px;
+        height: 75px; }
+      body .aprendo .aprendo--container .cards--container div {
+        margin: 16px 0; }
+        body .aprendo .aprendo--container .cards--container div .img1 {
+          width: 26.55px; }
+        body .aprendo .aprendo--container .cards--container div .img2 {
+          width: 24.17px; }
+        body .aprendo .aprendo--container .cards--container div .img3 {
+          width: 21.332px; }
+        body .aprendo .aprendo--container .cards--container div .img4 {
+          width: 21.332px; }
+        body .aprendo .aprendo--container .cards--container div .img5 {
+          width: 24.34px; }
+        body .aprendo .aprendo--container .cards--container div span {
+          font-size: 12.8px; }
+        body .aprendo .aprendo--container .cards--container div .m1 {
+          margin: 0 0 0 22.52px; }
+        body .aprendo .aprendo--container .cards--container div .m2 {
+          margin: 0 0 0 23.8px; }
+        body .aprendo .aprendo--container .cards--container div .m3, body .aprendo .aprendo--container .cards--container div .m4 {
+          margin: 0 0 0 26.1px; }
+        body .aprendo .aprendo--container .cards--container div .m5 {
+          margin: 0 0 0 23.66px; } }
 
 @media (max-width: 881px) {
   body .main .mainContainer {
@@ -433,6 +543,7 @@ body .consulta {
       font-size: 14px;
       margin: 70px 17% 0 0; }
   body .womanQuestion {
+    top: 600px;
     height: 495px; }
     body .womanQuestion .womanQuestion--container {
       width: 50%; }
@@ -441,9 +552,43 @@ body .consulta {
         body .womanQuestion .womanQuestion--container .womanQuestion__questions li br {
           display: none; }
       body .womanQuestion .womanQuestion--container p {
-        line-height: 24px;
+        line-height: 16px;
         font-size: 12px;
-        height: 62.3px; } }
+        height: 62.3px; }
+  body .aprendo {
+    top: 1100px;
+    height: 495px; }
+    body .aprendo .aprendo--container {
+      top: 6%; }
+      body .aprendo .aprendo--container .aprendo--container__h2 {
+        font-size: 33px;
+        height: 90px;
+        margin: 0; }
+      body .aprendo .aprendo--container p {
+        font-size: 11px;
+        width: 322px; }
+      body .aprendo .aprendo--container .cards--container div .img1 {
+        width: 22.8px; }
+      body .aprendo .aprendo--container .cards--container div .img2 {
+        width: 20.8px; }
+      body .aprendo .aprendo--container .cards--container div .img3 {
+        width: 18.32px; }
+      body .aprendo .aprendo--container .cards--container div .img4 {
+        width: 18.32px; }
+      body .aprendo .aprendo--container .cards--container div .img5 {
+        width: 20.9px; }
+      body .aprendo .aprendo--container .cards--container div span {
+        font-size: 11px; } }
+
+@media (max-width: 768px) {
+  body .womanQuestion .womanQuestion--container .womanQuestion__questions {
+    list-style-image: url(../media/item-lista-mobile.svg); }
+  body .aprendo {
+    top: 1050px; }
+    body .aprendo .aprendo--container {
+      top: 3%; }
+      body .aprendo .aprendo--container p {
+        height: 55px; } }
 
 @media (max-width: 700px) {
   body .main {
@@ -478,6 +623,7 @@ body .consulta {
         font-size: 18px;
         line-height: 23px; }
   body .womanQuestion {
+    top: 800px;
     height: 1080px;
     background: url(../media/background-mobile.jpg);
     background-repeat: repeat-x;
@@ -501,7 +647,6 @@ body .consulta {
       padding: 0 0 0 20px; }
       body .womanQuestion .womanQuestion--container .womanQuestion__questions {
         order: 2;
-        list-style-image: url(../media/item-lista-mobile.svg);
         height: 180px; }
         body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
           font-family: Source Sans Pro;
@@ -517,7 +662,45 @@ body .consulta {
         font-style: normal;
         font-weight: 600;
         font-size: 15px;
-        line-height: 22px; } }
+        line-height: 22px; }
+  body .aprendo {
+    background: url(../media/background-mobile.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 1850px;
+    height: 1080px; }
+    body .aprendo .womanNeetbookAlone {
+      display: block;
+      position: absolute;
+      top: 0; }
+    body .aprendo .aprendo--container {
+      height: 350px;
+      top: 45%;
+      left: unset; }
+      body .aprendo .aprendo--container .aprendo--container__h2 {
+        font-size: 30px;
+        font-weight: 900;
+        width: 320px;
+        margin: 0; }
+      body .aprendo .aprendo--container p {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 19px;
+        height: 85px;
+        width: 316px;
+        text-align: center;
+        color: #5B3D80; }
+      body .aprendo .aprendo--container .dots {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: calc(50% - 25px); }
+      body .aprendo .aprendo--container .cards--container div span {
+        font-size: 11px; } }
 
 @media (max-width: 425px) {
   body .womanQuestion {
@@ -525,7 +708,9 @@ body .consulta {
     justify-content: center;
     align-items: center; }
     body .womanQuestion .womanQuestionsAlone {
-      width: 100%; } }
+      width: 100%; }
+  body .aprendo .womanNeetbookAlone {
+    width: 100%; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
