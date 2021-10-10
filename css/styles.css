@@ -151,14 +151,14 @@ body .header {
     justify-content: space-between; } }
 
 body .main {
+  background: url(../media/cohete-background.jpg);
   position: absolute;
   width: 100%;
   height: 1080px;
   left: 0px;
-  top: 150px;
-  background: url(../media/cohete-background.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  top: 150px;
   z-index: -1; }
   body .main .mainContainer {
     position: absolute;
@@ -180,28 +180,173 @@ body .main {
         text-align: left;
         color: #5B3D80; }
     body .main .mainContainer p {
-      width: 665px;
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
       line-height: 30px;
+      width: 665px;
       color: #5B3D80; }
     body .main .mainContainer .descargaBtn {
       width: 380px;
       height: 55px;
-      margin: 155px 19% 0 0;
-      align-self: center;
+      background: #6000D9;
+      border-radius: 100px;
+      color: white;
+      border: none;
+      cursor: pointer;
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
       font-size: 20px;
       line-height: 25px;
+      margin: 155px 19% 0 0;
+      align-self: center; }
+
+body .womanQuestion {
+  background: url(../media/woman-preguntas.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  top: 1080px; }
+  body .womanQuestion .womanQuestionsAlone {
+    display: none; }
+  body .womanQuestion .decoElements {
+    position: absolute;
+    width: 11.82%;
+    height: 31.48%;
+    top: 41.67%;
+    left: 5.99%; }
+  body .womanQuestion .womanQuestion--container {
+    position: absolute;
+    width: 39.75%;
+    height: 37%;
+    top: 25%;
+    left: 45.57%;
+    right: 54.43%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+    body .womanQuestion .womanQuestion--container .womanQuestion__questions {
+      list-style-image: url(../media/item-lista.svg);
+      height: 50%;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between; }
+      body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px; }
+    body .womanQuestion .womanQuestion--container p {
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 30px;
+      height: 136px; }
+
+body .aprendo {
+  background: url(../media/woman-aprendo.svg);
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 2160px; }
+  body .aprendo .aprendo--container {
+    position: absolute;
+    top: 153px;
+    left: 165px; }
+    body .aprendo .aprendo--container .aprendo--container__h2 {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      color: #5B3D80;
+      margin: 0 0 44px 0; }
+    body .aprendo .aprendo--container p {
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      width: 703px;
+      height: 85px;
+      color: #131313; }
+    body .aprendo .aprendo--container .cards--container {
+      margin: 110px 0 0 0; }
+      body .aprendo .aprendo--container .cards--container div {
+        display: flex;
+        align-items: center;
+        margin: 30px 0; }
+        body .aprendo .aprendo--container .cards--container div span {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 30px; }
+        body .aprendo .aprendo--container .cards--container div .m1 {
+          margin: 0 0 0 42.22px; }
+        body .aprendo .aprendo--container .cards--container div .m2 {
+          margin: 0 0 0 44.68px; }
+        body .aprendo .aprendo--container .cards--container div .m3, body .aprendo .aprendo--container .cards--container div .m4 {
+          margin: 0 0 0 49px; }
+        body .aprendo .aprendo--container .cards--container div .m5 {
+          margin: 0 0 0 44.36px; }
+
+body .consulta {
+  background: url(../media/woman-consulta.svg);
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 3230px; }
+  body .consulta .consulta--container {
+    position: absolute;
+    top: 182px;
+    right: 140px;
+    height: 347px;
+    width: 821px; }
+    body .consulta .consulta--container .consulta--container__h2 {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      color: #5B3D80;
+      margin: 0 0 60px 0; }
+    body .consulta .consulta--container p {
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      margin: 0 0 178px 0;
+      height: 99px;
+      width: 753px; }
+    body .consulta .consulta--container .descargaBtn {
+      width: 380px;
+      height: 55px;
       background: #6000D9;
-      color: white;
       border-radius: 100px;
+      color: white;
       border: none;
-      cursor: pointer; }
+      cursor: pointer;
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      margin: 0 0 0 125px; }
 
 @media (max-width: 1600px) {
   body .main .mainContainer {
@@ -215,7 +360,25 @@ body .main {
       font-size: 20px;
       width: 576px; }
     body .main .mainContainer .descargaBtn {
-      margin: 100px 17% 0 0; } }
+      margin: 100px 17% 0 0; }
+  body .womanQuestion {
+    top: 900px;
+    height: 900px; }
+    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+      font-size: 20px; }
+    body .womanQuestion .womanQuestion--container p {
+      font-size: 20px;
+      height: 113px; } }
+
+@media (max-width: 1440px) {
+  body .womanQuestion {
+    top: 810px;
+    height: 810px; }
+    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+      font-size: 18px; }
+    body .womanQuestion .womanQuestion--container p {
+      font-size: 18px;
+      height: 102px; } }
 
 @media (max-width: 1200px) {
   body .main .mainContainer {
@@ -234,9 +397,27 @@ body .main {
     body .main .mainContainer .descargaBtn {
       width: 260px;
       height: 37.5px;
-      font-size: 16px; } }
+      font-size: 16px; }
+  body .womanQuestion {
+    height: 675px; }
+    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+      font-size: 16px; }
+    body .womanQuestion .womanQuestion--container p {
+      line-height: 24px;
+      font-size: 16px;
+      height: 85px; } }
 
-@media (max-width: 880px) {
+@media (max-width: 1024px) {
+  body .womanQuestion {
+    height: 576px; }
+    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+      font-size: 14px; }
+    body .womanQuestion .womanQuestion--container p {
+      line-height: 24px;
+      font-size: 14px;
+      height: 72.5px; } }
+
+@media (max-width: 881px) {
   body .main .mainContainer {
     width: 380px;
     top: 40px; }
@@ -250,7 +431,19 @@ body .main {
       width: 220px;
       height: 35px;
       font-size: 14px;
-      margin: 70px 17% 0 0; } }
+      margin: 70px 17% 0 0; }
+  body .womanQuestion {
+    height: 495px; }
+    body .womanQuestion .womanQuestion--container {
+      width: 50%; }
+      body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+        font-size: 12px; }
+        body .womanQuestion .womanQuestion--container .womanQuestion__questions li br {
+          display: none; }
+      body .womanQuestion .womanQuestion--container p {
+        line-height: 24px;
+        font-size: 12px;
+        height: 62.3px; } }
 
 @media (max-width: 700px) {
   body .main {
@@ -283,12 +476,64 @@ body .main {
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
-        line-height: 23px; } }
+        line-height: 23px; }
+  body .womanQuestion {
+    height: 1080px;
+    background: url(../media/background-mobile.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .womanQuestion .womanQuestionsAlone {
+      display: block;
+      position: absolute;
+      top: 0; }
+    body .womanQuestion .decoElements {
+      display: none; }
+    body .womanQuestion .womanQuestion--container {
+      top: 50%;
+      left: unset;
+      right: unset;
+      height: 320px;
+      width: 85%;
+      padding: 0 0 0 20px; }
+      body .womanQuestion .womanQuestion--container .womanQuestion__questions {
+        order: 2;
+        list-style-image: url(../media/item-lista-mobile.svg);
+        height: 180px; }
+        body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19px;
+          line-height: 23.88px;
+          color: #5B3D80; }
+      body .womanQuestion .womanQuestion--container p {
+        order: 1;
+        color: #5B3D80;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px; } }
+
+@media (max-width: 425px) {
+  body .womanQuestion {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    body .womanQuestion .womanQuestionsAlone {
+      width: 100%; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
     width: 90%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  body .womanQuestion .womanQuestion--container {
+    top: 40%;
+    height: 350px; } }
 
 * {
   margin: 0;

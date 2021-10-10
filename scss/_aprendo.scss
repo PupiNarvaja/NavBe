@@ -1,0 +1,45 @@
+body {
+    .aprendo {
+        background: url(../media/woman-aprendo.svg);
+        @include backgrounds;
+        top: 2160px;
+        .aprendo--container {
+            position: absolute;
+            top: 153px;
+            left: 165px;
+           .aprendo--container__h2 {
+            @include titulo2;
+            margin: 0 0 44px 0
+           }
+           p {
+               @include parrafo24px (normal, 24px, 30px);
+               width: 703px;
+               height: 85px;
+               color: #131313;
+           }
+           .cards--container {
+               margin: 110px 0 0 0;
+               div {
+                   display: flex;
+                   align-items: center;
+                   margin: 30px 0;
+                   span {
+                       @include parrafo24px (bold, 24px, 30px);
+                   }
+                   .m1 {
+                        margin: 0 0 0 42.22px;
+                   }
+                   .m2 {
+                        margin: 0 0 0 44.68px; 
+                   }
+                   .m3, .m4 {
+                        margin: 0 0 0 49px;
+                   }
+                   .m5 {
+                        margin: 0 0 0 44.36px;
+                   }
+               }
+           }
+        }
+    }
+}
