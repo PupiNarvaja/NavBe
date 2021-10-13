@@ -43,4 +43,8 @@ $violeta: #5B3D80;
     color: white;
     border: none;
     cursor: pointer;
+    transition: all .1s;
+    &:hover {
+        background: rgba(96, 0, 217, 0.7);
+    }
 }

@@ -9,7 +9,7 @@ body {
         top: -3px;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 600;
-        font-size: 19px;
+        font-size: 22px;
         .headerContainer {
             margin: 0 auto;
             display: flex;
@@ -36,6 +36,10 @@ body {
                     a {
                         text-decoration: none;
                         color: black;
+                        transition: all .2s;
+                        &:hover {
+                            color: #47DBC2;
+                        }
                         img {
                             display: none;
                         }
@@ -45,10 +49,20 @@ body {
             .inicioSesionBtn {
                 background-color: #2FEDC8;
                 color: $violeta;
+                &:hover {
+                    background-color: $violeta;
+                    color: rgba(25, 235, 196, 1);
+                    transition: all .2s;
+                }
             }
             .registrarmeBtn {
                 background-color: $violeta;
                 color: white;
+                &:hover {
+                    background-color:rgba(25, 235, 196, 1) ;
+                    color: $violeta;
+                    transition: all .2s;
+                }
             }
             .inicioSesionBtn, .registrarmeBtn {
                 width: 185px;
@@ -59,7 +73,7 @@ body {
                 font-family: 'Source Sans Pro', sans-serif;
                 font-size: 18px;
                 font-style: normal;
-                font-weight: 700;
+                font-weight: bold;
                 cursor: pointer;
             }
         }
@@ -70,6 +84,7 @@ body {
 @media (max-width: 1580px) {
     body {
         .header {
+            font-size: 18px;
             .headerContainer {
                 .navbar {
                     ul {
@@ -116,7 +131,6 @@ body {
     body {
         .header {
             height: 120px;
-            font-weight: 600;
             font-size: 12px;
             line-height: 15px;
             .headerContainer {

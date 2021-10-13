@@ -4,6 +4,28 @@ body {
         @include backgrounds;
         top: 150px;
         z-index: -1;
+
+            // animation-name: float;
+            // animation-duration: 3s;
+            // animation-iteration-count: infinite;
+            // animation-timing-function: ease-in-out;
+            // animation-fill-mode: forwards;
+
+            // @keyframes float {
+            //     0% {
+                
+            //         transform: translatey(0px);
+            //     }
+            //     50% {
+                    
+            //         transform: translatey(-20px);
+            //     }
+            //     100% {
+                
+            //         transform: translatey(0px);
+            //     }
+            // }
+        
         .mainContainer {
             position: absolute;
             width: 750px;
@@ -32,8 +54,8 @@ body {
             }
             .descargaBtn {
                 @include descargaButton;
-                @include  parrafo24px(bold, 20px, 25px);
-                margin: 155px 19% 0 0;
+                @include  parrafo24px(bold, 24px, 30px);
+                margin: 95px 19% 0 0;
                 align-self: center;
             }
         }

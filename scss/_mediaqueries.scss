@@ -1,4 +1,20 @@
 //--------------------------- Solo de las secciones ------------------
+@media (max-width:2560px) {
+    body {
+        .womanQuestion, .aprendo{
+            background-size: cover;
+        }
+    }
+}
+@media (max-width:1920px) {
+    body {
+        .womanQuestion, .aprendo{
+            background-size: contain;
+        }
+    }
+}
+
+
 @media (max-width: 1600px) {
     body {
         .main {
@@ -17,7 +33,7 @@
                     width: 576px;
                 }
                 .descargaBtn {
-                    margin: 100px 17% 0 0;
+                    margin: 60px 16% 0 0;
                 }
             }
         }
@@ -303,7 +319,7 @@
                 .h1Container {
                     h1 {
                         font-size: 36px;
-                        line-height: 50px;
+                        line-height: 40px;
                     }
                 }
                 p {
@@ -314,7 +330,7 @@
                     width: 220px;
                     height: 35px;
                     font-size: 14px;
-                    margin: 70px 17% 0 0;;
+                    margin: 50px 17% 0 0;
                 }
             }
         }
@@ -381,8 +397,11 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     body {
+        .main {
+            background-position-x: -30px;
+        }
 //----------------------------- Sección Woman Question --------------------
         .womanQuestion {
             .womanQuestion--container {

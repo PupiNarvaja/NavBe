@@ -8,7 +8,7 @@ body .header {
   top: -3px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
-  font-size: 19px; }
+  font-size: 22px; }
   body .header .headerContainer {
     margin: 0 auto;
     display: flex;
@@ -29,15 +29,26 @@ body .header {
       width: 650px; }
       body .header .headerContainer .navbar ul a {
         text-decoration: none;
-        color: black; }
+        color: black;
+        transition: all .2s; }
+        body .header .headerContainer .navbar ul a:hover {
+          color: #47DBC2; }
         body .header .headerContainer .navbar ul a img {
           display: none; }
     body .header .headerContainer .inicioSesionBtn {
       background-color: #2FEDC8;
       color: #5B3D80; }
+      body .header .headerContainer .inicioSesionBtn:hover {
+        background-color: #5B3D80;
+        color: #19ebc4;
+        transition: all .2s; }
     body .header .headerContainer .registrarmeBtn {
       background-color: #5B3D80;
       color: white; }
+      body .header .headerContainer .registrarmeBtn:hover {
+        background-color: #19ebc4;
+        color: #5B3D80;
+        transition: all .2s; }
     body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
       width: 185px;
       height: 45px;
@@ -47,13 +58,15 @@ body .header {
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 18px;
       font-style: normal;
-      font-weight: 700;
+      font-weight: bold;
       cursor: pointer; }
 
 @media (max-width: 1580px) {
-  body .header .headerContainer .navbar ul {
-    margin: 10px 83px 0 93px;
-    width: 550px; } }
+  body .header {
+    font-size: 18px; }
+    body .header .headerContainer .navbar ul {
+      margin: 10px 83px 0 93px;
+      width: 550px; } }
 
 @media (max-width: 1370px) {
   body .header {
@@ -75,7 +88,6 @@ body .header {
 @media (max-width: 1000px) {
   body .header {
     height: 120px;
-    font-weight: 600;
     font-size: 12px;
     line-height: 15px; }
     body .header .headerContainer .logo {
@@ -195,13 +207,16 @@ body .main {
       color: white;
       border: none;
       cursor: pointer;
+      transition: all .1s;
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 20px;
-      line-height: 25px;
-      margin: 155px 19% 0 0;
+      font-size: 24px;
+      line-height: 30px;
+      margin: 95px 19% 0 0;
       align-self: center; }
+      body .main .mainContainer .descargaBtn:hover {
+        background: rgba(96, 0, 217, 0.7); }
 
 body .womanQuestion {
   background: url(../media/woman-preguntas.svg);
@@ -345,12 +360,23 @@ body .consulta {
       color: white;
       border: none;
       cursor: pointer;
+      transition: all .1s;
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
       font-size: 20px;
       line-height: 25px;
       margin: 0 0 0 125px; }
+      body .consulta .consulta--container .descargaBtn:hover {
+        background: rgba(96, 0, 217, 0.7); }
+
+@media (max-width: 2560px) {
+  body .womanQuestion, body .aprendo {
+    background-size: cover; } }
+
+@media (max-width: 1920px) {
+  body .womanQuestion, body .aprendo {
+    background-size: contain; } }
 
 @media (max-width: 1600px) {
   body .main .mainContainer {
@@ -364,7 +390,7 @@ body .consulta {
       font-size: 20px;
       width: 576px; }
     body .main .mainContainer .descargaBtn {
-      margin: 100px 17% 0 0; }
+      margin: 60px 16% 0 0; }
   body .womanQuestion {
     top: 900px;
     height: 900px; }
@@ -533,7 +559,7 @@ body .consulta {
     top: 40px; }
     body .main .mainContainer .h1Container h1 {
       font-size: 36px;
-      line-height: 50px; }
+      line-height: 40px; }
     body .main .mainContainer p {
       font-size: 14px;
       width: 360px; }
@@ -541,7 +567,7 @@ body .consulta {
       width: 220px;
       height: 35px;
       font-size: 14px;
-      margin: 70px 17% 0 0; }
+      margin: 50px 17% 0 0; }
   body .womanQuestion {
     top: 600px;
     height: 495px; }
@@ -581,6 +607,8 @@ body .consulta {
         font-size: 11px; } }
 
 @media (max-width: 768px) {
+  body .main {
+    background-position-x: -30px; }
   body .womanQuestion .womanQuestion--container .womanQuestion__questions {
     list-style-image: url(../media/item-lista-mobile.svg); }
   body .aprendo {
