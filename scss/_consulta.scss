@@ -5,23 +5,26 @@ body {
         top: 3230px;
         .consulta--container {
             position: absolute;
-            top: 182px;
-            right: 140px;
-            height: 347px;
-            width: 821px;
+            top: 9.5%; //182px
+            right: 7.3%; //140px
+            height: 18%; //347px
+            width: 42.76%; //821px
             .consulta--container__h2 {
                 @include titulo2;
                 margin: 0 0 60px 0;
             }
             p {
                 @include parrafo24px(normal, 24px, 30px);
-                margin: 0 0 178px 0;
+                margin: 0 0 98px 0;
                 height: 99px;
-                width: 753px
-                }
+                width: 91.7%;
+            }
+            .dots {
+                display: none
+            }
             .descargaBtn {
                 @include descargaButton;
-                @include  parrafo24px(bold, 20px, 25px);
+                @include  parrafo24px(bold, 24px, 30px);
                 margin: 0 0 0 125px;
             }
         }

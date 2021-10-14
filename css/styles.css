@@ -147,11 +147,16 @@ body .header {
         font-weight: 500;
         justify-content: space-evenly; }
         body .header .headerContainer .navbar ul a {
-          color: white;
+          color: #88779f;
           align-self: center; }
+          body .header .headerContainer .navbar ul a:hover {
+            color: white; }
+          body .header .headerContainer .navbar ul a:hover img {
+            opacity: 1; }
           body .header .headerContainer .navbar ul a img {
             display: block;
-            margin: 0 auto 4px auto; }
+            margin: 0 auto 4px auto;
+            opacity: 0.4; }
     body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
       display: none; } }
 
@@ -274,7 +279,7 @@ body .aprendo {
   background-repeat: no-repeat;
   background-size: contain;
   top: 2160px; }
-  body .aprendo .womanNeetbookAlone {
+  body .aprendo .womanNetbookAlone {
     display: none; }
   body .aprendo .aprendo--container {
     position: absolute;
@@ -331,10 +336,10 @@ body .consulta {
   top: 3230px; }
   body .consulta .consulta--container {
     position: absolute;
-    top: 182px;
-    right: 140px;
-    height: 347px;
-    width: 821px; }
+    top: 9.5%;
+    right: 7.3%;
+    height: 18%;
+    width: 42.76%; }
     body .consulta .consulta--container .consulta--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -349,9 +354,11 @@ body .consulta {
       font-weight: normal;
       font-size: 24px;
       line-height: 30px;
-      margin: 0 0 178px 0;
+      margin: 0 0 98px 0;
       height: 99px;
-      width: 753px; }
+      width: 91.7%; }
+    body .consulta .consulta--container .dots {
+      display: none; }
     body .consulta .consulta--container .descargaBtn {
       width: 380px;
       height: 55px;
@@ -364,18 +371,18 @@ body .consulta {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 20px;
-      line-height: 25px;
+      font-size: 24px;
+      line-height: 30px;
       margin: 0 0 0 125px; }
       body .consulta .consulta--container .descargaBtn:hover {
         background: rgba(96, 0, 217, 0.7); }
 
 @media (max-width: 2560px) {
-  body .womanQuestion, body .aprendo {
+  body .womanQuestion, body .aprendo, body .consulta {
     background-size: cover; } }
 
 @media (max-width: 1920px) {
-  body .womanQuestion, body .aprendo {
+  body .womanQuestion, body .aprendo, body .consulta {
     background-size: contain; } }
 
 @media (max-width: 1600px) {
@@ -412,7 +419,19 @@ body .consulta {
       body .aprendo .aprendo--container .cards--container div {
         margin: 25px 0; }
         body .aprendo .aprendo--container .cards--container div span {
-          font-size: 20px; } }
+          font-size: 20px; }
+  body .consulta {
+    top: 2700px;
+    height: 900px; }
+    body .consulta .consulta--container .consulta--container__h2 {
+      font-size: 60px;
+      line-height: 82px;
+      margin: 0 0 40px 0; }
+    body .consulta .consulta--container p {
+      font-size: 20px; }
+    body .consulta .consulta--container .descargaBtn {
+      font-size: 22px;
+      margin: 0 0 0 100px; } }
 
 @media (max-width: 1440px) {
   body .womanQuestion {
@@ -456,7 +475,22 @@ body .consulta {
         body .aprendo .aprendo--container .cards--container div .m3, body .aprendo .aprendo--container .cards--container div .m4 {
           margin: 0 0 0 36.75px; }
         body .aprendo .aprendo--container .cards--container div .m5 {
-          margin: 0 0 0 33.27px; } }
+          margin: 0 0 0 33.27px; }
+  body .consulta {
+    top: 2420px;
+    height: 810px; }
+    body .consulta .consulta--container {
+      top: 15%; }
+      body .consulta .consulta--container .consulta--container__h2 {
+        font-size: 54px;
+        line-height: 73.5px; }
+      body .consulta .consulta--container p {
+        font-size: 18px;
+        line-height: 22.5px;
+        margin: 0 0 80px 0; }
+      body .consulta .consulta--container .descargaBtn {
+        font-size: 20px;
+        margin: 0 0 0 75px; } }
 
 @media (max-width: 1200px) {
   body .main .mainContainer {
@@ -504,7 +538,22 @@ body .consulta {
     body .aprendo .aprendo--container .cards--container div .img5 {
       width: 28.525px; }
     body .aprendo .aprendo--container .cards--container div span {
-      font-size: 15px; } }
+      font-size: 15px; }
+  body .consulta {
+    top: 2170px;
+    height: 675px; }
+    body .consulta .consulta--container .consulta--container__h2 {
+      font-size: 45px;
+      line-height: 61.25px; }
+    body .consulta .consulta--container p {
+      font-size: 15px;
+      line-height: 18.75px;
+      margin: 0 0 50px 0; }
+    body .consulta .consulta--container .descargaBtn {
+      width: 260px;
+      height: 37.5px;
+      font-size: 16px;
+      margin: 0 0 0 60px; } }
 
 @media (max-width: 1024px) {
   body .womanQuestion {
@@ -551,7 +600,19 @@ body .consulta {
         body .aprendo .aprendo--container .cards--container div .m3, body .aprendo .aprendo--container .cards--container div .m4 {
           margin: 0 0 0 26.1px; }
         body .aprendo .aprendo--container .cards--container div .m5 {
-          margin: 0 0 0 23.66px; } }
+          margin: 0 0 0 23.66px; }
+  body .consulta {
+    top: 1870px;
+    height: 576px; }
+    body .consulta .consulta--container .consulta--container__h2 {
+      font-size: 38.4px;
+      line-height: 52.3px; }
+    body .consulta .consulta--container p {
+      font-size: 12.8px;
+      line-height: 16px;
+      margin: 0 0 40px 0; }
+    body .consulta .consulta--container .descargaBtn {
+      margin: 0 0 0 50px; } }
 
 @media (max-width: 881px) {
   body .main .mainContainer {
@@ -604,7 +665,22 @@ body .consulta {
       body .aprendo .aprendo--container .cards--container div .img5 {
         width: 20.9px; }
       body .aprendo .aprendo--container .cards--container div span {
-        font-size: 11px; } }
+        font-size: 11px; }
+  body .consulta {
+    top: 1580px;
+    height: 495px; }
+    body .consulta .consulta--container .consulta--container__h2 {
+      font-size: 33px;
+      line-height: 45px;
+      margin: 0 0 30px 0; }
+    body .consulta .consulta--container p {
+      font-size: 11px;
+      margin: 0 0 15px 0; }
+    body .consulta .consulta--container .descargaBtn {
+      width: 220px;
+      height: 35px;
+      font-size: 14px;
+      margin: 0 0 0 30px; } }
 
 @media (max-width: 768px) {
   body .main {
@@ -616,7 +692,16 @@ body .consulta {
     body .aprendo .aprendo--container {
       top: 3%; }
       body .aprendo .aprendo--container p {
-        height: 55px; } }
+        height: 55px; }
+  body .consulta {
+    top: 1480px; }
+    body .consulta .consulta--container {
+      width: 48%; }
+      body .consulta .consulta--container .consulta--container__h2 {
+        line-height: 39.2px;
+        margin: 0 0 30px 0; }
+      body .consulta .consulta--container p {
+        height: 70px; } }
 
 @media (max-width: 700px) {
   body .main {
@@ -701,10 +786,11 @@ body .consulta {
     align-items: center;
     top: 1850px;
     height: 1080px; }
-    body .aprendo .womanNeetbookAlone {
+    body .aprendo .womanNetbookAlone {
+      width: 340px;
       display: block;
       position: absolute;
-      top: 0; }
+      top: 7%; }
     body .aprendo .aprendo--container {
       height: 350px;
       top: 45%;
@@ -728,16 +814,49 @@ body .consulta {
         top: 30px;
         left: calc(50% - 25px); }
       body .aprendo .aprendo--container .cards--container div span {
-        font-size: 11px; } }
-
-@media (max-width: 425px) {
-  body .womanQuestion {
+        font-size: 11px; }
+  body .consulta {
+    background: url(../media/background-mobile.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: contain;
     display: flex;
     justify-content: center;
-    align-items: center; }
-    body .womanQuestion .womanQuestionsAlone {
-      width: 100%; }
-  body .aprendo .womanNeetbookAlone {
+    align-items: center;
+    top: 2900px;
+    height: 908px; }
+    body .consulta .consulta--container {
+      width: 330px;
+      top: 45%;
+      left: unset;
+      right: unset; }
+      body .consulta .consulta--container .consulta--container__h2 {
+        font-size: 30px;
+        font-weight: 900;
+        margin: 0 0 20px 0;
+        line-height: 41px; }
+      body .consulta .consulta--container p {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 19px;
+        height: 85px;
+        width: 316px;
+        text-align: center;
+        color: #5B3D80;
+        width: 310px;
+        margin: 0 auto; }
+      body .consulta .consulta--container .dots {
+        display: block;
+        position: relative;
+        top: 30px;
+        left: calc(50% - 25px); }
+      body .consulta .consulta--container .descargaBtn {
+        display: none; } }
+
+@media (max-width: 425px) {
+  body .womanQuestion .womanQuestionsAlone {
+    width: 100%; }
+  body .aprendo .womanNetbookAlone {
     width: 100%; } }
 
 @media (max-width: 355px) {
@@ -746,7 +865,17 @@ body .consulta {
     margin: 0 auto; }
   body .womanQuestion .womanQuestion--container {
     top: 40%;
-    height: 350px; } }
+    height: 350px; }
+  body .aprendo .aprendo--container .aprendo--container__h2 {
+    text-align: center;
+    font-size: 27px; }
+  body .consulta .consulta--container {
+    top: 40%;
+    height: 450px;
+    width: 100%; }
+    body .consulta .consulta--container .consulta--container__h2 {
+      font-size: 27px;
+      margin: 0 0 20px 10px; } }
 
 * {
   margin: 0;

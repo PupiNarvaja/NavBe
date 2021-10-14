@@ -1,5 +1,5 @@
 $violeta: #5B3D80;
-
+$violeta40: #88779F;
 @mixin titulo2 {
     font-family: Nunito;
     font-style: normal;
@@ -15,6 +15,15 @@ $violeta: #5B3D80;
     font-weight: $font-weight;
     font-size: $font-size;
     line-height: $line-height;
+}
+@mixin pMobile {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    height: 85px;
+    width: 316px;
+    text-align: center;
+    color: $violeta;
 }
 @mixin backgrounds {
     position: absolute;

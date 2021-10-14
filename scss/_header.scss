@@ -207,11 +207,18 @@ body {
                         font-weight: 500;
                         justify-content: space-evenly;
                         a {
-                            color: white;
+                            color: rgba(136, 119, 159, 1);
                             align-self: center;
+                            &:hover {
+                                color: white;
+                            }
+                            &:hover img {
+                                opacity: 1;
+                            }
                             img {
                                 display: block;
                                 margin: 0 auto 4px auto;
+                                opacity: 0.4;
                             }
                         }
                     }

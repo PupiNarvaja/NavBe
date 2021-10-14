@@ -1,20 +1,18 @@
 //--------------------------- Solo de las secciones ------------------
 @media (max-width:2560px) {
     body {
-        .womanQuestion, .aprendo{
+        .womanQuestion, .aprendo, .consulta{
             background-size: cover;
         }
     }
 }
 @media (max-width:1920px) {
     body {
-        .womanQuestion, .aprendo{
+        .womanQuestion, .aprendo, .consulta{
             background-size: contain;
         }
     }
 }
-
-
 @media (max-width: 1600px) {
     body {
         .main {
@@ -74,6 +72,25 @@
                             font-size: 20px;
                         }
                     }
+                }
+            }
+        }
+//----------------------------- Sección Consulta ---------------------------
+        .consulta {
+            top: 2700px;
+            height: 900px;
+            .consulta--container {
+                .consulta--container__h2 {
+                    font-size: 60px;
+                    line-height: 82px;
+                    margin: 0 0 40px 0;
+                }
+                p {
+                    font-size: 20px;
+                }
+                .descargaBtn {
+                    font-size: 22px;
+                    margin: 0 0 0 100px;
                 }
             }
         }
@@ -146,6 +163,27 @@
                             margin: 0 0 0 33.27px;
                         }
                     }
+                }
+            }
+        }
+ //----------------------------- Sección Consulta ---------------------------
+        .consulta {
+            top: 2420px;
+            height: 810px;
+            .consulta--container {
+                top: 15%;
+                .consulta--container__h2 {
+                    font-size: 54px;
+                    line-height: 73.5px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 22.5px;
+                    margin: 0 0 80px 0;
+                }
+                .descargaBtn {
+                    font-size: 20px;
+                    margin: 0 0 0 75px;
                 }
             }
         }
@@ -231,6 +269,28 @@
                 }
             }
         }
+//----------------------------- Sección Consulta ---------------------------
+        .consulta {
+            top: 2170px;
+            height: 675px;
+            .consulta--container {
+                .consulta--container__h2 {
+                    font-size: 45px;
+                    line-height: 61.25px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 18.75px;
+                    margin: 0 0 50px 0;
+                }
+                .descargaBtn {
+                    width: 260px;
+                    height: 37.5px;
+                    font-size: 16px;
+                    margin: 0 0 0 60px;
+                }
+            }
+        }
     }
 }
 
@@ -304,6 +364,25 @@
                             margin: 0 0 0 23.66px;
                         }
                     }
+                }
+            }
+        }
+//----------------------------- Sección Consulta ---------------------------
+        .consulta {
+            top: 1870px;
+            height: 576px;
+            .consulta--container {
+                .consulta--container__h2 {
+                    font-size: 38.4px;
+                    line-height: 52.3px;
+                }
+                p {
+                    font-size: 12.8px;
+                    line-height: 16px;
+                    margin: 0 0 40px 0;
+                }
+                .descargaBtn {
+                    margin: 0 0 0 50px;
                 }
             }
         }
@@ -394,6 +473,28 @@
                 }
             }
         }
+//----------------------------- Sección Consulta 881px---------------------------
+        .consulta {
+            top: 1580px;
+            height: 495px;
+            .consulta--container {
+                .consulta--container__h2 {
+                    font-size: 33px;
+                    line-height: 45px;
+                    margin: 0 0 30px 0;
+                }
+                p {
+                    font-size: 11px;
+                    margin: 0 0 15px 0;
+                }
+                .descargaBtn {
+                    width: 220px;
+                    height: 35px;
+                    font-size: 14px;
+                    margin: 0 0 0 30px;
+                }
+            }
+        }
     }
 }
 
@@ -417,6 +518,20 @@
                 top: 3%;
                 p {
                     height: 55px;
+                }
+            }
+        }
+//----------------------------- Sección Consulta 768px---------------------------
+        .consulta {
+            top: 1480px;
+            .consulta--container {
+                width: 48%;
+                .consulta--container__h2 {
+                    line-height: 39.2px;
+                    margin: 0 0 30px 0;
+                }
+                p {
+                    height: 70px;
                 }
             }
         }
@@ -499,10 +614,11 @@
             @include mobile-backgrounds;
             top: 1850px;
             height: 1080px;
-            .womanNeetbookAlone {
+            .womanNetbookAlone {
+                width: 340px;
                 display: block;
                 position: absolute;
-                top: 0;
+                top: 7%;
             }
             .aprendo--container {
                 height: 350px;
@@ -515,13 +631,7 @@
                     margin: 0;
                 }
                 p {
-                    font-size: 15px;
-                    font-weight: 600;
-                    line-height: 19px;
-                    height: 85px;
-                    width: 316px;
-                    text-align: center;
-                    color: $violeta;
+                    @include pMobile;
                 }
                 .dots {
                     display: block;
@@ -538,6 +648,38 @@
                 }
             }
         }
+//----------------------------- Sección Consulta 700px---------------------------
+        .consulta {
+            @include mobile-backgrounds;
+            top: 2900px;
+            height: 908px;
+            .consulta--container {
+                width: 330px;
+                top: 45%;
+                left: unset;
+                right: unset;
+                .consulta--container__h2 {
+                    font-size: 30px;
+                    font-weight: 900;
+                    margin: 0 0 20px 0;
+                    line-height: 41px
+                }
+                p {
+                    @include pMobile;
+                    width: 310px;
+                    margin: 0 auto;
+                }
+                .dots {
+                    display: block;
+                    position: relative;
+                    top: 30px;
+                    left: calc(50% - 25px);
+                }
+                .descargaBtn {
+                    display: none;
+                }
+            }
+        }
     }
 }
 
@@ -545,19 +687,23 @@
     body {
 //----------------------------- Sección Woman Question --------------------
         .womanQuestion {
-            display: flex;
-            justify-content: center;
-            align-items: center;
             .womanQuestionsAlone {
                 width: 100%;
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
         .aprendo {
-            .womanNeetbookAlone { 
+            .womanNetbookAlone { 
+                // width: 80%;
+                // margin: 0 auto;
                 width: 100%;
             }
         }
+//----------------------------- Sección Consulta 425px---------------------------
+//         .consulta {
+//             .consulta--container {
+//             }
+//         }
     }
 }
 
@@ -571,11 +717,32 @@
                 }
             }
         }
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 355px--------------------
         .womanQuestion {
             .womanQuestion--container {
                 top: 40%;
                 height: 350px;
+            }
+        }
+//----------------------------- Sección Aprendo 355px---------------------------
+        .aprendo {
+            .aprendo--container {
+                .aprendo--container__h2 {
+                    text-align: center;
+                    font-size: 27px;
+                }
+            }
+        }
+//----------------------------- Sección Consulta 355px---------------------------
+        .consulta {
+            .consulta--container {
+                top: 40%;
+                height: 450px;
+                width: 100%;
+                .consulta--container__h2 {
+                    font-size: 27px;
+                    margin: 0 0 20px 10px;
+                }
             }
         }
     }
