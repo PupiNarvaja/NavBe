@@ -209,10 +209,11 @@ body {
                         a {
                             color: rgba(136, 119, 159, 1);
                             align-self: center;
-                            &:hover {
+                            -webkit-tap-highlight-color: rgba(0,0,0,0);
+                            &:focus, &:hover {
                                 color: white;
                             }
-                            &:hover img {
+                            &:focus, &:hover img {
                                 opacity: 1;
                             }
                             img {

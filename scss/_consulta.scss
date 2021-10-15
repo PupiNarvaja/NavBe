@@ -1,11 +1,11 @@
 body {
-    .consulta {
+    #consulta {
         background: url(../media/woman-consulta.svg);
         @include backgrounds;
         top: 3230px;
         .consulta--container {
             position: absolute;
-            top: 9.5%; //182px
+            top: 14.5%; //182px
             right: 7.3%; //140px
             height: 18%; //347px
             width: 42.76%; //821px

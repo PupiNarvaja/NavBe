@@ -1,14 +1,14 @@
 //--------------------------- Solo de las secciones ------------------
 @media (max-width:2560px) {
     body {
-        .womanQuestion, .aprendo, .consulta{
+        .womanQuestion, #aprendo, #consulta{
             background-size: cover;
         }
     }
 }
 @media (max-width:1920px) {
     body {
-        .womanQuestion, .aprendo, .consulta{
+        .womanQuestion, #aprendo, #consulta{
             background-size: contain;
         }
     }
@@ -53,7 +53,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             top: 1800px;
             height: 900px;
             .aprendo--container {
@@ -76,7 +76,7 @@
             }
         }
 //----------------------------- Sección Consulta ---------------------------
-        .consulta {
+        #consulta {
             top: 2700px;
             height: 900px;
             .consulta--container {
@@ -115,7 +115,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             top: 1620px;
             height: 810px;
             .aprendo--container {
@@ -167,7 +167,7 @@
             }
         }
  //----------------------------- Sección Consulta ---------------------------
-        .consulta {
+        #consulta {
             top: 2420px;
             height: 810px;
             .consulta--container {
@@ -233,7 +233,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             top: 1500px;
             height: 675px;
             .aprendo--container {
@@ -270,7 +270,7 @@
             }
         }
 //----------------------------- Sección Consulta ---------------------------
-        .consulta {
+        #consulta {
             top: 2170px;
             height: 675px;
             .consulta--container {
@@ -314,7 +314,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             top: 1300px;
             height: 576px;
             .aprendo--container {
@@ -368,7 +368,7 @@
             }
         }
 //----------------------------- Sección Consulta ---------------------------
-        .consulta {
+        #consulta {
             top: 1870px;
             height: 576px;
             .consulta--container {
@@ -435,7 +435,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             top: 1100px;
             height: 495px;
             .aprendo--container {
@@ -474,7 +474,7 @@
             }
         }
 //----------------------------- Sección Consulta 881px---------------------------
-        .consulta {
+        #consulta {
             top: 1580px;
             height: 495px;
             .consulta--container {
@@ -512,7 +512,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             top: 1050px;
             .aprendo--container {
                 top: 3%;
@@ -522,7 +522,7 @@
             }
         }
 //----------------------------- Sección Consulta 768px---------------------------
-        .consulta {
+        #consulta {
             top: 1480px;
             .consulta--container {
                 width: 48%;
@@ -541,16 +541,41 @@
 @media (max-width: 700px) {
     body {
         .main {
-            background: url(../media/Cohete.png);
-            background-repeat: no-repeat;
-            background-size: 230px;
-            background-position: 50% 10%;
+            background: none;
             display: flex;
             align-items: center;
             justify-content: center;
             .mainContainer {
                 position: unset;
                 margin: 300px 0 0 0;
+                .coheteAlone {
+                    display: block;
+                    position: absolute;
+                    top: 70px;
+                    width: 250px;
+                    align-self: center;
+
+                    animation-name: float;
+                    animation-duration: 3s;
+                    animation-iteration-count: infinite;
+                    animation-timing-function: ease-in-out;
+                    animation-fill-mode: forwards;
+
+                    @keyframes float {
+                        0% {
+                        
+                            transform: translatey(0px);
+                        }
+                        50% {
+                            
+                            transform: translatey(-20px);
+                        }
+                        100% {
+                        
+                            transform: translatey(0px);
+                        }
+                    }
+                }
                 .h1Container {
                     display: none;
                 }
@@ -610,12 +635,11 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             @include mobile-backgrounds;
             top: 1850px;
             height: 1080px;
             .womanNetbookAlone {
-                width: 340px;
                 display: block;
                 position: absolute;
                 top: 7%;
@@ -649,7 +673,7 @@
             }
         }
 //----------------------------- Sección Consulta 700px---------------------------
-        .consulta {
+        #consulta {
             @include mobile-backgrounds;
             top: 2900px;
             height: 908px;
@@ -692,7 +716,7 @@
             }
         }
 //----------------------------- Sección Aprende con nosotros --------------------
-        .aprendo {
+        #aprendo {
             .womanNetbookAlone { 
                 // width: 80%;
                 // margin: 0 auto;
@@ -700,7 +724,7 @@
             }
         }
 //----------------------------- Sección Consulta 425px---------------------------
-//         .consulta {
+//         #consulta {
 //             .consulta--container {
 //             }
 //         }
@@ -725,7 +749,7 @@
             }
         }
 //----------------------------- Sección Aprendo 355px---------------------------
-        .aprendo {
+        #aprendo {
             .aprendo--container {
                 .aprendo--container__h2 {
                     text-align: center;
@@ -734,7 +758,7 @@
             }
         }
 //----------------------------- Sección Consulta 355px---------------------------
-        .consulta {
+        #consulta {
             .consulta--container {
                 top: 40%;
                 height: 450px;

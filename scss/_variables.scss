@@ -53,6 +53,7 @@ $violeta40: #88779F;
     border: none;
     cursor: pointer;
     transition: all .1s;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
     &:hover {
         background: rgba(96, 0, 217, 0.7);
     }
