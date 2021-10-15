@@ -1,14 +1,14 @@
 //--------------------------- Solo de las secciones ------------------
 @media (max-width:2560px) {
     body {
-        .womanQuestion, #aprendo, #consulta{
+        .womanQuestion, #aprendo, #consulta, #horarios{
             background-size: cover;
         }
     }
 }
 @media (max-width:1920px) {
     body {
-        .womanQuestion, #aprendo, #consulta{
+        .womanQuestion, #aprendo, #consulta, #horarios{
             background-size: contain;
         }
     }
@@ -36,7 +36,7 @@
             }
         }
 
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 1600px--------------------
         .womanQuestion {
             top: 900px;
             height: 900px;
@@ -52,7 +52,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 1600px--------------------
         #aprendo {
             top: 1800px;
             height: 900px;
@@ -75,7 +75,7 @@
                 }
             }
         }
-//----------------------------- Sección Consulta ---------------------------
+//----------------------------- Sección Consulta 1600px---------------------------
         #consulta {
             top: 2700px;
             height: 900px;
@@ -91,6 +91,26 @@
                 .descargaBtn {
                     font-size: 22px;
                     margin: 0 0 0 100px;
+                }
+            }
+        }
+//----------------------------- Sección Horarios 1600px--------------------
+        #horarios {
+            top: 3600px;
+            height: 900px;
+            .horarios--container {
+                .horarios--container__h2 {
+                    font-size: 60px;
+                    line-height: 82px;
+                    margin: 0 0 26px 0;
+                }
+                .horarios--container__h3 {
+                    font-size: 40px;
+                    line-height: 54px;
+                    margin: 0 0 45px 0;
+                }
+                p {
+                    font-size: 20px;
                 }
             }
         }
@@ -114,7 +134,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 1440px--------------------
         #aprendo {
             top: 1620px;
             height: 810px;
@@ -166,7 +186,7 @@
                 }
             }
         }
- //----------------------------- Sección Consulta ---------------------------
+ //----------------------------- Sección Consulta 1440px---------------------------
         #consulta {
             top: 2420px;
             height: 810px;
@@ -184,6 +204,28 @@
                 .descargaBtn {
                     font-size: 20px;
                     margin: 0 0 0 75px;
+                }
+            }
+        }
+//----------------------------- Sección Horarios 1440px--------------------
+        #horarios {
+            top: 3250px;
+            height: 810px;
+            .horarios--container {
+                height: 38%;
+                .horarios--container__h2 {
+                    font-size: 54px;
+                    line-height: 73.5px;
+                    margin: 0 0 26px 0;
+                }
+                .horarios--container__h3 {
+                    font-size: 36px;
+                    line-height: 48.6px;
+                    margin: 0 0 40px 0;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 22.5px;
                 }
             }
         }
@@ -216,7 +258,7 @@
                 }
             }
         }
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 1200px--------------------
         .womanQuestion {
             height: 675px;
             .womanQuestion--container {
@@ -232,7 +274,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 1200px--------------------
         #aprendo {
             top: 1500px;
             height: 675px;
@@ -269,7 +311,7 @@
                 }
             }
         }
-//----------------------------- Sección Consulta ---------------------------
+//----------------------------- Sección Consulta 1200px---------------------------
         #consulta {
             top: 2170px;
             height: 675px;
@@ -291,12 +333,33 @@
                 }
             }
         }
+//----------------------------- Sección Horarios 1200px--------------------
+        #horarios {
+            top: 2850px;
+            height: 675px;
+            .horarios--container {
+                .horarios--container__h2 {
+                    font-size: 45px;
+                    line-height: 61.25px;
+                    margin: 0 0 18px 0;
+                }
+                .horarios--container__h3 {
+                    font-size: 30px;
+                    line-height: 40.5px;
+                    margin: 0 0 35px 0;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 18.75px;
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 1024px) {
     body {
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 1024px--------------------
         .womanQuestion {
             top: 700px;
             height: 576px;
@@ -313,7 +376,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 1024px--------------------
         #aprendo {
             top: 1300px;
             height: 576px;
@@ -367,7 +430,7 @@
                 }
             }
         }
-//----------------------------- Sección Consulta ---------------------------
+//----------------------------- Sección Consulta 1024px---------------------------
         #consulta {
             top: 1870px;
             height: 576px;
@@ -383,6 +446,28 @@
                 }
                 .descargaBtn {
                     margin: 0 0 0 50px;
+                }
+            }
+        }
+//----------------------------- Sección Horarios 1024px--------------------
+        #horarios {
+            top: 2450px;
+            height: 576px;
+            .horarios--container {
+                // height: 38%;
+                .horarios--container__h2 {
+                    font-size: 38.4px;
+                    line-height: 52.3px;
+                    margin: 0 0 16px 0;
+                }
+                .horarios--container__h3 {
+                    font-size: 25.6px;
+                    line-height: 34.56px;
+                    margin: 0 0 30px 0;
+                }
+                p {
+                    font-size: 12.8px;
+                    line-height: 16px;
                 }
             }
         }
@@ -413,7 +498,7 @@
                 }
             }
         }
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 881px--------------------
         .womanQuestion {
             top: 600px;
             height: 495px;
@@ -434,7 +519,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 881px--------------------
         #aprendo {
             top: 1100px;
             height: 495px;
@@ -495,6 +580,26 @@
                 }
             }
         }
+//----------------------------- Sección Horarios 881px--------------------
+        #horarios {
+            top: 2100px;
+            height: 495px;
+            .horarios--container {
+                .horarios--container__h2 {
+                    font-size: 33px;
+                    line-height: 45px;
+                    margin: 0 0 14px 0;
+                }
+                .horarios--container__h3 {
+                    font-size: 22px;
+                    line-height: 29.7px;
+                    margin: 0 0 26px 0;
+                }
+                p {
+                    font-size: 11px;
+                }
+            }
+        }
     }
 }
 
@@ -503,7 +608,7 @@
         .main {
             background-position-x: -30px;
         }
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 768px--------------------
         .womanQuestion {
             .womanQuestion--container {
                 .womanQuestion__questions {
@@ -511,7 +616,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 768px--------------------
         #aprendo {
             top: 1050px;
             .aprendo--container {
@@ -532,6 +637,24 @@
                 }
                 p {
                     height: 70px;
+                }
+            }
+        }
+//----------------------------- Sección Horarios 768px--------------------
+        #horarios {
+            top: 1900px;
+            .horarios--container {
+                width: 62%;
+                right: 32%;
+                .horarios--container__h2 {
+                    line-height: 39.2px;
+                    margin: 0 0 12px 0;
+                }
+                .horarios--container__h3 {
+                    width: 70%;
+                    font-size: 22px;
+                    line-height: 29.7px;
+                    margin: 0 0 22px 0;
                 }
             }
         }
@@ -598,7 +721,7 @@
                 }
             }
         }
-//----------------------------- Sección Woman Question --------------------
+//----------------------------- Sección Woman Question 700px--------------------
         .womanQuestion {
             top: 800px;
             height: 1080px;
@@ -634,7 +757,7 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros --------------------
+//----------------------------- Sección Aprende con nosotros 700px--------------------
         #aprendo {
             @include mobile-backgrounds;
             top: 1850px;
@@ -703,6 +826,26 @@
                     display: none;
                 }
             }
+        }
+//----------------------------- Sección Horarios 700px--------------------
+        #horarios {
+            @include mobile-backgrounds;
+            top: 3600px;
+            height: 908px;
+        //     .horarios--container {   INTERRUMPIDO POR CREACION DE PAGINAS HTML PARA MOBILE
+        //         width: 62%;
+        //         right: 32%;
+        //         .horarios--container__h2 {
+        //             line-height: 39.2px;
+        //             margin: 0 0 12px 0;
+        //         }
+        //         .horarios--container__h3 {
+        //             width: 70%;
+        //             font-size: 22px;
+        //             line-height: 29.7px;
+        //             margin: 0 0 22px 0;
+                // }
+            // }
         }
     }
 }

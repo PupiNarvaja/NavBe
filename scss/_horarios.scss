@@ -1,0 +1,36 @@
+body {
+    #horarios {
+        position: absolute;
+        background: url(../media/woman-calendar.jpg);
+        top: 4350px;
+        @include backgrounds;
+        .womanCalendarioAlone {
+            display: none;
+        }
+        .horarios--container {
+            position: absolute;
+            top: 7.2%;
+            right: 36.5%;
+            width: 56.9%;
+            height: 42%;
+            .horarios--container__h2 {
+                @include titulo2;
+                margin: 0 0 30px 0;
+            }
+            .horarios--container__h3 {
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 65px;
+                color: $violeta;
+                width: 64%;
+                margin: 0 0 55px 0;
+            }
+            p {
+                @include parrafo24px(normal, 24px, 30px);
+                width: 60.3%;
+            }
+        }
+    }
+}

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
+
 body .header {
   display: flex;
   background-color: rgba(198, 247, 238, 0.3);
@@ -382,12 +388,55 @@ body #consulta {
       body #consulta .consulta--container .descargaBtn:hover {
         background: rgba(96, 0, 217, 0.7); }
 
+body #horarios {
+  position: absolute;
+  background: url(../media/woman-calendar.jpg);
+  top: 4350px;
+  position: absolute;
+  width: 100%;
+  height: 1080px;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  body #horarios .womanCalendarioAlone {
+    display: none; }
+  body #horarios .horarios--container {
+    position: absolute;
+    top: 7.2%;
+    right: 36.5%;
+    width: 56.9%;
+    height: 42%; }
+    body #horarios .horarios--container .horarios--container__h2 {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      color: #5B3D80;
+      margin: 0 0 30px 0; }
+    body #horarios .horarios--container .horarios--container__h3 {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 65px;
+      color: #5B3D80;
+      width: 64%;
+      margin: 0 0 55px 0; }
+    body #horarios .horarios--container p {
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      width: 60.3%; }
+
 @media (max-width: 2560px) {
-  body .womanQuestion, body #aprendo, body #consulta {
+  body .womanQuestion, body #aprendo, body #consulta, body #horarios {
     background-size: cover; } }
 
 @media (max-width: 1920px) {
-  body .womanQuestion, body #aprendo, body #consulta {
+  body .womanQuestion, body #aprendo, body #consulta, body #horarios {
     background-size: contain; } }
 
 @media (max-width: 1600px) {
@@ -436,7 +485,20 @@ body #consulta {
       font-size: 20px; }
     body #consulta .consulta--container .descargaBtn {
       font-size: 22px;
-      margin: 0 0 0 100px; } }
+      margin: 0 0 0 100px; }
+  body #horarios {
+    top: 3600px;
+    height: 900px; }
+    body #horarios .horarios--container .horarios--container__h2 {
+      font-size: 60px;
+      line-height: 82px;
+      margin: 0 0 26px 0; }
+    body #horarios .horarios--container .horarios--container__h3 {
+      font-size: 40px;
+      line-height: 54px;
+      margin: 0 0 45px 0; }
+    body #horarios .horarios--container p {
+      font-size: 20px; } }
 
 @media (max-width: 1440px) {
   body .womanQuestion {
@@ -495,7 +557,23 @@ body #consulta {
         margin: 0 0 80px 0; }
       body #consulta .consulta--container .descargaBtn {
         font-size: 20px;
-        margin: 0 0 0 75px; } }
+        margin: 0 0 0 75px; }
+  body #horarios {
+    top: 3250px;
+    height: 810px; }
+    body #horarios .horarios--container {
+      height: 38%; }
+      body #horarios .horarios--container .horarios--container__h2 {
+        font-size: 54px;
+        line-height: 73.5px;
+        margin: 0 0 26px 0; }
+      body #horarios .horarios--container .horarios--container__h3 {
+        font-size: 36px;
+        line-height: 48.6px;
+        margin: 0 0 40px 0; }
+      body #horarios .horarios--container p {
+        font-size: 18px;
+        line-height: 22.5px; } }
 
 @media (max-width: 1200px) {
   body .main .mainContainer {
@@ -558,7 +636,21 @@ body #consulta {
       width: 260px;
       height: 37.5px;
       font-size: 16px;
-      margin: 0 0 0 60px; } }
+      margin: 0 0 0 60px; }
+  body #horarios {
+    top: 2850px;
+    height: 675px; }
+    body #horarios .horarios--container .horarios--container__h2 {
+      font-size: 45px;
+      line-height: 61.25px;
+      margin: 0 0 18px 0; }
+    body #horarios .horarios--container .horarios--container__h3 {
+      font-size: 30px;
+      line-height: 40.5px;
+      margin: 0 0 35px 0; }
+    body #horarios .horarios--container p {
+      font-size: 15px;
+      line-height: 18.75px; } }
 
 @media (max-width: 1024px) {
   body .womanQuestion {
@@ -617,7 +709,21 @@ body #consulta {
       line-height: 16px;
       margin: 0 0 40px 0; }
     body #consulta .consulta--container .descargaBtn {
-      margin: 0 0 0 50px; } }
+      margin: 0 0 0 50px; }
+  body #horarios {
+    top: 2450px;
+    height: 576px; }
+    body #horarios .horarios--container .horarios--container__h2 {
+      font-size: 38.4px;
+      line-height: 52.3px;
+      margin: 0 0 16px 0; }
+    body #horarios .horarios--container .horarios--container__h3 {
+      font-size: 25.6px;
+      line-height: 34.56px;
+      margin: 0 0 30px 0; }
+    body #horarios .horarios--container p {
+      font-size: 12.8px;
+      line-height: 16px; } }
 
 @media (max-width: 881px) {
   body .main .mainContainer {
@@ -685,7 +791,20 @@ body #consulta {
       width: 220px;
       height: 35px;
       font-size: 14px;
-      margin: 0 0 0 30px; } }
+      margin: 0 0 0 30px; }
+  body #horarios {
+    top: 2100px;
+    height: 495px; }
+    body #horarios .horarios--container .horarios--container__h2 {
+      font-size: 33px;
+      line-height: 45px;
+      margin: 0 0 14px 0; }
+    body #horarios .horarios--container .horarios--container__h3 {
+      font-size: 22px;
+      line-height: 29.7px;
+      margin: 0 0 26px 0; }
+    body #horarios .horarios--container p {
+      font-size: 11px; } }
 
 @media (max-width: 768px) {
   body .main {
@@ -706,7 +825,20 @@ body #consulta {
         line-height: 39.2px;
         margin: 0 0 30px 0; }
       body #consulta .consulta--container p {
-        height: 70px; } }
+        height: 70px; }
+  body #horarios {
+    top: 1900px; }
+    body #horarios .horarios--container {
+      width: 62%;
+      right: 32%; }
+      body #horarios .horarios--container .horarios--container__h2 {
+        line-height: 39.2px;
+        margin: 0 0 12px 0; }
+      body #horarios .horarios--container .horarios--container__h3 {
+        width: 70%;
+        font-size: 22px;
+        line-height: 29.7px;
+        margin: 0 0 22px 0; } }
 
 @media (max-width: 700px) {
   body .main {
@@ -870,7 +1002,17 @@ body #consulta {
         top: 30px;
         left: calc(50% - 25px); }
       body #consulta .consulta--container .descargaBtn {
-        display: none; } }
+        display: none; }
+  body #horarios {
+    background: url(../media/background-mobile.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 3600px;
+    height: 908px; } }
 
 @media (max-width: 425px) {
   body .womanQuestion .womanQuestionsAlone {
@@ -895,9 +1037,3 @@ body #consulta {
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 27px;
       margin: 0 0 20px 10px; } }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth; }
