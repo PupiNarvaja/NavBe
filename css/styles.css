@@ -344,6 +344,8 @@ body #consulta {
   background-repeat: no-repeat;
   background-size: contain;
   top: 3230px; }
+  body #consulta .womanConsultaAlone {
+    display: none; }
   body #consulta .consulta--container {
     position: absolute;
     top: 14.5%;
@@ -430,6 +432,8 @@ body #horarios {
       font-size: 24px;
       line-height: 30px;
       width: 60.3%; }
+    body #horarios .horarios--container .dots {
+      display: none; }
 
 @media (max-width: 2560px) {
   body .womanQuestion, body #aprendo, body #consulta, body #horarios {
@@ -954,10 +958,10 @@ body #horarios {
       body #aprendo .aprendo--container p {
         font-size: 15px;
         font-weight: 600;
-        line-height: 19px;
+        line-height: 18.86px;
         height: 85px;
         width: 316px;
-        text-align: center;
+        text-align: start;
         color: #5B3D80; }
       body #aprendo .aprendo--container .dots {
         display: block;
@@ -976,9 +980,13 @@ body #horarios {
     align-items: center;
     top: 2900px;
     height: 908px; }
+    body #consulta .womanConsultaAlone {
+      display: block;
+      position: absolute;
+      top: 7%; }
     body #consulta .consulta--container {
       width: 330px;
-      top: 45%;
+      top: 52%;
       left: unset;
       right: unset; }
       body #consulta .consulta--container .consulta--container__h2 {
@@ -989,10 +997,10 @@ body #horarios {
       body #consulta .consulta--container p {
         font-size: 15px;
         font-weight: 600;
-        line-height: 19px;
+        line-height: 18.86px;
         height: 85px;
         width: 316px;
-        text-align: center;
+        text-align: start;
         color: #5B3D80;
         width: 310px;
         margin: 0 auto; }
@@ -1011,14 +1019,60 @@ body #horarios {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 3600px;
-    height: 908px; } }
+    top: 3800px;
+    height: 908px; }
+    body #horarios .womanCalendarioAlone {
+      display: block;
+      position: absolute;
+      top: 7%; }
+    body #horarios .horarios--container {
+      width: 330px;
+      right: unset;
+      top: 55%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center; }
+      body #horarios .horarios--container .horarios--container__h2 {
+        font-size: 30px;
+        font-weight: 900;
+        width: 240px;
+        line-height: 41px; }
+      body #horarios .horarios--container .horarios--container__h3 {
+        display: none; }
+      body #horarios .horarios--container p {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18.86px;
+        height: 85px;
+        width: 316px;
+        text-align: start;
+        color: #5B3D80;
+        width: 100%;
+        height: 130px; }
+      body #horarios .horarios--container .dots {
+        display: block;
+        position: relative;
+        top: 10px;
+        width: 50px; } }
 
 @media (max-width: 425px) {
   body .womanQuestion .womanQuestionsAlone {
     width: 100%; }
   body #aprendo .womanNetbookAlone {
-    width: 100%; } }
+    width: 100%; }
+  body #consulta .womanConsultaAlone {
+    display: block;
+    position: absolute;
+    top: 7%;
+    width: 100%; }
+  body #consulta .consulta--container {
+    width: 90%;
+    margin: 0 auto; }
+  body #horarios .womanCalendarioAlone {
+    width: 100%; }
+  body #horarios .horarios--container {
+    width: 90%;
+    margin: 0 auto; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
@@ -1028,12 +1082,24 @@ body #horarios {
     top: 40%;
     height: 350px; }
   body #aprendo .aprendo--container .aprendo--container__h2 {
+    width: 100%;
     text-align: center;
     font-size: 27px; }
+  body #aprendo .aprendo--container p {
+    width: 90%;
+    margin: 0 auto; }
   body #consulta .consulta--container {
-    top: 40%;
+    top: 45%;
     height: 450px;
     width: 100%; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 27px;
-      margin: 0 0 20px 10px; } }
+      margin: 0 0 20px 10px; }
+    body #consulta .consulta--container p {
+      width: 90%;
+      margin: 0 auto; }
+  body #horarios .horarios--container {
+    width: 100%; }
+    body #horarios .horarios--container p {
+      width: 90%;
+      margin: 0 auto; } }

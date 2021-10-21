@@ -3,6 +3,9 @@ body {
         background: url(../media/woman-consulta.svg);
         @include backgrounds;
         top: 3230px;
+        .womanConsultaAlone {
+            display: none;
+        }
         .consulta--container {
             position: absolute;
             top: 14.5%; //182px

@@ -800,9 +800,14 @@
             @include mobile-backgrounds;
             top: 2900px;
             height: 908px;
+            .womanConsultaAlone {
+                display: block;
+                position: absolute;
+                top: 7%;
+            }
             .consulta--container {
                 width: 330px;
-                top: 45%;
+                top: 52%;
                 left: unset;
                 right: unset;
                 .consulta--container__h2 {
@@ -830,22 +835,41 @@
 //----------------------------- Sección Horarios 700px--------------------
         #horarios {
             @include mobile-backgrounds;
-            top: 3600px;
+            top: 3800px;
             height: 908px;
-        //     .horarios--container {   INTERRUMPIDO POR CREACION DE PAGINAS HTML PARA MOBILE
-        //         width: 62%;
-        //         right: 32%;
-        //         .horarios--container__h2 {
-        //             line-height: 39.2px;
-        //             margin: 0 0 12px 0;
-        //         }
-        //         .horarios--container__h3 {
-        //             width: 70%;
-        //             font-size: 22px;
-        //             line-height: 29.7px;
-        //             margin: 0 0 22px 0;
-                // }
-            // }
+            .womanCalendarioAlone {
+                display: block;
+                position: absolute;
+                top: 7%;
+            }
+            .horarios--container {   //INTERRUMPIDO POR CREACION DE PAGINAS HTML PARA MOBILE
+                width: 330px;
+                right: unset;
+                top: 55%;
+                display: flex;
+                flex-flow: column nowrap;
+                align-items: center;
+                .horarios--container__h2 {
+                    font-size: 30px;
+                    font-weight: 900;
+                    width: 240px;
+                    line-height: 41px
+                }
+                .horarios--container__h3 {
+                    display: none;
+                }
+                p {
+                    @include pMobile;
+                    width: 100%;
+                    height: 130px;
+                }
+                .dots {
+                    display: block;
+                    position: relative;
+                    top: 10px;
+                    width: 50px;
+                }
+            }
         }
     }
 }
@@ -867,10 +891,28 @@
             }
         }
 //----------------------------- Sección Consulta 425px---------------------------
-//         #consulta {
-//             .consulta--container {
-//             }
-//         }
+        #consulta {
+            .womanConsultaAlone {
+                display: block;
+                position: absolute;
+                top: 7%;
+                width: 100%;
+            }
+            .consulta--container {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
+//----------------------------- Sección Horarios 425px--------------------
+        #horarios {
+            .womanCalendarioAlone {
+                width: 100%;
+            }
+            .horarios--container {
+                width: 90%;
+                margin: 0 auto;
+            }
+        }
     }
 }
 
@@ -895,20 +937,39 @@
         #aprendo {
             .aprendo--container {
                 .aprendo--container__h2 {
+                    width: 100%;
                     text-align: center;
                     font-size: 27px;
+                }
+                p {
+                    width: 90%;
+                    margin: 0 auto;
                 }
             }
         }
 //----------------------------- Sección Consulta 355px---------------------------
         #consulta {
             .consulta--container {
-                top: 40%;
+                top: 45%;
                 height: 450px;
                 width: 100%;
                 .consulta--container__h2 {
                     font-size: 27px;
                     margin: 0 0 20px 10px;
+                }
+                p {
+                    width: 90%;
+                    margin: 0 auto;
+                }
+            }
+        }
+//----------------------------- Sección Horarios 355px--------------------
+        #horarios {
+            .horarios--container {
+                width: 100%;
+                p {
+                    width: 90%;
+                    margin: 0 auto;
                 }
             }
         }
