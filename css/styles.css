@@ -1065,9 +1065,6 @@ body #horarios {
     position: absolute;
     top: 7%;
     width: 100%; }
-  body #consulta .consulta--container {
-    width: 90%;
-    margin: 0 auto; }
   body #horarios .womanCalendarioAlone {
     width: 100%; }
   body #horarios .horarios--container {
