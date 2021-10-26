@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
 body .header {
   display: flex;
@@ -177,13 +178,12 @@ body .header {
 body .main {
   background: url(../media/cohete-background.jpg);
   position: absolute;
-  width: 100%;
   height: 1080px;
+  width: 100%;
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain;
-  top: 150px;
-  z-index: -1; }
+  top: 150px; }
   body .main .mainContainer {
     position: absolute;
     width: 750px;
@@ -236,8 +236,8 @@ body .main {
 body .womanQuestion {
   background: url(../media/woman-preguntas.svg);
   position: absolute;
-  width: 100%;
   height: 1080px;
+  width: 100%;
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -283,8 +283,8 @@ body .womanQuestion {
 body #aprendo {
   background: url(../media/woman-aprendo.svg);
   position: absolute;
-  width: 100%;
   height: 1080px;
+  width: 100%;
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -338,8 +338,8 @@ body #aprendo {
 body #consulta {
   background: url(../media/woman-consulta.svg);
   position: absolute;
-  width: 100%;
   height: 1080px;
+  width: 100%;
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -391,12 +391,11 @@ body #consulta {
         background: rgba(96, 0, 217, 0.7); }
 
 body #horarios {
-  position: absolute;
   background: url(../media/woman-calendar.jpg);
   top: 4350px;
   position: absolute;
-  width: 100%;
   height: 1080px;
+  width: 100%;
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -435,12 +434,146 @@ body #horarios {
     body #horarios .horarios--container .dots {
       display: none; }
 
+body #planes {
+  background: url(../media/woman-planes.jpg);
+  position: absolute;
+  height: 1080px;
+  width: 100%;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1220px;
+  top: 5320px;
+  position: relative; }
+  body #planes .planes--container {
+    position: absolute;
+    left: 42.65%;
+    top: 11.6%;
+    width: 48.7%;
+    height: 71.7%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap; }
+    body #planes .planes--container .planes--container__h2 {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      color: #5B3D80;
+      width: 230px;
+      margin: 0 auto;
+      text-align: center; }
+    body #planes .planes--container .planes--container__cards {
+      max-width: 935px;
+      height: 79.4%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: flex-end; }
+      body #planes .planes--container .planes--container__cards .planes__card h3 {
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 47px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0 0 40px 0;
+        color: #5B3D80; }
+        body #planes .planes--container .planes--container__cards .planes__card h3 span {
+          font-family: Roboto;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: 0em;
+          padding: 8px 16px;
+          border-radius: 10px;
+          background: #00EDBF; }
+      body #planes .planes--container .planes--container__cards .planes__card .gratis {
+        font-family: Source Sans Pro;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0em; }
+      body #planes .planes--container .planes--container__cards .planes__card div {
+        height: 600px;
+        width: 410px;
+        border-radius: 50px;
+        background-color: white;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 63px 0 0 0; }
+        body #planes .planes--container .planes--container__cards .planes__card div h4 {
+          font-family: Source Sans Pro;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 30px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #806c9a;
+          width: 270px;
+          margin: 0 auto; }
+        body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          width: 270px;
+          margin: 0 auto 60px auto; }
+        body #planes .planes--container .planes--container__cards .planes__card div h5 {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5B3D80;
+          height: 30px;
+          margin: 3px 0 30px 70px; }
+        body #planes .planes--container .planes--container__cards .planes__card div ul {
+          list-style-image: url(../media/item-lista-planes.svg);
+          padding: 0 0 0 95px;
+          height: 275px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul li {
+            font-family: Source Sans Pro;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 23px;
+            margin: 0 0 30px 0;
+            padding: 0 0 0 18px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          position: relative;
+          bottom: -70px;
+          width: 73.17%;
+          height: 55px;
+          border: none;
+          border-radius: 50px;
+          margin: 0 13.41%;
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 21px;
+          line-height: 26px;
+          text-align: center;
+          letter-spacing: -0.233333px;
+          color: white;
+          cursor: pointer; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
+          background-color: #6000d9;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+            margin: 0 0 0 9px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          background-color: #5B3D80; }
+
 @media (max-width: 2560px) {
-  body .womanQuestion, body #aprendo, body #consulta, body #horarios {
+  body .womanQuestion, body #aprendo, body #consulta, body #horarios, body #planes {
     background-size: cover; } }
 
 @media (max-width: 1920px) {
-  body .womanQuestion, body #aprendo, body #consulta, body #horarios {
+  body .womanQuestion, body #aprendo, body #consulta, body #horarios, body #planes {
     background-size: contain; } }
 
 @media (max-width: 1600px) {
@@ -502,7 +635,48 @@ body #horarios {
       line-height: 54px;
       margin: 0 0 45px 0; }
     body #horarios .horarios--container p {
-      font-size: 20px; } }
+      font-size: 20px; }
+  body #planes {
+    height: 1017px;
+    top: 4495px; }
+    body #planes .planes--container .planes--container__h2 {
+      font-size: 60px;
+      line-height: 82px; }
+    body #planes .planes--container .planes--container__cards {
+      max-width: 780px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
+        font-size: 33.33px;
+        line-height: 41.6px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3 span {
+        font-size: 20px;
+        line-height: 23.3px;
+        padding: 6.6px 13.3px; }
+      body #planes .planes--container .planes--container__cards .planes__card div {
+        height: 500px;
+        width: 342px;
+        padding: 52.5px 0 0 0; }
+        body #planes .planes--container .planes--container__cards .planes__card div h4, body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          font-size: 20px;
+          line-height: 23.3px;
+          width: 225px; }
+        body #planes .planes--container .planes--container__cards .planes__card div h5 {
+          font-size: 13.3px;
+          line-height: 16.6px;
+          margin: 3px 0 25px 60px; }
+        body #planes .planes--container .planes--container__cards .planes__card div ul {
+          padding: 0 0 0 85px;
+          height: 230px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul li {
+            font-size: 15px;
+            line-height: 19px;
+            margin: 0 0 25px 0; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          bottom: -58px;
+          height: 45.8px;
+          font-size: 17.5px;
+          line-height: 26px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+          width: 21.5px; } }
 
 @media (max-width: 1440px) {
   body .womanQuestion {
@@ -577,7 +751,54 @@ body #horarios {
         margin: 0 0 40px 0; }
       body #horarios .horarios--container p {
         font-size: 18px;
-        line-height: 22.5px; } }
+        line-height: 22.5px; }
+  body #planes {
+    height: 915px;
+    top: 4055px; }
+    body #planes .planes--container .planes--container__h2 {
+      font-size: 54px;
+      line-height: 73.5px; }
+    body #planes .planes--container .planes--container__cards {
+      max-width: 700px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
+        font-size: 30px;
+        line-height: 35.25px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3 span {
+        font-size: 18px;
+        line-height: 21px;
+        padding: 6px 12px; }
+      body #planes .planes--container .planes--container__cards .planes__card div {
+        height: 450px;
+        width: 307.5px;
+        padding: 47.25px 0 0 0;
+        border-radius: 40px; }
+        body #planes .planes--container .planes--container__cards .planes__card div h4, body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          font-size: 18px;
+          line-height: 21px;
+          width: 202.5px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          margin: 0 auto 52.25px auto;
+          height: 20px; }
+        body #planes .planes--container .planes--container__cards .planes__card div h5 {
+          font-size: 12px;
+          line-height: 15px;
+          margin: 3px 0 22.5px 54px; }
+        body #planes .planes--container .planes--container__cards .planes__card div ul {
+          padding: 0 0 0 75px;
+          height: 206px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul li {
+            font-size: 13.5px;
+            line-height: 18px;
+            margin: 0 0 18px 0;
+            padding: 0 0 0 10px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          bottom: -40px;
+          height: 41.25px;
+          font-size: 15.75px;
+          line-height: 21px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+          width: 19.5px;
+          margin: 0 0 2px 8px; } }
 
 @media (max-width: 1200px) {
   body .main .mainContainer {
@@ -654,7 +875,52 @@ body #horarios {
       margin: 0 0 35px 0; }
     body #horarios .horarios--container p {
       font-size: 15px;
-      line-height: 18.75px; } }
+      line-height: 18.75px; }
+  body #planes {
+    height: 762.5px;
+    top: 3520px; }
+    body #planes .planes--container .planes--container__h2 {
+      font-size: 45px;
+      line-height: 61.2px; }
+    body #planes .planes--container .planes--container__cards {
+      max-width: 585px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
+        font-size: 25px;
+        line-height: 29.4px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3 span {
+        font-size: 15px;
+        line-height: 17.5px;
+        padding: 5px 10px; }
+      body #planes .planes--container .planes--container__cards .planes__card div {
+        height: 375px;
+        width: 256px;
+        padding: 39.3px 0 0 0; }
+        body #planes .planes--container .planes--container__cards .planes__card div h4, body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          font-size: 15px;
+          line-height: 17.5px;
+          width: 169px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          margin: 0 auto 38.75px auto; }
+        body #planes .planes--container .planes--container__cards .planes__card div h5 {
+          font-size: 10px;
+          line-height: 12.5px;
+          margin: 3px 0 18.75px 60px;
+          height: 20px; }
+        body #planes .planes--container .planes--container__cards .planes__card div ul {
+          padding: 0 0 0 65px;
+          height: 172px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul li {
+            font-size: 11.25px;
+            line-height: 15px;
+            margin: 0 0 18.75px 0;
+            padding: 0 0 0 9px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          bottom: -30px;
+          height: 34px;
+          font-size: 13px;
+          line-height: 17.5px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+          width: 16.25px; } }
 
 @media (max-width: 1024px) {
   body .womanQuestion {
@@ -727,7 +993,55 @@ body #horarios {
       margin: 0 0 30px 0; }
     body #horarios .horarios--container p {
       font-size: 12.8px;
-      line-height: 16px; } }
+      line-height: 16px; }
+  body #planes {
+    height: 650px;
+    top: 3020px; }
+    body #planes .planes--container .planes--container__h2 {
+      font-size: 38.5px;
+      line-height: 52.2px; }
+    body #planes .planes--container .planes--container__cards {
+      max-width: 500px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
+        font-size: 21.3px;
+        line-height: 25px;
+        margin: 0 0 35px 0; }
+      body #planes .planes--container .planes--container__cards .planes__card h3 span {
+        font-size: 12.8px;
+        line-height: 15px;
+        padding: 4.2px 8.5px; }
+      body #planes .planes--container .planes--container__cards .planes__card div {
+        height: 320px;
+        width: 218px;
+        padding: 33.6px 0 0 0;
+        border-radius: 30px; }
+        body #planes .planes--container .planes--container__cards .planes__card div h4, body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          font-size: 12.8px;
+          line-height: 15px;
+          width: 144px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          margin: 0 auto 32px auto; }
+        body #planes .planes--container .planes--container__cards .planes__card div h5 {
+          font-size: 8.5px;
+          line-height: 10.6px;
+          margin: 3px 0 16px 38px;
+          height: 16px; }
+        body #planes .planes--container .planes--container__cards .planes__card div ul {
+          list-style-image: url(../media/item-lista-planes-1024.svg);
+          padding: 0 0 0 55px;
+          height: 147px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul li {
+            font-size: 9.6px;
+            line-height: 12.8px;
+            margin: 0 0 14px 0;
+            padding: 0 0 0 6px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          bottom: -26px;
+          height: 29.3px;
+          font-size: 11.2px;
+          line-height: 15px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+          width: 13.8px; } }
 
 @media (max-width: 881px) {
   body .main .mainContainer {
@@ -808,7 +1122,55 @@ body #horarios {
       line-height: 29.7px;
       margin: 0 0 26px 0; }
     body #horarios .horarios--container p {
-      font-size: 11px; } }
+      font-size: 11px; }
+  body #planes {
+    height: 560px;
+    top: 2580px; }
+    body #planes .planes--container .planes--container__h2 {
+      font-size: 32.5px;
+      line-height: 45px; }
+    body #planes .planes--container .planes--container__cards {
+      max-width: 430px; }
+      body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
+        font-size: 18.3px;
+        line-height: 21.5px;
+        margin: 0 0 30px 0; }
+      body #planes .planes--container .planes--container__cards .planes__card h3 span {
+        font-size: 11px;
+        line-height: 12.5px;
+        padding: 3.6px 7.3px; }
+      body #planes .planes--container .planes--container__cards .planes__card div {
+        height: 275px;
+        width: 188px;
+        padding: 28.9px 0 0 0;
+        border-radius: 25px; }
+        body #planes .planes--container .planes--container__cards .planes__card div h4, body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          font-size: 11px;
+          line-height: 12.5px;
+          width: 124px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+          margin: 0 auto 18.5px auto; }
+        body #planes .planes--container .planes--container__cards .planes__card div h5 {
+          font-size: 7.3px;
+          line-height: 9.1px;
+          margin: 3px 0 12.75px 32px;
+          height: 11.75px; }
+        body #planes .planes--container .planes--container__cards .planes__card div ul {
+          padding: 0 0 0 50px;
+          height: 126px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul li {
+            font-size: 8.25px;
+            line-height: 11px;
+            margin: 0 0 13.75px 0;
+            padding: 0 0 0 2px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+          bottom: -30px;
+          height: 25px;
+          font-size: 9.6px;
+          line-height: 12.5px; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+          width: 11.9px;
+          margin: 0 0 2px 6px; } }
 
 @media (max-width: 768px) {
   body .main {
@@ -842,7 +1204,58 @@ body #horarios {
         width: 70%;
         font-size: 22px;
         line-height: 29.7px;
-        margin: 0 0 22px 0; } }
+        margin: 0 0 22px 0; }
+  body #planes {
+    height: 560px;
+    top: 2330px; }
+    body #planes .planes--container {
+      height: 64%;
+      top: 9%; }
+      body #planes .planes--container .planes--container__h2 {
+        font-size: 28.8px;
+        line-height: 39px; }
+      body #planes .planes--container .planes--container__cards {
+        max-width: 374px; }
+        body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
+          font-size: 16px;
+          line-height: 18.8px;
+          margin: 0 0 26px 0; }
+        body #planes .planes--container .planes--container__cards .planes__card h3 span {
+          font-size: 9.6px;
+          line-height: 11.2px;
+          padding: 3.2px 6.4px; }
+        body #planes .planes--container .planes--container__cards .planes__card div {
+          height: 240px;
+          width: 164px;
+          padding: 25.2px 0 0 0;
+          border-radius: 20px; }
+          body #planes .planes--container .planes--container__cards .planes__card div h4, body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+            font-size: 9.6px;
+            line-height: 11.2px;
+            width: 108px; }
+          body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+            margin: 0 auto 11px auto; }
+          body #planes .planes--container .planes--container__cards .planes__card div h5 {
+            font-size: 6.4px;
+            line-height: 8px;
+            margin: 2px 0 8px 28.5px;
+            height: 11px; }
+          body #planes .planes--container .planes--container__cards .planes__card div ul {
+            padding: 0 0 0 45px;
+            height: 110px; }
+            body #planes .planes--container .planes--container__cards .planes__card div ul li {
+              font-size: 7.2px;
+              line-height: 9.6px;
+              margin: 0 0 12px 0;
+              padding: 0; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+            bottom: -24px;
+            height: 22px;
+            font-size: 8.4px;
+            line-height: 11.2px; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+            width: 10.4px;
+            margin: 0 0 2px 6px; } }
 
 @media (max-width: 700px) {
   body .main {
