@@ -29,6 +29,8 @@ body {
                 display: flex;
                 flex-flow: column nowrap;
                 justify-content: space-between;
+                margin: 0;
+                padding: 0;
                 li {
                     @include parrafo24px(bold, 24px, 30px);
                 }
@@ -36,6 +38,7 @@ body {
             p {
                 @include parrafo24px(400, 24px, 30px);
                 height: 136px;
+                margin: 0;
             }
         }
     }

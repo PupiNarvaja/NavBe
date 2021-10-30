@@ -94,9 +94,55 @@
                 }
             }
         }
+//----------------------------- Sección Profesionales 1600px--------------------
+        #profesionales {
+            height: 1266px;
+            top: 3600px;
+            .profesionales--container {
+                .profesionales__h2 {
+                    font-size: 60px;
+                    line-height: 82px;
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 25px;
+                    max-width: 625px;
+                }
+            }
+            .profesionales-carousel {
+                top: 517px;
+                .item {
+                    margin: 20px 16.6px 50px 16.6px;
+                    .profesionales-item-img-div {
+                        img {
+                            border-radius: 41.6px 41.6px 0 0;
+                        }
+                    }
+                    .item__info-div {
+                        height: 183px;
+                        h3 {
+                            font-size: 26.6px;
+                            line-height: 33.3px;
+                            margin: 16.6px 0 0 0;
+                        }
+                        p {
+                            font-size: 20px;
+                            line-height: 25px;
+                            margin: 12.5px 0 0 0;
+                        }
+                        button {
+                            font-size: 16.6px;
+                            line-height: 20.8px;
+                            padding: 6.6px 13.2px;
+                            margin: 16.6px 0 0 0;
+                        }
+                    }
+                }
+            }
+        }
 //----------------------------- Sección Horarios 1600px--------------------
         #horarios {
-            top: 3600px;
+            top: 4880px;
             height: 900px;
             .horarios--container {
                 .horarios--container__h2 {
@@ -114,10 +160,10 @@
                 }
             }
         }
-//----------------------------- Sección Aprende con nosotros 1600px--------------------
+//----------------------------- Sección Planes 1600px--------------------
        #planes {
            height: 1017px;
-           top: 4495px;
+           top: 5770px;
             .planes--container {
                 .planes--container__h2 {
                     font-size: 60px;
@@ -270,9 +316,55 @@
                 }
             }
         }
+//----------------------------- Sección Profesionales 1440px--------------------
+        #profesionales {
+            height: 1140px;
+            top: 3250px;
+            .profesionales--container {
+                .profesionales__h2 {
+                    font-size: 54px;
+                    line-height: 73.5px;
+                }
+                p {
+                    font-size: 18px;
+                    line-height: 22.5px;
+                    max-width: 562.5px;
+                }
+            }
+            .profesionales-carousel {
+                top: 465px;
+                .item {
+                    margin: 20px 15px 50px 15px;
+                    .profesionales-item-img-div {
+                        img {
+                            border-radius: 37.5px 37.5px 0 0;
+                        }
+                    }
+                    .item__info-div {
+                        height: 165px;
+                        h3 {
+                            font-size: 24px;
+                            line-height: 30px;
+                            margin: 15px 0 0 0;
+                        }
+                        p {
+                            font-size: 18px;
+                            line-height: 22.5px;
+                            margin: 13px 0 0 0;
+                        }
+                        button {
+                            font-size: 15px;
+                            line-height: 18.75px;
+                            margin: 13px 0 0 0;
+                            padding: 6px 12px;
+                        }
+                    }
+                }
+            }
+        }
 //----------------------------- Sección Horarios 1440px--------------------
         #horarios {
-            top: 3250px;
+            top: 4400px;
             height: 810px;
             .horarios--container {
                 height: 38%;
@@ -295,7 +387,7 @@
 //----------------------------- Sección Aprende con nosotros 1440px--------------------
         #planes {
             height: 915px;
-            top: 4055px;
+            top: 5200px;
             .planes--container {
                 .planes--container__h2 {
                     font-size: 54px;
@@ -465,9 +557,55 @@
                 }
             }
         }
+//----------------------------- Sección Profesionales 1200px--------------------
+        #profesionales {
+            height: 950px;
+            top: 2850px;
+            .profesionales--container {
+                .profesionales__h2 {
+                    font-size: 45px;
+                    line-height: 61.2px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 18.75px;
+                    max-width: 469px;
+                }
+            }
+            .profesionales-carousel {
+                top: 387.5px;
+                .item {
+                    margin: 20px 12.5px 50px 12.5px;
+                    .profesionales-item-img-div {
+                        img {
+                            border-radius: 31.25px 31.25px 0 0;
+                        }
+                    }
+                    .item__info-div {
+                        height: 137.5px;
+                        h3 {
+                            font-size: 20px;
+                            line-height: 25px;
+                            margin: 12.25px 0 0 0;
+                        }
+                        p {
+                            font-size: 15px;
+                            line-height: 18.75px;
+                            margin: 9.3px 0 0 0;
+                        }
+                        button {
+                            font-size: 12.5px;
+                            line-height: 15.6px;
+                            margin: 9.3px 0 0 0;
+                            padding: 5px 10px;
+                        }
+                    }
+                }
+            }
+        }
 //----------------------------- Sección Horarios 1200px--------------------
         #horarios {
-            top: 2850px;
+            top: 3800px;
             height: 675px;
             .horarios--container {
                 .horarios--container__h2 {
@@ -489,7 +627,7 @@
 //----------------------------- Sección Aprende con nosotros 1200px--------------------
         #planes {
             height: 762.5px;
-            top: 3520px;
+            top: 4460px;
             .planes--container {
                 .planes--container__h2 {
                     font-size: 45px;

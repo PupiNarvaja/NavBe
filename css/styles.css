@@ -33,6 +33,7 @@ body .header {
       justify-content: space-between;
       list-style-type: none;
       margin: 10px 153px 0 153px;
+      padding: 0;
       width: 650px; }
       body .header .headerContainer .navbar ul a {
         text-decoration: none;
@@ -204,6 +205,7 @@ body .main {
         line-height: 85px;
         letter-spacing: 0em;
         text-align: left;
+        margin: 0;
         color: #5B3D80; }
     body .main .mainContainer p {
       font-family: Source Sans Pro;
@@ -212,7 +214,8 @@ body .main {
       font-size: 24px;
       line-height: 30px;
       width: 665px;
-      color: #5B3D80; }
+      color: #5B3D80;
+      margin: 0; }
     body .main .mainContainer .descargaBtn {
       width: 380px;
       height: 55px;
@@ -265,7 +268,9 @@ body .womanQuestion {
       height: 50%;
       display: flex;
       flex-flow: column nowrap;
-      justify-content: space-between; }
+      justify-content: space-between;
+      margin: 0;
+      padding: 0; }
       body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
         font-family: Source Sans Pro;
         font-style: normal;
@@ -278,7 +283,8 @@ body .womanQuestion {
       font-weight: 400;
       font-size: 24px;
       line-height: 30px;
-      height: 136px; }
+      height: 136px;
+      margin: 0; }
 
 body #aprendo {
   background: url(../media/woman-aprendo.svg);
@@ -392,7 +398,7 @@ body #consulta {
 
 body #horarios {
   background: url(../media/woman-calendar.jpg);
-  top: 4350px;
+  top: 5900px;
   position: absolute;
   height: 1080px;
   width: 100%;
@@ -443,7 +449,7 @@ body #planes {
   background-repeat: no-repeat;
   background-size: contain;
   height: 1220px;
-  top: 5320px;
+  top: 6970px;
   position: relative; }
   body #planes .planes--container {
     position: absolute;
@@ -531,6 +537,7 @@ body #planes {
         body #planes .planes--container .planes--container__cards .planes__card div ul {
           list-style-image: url(../media/item-lista-planes.svg);
           padding: 0 0 0 95px;
+          margin: 0;
           height: 275px; }
           body #planes .planes--container .planes--container__cards .planes__card div ul li {
             font-family: Source Sans Pro;
@@ -567,6 +574,88 @@ body #planes {
             margin: 0 0 0 9px; }
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
           background-color: #5B3D80; }
+
+body #profesionales {
+  height: 1520px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 4350px; }
+  body #profesionales .profesionales--container {
+    position: absolute;
+    top: 8.55%;
+    left: 8.3%;
+    width: 67.7%; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 72px;
+      line-height: 98px;
+      color: #5B3D80;
+      margin: 0; }
+    body #profesionales .profesionales--container p {
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 30px;
+      max-width: 750px;
+      margin: auto 0 0 auto; }
+  body #profesionales .profesionales-carousel {
+    position: absolute;
+    top: 620px; }
+    body #profesionales .profesionales-carousel .item {
+      color: #Fff;
+      max-width: 510px;
+      max-height: 710px;
+      margin: 20px 20px 50px 20px; }
+      body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+        border-radius: 50px 50px 0px 0px;
+        box-shadow: 0px 2px 12px 1px rgba(141, 141, 141, 0.52);
+        -webkit-box-shadow: 0px 2px 12px 1px rgba(141, 141, 141, 0.52);
+        -moz-box-shadow: 0px 2px 12px 1px rgba(141, 141, 141, 0.52); }
+      body #profesionales .profesionales-carousel .item .item__info-div {
+        background-color: white;
+        height: 220px;
+        box-shadow: 0px 2px 10px -3px #8d8d8d;
+        -webkit-box-shadow: 0px 2px 10px -3px #8d8d8d;
+        -moz-box-shadow: 0px 2px 10px -3px #8d8d8d;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center; }
+        body #profesionales .profesionales-carousel .item .item__info-div h3 {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 32px;
+          line-height: 40px;
+          color: black;
+          margin: 20px 0 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div p {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 30px;
+          color: #5B3D80;
+          margin: 15px 0 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div button {
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 20px;
+          line-height: 25px;
+          border: none;
+          border-radius: 20px;
+          background: #00EDBF;
+          padding: 8px 19px;
+          margin: 20px 0 0 0;
+          color: #5B3D80; }
+          body #profesionales .profesionales-carousel .item .item__info-div button:hover {
+            background-color: #5B3D80;
+            color: #19ebc4;
+            transition: all .2s; }
 
 @media (max-width: 2560px) {
   body .womanQuestion, body #aprendo, body #consulta, body #horarios, body #planes {
@@ -623,8 +712,39 @@ body #planes {
     body #consulta .consulta--container .descargaBtn {
       font-size: 22px;
       margin: 0 0 0 100px; }
+  body #profesionales {
+    height: 1266px;
+    top: 3600px; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-size: 60px;
+      line-height: 82px; }
+    body #profesionales .profesionales--container p {
+      font-size: 20px;
+      line-height: 25px;
+      max-width: 625px; }
+    body #profesionales .profesionales-carousel {
+      top: 517px; }
+      body #profesionales .profesionales-carousel .item {
+        margin: 20px 16.6px 50px 16.6px; }
+        body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+          border-radius: 41.6px 41.6px 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div {
+          height: 183px; }
+          body #profesionales .profesionales-carousel .item .item__info-div h3 {
+            font-size: 26.6px;
+            line-height: 33.3px;
+            margin: 16.6px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div p {
+            font-size: 20px;
+            line-height: 25px;
+            margin: 12.5px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div button {
+            font-size: 16.6px;
+            line-height: 20.8px;
+            padding: 6.6px 13.2px;
+            margin: 16.6px 0 0 0; }
   body #horarios {
-    top: 3600px;
+    top: 4880px;
     height: 900px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 60px;
@@ -638,7 +758,7 @@ body #planes {
       font-size: 20px; }
   body #planes {
     height: 1017px;
-    top: 4495px; }
+    top: 5770px; }
     body #planes .planes--container .planes--container__h2 {
       font-size: 60px;
       line-height: 82px; }
@@ -736,8 +856,39 @@ body #planes {
       body #consulta .consulta--container .descargaBtn {
         font-size: 20px;
         margin: 0 0 0 75px; }
+  body #profesionales {
+    height: 1140px;
+    top: 3250px; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-size: 54px;
+      line-height: 73.5px; }
+    body #profesionales .profesionales--container p {
+      font-size: 18px;
+      line-height: 22.5px;
+      max-width: 562.5px; }
+    body #profesionales .profesionales-carousel {
+      top: 465px; }
+      body #profesionales .profesionales-carousel .item {
+        margin: 20px 15px 50px 15px; }
+        body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+          border-radius: 37.5px 37.5px 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div {
+          height: 165px; }
+          body #profesionales .profesionales-carousel .item .item__info-div h3 {
+            font-size: 24px;
+            line-height: 30px;
+            margin: 15px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div p {
+            font-size: 18px;
+            line-height: 22.5px;
+            margin: 13px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div button {
+            font-size: 15px;
+            line-height: 18.75px;
+            margin: 13px 0 0 0;
+            padding: 6px 12px; }
   body #horarios {
-    top: 3250px;
+    top: 4400px;
     height: 810px; }
     body #horarios .horarios--container {
       height: 38%; }
@@ -754,7 +905,7 @@ body #planes {
         line-height: 22.5px; }
   body #planes {
     height: 915px;
-    top: 4055px; }
+    top: 5200px; }
     body #planes .planes--container .planes--container__h2 {
       font-size: 54px;
       line-height: 73.5px; }
@@ -862,8 +1013,39 @@ body #planes {
       height: 37.5px;
       font-size: 16px;
       margin: 0 0 0 60px; }
+  body #profesionales {
+    height: 950px;
+    top: 2850px; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-size: 45px;
+      line-height: 61.2px; }
+    body #profesionales .profesionales--container p {
+      font-size: 15px;
+      line-height: 18.75px;
+      max-width: 469px; }
+    body #profesionales .profesionales-carousel {
+      top: 387.5px; }
+      body #profesionales .profesionales-carousel .item {
+        margin: 20px 12.5px 50px 12.5px; }
+        body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+          border-radius: 31.25px 31.25px 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div {
+          height: 137.5px; }
+          body #profesionales .profesionales-carousel .item .item__info-div h3 {
+            font-size: 20px;
+            line-height: 25px;
+            margin: 12.25px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div p {
+            font-size: 15px;
+            line-height: 18.75px;
+            margin: 9.3px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div button {
+            font-size: 12.5px;
+            line-height: 15.6px;
+            margin: 9.3px 0 0 0;
+            padding: 5px 10px; }
   body #horarios {
-    top: 2850px;
+    top: 3800px;
     height: 675px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 45px;
@@ -878,7 +1060,7 @@ body #planes {
       line-height: 18.75px; }
   body #planes {
     height: 762.5px;
-    top: 3520px; }
+    top: 4460px; }
     body #planes .planes--container .planes--container__h2 {
       font-size: 45px;
       line-height: 61.2px; }

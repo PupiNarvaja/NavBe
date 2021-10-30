@@ -1,0 +1,31 @@
+.owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  left: 50px;
+  margin: 0 0 0 50px;
+  display: block !important;
+  border:0px solid black;
+  font-size: 50px !important;
+}
+
+.owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin: 0 0 0 50px;
+  right: 50px;
+  display: block !important;
+  border:0px solid black;
+  font-size: 50px !important;
+}
+
+.owl-prev:hover, .owl-next:hover {
+  background-color: unset !important;
+  color: black !important;
+  cursor: pointer;
+}
+
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}

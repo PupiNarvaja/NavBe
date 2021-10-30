@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <!-- bootstrap begin -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap finish -->
+    <!-- owl carousel begin -->
+    <link rel="stylesheet" href="./js/owl.carousel.min.css">
+    <link rel="stylesheet" href="./js/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/carouselStyles.css">
+    <!-- owl carousel finish -->
+    <!-- js manuel -->
     <link rel="stylesheet" href="./css/styles.css">
     <title>navbe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +34,7 @@
                     <a href="#aprendo"><img src="./media/aprendo.svg"><li>Aprendo</li></a>
                     <a href="#consulta"><img src="./media/consulto.svg"><li>Consulto</li></a>
                     <a href="#horarios"><img src="./media/comunidad.svg"><li>Comunidad</li></a>
-                    <a href="#"><img src="./media/planes.svg"><li>Planes</li></a>
+                    <a href="#planes"><img src="./media/planes.svg"><li>Planes</li></a>
                 </ul>
             </nav>
             <button class="inicioSesionBtn" type="button">INICIA SESIÓN</button>
@@ -106,14 +114,199 @@
             <button class="descargaBtn">DESCARGA LA APP</button>
         </div>
     </section>
+    
+    <section id="profesionales">
+        <div class="profesionales--container">
+            <h2 class="profesionales__h2">Los mejores expertos<br> en educación</h2>
+            <p>En Navbe encontrarás la compañía de los mejores expertos: psicólogos, educadores, pedagogos, pediatras, nutricionistas, fisioterapeutas… grandes profesionales que te proporcionarán buenas y útiles ideas educativas para ayudar a educar a tus hijos.</p>
+        </div>
+            <div class="owl-carousel owl-theme profesionales-carousel">
+                <div class="item">
+                    <div class="profesionales-item-img-div">
+                        <img src="./media/profesionalGaitan.jpg" alt="pediatra">
+                    </div>
+                    <div class="item__info-div">
+                        <h3>Lucía Gaitan</h3>
+                        <p>Pediatra</p>
+                        <button>+ INFO</button>
+                    </div>
+                </div>
 
+                <div class="item">
+                    <div class="profesionales-item-img-div">
+                        <img src="./media/profesionalRomero.jpg" alt="pediatra">
+                    </div>
+                    <div class="item__info-div">
+                        <h3>Mar Romero</h3>
+                        <p>Nutricionista</p>
+                        <button>+ INFO</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="profesionales-item-img-div">
+                        <img src="./media/profesionalBarba.jpg" alt="pediatra">
+                    </div>
+                    <div class="item__info-div">
+                        <h3>José Carlos Ruiz</h3>
+                        <p>Médico clínico</p>
+                        <button>+ INFO</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="profesionales-item-img-div">
+                        <img src="./media/profesionalRuiz.jpg" alt="pediatra">
+                    </div>
+                    <div class="item__info-div">
+                        <h3>José Carlos Ruiz</h3>
+                        <p>Médico clínico</p>
+                        <button>+ INFO</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="profesionales-item-img-div">
+                        <img src="./media/profesionalMendoza.jpg" alt="pediatra">
+                    </div>
+                    <div class="item__info-div">
+                        <h3>Mónica Mendoza</h3>
+                        <p>Experta en disciplina positiva</p>
+                        <button>+ INFO</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner col-sm-12" style="padding-left: 12rem;">
+
+            <div class="carousel-item active" data-bs-interval="10000">
+
+                <div class="row">
+
+                    <div class="col-md-3 mb-4">
+                        <div class="card" style="text-align: center;">
+                            <img class="img-fluid" alt="100%x280"
+                                src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                            <div class="card-body">
+                                <h6 class="card-title">Lucia Gaitan</h6>
+                                <p class="card-text">Pediatra</p>
+                                <button type="button" class="btn btn-primary border" style="border-radius: 25px">+
+                                    Info</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="text-align: center;">
+                            <img class="img-fluid" alt="100%x280"
+                                src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                            <div class="card-body">
+                                <h6 class="card-title">Mar Romero</h6>
+                                <p class="card-text">Nutricionista</p>
+                                <button type="button" class="btn btn-primary border" style="border-radius: 25px">+
+                                    Info</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card" style="text-align: center;">
+                            <img class="img-fluid" alt="100%x280"
+                                src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                            <div class="card-body">
+                                <h6 class="card-title">Jose Carlos Ruiz</h6>
+                                <p class="card-text">Médico Clinico</p>
+                                <button type="button" class="btn btn-primary border" style="border-radius: 25px">+
+                                    Info</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+                <div class="row">
+
+                    <div class="col-md-3 mb-4">
+                        <div class="card" style="text-align: center;">
+                            <img class="img-fluid" alt="100%x280"
+                                src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                            <div class="card-body">
+                                <h6 class="card-title">Lucia Gaitan</h6>
+                                <p class="card-text">Pediatra</p>
+                                <button type="button" class="btn btn-primary border" style="border-radius: 25px">+
+                                    Info</button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card" style="text-align: center;">
+                            <img class="img-fluid" alt="100%x280"
+                                src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                            <div class="card-body">
+                                <h6 class="card-title">Mar Romero</h6>
+                                <p class="card-text">Nutricionista</p>
+                                <button type="button" class="btn btn-primary border" style="border-radius: 25px">+
+                                    Info</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card" style="text-align: center;">
+                            <img class="img-fluid" alt="100%x280"
+                                src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                            <div class="card-body">
+                                <h6 class="card-title">Mar Romero</h6>
+                                <p class="card-text">Nutricionista</p>
+                                <button type="button" class="btn btn-primary border" style="border-radius: 25px">+
+                                    Info</button>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>-->
 
     <section id="horarios">
         <img src="./media/woman-calendar-alone.png" alt="mujer con calendario" class="womanCalendarioAlone">
         <div class="horarios--container">
             <h2 class="horarios--container__h2">Nos adaptamos a tus horarios</h2>
                 <h3 class="horarios--container__h3">Sabemos que puede ser difícil encontrar un espacio para ti. </h3>
-            <p>Aunque sigas tu ritmo y tengas flexibilidad horaria, nunca estarás solo. Te ofrecemos un tutor, orientador o docente que te guía en todo el proceso, te acompañará a lo largo de toda tu formación y te ayudará a seguir adelante en los momentos más difíciles.</p>  <!--LOS TEXTOS PC / MOBILE NO SON IGUALES!-->
+            <p>Aunque sigas tu ritmo y tengas flexibilidad horaria, nunca estarás solo. Te ofrecemos un tutor, orientador o docente que te guía en todo el proceso, te acompañará a lo largo de toda tu formación y te ayudará a seguir adelante en los momentos más difíciles.</p>
             <img src="./media/dots.svg" alt="puntos" class="dots">
         </div>
     </section>
@@ -157,5 +350,10 @@
         </div>
     </section>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/jQuery3.min.lib.js"></script> <!--https://code.jquery.com/jquery-3.6.0.min.js-->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

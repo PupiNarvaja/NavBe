@@ -3,7 +3,7 @@ body {
         background: url(../media/woman-planes.jpg);
         @include backgrounds;
         height: 1220px;
-        top: 5320px;
+        top: 6970px;
         position: relative;
         .planes--container {
             position: absolute;
@@ -94,6 +94,7 @@ body {
                         ul {
                             list-style-image: url(../media/item-lista-planes.svg);
                             padding: 0 0 0 95px;
+                            margin: 0;
                             height: 275px;
                             li {
                                 font-family: Source Sans Pro;
