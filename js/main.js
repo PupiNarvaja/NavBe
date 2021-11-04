@@ -10,7 +10,7 @@ $(document).ready(function(){
         nav:true,
         navText: ["<span><</span>","<span>></span>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
         responsive:{
-            600:{
+            100:{
                 items:4
             }
         }

@@ -184,7 +184,8 @@ body .main {
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain;
-  top: 150px; }
+  top: 150px;
+  z-index: -1; }
   body .main .mainContainer {
     position: absolute;
     width: 750px;
@@ -451,6 +452,8 @@ body #planes {
   height: 1220px;
   top: 6970px;
   position: relative; }
+  body #planes .womanPagosAlone {
+    display: none; }
   body #planes .planes--container {
     position: absolute;
     left: 42.65%;
@@ -656,6 +659,84 @@ body #profesionales {
             background-color: #5B3D80;
             color: #19ebc4;
             transition: all .2s; }
+
+body #carousel3dotsMobile {
+  position: absolute;
+  height: 1080px;
+  width: 100%;
+  left: 0px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background: url(../media/background-mobile.jpg);
+  background-repeat: repeat-x;
+  background-position: center center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1850px;
+  display: none; }
+  body #carousel3dotsMobile #carouselExampleFade {
+    position: absolute;
+    top: 0;
+    width: 411px;
+    margin: 0 auto;
+    height: 650px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
+      top: 640px; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-indicators [data-bs-target] {
+      box-sizing: content-box;
+      flex: 0 1 auto;
+      width: 10px;
+      /* change width */
+      height: 10px;
+      /* change height */
+      padding: 0;
+      margin-right: 3px;
+      margin-left: 3px;
+      text-indent: -999px;
+      cursor: pointer;
+      background-color: #A5A5A5;
+      background-clip: padding-box;
+      border: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      opacity: .9;
+      transition: opacity .6s ease;
+      border-radius: 100%;
+      /* add border-radius */ }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-indicators .active {
+      background-color: #5B3D80; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-inner {
+      width: 100%; }
+      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+        position: sticky; }
+        body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
+          color: #5B3D80;
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 30px;
+          line-height: 41px;
+          margin: 0 0 -35px 0;
+          position: inherit;
+          bottom: 100px; }
+        body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+          color: #5B3D80;
+          width: 330px;
+          margin: 0 auto;
+          height: 140px;
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15px;
+          line-height: 19px;
+          display: flex;
+          justify-content: center;
+          align-items: flex-end; }
 
 @media (max-width: 2560px) {
   body .womanQuestion, body #aprendo, body #consulta, body #horarios, body #planes {
@@ -1162,8 +1243,38 @@ body #profesionales {
       margin: 0 0 40px 0; }
     body #consulta .consulta--container .descargaBtn {
       margin: 0 0 0 50px; }
+  body #profesionales {
+    height: 810px;
+    top: 2450px; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-size: 38.5px;
+      line-height: 52.2px; }
+    body #profesionales .profesionales--container p {
+      font-size: 12.8px;
+      line-height: 16px;
+      max-width: 400px; }
+    body #profesionales .profesionales-carousel {
+      top: 330px; }
+      body #profesionales .profesionales-carousel .item {
+        margin: 20px 10.6px 50px 10.6px; }
+        body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+          border-radius: 26.6px 26.6px 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div {
+          height: 117px; }
+          body #profesionales .profesionales-carousel .item .item__info-div h3 {
+            font-size: 17px;
+            line-height: 21.3px;
+            margin: 10.6px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div p {
+            font-size: 12.8px;
+            line-height: 16px;
+            margin: 8px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div button {
+            font-size: 10.6px;
+            line-height: 13.3px;
+            padding: 4.2px 8.4px; }
   body #horarios {
-    top: 2450px;
+    top: 3250px;
     height: 576px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 38.4px;
@@ -1178,7 +1289,7 @@ body #profesionales {
       line-height: 16px; }
   body #planes {
     height: 650px;
-    top: 3020px; }
+    top: 3810px; }
     body #planes .planes--container .planes--container__h2 {
       font-size: 38.5px;
       line-height: 52.2px; }
@@ -1292,8 +1403,37 @@ body #profesionales {
       height: 35px;
       font-size: 14px;
       margin: 0 0 0 30px; }
+  body #profesionales {
+    height: 697px;
+    top: 2100px; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-size: 33px;
+      line-height: 45px; }
+    body #profesionales .profesionales--container p {
+      font-size: 11px;
+      line-height: 13.75px;
+      max-width: 344px; }
+    body #profesionales .profesionales-carousel {
+      top: 284px; }
+      body #profesionales .profesionales-carousel .item {
+        margin: 20px 9.2px 50px 9.2px; }
+        body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+          border-radius: 23px 23px 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div {
+          height: 101px; }
+          body #profesionales .profesionales-carousel .item .item__info-div h3 {
+            font-size: 14.6px;
+            line-height: 18.3px;
+            margin: 9.1px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div p {
+            font-size: 11px;
+            line-height: 13.75px; }
+          body #profesionales .profesionales-carousel .item .item__info-div button {
+            font-size: 9.1px;
+            line-height: 11.5px;
+            padding: 3.6px 6.4px; }
   body #horarios {
-    top: 2100px;
+    top: 2800px;
     height: 495px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 33px;
@@ -1307,7 +1447,7 @@ body #profesionales {
       font-size: 11px; }
   body #planes {
     height: 560px;
-    top: 2580px; }
+    top: 3290px; }
     body #planes .planes--container .planes--container__h2 {
       font-size: 32.5px;
       line-height: 45px; }
@@ -1374,8 +1514,37 @@ body #profesionales {
         margin: 0 0 30px 0; }
       body #consulta .consulta--container p {
         height: 70px; }
+  body #profesionales {
+    height: 608px;
+    top: 1970px; }
+    body #profesionales .profesionales--container .profesionales__h2 {
+      font-size: 28.8px;
+      line-height: 39px; }
+    body #profesionales .profesionales--container p {
+      font-size: 9.6px;
+      line-height: 12px;
+      max-width: 300px; }
+    body #profesionales .profesionales-carousel {
+      top: 248px; }
+      body #profesionales .profesionales-carousel .item {
+        margin: 20px 8px 50px 8px; }
+        body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
+          border-radius: 20px 20px 0 0; }
+        body #profesionales .profesionales-carousel .item .item__info-div {
+          height: 88px; }
+          body #profesionales .profesionales-carousel .item .item__info-div h3 {
+            font-size: 12.8px;
+            line-height: 16px;
+            margin: 8px 0 0 0; }
+          body #profesionales .profesionales-carousel .item .item__info-div p {
+            font-size: 9.6px;
+            line-height: 12px; }
+          body #profesionales .profesionales-carousel .item .item__info-div button {
+            font-size: 8px;
+            line-height: 10px;
+            padding: 3.2px 6.2px; }
   body #horarios {
-    top: 1900px; }
+    top: 2600px; }
     body #horarios .horarios--container {
       width: 62%;
       right: 32%; }
@@ -1389,7 +1558,7 @@ body #profesionales {
         margin: 0 0 22px 0; }
   body #planes {
     height: 560px;
-    top: 2330px; }
+    top: 3030px; }
     body #planes .planes--container {
       height: 64%;
       top: 9%; }
@@ -1471,10 +1640,11 @@ body #profesionales {
       body .main .mainContainer p {
         width: 292px;
         height: 132px;
-        margin: 0  0 0 61px;
+        margin: 0  0 0 51px;
         font-size: 18px;
         line-height: 22.63px;
-        font-weight: 600; }
+        font-weight: 600;
+        text-align: center; }
         body .main .mainContainer p br {
           display: none; }
       body .main .mainContainer .descargaBtn {
@@ -1527,6 +1697,8 @@ body #profesionales {
         font-weight: 600;
         font-size: 15px;
         line-height: 22px; }
+  body #carousel3dotsMobile {
+    display: flex; }
   body #aprendo {
     background: url(../media/background-mobile.jpg);
     background-repeat: repeat-x;
@@ -1606,6 +1778,8 @@ body #profesionales {
         left: calc(50% - 25px); }
       body #consulta .consulta--container .descargaBtn {
         display: none; }
+  body #profesionales {
+    display: none; }
   body #horarios {
     background: url(../media/background-mobile.jpg);
     background-repeat: repeat-x;
@@ -1648,11 +1822,43 @@ body #profesionales {
         display: block;
         position: relative;
         top: 10px;
-        width: 50px; } }
+        width: 50px; }
+  body #planes {
+    background: url(../media/background-mobile.jpg);
+    background-repeat: repeat-x;
+    background-position: center center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 2950px;
+    height: 908px; }
+    body #planes .womanPagosAlone {
+      display: block;
+      position: absolute;
+      top: 7%; }
+    body #planes .planes--container {
+      width: 380px;
+      height: 550px;
+      top: 52%;
+      left: unset;
+      justify-content: unset; }
+      body #planes .planes--container .planes--container__h2 {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center; }
+      body #planes .planes--container .planes--container__cards {
+        height: 450px;
+        max-width: 100%; } }
 
 @media (max-width: 425px) {
   body .womanQuestion .womanQuestionsAlone {
     width: 100%; }
+  body #carousel3dotsMobile #carouselExampleFade {
+    width: 100%; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+      width: 90%; }
   body #aprendo .womanNetbookAlone {
     width: 100%; }
   body #consulta .womanConsultaAlone {
@@ -1664,7 +1870,9 @@ body #profesionales {
     width: 100%; }
   body #horarios .horarios--container {
     width: 90%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  body #planes .womanPagosAlone {
+    width: 100%; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
@@ -1673,6 +1881,8 @@ body #profesionales {
   body .womanQuestion .womanQuestion--container {
     top: 40%;
     height: 350px; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+    height: 170px; }
   body #aprendo .aprendo--container .aprendo--container__h2 {
     width: 100%;
     text-align: center;

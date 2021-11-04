@@ -29,3 +29,9 @@
 }
 
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+@media (max-width: 881px)  {
+  .owl-prev, .owl-next {
+    font-size: 36px !important;
+  }
+}

@@ -1,0 +1,72 @@
+body {
+    #carousel3dotsMobile {
+        @include backgrounds;
+        @include mobile-backgrounds;
+        top: 1850px;
+        display: none;
+        #carouselExampleFade {
+            position: absolute;
+            top: 0;
+            width: 411px;
+            margin: 0 auto;
+            height: 650px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+            .carousel-indicators {
+                top: 640px;
+            }
+            .carousel-indicators [data-bs-target] {
+                box-sizing: content-box;
+                flex: 0 1 auto;
+                width: 10px; /* change width */
+                height: 10px; /* change height */
+                padding: 0;
+                margin-right: 3px;
+                margin-left: 3px;
+                text-indent: -999px;
+                cursor: pointer;
+                background-color: #A5A5A5;
+                background-clip: padding-box;
+                border: 0;
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                opacity: .9;
+                transition: opacity .6s ease;
+                border-radius: 100%; /* add border-radius */
+            }
+            .carousel-indicators .active {
+              background-color: #5B3D80;
+            }
+            .carousel-inner {
+                width: 100%;
+                .carousel-item {
+                    .carousel-caption {
+                        position: sticky;
+                        h5 {
+                            color: $violeta;
+                            font-family: Nunito;
+                            font-style: normal;
+                            font-weight: 900;
+                            font-size: 30px;
+                            line-height: 41px;
+                            margin: 0 0 -35px 0;
+                            position: inherit;
+                            bottom: 100px;
+                        }
+                        p {
+                            color: $violeta;
+                            width: 330px;
+                            margin: 0 auto;
+                            height: 140px;
+                            @include parrafo24px(600, 15px, 19px);
+                            display: flex;
+                            justify-content: center;
+                            align-items: flex-end;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

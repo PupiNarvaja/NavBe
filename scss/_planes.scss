@@ -5,6 +5,9 @@ body {
         height: 1220px;
         top: 6970px;
         position: relative;
+        .womanPagosAlone {
+            display: none;
+        }
         .planes--container {
             position: absolute;
             left: 42.65%;

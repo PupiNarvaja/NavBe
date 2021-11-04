@@ -3,7 +3,7 @@ body {
         background: url(../media/cohete-background.jpg);
         @include backgrounds;
         top: 150px;
-
+        z-index: -1;
         .mainContainer {
             position: absolute;
             width: 750px;
