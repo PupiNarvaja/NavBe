@@ -133,12 +133,20 @@ body {
                             flex-flow: row nowrap;
                             justify-content: center;
                             align-items: center;
+                            transition: all .1s;
                             img {
                                 margin: 0 0 0 9px;
                             }
+                            &:hover {
+                                background: rgba(66, 1, 148, 1);
+                            }
                         }
                         .inscribirGratisBtn {
-                            background-color: $violeta;
+                            background-color: rgba(119, 96, 148, 1);
+                            transition: all .1s;
+                            &:hover {
+                                background-color: $violeta;
+                            }
                         }
                     }
                 }

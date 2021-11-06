@@ -184,8 +184,7 @@ body .main {
   left: 0px;
   background-repeat: no-repeat;
   background-size: contain;
-  top: 150px;
-  z-index: -1; }
+  top: 150px; }
   body .main .mainContainer {
     position: absolute;
     width: 750px;
@@ -319,8 +318,6 @@ body #aprendo {
       width: 703px;
       height: 85px;
       color: #131313; }
-    body #aprendo .aprendo--container .dots {
-      display: none; }
     body #aprendo .aprendo--container .cards--container {
       margin: 110px 0 0 0; }
       body #aprendo .aprendo--container .cards--container div {
@@ -376,8 +373,6 @@ body #consulta {
       margin: 0 0 98px 0;
       height: 99px;
       width: 91.7%; }
-    body #consulta .consulta--container .dots {
-      display: none; }
     body #consulta .consulta--container .descargaBtn {
       width: 380px;
       height: 55px;
@@ -438,8 +433,6 @@ body #horarios {
       font-size: 24px;
       line-height: 30px;
       width: 60.3%; }
-    body #horarios .horarios--container .dots {
-      display: none; }
 
 body #planes {
   background: url(../media/woman-planes.jpg);
@@ -572,11 +565,17 @@ body #planes {
           display: flex;
           flex-flow: row nowrap;
           justify-content: center;
-          align-items: center; }
+          align-items: center;
+          transition: all .1s; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
             margin: 0 0 0 9px; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:hover {
+            background: #420194; }
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
-          background-color: #5B3D80; }
+          background-color: #776094;
+          transition: all .1s; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {
+            background-color: #5B3D80; }
 
 body #profesionales {
   height: 1520px;
@@ -1656,6 +1655,10 @@ body #carousel3dotsMobile {
         font-weight: bold;
         font-size: 18px;
         line-height: 23px; }
+        body .main .mainContainer .descargaBtn:hover {
+          background-color: #6000D9; }
+        body .main .mainContainer .descargaBtn:active {
+          background: rgba(96, 0, 217, 0.7); }
   body .womanQuestion {
     top: 800px;
     height: 1080px;
@@ -1700,129 +1703,13 @@ body #carousel3dotsMobile {
   body #carousel3dotsMobile {
     display: flex; }
   body #aprendo {
-    background: url(../media/background-mobile.jpg);
-    background-repeat: repeat-x;
-    background-position: center center;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 1850px;
-    height: 1080px; }
-    body #aprendo .womanNetbookAlone {
-      display: block;
-      position: absolute;
-      top: 7%; }
-    body #aprendo .aprendo--container {
-      height: 350px;
-      top: 45%;
-      left: unset; }
-      body #aprendo .aprendo--container .aprendo--container__h2 {
-        font-size: 30px;
-        font-weight: 900;
-        width: 320px;
-        margin: 0; }
-      body #aprendo .aprendo--container p {
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 18.86px;
-        height: 85px;
-        width: 316px;
-        text-align: start;
-        color: #5B3D80; }
-      body #aprendo .aprendo--container .dots {
-        display: block;
-        position: relative;
-        top: 30px;
-        left: calc(50% - 25px); }
-      body #aprendo .aprendo--container .cards--container div span {
-        font-size: 11px; }
+    display: none; }
   body #consulta {
-    background: url(../media/background-mobile.jpg);
-    background-repeat: repeat-x;
-    background-position: center center;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 2900px;
-    height: 908px; }
-    body #consulta .womanConsultaAlone {
-      display: block;
-      position: absolute;
-      top: 7%; }
-    body #consulta .consulta--container {
-      width: 330px;
-      top: 52%;
-      left: unset;
-      right: unset; }
-      body #consulta .consulta--container .consulta--container__h2 {
-        font-size: 30px;
-        font-weight: 900;
-        margin: 0 0 20px 0;
-        line-height: 41px; }
-      body #consulta .consulta--container p {
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 18.86px;
-        height: 85px;
-        width: 316px;
-        text-align: start;
-        color: #5B3D80;
-        width: 310px;
-        margin: 0 auto; }
-      body #consulta .consulta--container .dots {
-        display: block;
-        position: relative;
-        top: 30px;
-        left: calc(50% - 25px); }
-      body #consulta .consulta--container .descargaBtn {
-        display: none; }
+    display: none; }
   body #profesionales {
     display: none; }
   body #horarios {
-    background: url(../media/background-mobile.jpg);
-    background-repeat: repeat-x;
-    background-position: center center;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 3800px;
-    height: 908px; }
-    body #horarios .womanCalendarioAlone {
-      display: block;
-      position: absolute;
-      top: 7%; }
-    body #horarios .horarios--container {
-      width: 330px;
-      right: unset;
-      top: 55%;
-      display: flex;
-      flex-flow: column nowrap;
-      align-items: center; }
-      body #horarios .horarios--container .horarios--container__h2 {
-        font-size: 30px;
-        font-weight: 900;
-        width: 240px;
-        line-height: 41px; }
-      body #horarios .horarios--container .horarios--container__h3 {
-        display: none; }
-      body #horarios .horarios--container p {
-        font-size: 15px;
-        font-weight: 600;
-        line-height: 18.86px;
-        height: 85px;
-        width: 316px;
-        text-align: start;
-        color: #5B3D80;
-        width: 100%;
-        height: 130px; }
-      body #horarios .horarios--container .dots {
-        display: block;
-        position: relative;
-        top: 10px;
-        width: 50px; }
+    display: none; }
   body #planes {
     background: url(../media/background-mobile.jpg);
     background-repeat: repeat-x;
@@ -1850,7 +1737,15 @@ body #carousel3dotsMobile {
         text-align: center; }
       body #planes .planes--container .planes--container__cards {
         height: 450px;
-        max-width: 100%; } }
+        max-width: 100%; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:hover {
+          background: #6000D9; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:active {
+          background: #420194; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {
+          background: #776094; }
+        body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:active {
+          background: #5B3D80; } }
 
 @media (max-width: 425px) {
   body .womanQuestion .womanQuestionsAlone {

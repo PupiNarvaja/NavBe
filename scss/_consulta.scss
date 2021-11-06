@@ -22,9 +22,6 @@ body {
                 height: 99px;
                 width: 91.7%;
             }
-            .dots {
-                display: none
-            }
             .descargaBtn {
                 @include descargaButton;
                 @include  parrafo24px(bold, 24px, 30px);
