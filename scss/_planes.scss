@@ -13,6 +13,7 @@ body {
             left: 42.65%;
             top: 11.6%;
             width: 48.7%;
+            min-width: 900px;
             height: 71.7%;
             display: flex;
             justify-content: space-between;
@@ -41,6 +42,10 @@ body {
                         text-align: center;
                         margin: 0 0 40px 0;
                         color: $violeta;
+                        display: flex;
+                        flex-flow: row nowrap;
+                        align-items: center;
+                        justify-content: center;
                         span {
                             font-family: Roboto;
                             font-size: 24px;
@@ -49,6 +54,7 @@ body {
                             line-height: 28px;
                             letter-spacing: 0em;
                             padding: 8px 16px;
+                            margin: 0 0 0 8px;
                             border-radius: 10px;
                             background: #00EDBF;
                         }

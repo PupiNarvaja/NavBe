@@ -165,6 +165,7 @@
            height: 1017px;
            top: 5770px;
             .planes--container {
+                min-width: 750px;
                 .planes--container__h2 {
                     font-size: 60px;
                     line-height: 82px;
@@ -389,6 +390,7 @@
             height: 915px;
             top: 5200px;
             .planes--container {
+                min-width: 680px;
                 .planes--container__h2 {
                     font-size: 54px;
                     line-height: 73.5px;
@@ -402,7 +404,7 @@
                         }
                         h3 {
                             span {
-                                font-size: 18px;
+                                font-size: 17px;
                                 line-height: 21px;
                                 padding: 6px 12px;
                             }
@@ -629,6 +631,7 @@
             height: 762.5px;
             top: 4460px;
             .planes--container {
+                min-width: 560px;
                 .planes--container__h2 {
                     font-size: 45px;
                     line-height: 61.2px;
@@ -857,6 +860,7 @@
             height: 650px;
             top: 3810px;
             .planes--container {
+                min-width: 500px;
                 .planes--container__h2 {
                     font-size: 38.5px;
                     line-height: 52.2px;
@@ -1100,6 +1104,7 @@
             height: 560px;
             top: 3290px;
             .planes--container {
+                min-width: 380px;
                 .planes--container__h2 {
                     font-size: 32.5px;
                     line-height: 45px;
@@ -1205,7 +1210,7 @@
                 }
             }
         }
-//----------------------------- Sección Profesionales 881px--------------------
+//----------------------------- Sección Profesionales 768px--------------------
         #profesionales {
             height: 608px;
             top: 1970px;
@@ -1556,16 +1561,18 @@
         #planes {
             @include mobile-backgrounds;
             top: 2950px;
-            height: 908px;
+            height: 1112px;
             .womanPagosAlone {
                 display: block;
                 position: absolute;
-                top: 7%;
+                top: 0%;
             }
             .planes--container {
-                width: 380px;
+                width: 100%;
+                min-width: unset;
+                max-width: 380px;
                 height: 550px;
-                top: 52%;
+                top: 470px;
                 left: unset;
                 justify-content: unset;
                 .planes--container__h2 {
@@ -1577,7 +1584,11 @@
                 .planes--container__cards {
                     height: 450px;
                     max-width: 100%;
+                    align-items: flex-start;
+                    margin: 46px 0 0 0;
+                    flex-flow: row wrap;
                     .planes__card {
+                        margin: 0 auto;
                         div {
                             .inscribirYaBtn:hover {
                                 background: #6000D9;
@@ -1593,7 +1604,75 @@
                             }
                         }
                         h3 {
-                            
+                            font-weight: bold;
+                            font-size: 29px;
+                            line-height: 34px;
+                            span {
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 16px;
+                                padding: 4px 12px;
+                                margin: 4px 0 0 8px;
+                            }
+                        }
+                        .gratis {
+                            font-family: Nunito;
+                            font-weight: bold;
+                            font-size: 30px;
+                            line-height: 41px;
+                            margin: 0 0 20px 0;
+                        }
+                        div {
+                            width: 186px;
+                            height: 400px;
+                            padding: 30px 0 0 0;
+                            border-radius: 30px;
+                            h4 {
+                                font-weight: bold;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: $violeta;
+                                margin: 0 29px 0 24px;
+                            }
+                            .gratis__h4 {
+                                font-weight: bold;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: $violeta;
+                                height: unset;
+                                margin: 0 24px 40px 29px;
+                            }
+                            h5 {
+                                font-size: 14px;
+                                line-height: 18px;
+                                height: 30px;
+                                margin: 6px 0 8px 24px;
+                            }
+                            ul {
+                                padding: 0 0 0 35px;
+                                height: 190px;
+                                li {
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    margin: 0 0 16px 0;
+                                }
+                            }
+                            .inscribirYaBtn, .inscribirGratisBtn {
+                                height: 37px;
+                                width: 87%;
+                                margin: 0 6.5%;
+                                font-size: 17px;
+                                line-height: 21px;
+                                bottom: -4px;
+                            }
+                            .inscribirYaBtn {
+                                img {
+                                    display: none;
+                                }
+                            }
+                            .inscribirGratisBtn {
+                                background-color: $violeta;
+                            }
                         }
                     }
                 }
@@ -1729,6 +1808,105 @@
                 p {
                     width: 90%;
                     margin: 0 auto;
+                }
+            }
+        }
+//----------------------------- Sección Planes 355px--------------------
+        #planes {
+            height: 1500px;
+            background-size: cover;
+            .planes--container {
+                top: 420px;
+                .planes--container__cards {
+                    height: 450px;
+                    margin: 46px 0 0 0;
+                    .planes__card {
+                        div {
+                            .inscribirYaBtn:hover {
+                                background: #6000D9;
+                            }
+                            .inscribirYaBtn:active {
+                                background: #420194;
+                            }
+                            .inscribirGratisBtn:hover {
+                                background: #776094;
+                            }
+                            .inscribirGratisBtn:active {
+                                background: $violeta;
+                            }
+                        }
+                        h3 {
+                            font-weight: bold;
+                            font-size: 29px;
+                            line-height: 34px;
+                            span {
+                                font-weight: bold;
+                                font-size: 14px;
+                                line-height: 16px;
+                                padding: 4px 12px;
+                                margin: 4px 0 0 8px;
+                            }
+                        }
+                        .gratis {
+                            font-family: Nunito;
+                            font-weight: bold;
+                            font-size: 30px;
+                            line-height: 41px;
+                            margin: 0 0 20px 0;
+                        }
+                        div {
+                            width: 186px;
+                            height: 400px;
+                            padding: 30px 0 0 0;
+                            border-radius: 30px;
+                            h4 {
+                                font-weight: bold;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: $violeta;
+                                margin: 0 29px 0 24px;
+                            }
+                            .gratis__h4 {
+                                font-weight: bold;
+                                font-size: 20px;
+                                line-height: 25px;
+                                color: $violeta;
+                                height: unset;
+                                margin: 0 24px 40px 29px;
+                            }
+                            h5 {
+                                font-size: 14px;
+                                line-height: 18px;
+                                height: 30px;
+                                margin: 6px 0 8px 24px;
+                            }
+                            ul {
+                                padding: 0 0 0 35px;
+                                height: 190px;
+                                li {
+                                    font-size: 12px;
+                                    line-height: 15px;
+                                    margin: 0 0 16px 0;
+                                }
+                            }
+                            .inscribirYaBtn, .inscribirGratisBtn {
+                                height: 37px;
+                                width: 87%;
+                                margin: 0 6.5%;
+                                font-size: 17px;
+                                line-height: 21px;
+                                bottom: -4px;
+                            }
+                            .inscribirYaBtn {
+                                img {
+                                    display: none;
+                                }
+                            }
+                            .inscribirGratisBtn {
+                                background-color: $violeta;
+                            }
+                        }
+                    }
                 }
             }
         }

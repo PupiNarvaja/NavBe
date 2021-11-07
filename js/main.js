@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     
-    $('.owl-carousel').owlCarousel({
+    $('.profesionales-carousel').owlCarousel({
         center: true,
         items:1,
         loop:false,
@@ -13,6 +13,34 @@ $(document).ready(function(){
             100:{
                 items:4
             }
+        }
+    });
+
+});
+
+
+$(document).ready(function(){
+    $('.littleCarouselMobile--container').owlCarousel({
+        center: true,
+        items:1,
+        loop:true, 
+        dots: false,
+        nav: false,
+        autoplay: true,
+        // centerPadding: '60px',
+        responsive:{
+            0:{
+                items:2
+            },
+            400:{
+                items:2.5
+            },
+            600:{
+                items:3.5
+            },
+            1000:{
+                items:5
+            },         
         }
     });
 });
