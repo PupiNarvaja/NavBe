@@ -744,6 +744,7 @@ body #carousel3dotsMobile {
           align-items: flex-end; }
 
 body #littleCarouselMobile {
+  display: none;
   position: relative;
   top: 2580px;
   height: 200px; }
@@ -1759,6 +1760,8 @@ body #littleCarouselMobile {
         line-height: 22px; }
   body #carousel3dotsMobile {
     display: flex; }
+  body #littleCarouselMobile {
+    display: inline; }
   body #aprendo {
     display: none; }
   body #consulta {
