@@ -165,31 +165,40 @@ body {
             height: 170px;
             background-color: rgba(91, 61, 128, .1);
             .headerContainer {
-                .backBtn{
-                    display: block;
-                    position: absolute;
-                    border: none;
-                    left: 19px;
-                    top: 69px;
-                    background: rgba(255, 255, 255, 0);
-                }
+                // .backBtn{
+                //     display: block;
+                //     position: absolute;
+                //     border: none;
+                //     left: 19px;
+                //     top: 69px;
+                //     background: rgba(255, 255, 255, 0);
+                // }
                 .logo {
-                    display: none;
+                    display: block;
+                    width: 120px;
+                    
+                    position: absolute;
+                    left: 17px;
+                    bottom: 72px;
                 }
                 .logo-smartphone {
-                    display: block;
-                    position: absolute;
-                    left: calc(50% - 23px);
-                    top: 50px;
-                    margin: 0;
-                    width: 46px;
+                    display: none;
                 }
-                .notificaciones {
-                    display: block;
-                    position: absolute;
-                    top: 63px;
-                    right: 45px;
-                }
+                //     display: block;
+                // .logo-smartphone {
+                //     display: block;
+                //     position: absolute;
+                //     left: calc(50% - 23px);
+                //     top: 50px;
+                //     margin: 0;
+                //     width: 46px;
+                // }
+                // .notificaciones {
+                //     display: block;
+                //     position: absolute;
+                //     top: 63px;
+                //     right: 45px;
+                // }
                 .navbar {
                     height: 56px;
                     width: 100%;

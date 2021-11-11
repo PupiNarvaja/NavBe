@@ -30,6 +30,19 @@
 
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
 
+/* fixes fade transition in mobile carousel == 3dotsCarousel*/
+.carousel-item {
+  transition: transform .6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity .2s .2s;
+}
+
+
+
+
 @media (max-width: 881px)  {
   .owl-prev, .owl-next {
     font-size: 36px !important;

@@ -2,8 +2,9 @@ body {
     #carousel3dotsMobile {
         @include backgrounds;
         @include mobile-backgrounds;
-        top: 1850px;
+        top: 1660px;
         display: none;
+        height: 1000px;
         #carouselExampleFade {
             position: absolute;
             top: 0;
@@ -72,7 +73,7 @@ body {
     #littleCarouselMobile {
         display: none;
         position: relative;
-        top: 2580px;
+        top: 2370px;
         height: 200px;
         .littleCarouselMobile--container {
             .owl-stage-outer {

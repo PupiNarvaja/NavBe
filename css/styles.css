@@ -116,27 +116,14 @@ body .header {
   body .header {
     height: 170px;
     background-color: rgba(91, 61, 128, 0.1); }
-    body .header .headerContainer .backBtn {
-      display: block;
-      position: absolute;
-      border: none;
-      left: 19px;
-      top: 69px;
-      background: rgba(255, 255, 255, 0); }
     body .header .headerContainer .logo {
-      display: none; }
+      display: block;
+      width: 120px;
+      position: absolute;
+      left: 17px;
+      bottom: 72px; }
     body .header .headerContainer .logo-smartphone {
-      display: block;
-      position: absolute;
-      left: calc(50% - 23px);
-      top: 50px;
-      margin: 0;
-      width: 46px; }
-    body .header .headerContainer .notificaciones {
-      display: block;
-      position: absolute;
-      top: 63px;
-      right: 45px; }
+      display: none; }
     body .header .headerContainer .navbar {
       height: 56px;
       width: 100%;
@@ -679,8 +666,9 @@ body #carousel3dotsMobile {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 1850px;
-  display: none; }
+  top: 1660px;
+  display: none;
+  height: 1000px; }
   body #carousel3dotsMobile #carouselExampleFade {
     position: absolute;
     top: 0;
@@ -746,7 +734,7 @@ body #carousel3dotsMobile {
 body #littleCarouselMobile {
   display: none;
   position: relative;
-  top: 2580px;
+  top: 2370px;
   height: 200px; }
   body #littleCarouselMobile .littleCarouselMobile--container .owl-stage-outer {
     height: 250px;
@@ -1697,7 +1685,7 @@ body #littleCarouselMobile {
       body .main .mainContainer p {
         width: 292px;
         height: 132px;
-        margin: 0  0 0 51px;
+        margin: 0 auto;
         font-size: 18px;
         line-height: 22.63px;
         font-weight: 600;
@@ -1719,7 +1707,7 @@ body #littleCarouselMobile {
           background: rgba(96, 0, 217, 0.7); }
   body .womanQuestion {
     top: 800px;
-    height: 1080px;
+    height: 860px;
     background: url(../media/background-mobile.jpg);
     background-repeat: repeat-x;
     background-position: center center;
@@ -1734,7 +1722,7 @@ body #littleCarouselMobile {
     body .womanQuestion .decoElements {
       display: none; }
     body .womanQuestion .womanQuestion--container {
-      top: 50%;
+      top: 57%;
       left: unset;
       right: unset;
       height: 320px;
@@ -1778,7 +1766,7 @@ body #littleCarouselMobile {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 2950px;
+    top: 2410px;
     height: 1112px; }
     body #planes .womanPagosAlone {
       display: block;
@@ -1872,8 +1860,15 @@ body #littleCarouselMobile {
               background-color: #5B3D80; } }
 
 @media (max-width: 425px) {
-  body .womanQuestion .womanQuestionsAlone {
-    width: 100%; }
+  body .womanQuestion {
+    background: url(../media/womanQuestionMobile.jpg), url(../media/background-mobile.jpg);
+    background-size: 425px, cover;
+    background-repeat: no-repeat;
+    background-position: top center; }
+    body .womanQuestion .womanQuestionsAlone {
+      display: none; }
+    body .womanQuestion .womanQuestion--container {
+      top: 58%; }
   body #carousel3dotsMobile #carouselExampleFade {
     width: 100%; }
     body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
@@ -1890,18 +1885,66 @@ body #littleCarouselMobile {
   body #horarios .horarios--container {
     width: 90%;
     margin: 0 auto; }
-  body #planes .womanPagosAlone {
-    width: 100%; } }
+  body #planes {
+    background-image: url(../media/planesMobile.jpg);
+    background-size: 425px; }
+    body #planes .womanPagosAlone {
+      display: none; } }
+
+@media (max-width: 380px) {
+  body #planes {
+    background: url(../media/woman-planes-alone.png), url(../media/background-mobile.jpg);
+    background-size: 380px, cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 1650px; }
+    body #planes .planes--container {
+      top: 440px; }
+      body #planes .planes--container .planes--container__cards {
+        flex-flow: column nowrap;
+        margin: 0; }
+        body #planes .planes--container .planes--container__cards .planes__card {
+          margin: 40px auto 0 auto; }
+          body #planes .planes--container .planes--container__cards .planes__card div {
+            width: 248px;
+            height: 460px; }
+            body #planes .planes--container .planes--container__cards .planes__card div h4 {
+              margin: 0 auto 0 48px; }
+            body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
+              margin: 0 24px 44px 48px; }
+            body #planes .planes--container .planes--container__cards .planes__card div h5 {
+              margin: 8px 0 10px 48px; }
+            body #planes .planes--container .planes--container__cards .planes__card div ul {
+              padding: 0 0 0 48px; }
+              body #planes .planes--container .planes--container__cards .planes__card div ul li {
+                font-size: 14px;
+                line-height: 18px;
+                margin: 0 0 20px 0; }
+            body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+              bottom: -55px; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
     width: 90%;
     margin: 0 auto; }
-  body .womanQuestion .womanQuestion--container {
-    top: 40%;
-    height: 350px; }
+  body .womanQuestion {
+    background-size: 380px; }
+    body .womanQuestion .womanQuestion--container {
+      top: 55%;
+      width: 93%;
+      height: 295px; }
+      body .womanQuestion .womanQuestion--container .womanQuestion__questions {
+        height: 150px; }
+        body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
+          font-size: 17px; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
+    top: unset; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
+    font-size: 28px; }
   body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
     height: 170px; }
+  body #littleCarouselMobile {
+    top: 2320px; }
   body #aprendo .aprendo--container .aprendo--container__h2 {
     width: 100%;
     text-align: center;
@@ -1925,75 +1968,4 @@ body #littleCarouselMobile {
       width: 90%;
       margin: 0 auto; }
   body #planes {
-    height: 1500px;
-    background-size: cover; }
-    body #planes .planes--container {
-      top: 420px; }
-      body #planes .planes--container .planes--container__cards {
-        height: 450px;
-        margin: 46px 0 0 0; }
-        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:hover {
-          background: #6000D9; }
-        body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:active {
-          background: #420194; }
-        body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {
-          background: #776094; }
-        body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:active {
-          background: #5B3D80; }
-        body #planes .planes--container .planes--container__cards .planes__card h3 {
-          font-weight: bold;
-          font-size: 29px;
-          line-height: 34px; }
-          body #planes .planes--container .planes--container__cards .planes__card h3 span {
-            font-weight: bold;
-            font-size: 14px;
-            line-height: 16px;
-            padding: 4px 12px;
-            margin: 4px 0 0 8px; }
-        body #planes .planes--container .planes--container__cards .planes__card .gratis {
-          font-family: Nunito;
-          font-weight: bold;
-          font-size: 30px;
-          line-height: 41px;
-          margin: 0 0 20px 0; }
-        body #planes .planes--container .planes--container__cards .planes__card div {
-          width: 186px;
-          height: 400px;
-          padding: 30px 0 0 0;
-          border-radius: 30px; }
-          body #planes .planes--container .planes--container__cards .planes__card div h4 {
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 25px;
-            color: #5B3D80;
-            margin: 0 29px 0 24px; }
-          body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
-            font-weight: bold;
-            font-size: 20px;
-            line-height: 25px;
-            color: #5B3D80;
-            height: unset;
-            margin: 0 24px 40px 29px; }
-          body #planes .planes--container .planes--container__cards .planes__card div h5 {
-            font-size: 14px;
-            line-height: 18px;
-            height: 30px;
-            margin: 6px 0 8px 24px; }
-          body #planes .planes--container .planes--container__cards .planes__card div ul {
-            padding: 0 0 0 35px;
-            height: 190px; }
-            body #planes .planes--container .planes--container__cards .planes__card div ul li {
-              font-size: 12px;
-              line-height: 15px;
-              margin: 0 0 16px 0; }
-          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
-            height: 37px;
-            width: 87%;
-            margin: 0 6.5%;
-            font-size: 17px;
-            line-height: 21px;
-            bottom: -4px; }
-          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            display: none; }
-          body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
-            background-color: #5B3D80; } }
+    top: 2370px; } }

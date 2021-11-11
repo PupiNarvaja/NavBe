@@ -1391,7 +1391,7 @@
                 p {
                     width: 292px;
                     height: 132px;
-                    margin: 0  0 0 51px;
+                    margin: 0 auto;
                     font-size: 18px;
                     line-height: 22.63px;
                     font-weight: 600;
@@ -1417,11 +1417,10 @@
 //----------------------------- Sección Woman Question 700px--------------------
         .womanQuestion {
             top: 800px;
-            height: 1080px;
+            height: 860px;
             @include mobile-backgrounds;
             .womanQuestionsAlone {
                 display: block;
-                // width: 100%;
                 position: absolute;
                 top: 0;
             }
@@ -1429,7 +1428,7 @@
                 display: none;
             }
             .womanQuestion--container {
-                top: 50%;
+                top: 57%;
                 left: unset;
                 right: unset;
                 height: 320px;
@@ -1459,68 +1458,10 @@
 //----------------------------- Sección Aprende con nosotros 700px--------------------
         #aprendo {
             display: none
-            // @include mobile-backgrounds;
-            // top: 1850px;
-            // height: 1080px;
-            // .womanNetbookAlone {
-            //     display: block;
-            //     position: absolute;
-            //     top: 7%;
-            // }
-            // .aprendo--container {
-            //     height: 350px;
-            //     top: 45%;
-            //     left: unset;
-            //     .aprendo--container__h2 {
-            //         font-size: 30px;
-            //         font-weight: 900;
-            //         width: 320px;
-            //         margin: 0;
-            //     }
-            //     p {
-            //         @include pMobile;
-            //     }
-            //     .cards--container {
-            //         div {
-            //             span {
-            //                 font-size: 11px;
-            //             }
-            //         }
-            //     }
-            // }
         }
 //----------------------------- Sección Consulta 700px---------------------------
         #consulta {
             display: none;
-
-            // @include mobile-backgrounds;
-            // top: 2900px;
-            // height: 908px;
-            // .womanConsultaAlone {
-            //     display: block;
-            //     position: absolute;
-            //     top: 7%;
-            // }
-            // .consulta--container {
-            //     width: 330px;
-            //     top: 52%;
-            //     left: unset;
-            //     right: unset;
-            //     .consulta--container__h2 {
-            //         font-size: 30px;
-            //         font-weight: 900;
-            //         margin: 0 0 20px 0;
-            //         line-height: 41px
-            //     }
-            //     p {
-            //         @include pMobile;
-            //         width: 310px;
-            //         margin: 0 auto;
-            //     }
-            //     .descargaBtn {
-            //         display: none;
-            //     }
-            // }
         }
 //----------------------------- Desaparece Sección Profesionales 700px--------------------
         #profesionales {
@@ -1529,41 +1470,11 @@
 //----------------------------- Sección Horarios 700px--------------------
         #horarios {
             display: none;
-            // @include mobile-backgrounds;
-            // top: 3800px;
-            // height: 908px;
-            // .womanCalendarioAlone {
-            //     display: block;
-            //     position: absolute;
-            //     top: 7%;
-            // }
-            // .horarios--container {   
-            //     width: 330px;
-            //     right: unset;
-            //     top: 55%;
-            //     display: flex;
-            //     flex-flow: column nowrap;
-            //     align-items: center;
-            //     .horarios--container__h2 {
-            //         font-size: 30px;
-            //         font-weight: 900;
-            //         width: 240px;
-            //         line-height: 41px
-            //     }
-            //     .horarios--container__h3 {
-            //         display: none;
-            //     }
-            //     p {
-            //         @include pMobile;
-            //         width: 100%;
-            //         height: 130px;
-            //     }
-            // }
         }
 //----------------------------- Sección Planes 700px--------------------
         #planes {
             @include mobile-backgrounds;
-            top: 2950px;
+            top: 2410px;
             height: 1112px;
             .womanPagosAlone {
                 display: block;
@@ -1688,8 +1599,15 @@
     body {
 //----------------------------- Sección Woman Question  425px--------------------
         .womanQuestion {
+            background: url(../media/womanQuestionMobile.jpg), url(../media/background-mobile.jpg);
+            background-size: 425px, cover;
+            background-repeat: no-repeat;
+            background-position: top center;
             .womanQuestionsAlone {
-                width: 100%;
+                display: none;
+            }
+            .womanQuestion--container {
+                top: 58%;
             }
         }
 //----------------------------- Sección Carousel secciones  425px--------------------
@@ -1736,12 +1654,61 @@
         }
 //----------------------------- Sección Planes 700px--------------------
         #planes {
+            background-image: url(../media/planesMobile.jpg);
+            background-size: 425px;
             .womanPagosAlone {
-                width: 100%;
+                display: none;
             }
         }
     }
 }
+
+@media (max-width: 380px) {
+    body {
+        #planes {
+            background: url(../media/woman-planes-alone.png), url(../media/background-mobile.jpg);
+            background-size: 380px, cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            height: 1650px;
+            .planes--container {
+                top: 440px;
+                .planes--container__cards {
+                    flex-flow: column nowrap;
+                    margin: 0;
+                    .planes__card {
+                        margin: 40px auto 0 auto;
+                        div {
+                            width: 248px;
+                            height: 460px;
+                            h4 {
+                                margin: 0 auto 0 48px;
+                            }
+                            .gratis__h4 {
+                                margin: 0 24px 44px 48px;
+                            }
+                            h5 {
+                                margin: 8px 0 10px 48px;
+                            }
+                            ul {
+                                padding: 0 0 0 48px;
+                                li {
+                                    font-size: 14px;
+                                    line-height: 18px;
+                                    margin: 0 0 20px 0;
+                                }
+                            }
+                            .inscribirYaBtn, .inscribirGratisBtn {
+                                bottom: -55px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 @media (max-width: 355px) {
     body {
@@ -1753,19 +1720,33 @@
                 }
             }
         }
-//----------------------------- Sección Woman Question 355px--------------------
+//----------------------------- Sección Woman Questions 355px--------------------
         .womanQuestion {
+            background-size: 380px;
             .womanQuestion--container {
-                top: 40%;
-                height: 350px;
+                top: 55%;
+                width: 93%;
+                height: 295px;
+                .womanQuestion__questions {
+                    height: 150px;
+                    li {
+                        font-size: 17px;
+                    }
+                }
             }
         }
-//----------------------------- Sección Carousel secciones  425px--------------------
+//----------------------------- Sección Carousel secciones 355px--------------------
         #carousel3dotsMobile {
             #carouselExampleFade {
+                .carousel-indicators {
+                    top: unset;
+                }
                 .carousel-inner {
                     .carousel-item {
                         .carousel-caption {
+                            h5 {
+                                font-size: 28px;
+                            }
                             p {
                                 height: 170px;
                             }
@@ -1773,6 +1754,10 @@
                     }
                 }
             }
+        }
+//----------------------------- Sección littleCarouselMobile 355px--------------------
+        #littleCarouselMobile {
+            top: 2320px;
         }
 //----------------------------- Sección Aprendo 355px---------------------------
         #aprendo {
@@ -1816,102 +1801,7 @@
         }
 //----------------------------- Sección Planes 355px--------------------
         #planes {
-            height: 1500px;
-            background-size: cover;
-            .planes--container {
-                top: 420px;
-                .planes--container__cards {
-                    height: 450px;
-                    margin: 46px 0 0 0;
-                    .planes__card {
-                        div {
-                            .inscribirYaBtn:hover {
-                                background: #6000D9;
-                            }
-                            .inscribirYaBtn:active {
-                                background: #420194;
-                            }
-                            .inscribirGratisBtn:hover {
-                                background: #776094;
-                            }
-                            .inscribirGratisBtn:active {
-                                background: $violeta;
-                            }
-                        }
-                        h3 {
-                            font-weight: bold;
-                            font-size: 29px;
-                            line-height: 34px;
-                            span {
-                                font-weight: bold;
-                                font-size: 14px;
-                                line-height: 16px;
-                                padding: 4px 12px;
-                                margin: 4px 0 0 8px;
-                            }
-                        }
-                        .gratis {
-                            font-family: Nunito;
-                            font-weight: bold;
-                            font-size: 30px;
-                            line-height: 41px;
-                            margin: 0 0 20px 0;
-                        }
-                        div {
-                            width: 186px;
-                            height: 400px;
-                            padding: 30px 0 0 0;
-                            border-radius: 30px;
-                            h4 {
-                                font-weight: bold;
-                                font-size: 20px;
-                                line-height: 25px;
-                                color: $violeta;
-                                margin: 0 29px 0 24px;
-                            }
-                            .gratis__h4 {
-                                font-weight: bold;
-                                font-size: 20px;
-                                line-height: 25px;
-                                color: $violeta;
-                                height: unset;
-                                margin: 0 24px 40px 29px;
-                            }
-                            h5 {
-                                font-size: 14px;
-                                line-height: 18px;
-                                height: 30px;
-                                margin: 6px 0 8px 24px;
-                            }
-                            ul {
-                                padding: 0 0 0 35px;
-                                height: 190px;
-                                li {
-                                    font-size: 12px;
-                                    line-height: 15px;
-                                    margin: 0 0 16px 0;
-                                }
-                            }
-                            .inscribirYaBtn, .inscribirGratisBtn {
-                                height: 37px;
-                                width: 87%;
-                                margin: 0 6.5%;
-                                font-size: 17px;
-                                line-height: 21px;
-                                bottom: -4px;
-                            }
-                            .inscribirYaBtn {
-                                img {
-                                    display: none;
-                                }
-                            }
-                            .inscribirGratisBtn {
-                                background-color: $violeta;
-                            }
-                        }
-                    }
-                }
-            }
+            top: 2370px;
         }
     }
 }
