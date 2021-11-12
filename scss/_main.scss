@@ -3,12 +3,12 @@ body {
         background: url(../media/cohete-background.jpg);
         @include backgrounds;
         top: 150px;
-        // z-index: -1;
         .mainContainer {
             position: absolute;
             width: 750px;
             height: 610px;
-            right: 13.4%;
+            // right: 13.4%;
+            margin: 0 30% 0 45%;
             top: 170px;
             display: flex;
             flex-flow: column nowrap;
@@ -37,9 +37,15 @@ body {
             }
             .descargaBtn {
                 @include descargaButton;
-                @include  parrafo24px(bold, 24px, 30px);
+                @include parrafo24px(bold, 22px, 27.65px);
                 margin: 95px 19% 0 0;
                 align-self: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    margin: 0 10px 0 0;
+                }
             }
         }
     }

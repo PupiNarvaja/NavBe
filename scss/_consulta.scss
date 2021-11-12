@@ -1,8 +1,9 @@
 body {
     #consulta {
-        background: url(../media/woman-consulta.svg);
+        background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.png);
         @include backgrounds;
-        top: 3230px;
+        // @include backgrounds;
+        // top: 3230px;
         .womanConsultaAlone {
             display: none;
         }
@@ -26,6 +27,12 @@ body {
                 @include descargaButton;
                 @include  parrafo24px(bold, 24px, 30px);
                 margin: 0 0 0 125px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    margin: 0 10px 0 0;
+                }
             }
         }
     }

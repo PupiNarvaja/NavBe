@@ -1,10 +1,14 @@
 body {
     #planes {
-        background: url(../media/woman-planes.jpg);
+        background: url(../media/mujerSolaTarjeta.png), url(../media/FondoSoloTarjeta.png);
         @include backgrounds;
+        background-position: 80px, 0;
         height: 1220px;
-        top: 6970px;
-        position: relative;
+        // background: url(../media/woman-planes.jpg);
+        // @include backgrounds;
+        // height: 1220px;
+        // top: 6970px;
+        // position: relative;
         .womanPagosAlone {
             display: none;
         }
@@ -136,12 +140,11 @@ body {
                         .inscribirYaBtn {
                             background-color: rgba(96, 0, 217, 1);
                             display: flex;
-                            flex-flow: row nowrap;
                             justify-content: center;
                             align-items: center;
                             transition: all .1s;
                             img {
-                                margin: 0 0 0 9px;
+                                margin: 0 0 0 10px;
                             }
                             &:hover {
                                 background: rgba(66, 1, 148, 1);

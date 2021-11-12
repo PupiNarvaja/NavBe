@@ -15,7 +15,8 @@ body .header {
   top: -3px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
-  font-size: 22px; }
+  font-size: 22px;
+  z-index: 1; }
   body .header .headerContainer {
     margin: 0 auto;
     display: flex;
@@ -32,9 +33,9 @@ body .header {
       display: flex;
       justify-content: space-between;
       list-style-type: none;
-      margin: 10px 153px 0 153px;
+      margin: 10px 83px 0 323px;
       padding: 0;
-      width: 650px; }
+      width: 550px; }
       body .header .headerContainer .navbar ul a {
         text-decoration: none;
         color: black;
@@ -45,7 +46,8 @@ body .header {
           display: none; }
     body .header .headerContainer .inicioSesionBtn {
       background-color: #2FEDC8;
-      color: #5B3D80; }
+      color: #5B3D80;
+      margin: 0 45px 0 -10px; }
       body .header .headerContainer .inicioSesionBtn:hover {
         background-color: #5B3D80;
         color: #19ebc4;
@@ -62,7 +64,6 @@ body .header {
       height: 45px;
       border-radius: 100px;
       border: none;
-      margin: 0 25px 0 0;
       font-family: 'Source Sans Pro', sans-serif;
       font-size: 18px;
       font-style: normal;
@@ -165,18 +166,16 @@ body .header {
 
 body .main {
   background: url(../media/cohete-background.jpg);
-  position: absolute;
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  position: relative;
   top: 150px; }
   body .main .mainContainer {
     position: absolute;
     width: 750px;
     height: 610px;
-    right: 13.4%;
+    margin: 0 30% 0 45%;
     top: 170px;
     display: flex;
     flex-flow: column nowrap; }
@@ -216,22 +215,24 @@ body .main {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 22px;
+      line-height: 27.65px;
       margin: 95px 19% 0 0;
-      align-self: center; }
+      align-self: center;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       body .main .mainContainer .descargaBtn:hover {
         background: rgba(96, 0, 217, 0.7); }
+      body .main .mainContainer .descargaBtn img {
+        margin: 0 10px 0 0; }
 
 body .womanQuestion {
-  background: url(../media/woman-preguntas.svg);
-  position: absolute;
+  background: url(../media/mujerQuestionSola.png), url(../media/fondoQuestions.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: 1080px; }
+  position: relative; }
   body .womanQuestion .womanQuestionsAlone {
     display: none; }
   body .womanQuestion .decoElements {
@@ -274,14 +275,11 @@ body .womanQuestion {
       margin: 0; }
 
 body #aprendo {
-  background: url(../media/woman-aprendo.svg);
-  position: absolute;
+  background: url(../media/MujerConMesa.png), url(../media/fondoSoloMesa.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: 2160px; }
+  position: relative; }
   body #aprendo .womanNetbookAlone {
     display: none; }
   body #aprendo .aprendo--container {
@@ -327,14 +325,11 @@ body #aprendo {
           margin: 0 0 0 44.36px; }
 
 body #consulta {
-  background: url(../media/woman-consulta.svg);
-  position: absolute;
+  background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  top: 3230px; }
+  position: relative; }
   body #consulta .womanConsultaAlone {
     display: none; }
   body #consulta .consulta--container {
@@ -375,19 +370,21 @@ body #consulta {
       font-weight: bold;
       font-size: 24px;
       line-height: 30px;
-      margin: 0 0 0 125px; }
+      margin: 0 0 0 125px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
       body #consulta .consulta--container .descargaBtn:hover {
         background: rgba(96, 0, 217, 0.7); }
+      body #consulta .consulta--container .descargaBtn img {
+        margin: 0 10px 0 0; }
 
 body #horarios {
-  background: url(../media/woman-calendar.jpg);
-  top: 5900px;
-  position: absolute;
+  background: url(../media/mujerCalendarioSola.png), url(../media/fondoSoloCalendario.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain; }
+  position: relative; }
   body #horarios .womanCalendarioAlone {
     display: none; }
   body #horarios .horarios--container {
@@ -422,16 +419,13 @@ body #horarios {
       width: 60.3%; }
 
 body #planes {
-  background: url(../media/woman-planes.jpg);
-  position: absolute;
+  background: url(../media/mujerSolaTarjeta.png), url(../media/FondoSoloTarjeta.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 1220px;
-  top: 6970px;
-  position: relative; }
+  position: relative;
+  background-position: 80px, 0;
+  height: 1220px; }
   body #planes .womanPagosAlone {
     display: none; }
   body #planes .planes--container {
@@ -556,12 +550,11 @@ body #planes {
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
           background-color: #6000d9;
           display: flex;
-          flex-flow: row nowrap;
           justify-content: center;
           align-items: center;
           transition: all .1s; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            margin: 0 0 0 9px; }
+            margin: 0 0 0 10px; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:hover {
             background: #420194; }
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
@@ -571,16 +564,14 @@ body #planes {
             background-color: #5B3D80; }
 
 body #profesionales {
-  height: 1520px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 4350px; }
+  height: 1400px;
+  position: relative;
+  width: 100%; }
   body #profesionales .profesionales--container {
     position: absolute;
     top: 8.55%;
-    left: 8.3%;
-    width: 67.7%; }
+    margin: 0 auto 0 9%;
+    width: 75%; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -595,11 +586,11 @@ body #profesionales {
       font-weight: normal;
       font-size: 24px;
       line-height: 30px;
-      max-width: 750px;
-      margin: auto 0 0 auto; }
+      max-width: 1010px;
+      margin: 70px 0 0 0; }
   body #profesionales .profesionales-carousel {
     position: absolute;
-    top: 620px; }
+    top: 520px; }
     body #profesionales .profesionales-carousel .item {
       color: #Fff;
       max-width: 510px;
@@ -653,12 +644,10 @@ body #profesionales {
             transition: all .2s; }
 
 body #carousel3dotsMobile {
-  position: absolute;
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  width: 100%;
-  left: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  position: relative;
   background: url(../media/background-mobile.jpg);
   background-repeat: repeat-x;
   background-position: center center;
@@ -666,9 +655,9 @@ body #carousel3dotsMobile {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 1660px;
   display: none;
-  height: 1000px; }
+  height: 1000px;
+  width: 100%; }
   body #carousel3dotsMobile #carouselExampleFade {
     position: absolute;
     top: 0;
@@ -734,8 +723,8 @@ body #carousel3dotsMobile {
 
 body #littleCarouselMobile {
   display: none;
-  position: relative;
-  top: 2370px;
+  position: absolute;
+  top: 2430px;
   height: 200px; }
   body #littleCarouselMobile .littleCarouselMobile--container .owl-stage-outer {
     height: 250px;
@@ -774,29 +763,23 @@ body #littleCarouselMobile {
       margin: 5px 0 0 0;
       height: 36px; }
 
-@media (max-width: 2560px) {
-  body .womanQuestion, body #aprendo, body #consulta, body #horarios, body #planes {
-    background-size: cover; } }
-
-@media (max-width: 1920px) {
-  body .womanQuestion, body #aprendo, body #consulta, body #horarios, body #planes {
-    background-size: contain; } }
-
 @media (max-width: 1600px) {
-  body .main .mainContainer {
-    top: 140px;
-    width: 650px;
-    right: 9%; }
-    body .main .mainContainer .h1Container h1 {
-      font-size: 60px;
-      line-height: 70px; }
-    body .main .mainContainer p {
-      font-size: 20px;
-      width: 576px; }
-    body .main .mainContainer .descargaBtn {
-      margin: 60px 16% 0 0; }
+  body .main {
+    height: 900px; }
+    body .main .mainContainer {
+      top: 140px;
+      width: 650px; }
+      body .main .mainContainer .h1Container h1 {
+        font-size: 60px;
+        line-height: 70px; }
+      body .main .mainContainer p {
+        font-size: 20px;
+        width: 576px; }
+      body .main .mainContainer .descargaBtn {
+        margin: 60px 16% 0 0; }
+        body .main .mainContainer .descargaBtn img {
+          width: 21.5px; }
   body .womanQuestion {
-    top: 900px;
     height: 900px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
       font-size: 20px; }
@@ -804,7 +787,6 @@ body #littleCarouselMobile {
       font-size: 20px;
       height: 113px; }
   body #aprendo {
-    top: 1800px;
     height: 900px; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
       font-size: 60px;
@@ -818,7 +800,6 @@ body #littleCarouselMobile {
         body #aprendo .aprendo--container .cards--container div span {
           font-size: 20px; }
   body #consulta {
-    top: 2700px;
     height: 900px; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 60px;
@@ -829,16 +810,18 @@ body #littleCarouselMobile {
     body #consulta .consulta--container .descargaBtn {
       font-size: 22px;
       margin: 0 0 0 100px; }
+      body #consulta .consulta--container .descargaBtn img {
+        width: 21.5px; }
   body #profesionales {
-    height: 1266px;
-    top: 3600px; }
+    height: 1266px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 60px;
       line-height: 82px; }
     body #profesionales .profesionales--container p {
       font-size: 20px;
       line-height: 25px;
-      max-width: 625px; }
+      max-width: 842px;
+      margin: 58px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 517px; }
       body #profesionales .profesionales-carousel .item {
@@ -861,7 +844,6 @@ body #littleCarouselMobile {
             padding: 6.6px 13.2px;
             margin: 16.6px 0 0 0; }
   body #horarios {
-    top: 4880px;
     height: 900px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 60px;
@@ -874,8 +856,7 @@ body #littleCarouselMobile {
     body #horarios .horarios--container p {
       font-size: 20px; }
   body #planes {
-    height: 1017px;
-    top: 5770px; }
+    height: 1017px; }
     body #planes .planes--container {
       min-width: 750px; }
       body #planes .planes--container .planes--container__h2 {
@@ -919,7 +900,6 @@ body #littleCarouselMobile {
 
 @media (max-width: 1440px) {
   body .womanQuestion {
-    top: 810px;
     height: 810px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
       font-size: 18px; }
@@ -927,7 +907,6 @@ body #littleCarouselMobile {
       font-size: 18px;
       height: 102px; }
   body #aprendo {
-    top: 1620px;
     height: 810px; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
       font-size: 54px;
@@ -961,7 +940,6 @@ body #littleCarouselMobile {
         body #aprendo .aprendo--container .cards--container div .m5 {
           margin: 0 0 0 33.27px; }
   body #consulta {
-    top: 2420px;
     height: 810px; }
     body #consulta .consulta--container {
       top: 15%; }
@@ -976,15 +954,15 @@ body #littleCarouselMobile {
         font-size: 20px;
         margin: 0 0 0 75px; }
   body #profesionales {
-    height: 1140px;
-    top: 3250px; }
+    height: 1140px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 54px;
       line-height: 73.5px; }
     body #profesionales .profesionales--container p {
       font-size: 18px;
       line-height: 22.5px;
-      max-width: 562.5px; }
+      max-width: 758px;
+      margin: 52.5px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 465px; }
       body #profesionales .profesionales-carousel .item {
@@ -1007,7 +985,6 @@ body #littleCarouselMobile {
             margin: 13px 0 0 0;
             padding: 6px 12px; }
   body #horarios {
-    top: 4400px;
     height: 810px; }
     body #horarios .horarios--container {
       height: 38%; }
@@ -1023,8 +1000,7 @@ body #littleCarouselMobile {
         font-size: 18px;
         line-height: 22.5px; }
   body #planes {
-    height: 915px;
-    top: 5200px; }
+    height: 915px; }
     body #planes .planes--container {
       min-width: 680px; }
       body #planes .planes--container .planes--container__h2 {
@@ -1073,23 +1049,26 @@ body #littleCarouselMobile {
             margin: 0 0 2px 8px; } }
 
 @media (max-width: 1200px) {
-  body .main .mainContainer {
-    width: 500px;
-    top: 80px;
-    right: 5%; }
-    body .main .mainContainer .h1Container {
-      margin: 0 0 30px 0; }
-      body .main .mainContainer .h1Container h1 {
-        font-size: 42px;
-        line-height: 55px; }
-    body .main .mainContainer p {
-      font-size: 16px;
-      width: 420px;
-      line-height: 25px; }
-    body .main .mainContainer .descargaBtn {
-      width: 260px;
-      height: 37.5px;
-      font-size: 16px; }
+  body .main {
+    height: 700px; }
+    body .main .mainContainer {
+      width: 500px;
+      top: 80px; }
+      body .main .mainContainer .h1Container {
+        margin: 0 0 30px 0; }
+        body .main .mainContainer .h1Container h1 {
+          font-size: 42px;
+          line-height: 55px; }
+      body .main .mainContainer p {
+        font-size: 16px;
+        width: 420px;
+        line-height: 25px; }
+      body .main .mainContainer .descargaBtn {
+        width: 260px;
+        height: 37.5px;
+        font-size: 16px; }
+        body .main .mainContainer .descargaBtn img {
+          width: 16.25px; }
   body .womanQuestion {
     height: 675px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -1099,7 +1078,6 @@ body #littleCarouselMobile {
       font-size: 16px;
       height: 85px; }
   body #aprendo {
-    top: 1500px;
     height: 675px; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
       font-size: 45px; }
@@ -1120,7 +1098,6 @@ body #littleCarouselMobile {
     body #aprendo .aprendo--container .cards--container div span {
       font-size: 15px; }
   body #consulta {
-    top: 2170px;
     height: 675px; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 45px;
@@ -1134,16 +1111,18 @@ body #littleCarouselMobile {
       height: 37.5px;
       font-size: 16px;
       margin: 0 0 0 60px; }
+      body #consulta .consulta--container .descargaBtn img {
+        width: 16.25px; }
   body #profesionales {
-    height: 950px;
-    top: 2850px; }
+    height: 950px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 45px;
       line-height: 61.2px; }
     body #profesionales .profesionales--container p {
       font-size: 15px;
       line-height: 18.75px;
-      max-width: 469px; }
+      max-width: 632px;
+      margin: 43.75px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 387.5px; }
       body #profesionales .profesionales-carousel .item {
@@ -1166,7 +1145,6 @@ body #littleCarouselMobile {
             margin: 9.3px 0 0 0;
             padding: 5px 10px; }
   body #horarios {
-    top: 3800px;
     height: 675px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 45px;
@@ -1180,8 +1158,8 @@ body #littleCarouselMobile {
       font-size: 15px;
       line-height: 18.75px; }
   body #planes {
-    height: 762.5px;
-    top: 4460px; }
+    background-position: 60px, 0;
+    height: 762.5px; }
     body #planes .planes--container {
       min-width: 560px; }
       body #planes .planes--container .planes--container__h2 {
@@ -1228,8 +1206,11 @@ body #littleCarouselMobile {
             width: 16.25px; } }
 
 @media (max-width: 1024px) {
+  body .main .mainContainer {
+    margin: 0 30% 0 43%; }
+    body .main .mainContainer .descargaBtn img {
+      width: 13.8px; }
   body .womanQuestion {
-    top: 700px;
     height: 576px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
       font-size: 14px; }
@@ -1238,7 +1219,6 @@ body #littleCarouselMobile {
       font-size: 14px;
       height: 72.5px; }
   body #aprendo {
-    top: 1300px;
     height: 576px; }
     body #aprendo .aprendo--container {
       top: 7%; }
@@ -1274,7 +1254,6 @@ body #littleCarouselMobile {
         body #aprendo .aprendo--container .cards--container div .m5 {
           margin: 0 0 0 23.66px; }
   body #consulta {
-    top: 1870px;
     height: 576px; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 38.4px;
@@ -1285,16 +1264,18 @@ body #littleCarouselMobile {
       margin: 0 0 40px 0; }
     body #consulta .consulta--container .descargaBtn {
       margin: 0 0 0 50px; }
+      body #consulta .consulta--container .descargaBtn img {
+        width: 13.8px; }
   body #profesionales {
-    height: 810px;
-    top: 2450px; }
+    height: 810px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 38.5px;
       line-height: 52.2px; }
     body #profesionales .profesionales--container p {
       font-size: 12.8px;
       line-height: 16px;
-      max-width: 400px; }
+      max-width: 538px;
+      margin: 37px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 330px; }
       body #profesionales .profesionales-carousel .item {
@@ -1316,7 +1297,6 @@ body #littleCarouselMobile {
             line-height: 13.3px;
             padding: 4.2px 8.4px; }
   body #horarios {
-    top: 3250px;
     height: 576px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 38.4px;
@@ -1330,8 +1310,7 @@ body #littleCarouselMobile {
       font-size: 12.8px;
       line-height: 16px; }
   body #planes {
-    height: 650px;
-    top: 3810px; }
+    height: 650px; }
     body #planes .planes--container {
       min-width: 500px; }
       body #planes .planes--container .planes--container__h2 {
@@ -1381,22 +1360,24 @@ body #littleCarouselMobile {
             width: 13.8px; } }
 
 @media (max-width: 881px) {
-  body .main .mainContainer {
-    width: 380px;
-    top: 40px; }
-    body .main .mainContainer .h1Container h1 {
-      font-size: 36px;
-      line-height: 40px; }
-    body .main .mainContainer p {
-      font-size: 14px;
-      width: 360px; }
-    body .main .mainContainer .descargaBtn {
-      width: 220px;
-      height: 35px;
-      font-size: 14px;
-      margin: 50px 17% 0 0; }
+  body .main {
+    height: 560px; }
+    body .main .mainContainer {
+      width: 380px;
+      top: 40px;
+      margin: 0 30% 0 45%; }
+      body .main .mainContainer .h1Container h1 {
+        font-size: 36px;
+        line-height: 40px; }
+      body .main .mainContainer p {
+        font-size: 14px;
+        width: 360px; }
+      body .main .mainContainer .descargaBtn {
+        width: 220px;
+        height: 35px;
+        font-size: 14px;
+        margin: 50px 17% 0 0; }
   body .womanQuestion {
-    top: 600px;
     height: 495px; }
     body .womanQuestion .womanQuestion--container {
       width: 50%; }
@@ -1409,7 +1390,6 @@ body #littleCarouselMobile {
         font-size: 12px;
         height: 62.3px; }
   body #aprendo {
-    top: 1100px;
     height: 495px; }
     body #aprendo .aprendo--container {
       top: 6%; }
@@ -1433,7 +1413,6 @@ body #littleCarouselMobile {
       body #aprendo .aprendo--container .cards--container div span {
         font-size: 11px; }
   body #consulta {
-    top: 1580px;
     height: 495px; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 33px;
@@ -1448,15 +1427,15 @@ body #littleCarouselMobile {
       font-size: 14px;
       margin: 0 0 0 30px; }
   body #profesionales {
-    height: 697px;
-    top: 2100px; }
+    height: 697px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 33px;
       line-height: 45px; }
     body #profesionales .profesionales--container p {
       font-size: 11px;
       line-height: 13.75px;
-      max-width: 344px; }
+      max-width: 463px;
+      margin: 32px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 284px; }
       body #profesionales .profesionales-carousel .item {
@@ -1477,7 +1456,6 @@ body #littleCarouselMobile {
             line-height: 11.5px;
             padding: 3.6px 6.4px; }
   body #horarios {
-    top: 2800px;
     height: 495px; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-size: 33px;
@@ -1490,8 +1468,7 @@ body #littleCarouselMobile {
     body #horarios .horarios--container p {
       font-size: 11px; }
   body #planes {
-    height: 560px;
-    top: 3290px; }
+    height: 560px; }
     body #planes .planes--container {
       min-width: 380px; }
       body #planes .planes--container .planes--container__h2 {
@@ -1545,31 +1522,27 @@ body #littleCarouselMobile {
     background-position-x: -30px; }
   body .womanQuestion .womanQuestion--container .womanQuestion__questions {
     list-style-image: url(../media/item-lista-mobile.svg); }
-  body #aprendo {
-    top: 1050px; }
-    body #aprendo .aprendo--container {
-      top: 3%; }
-      body #aprendo .aprendo--container p {
-        height: 55px; }
-  body #consulta {
-    top: 1480px; }
-    body #consulta .consulta--container {
-      width: 48%; }
-      body #consulta .consulta--container .consulta--container__h2 {
-        line-height: 39.2px;
-        margin: 0 0 30px 0; }
-      body #consulta .consulta--container p {
-        height: 70px; }
+  body #aprendo .aprendo--container {
+    top: 3%; }
+    body #aprendo .aprendo--container p {
+      height: 55px; }
+  body #consulta .consulta--container {
+    width: 48%; }
+    body #consulta .consulta--container .consulta--container__h2 {
+      line-height: 39.2px;
+      margin: 0 0 30px 0; }
+    body #consulta .consulta--container p {
+      height: 70px; }
   body #profesionales {
-    height: 608px;
-    top: 1970px; }
+    height: 608px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 28.8px;
       line-height: 39px; }
     body #profesionales .profesionales--container p {
       font-size: 9.6px;
       line-height: 12px;
-      max-width: 300px; }
+      max-width: 404px;
+      margin: 28px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 248px; }
       body #profesionales .profesionales-carousel .item {
@@ -1589,22 +1562,19 @@ body #littleCarouselMobile {
             font-size: 8px;
             line-height: 10px;
             padding: 3.2px 6.2px; }
-  body #horarios {
-    top: 2600px; }
-    body #horarios .horarios--container {
-      width: 62%;
-      right: 32%; }
-      body #horarios .horarios--container .horarios--container__h2 {
-        line-height: 39.2px;
-        margin: 0 0 12px 0; }
-      body #horarios .horarios--container .horarios--container__h3 {
-        width: 70%;
-        font-size: 22px;
-        line-height: 29.7px;
-        margin: 0 0 22px 0; }
+  body #horarios .horarios--container {
+    width: 62%;
+    right: 32%; }
+    body #horarios .horarios--container .horarios--container__h2 {
+      line-height: 39.2px;
+      margin: 0 0 12px 0; }
+    body #horarios .horarios--container .horarios--container__h3 {
+      width: 70%;
+      font-size: 22px;
+      line-height: 29.7px;
+      margin: 0 0 22px 0; }
   body #planes {
-    height: 560px;
-    top: 3030px; }
+    height: 560px; }
     body #planes .planes--container {
       height: 64%;
       top: 9%; }
@@ -1659,10 +1629,11 @@ body #littleCarouselMobile {
     background: none;
     display: flex;
     align-items: center;
-    justify-content: center; }
+    justify-content: center;
+    height: 860px; }
     body .main .mainContainer {
       position: unset;
-      margin: 300px 0 0 0; }
+      margin: 550px 0 0 0; }
       body .main .mainContainer .coheteAlone {
         display: block;
         position: absolute;
@@ -1706,8 +1677,9 @@ body #littleCarouselMobile {
           background-color: #6000D9; }
         body .main .mainContainer .descargaBtn:active {
           background: rgba(96, 0, 217, 0.7); }
+        body .main .mainContainer .descargaBtn img {
+          display: none; }
   body .womanQuestion {
-    top: 800px;
     height: 860px;
     background: url(../media/background-mobile.jpg);
     background-repeat: repeat-x;
@@ -1750,7 +1722,8 @@ body #littleCarouselMobile {
   body #carousel3dotsMobile {
     display: flex; }
   body #littleCarouselMobile {
-    display: inline; }
+    display: block;
+    width: 100%; }
   body #aprendo {
     display: none; }
   body #consulta {
@@ -1767,7 +1740,6 @@ body #littleCarouselMobile {
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 2410px;
     height: 1112px; }
     body #planes .womanPagosAlone {
       display: block;
@@ -1945,7 +1917,7 @@ body #littleCarouselMobile {
   body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
     height: 170px; }
   body #littleCarouselMobile {
-    top: 2320px; }
+    top: 2370px; }
   body #aprendo .aprendo--container .aprendo--container__h2 {
     width: 100%;
     text-align: center;
@@ -1967,6 +1939,4 @@ body #littleCarouselMobile {
     width: 100%; }
     body #horarios .horarios--container p {
       width: 90%;
-      margin: 0 auto; }
-  body #planes {
-    top: 2370px; } }
+      margin: 0 auto; } }

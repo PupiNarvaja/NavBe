@@ -1,25 +1,26 @@
 //--------------------------- Solo de las secciones ------------------
-@media (max-width:2560px) {
-    body {
-        .womanQuestion, #aprendo, #consulta, #horarios, #planes{
-            background-size: cover;
-        }
-    }
-}
-@media (max-width:1920px) {
-    body {
-        .womanQuestion, #aprendo, #consulta, #horarios, #planes{
-            background-size: contain;
-        }
-    }
-}
+// @media (max-width:2560px) {
+//     body {
+//         .womanQuestion, #aprendo, #consulta, #horarios, #planes{
+//             background-size: cover;
+//         }
+//     }
+// }
+// @media (max-width:1920px) {
+//     body {
+//         .womanQuestion, #aprendo, #consulta, #horarios, #planes{
+//             background-size: contain;
+//         }
+//     }
+// }
 @media (max-width: 1600px) {
     body {
         .main {
+            height: 900px;
             .mainContainer {
                 top: 140px;
                 width: 650px;
-                right: 9%;
+                // right: 9%;
                 .h1Container {
                     h1 {
                         font-size: 60px;
@@ -32,13 +33,16 @@
                 }
                 .descargaBtn {
                     margin: 60px 16% 0 0;
+                    img {
+                        width: 21.5px;
+                    }
                 }
             }
         }
 
 //----------------------------- Sección Woman Question 1600px--------------------
         .womanQuestion {
-            top: 900px;
+            // top: 900px;
             height: 900px;
             .womanQuestion--container {
                 .womanQuestion__questions {
@@ -54,7 +58,7 @@
         }
 //----------------------------- Sección Aprende con nosotros 1600px--------------------
         #aprendo {
-            top: 1800px;
+            // top: 1800px;
             height: 900px;
             .aprendo--container {
                 .aprendo--container__h2 {
@@ -77,7 +81,7 @@
         }
 //----------------------------- Sección Consulta 1600px---------------------------
         #consulta {
-            top: 2700px;
+            // top: 2700px;
             height: 900px;
             .consulta--container {
                 .consulta--container__h2 {
@@ -91,13 +95,16 @@
                 .descargaBtn {
                     font-size: 22px;
                     margin: 0 0 0 100px;
+                    img {
+                        width: 21.5px;
+                    }
                 }
             }
         }
 //----------------------------- Sección Profesionales 1600px--------------------
         #profesionales {
+            // top: 3600px;
             height: 1266px;
-            top: 3600px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 60px;
@@ -106,7 +113,8 @@
                 p {
                     font-size: 20px;
                     line-height: 25px;
-                    max-width: 625px;
+                    max-width: 842px;
+                    margin: 58px 0 0 0;
                 }
             }
             .profesionales-carousel {
@@ -142,7 +150,7 @@
         }
 //----------------------------- Sección Horarios 1600px--------------------
         #horarios {
-            top: 4880px;
+            // top: 4880px;
             height: 900px;
             .horarios--container {
                 .horarios--container__h2 {
@@ -162,8 +170,8 @@
         }
 //----------------------------- Sección Planes 1600px--------------------
        #planes {
+        //    top: 5770px;
            height: 1017px;
-           top: 5770px;
             .planes--container {
                 min-width: 750px;
                 .planes--container__h2 {
@@ -230,7 +238,7 @@
 @media (max-width: 1440px) {
     body {
         .womanQuestion {
-            top: 810px;
+            // top: 810px;
             height: 810px;
             .womanQuestion--container {
                 .womanQuestion__questions {
@@ -246,7 +254,7 @@
         }
 //----------------------------- Sección Aprende con nosotros 1440px--------------------
         #aprendo {
-            top: 1620px;
+            // top: 1620px;
             height: 810px;
             .aprendo--container {
                 .aprendo--container__h2 {
@@ -298,7 +306,7 @@
         }
  //----------------------------- Sección Consulta 1440px---------------------------
         #consulta {
-            top: 2420px;
+            // top: 2420px;
             height: 810px;
             .consulta--container {
                 top: 15%;
@@ -319,8 +327,8 @@
         }
 //----------------------------- Sección Profesionales 1440px--------------------
         #profesionales {
+            // top: 3250px;
             height: 1140px;
-            top: 3250px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 54px;
@@ -329,7 +337,8 @@
                 p {
                     font-size: 18px;
                     line-height: 22.5px;
-                    max-width: 562.5px;
+                    max-width: 758px;
+                    margin: 52.5px 0 0 0;
                 }
             }
             .profesionales-carousel {
@@ -365,7 +374,7 @@
         }
 //----------------------------- Sección Horarios 1440px--------------------
         #horarios {
-            top: 4400px;
+            // top: 4400px;
             height: 810px;
             .horarios--container {
                 height: 38%;
@@ -387,8 +396,8 @@
         }
 //----------------------------- Sección Aprende con nosotros 1440px--------------------
         #planes {
+            // top: 5200px;
             height: 915px;
-            top: 5200px;
             .planes--container {
                 min-width: 680px;
                 .planes--container__h2 {
@@ -461,10 +470,11 @@
 @media (max-width: 1200px) {
     body {
         .main {
+            height: 700px;
             .mainContainer {
                 width: 500px;
                 top: 80px;
-                right: 5%;
+                // right: 5%;
                 .h1Container {
                     margin: 0 0 30px 0;
                     h1 {
@@ -481,6 +491,9 @@
                     width: 260px;
                     height: 37.5px;
                     font-size: 16px;
+                    img {
+                        width: 16.25px;
+                    }
                 }
             }
         }
@@ -502,7 +515,7 @@
         }
 //----------------------------- Sección Aprende con nosotros 1200px--------------------
         #aprendo {
-            top: 1500px;
+            // top: 1500px;
             height: 675px;
             .aprendo--container {
                 .aprendo--container__h2 {
@@ -539,7 +552,7 @@
         }
 //----------------------------- Sección Consulta 1200px---------------------------
         #consulta {
-            top: 2170px;
+            // top: 2170px;
             height: 675px;
             .consulta--container {
                 .consulta--container__h2 {
@@ -556,13 +569,16 @@
                     height: 37.5px;
                     font-size: 16px;
                     margin: 0 0 0 60px;
+                    img {
+                        width: 16.25px;
+                    }
                 }
             }
         }
 //----------------------------- Sección Profesionales 1200px--------------------
         #profesionales {
+            // top: 2850px;
             height: 950px;
-            top: 2850px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 45px;
@@ -571,7 +587,8 @@
                 p {
                     font-size: 15px;
                     line-height: 18.75px;
-                    max-width: 469px;
+                    max-width: 632px;
+                    margin: 43.75px 0 0 0;
                 }
             }
             .profesionales-carousel {
@@ -607,7 +624,7 @@
         }
 //----------------------------- Sección Horarios 1200px--------------------
         #horarios {
-            top: 3800px;
+            // top: 3800px;
             height: 675px;
             .horarios--container {
                 .horarios--container__h2 {
@@ -628,8 +645,9 @@
         }
 //----------------------------- Sección Aprende con nosotros 1200px--------------------
         #planes {
+            // top: 4460px;
+            background-position: 60px, 0;
             height: 762.5px;
-            top: 4460px;
             .planes--container {
                 min-width: 560px;
                 .planes--container__h2 {
@@ -699,9 +717,20 @@
 
 @media (max-width: 1024px) {
     body {
+//----------------------------- Sección Main 1024px--------------------  
+        .main {
+            .mainContainer {
+                margin: 0 30% 0 43%;
+                .descargaBtn {
+                    img {
+                        width: 13.8px;
+                    }
+                }
+            }
+        }
 //----------------------------- Sección Woman Question 1024px--------------------
         .womanQuestion {
-            top: 700px;
+            // top: 700px;
             height: 576px;
             .womanQuestion--container {
                 .womanQuestion__questions {
@@ -718,7 +747,7 @@
         }
 //----------------------------- Sección Aprende con nosotros 1024px--------------------
         #aprendo {
-            top: 1300px;
+            // top: 1300px;
             height: 576px;
             .aprendo--container {
                 top: 7%;
@@ -772,7 +801,7 @@
         }
 //----------------------------- Sección Consulta 1024px---------------------------
         #consulta {
-            top: 1870px;
+            // top: 1870px;
             height: 576px;
             .consulta--container {
                 .consulta--container__h2 {
@@ -786,13 +815,16 @@
                 }
                 .descargaBtn {
                     margin: 0 0 0 50px;
+                    img {
+                        width: 13.8px;
+                    }
                 }
             }
         }
 //----------------------------- Sección Profesionales 1024px--------------------
         #profesionales {
+            // top: 2450px;
             height: 810px;
-            top: 2450px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 38.5px;
@@ -801,7 +833,8 @@
                 p {
                     font-size: 12.8px;
                     line-height: 16px;
-                    max-width: 400px;
+                    max-width: 538px;
+                    margin: 37px 0 0 0;
                 }
             }
             .profesionales-carousel {
@@ -836,7 +869,7 @@
         }
 //----------------------------- Sección Horarios 1024px--------------------
         #horarios {
-            top: 3250px;
+            // top: 3250px;
             height: 576px;
             .horarios--container {
                 .horarios--container__h2 {
@@ -857,8 +890,8 @@
         }
 //----------------------------- Sección Aprende con nosotros 1024px--------------------
         #planes {
+            // top: 3810px;
             height: 650px;
-            top: 3810px;
             .planes--container {
                 min-width: 500px;
                 .planes--container__h2 {
@@ -932,9 +965,11 @@
 @media (max-width: 881px) {
     body {
         .main {
+            height: 560px;
             .mainContainer {
                 width: 380px;
                 top: 40px;
+                margin: 0 30% 0 45%;
                 .h1Container {
                     h1 {
                         font-size: 36px;
@@ -955,7 +990,7 @@
         }
 //----------------------------- Sección Woman Question 881px--------------------
         .womanQuestion {
-            top: 600px;
+            // top: 600px;
             height: 495px;
             .womanQuestion--container {
                 width: 50%;
@@ -976,7 +1011,7 @@
         }
 //----------------------------- Sección Aprende con nosotros 881px--------------------
         #aprendo {
-            top: 1100px;
+            // top: 1100px;
             height: 495px;
             .aprendo--container {
                 top: 6%;
@@ -1015,7 +1050,7 @@
         }
 //----------------------------- Sección Consulta 881px---------------------------
         #consulta {
-            top: 1580px;
+            // top: 1580px;
             height: 495px;
             .consulta--container {
                 .consulta--container__h2 {
@@ -1037,8 +1072,8 @@
         }
 //----------------------------- Sección Profesionales 881px--------------------
         #profesionales {
+            // top: 2100px;
             height: 697px;
-            top: 2100px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 33px;
@@ -1047,7 +1082,8 @@
                 p {
                     font-size: 11px;
                     line-height: 13.75px;
-                    max-width: 344px;
+                    max-width: 463px;
+                    margin: 32px 0 0 0;
                 }
             }
             .profesionales-carousel {
@@ -1081,7 +1117,7 @@
         }
 //----------------------------- Sección Horarios 881px--------------------
         #horarios {
-            top: 2800px;
+            // top: 2800px;
             height: 495px;
             .horarios--container {
                 .horarios--container__h2 {
@@ -1102,7 +1138,7 @@
 //----------------------------- Sección Aprende con nosotros 881px--------------------
         #planes {
             height: 560px;
-            top: 3290px;
+            // top: 3290px;
             .planes--container {
                 min-width: 380px;
                 .planes--container__h2 {
@@ -1188,7 +1224,7 @@
         }
 //----------------------------- Sección Aprende con nosotros 768px--------------------
         #aprendo {
-            top: 1050px;
+            // top: 1050px;
             .aprendo--container {
                 top: 3%;
                 p {
@@ -1198,7 +1234,7 @@
         }
 //----------------------------- Sección Consulta 768px---------------------------
         #consulta {
-            top: 1480px;
+            // top: 1480px;
             .consulta--container {
                 width: 48%;
                 .consulta--container__h2 {
@@ -1213,7 +1249,7 @@
 //----------------------------- Sección Profesionales 768px--------------------
         #profesionales {
             height: 608px;
-            top: 1970px;
+            // top: 1970px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 28.8px;
@@ -1222,7 +1258,8 @@
                 p {
                     font-size: 9.6px;
                     line-height: 12px;
-                    max-width: 300px;
+                    max-width: 404px;
+                    margin: 28px 0 0 0;
                 }
             }
             .profesionales-carousel {
@@ -1256,7 +1293,7 @@
         }
 //----------------------------- Sección Horarios 768px--------------------
         #horarios {
-            top: 2600px;
+            // top: 2600px;
             .horarios--container {
                 width: 62%;
                 right: 32%;
@@ -1275,7 +1312,7 @@
 //----------------------------- Sección Aprende con nosotros 768px--------------------
         #planes {
             height: 560px;
-            top: 3030px;
+            // top: 3030px;
             .planes--container {
                 height: 64%;
                 top: 9%;
@@ -1354,9 +1391,10 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            height: 860px;
             .mainContainer {
                 position: unset;
-                margin: 300px 0 0 0;
+                margin: 550px 0 0 0;
                 .coheteAlone {
                     display: block;
                     position: absolute;
@@ -1411,12 +1449,15 @@
                     &:active {
                         background: rgba(96, 0, 217, 0.7);
                     }
+                    img {
+                        display: none;
+                    }
                 }
             }
         }
 //----------------------------- Sección Woman Question 700px--------------------
         .womanQuestion {
-            top: 800px;
+            // top: 800px;
             height: 860px;
             @include mobile-backgrounds;
             .womanQuestionsAlone {
@@ -1453,7 +1494,8 @@
             display: flex;
         }
         #littleCarouselMobile {
-            display: inline;
+            display: block;
+            width: 100%;
         }
 //----------------------------- Sección Aprende con nosotros 700px--------------------
         #aprendo {
@@ -1474,7 +1516,7 @@
 //----------------------------- Sección Planes 700px--------------------
         #planes {
             @include mobile-backgrounds;
-            top: 2410px;
+            // top: 2410px;
             height: 1112px;
             .womanPagosAlone {
                 display: block;
@@ -1757,7 +1799,7 @@
         }
 //----------------------------- Sección littleCarouselMobile 355px--------------------
         #littleCarouselMobile {
-            top: 2320px;
+            top: 2370px;
         }
 //----------------------------- Sección Aprendo 355px---------------------------
         #aprendo {
@@ -1798,10 +1840,6 @@
                     margin: 0 auto;
                 }
             }
-        }
-//----------------------------- Sección Planes 355px--------------------
-        #planes {
-            top: 2370px;
         }
     }
 }

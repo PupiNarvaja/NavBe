@@ -1,8 +1,10 @@
 body {
     #horarios {
-        background: url(../media/woman-calendar.jpg);
-        top: 5900px;
+        background: url(../media/mujerCalendarioSola.png), url(../media/fondoSoloCalendario.png);
         @include backgrounds;
+        // background: url(../media/woman-calendar.jpg);
+        // top: 5900px;
+        // @include backgrounds;
         .womanCalendarioAlone {
             display: none;
         }
