@@ -52,20 +52,19 @@ body {
                 background-color: #2FEDC8;
                 color: $violeta;
                 margin: 0 45px 0 -10px;
+                transition: all .2s;
                 &:hover {
-                    background-color: $violeta;
-                    color: rgba(25, 235, 196, 1);
-                    transition: all .2s;
+                    background-color: #21D6B2;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25)
                 }
             }
             .registrarmeBtn {
-                background-color: $violeta;
+                background-color: #6C5893;
                 color: white;
-                // margin: 0 25px 0 0;
+                transition: all .2s;
                 &:hover {
-                    background-color:rgba(25, 235, 196, 1) ;
-                    color: $violeta;
-                    transition: all .2s;
+                    background: $violeta;
+                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
                 }
             }
             .inicioSesionBtn, .registrarmeBtn {

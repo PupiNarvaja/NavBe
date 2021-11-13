@@ -153,6 +153,7 @@ body {
                         .inscribirGratisBtn {
                             background-color: rgba(119, 96, 148, 1);
                             transition: all .1s;
+                            margin: 4px 13.41% 0 13.41%;
                             &:hover {
                                 background-color: $violeta;
                             }

@@ -1,6 +1,5 @@
+// ========== Carousels config ==========
 $(document).ready(function(){
-
-    
     $('.profesionales-carousel').owlCarousel({
         center: true,
         items:1,
@@ -8,16 +7,14 @@ $(document).ready(function(){
         // margin:250,
         dots: false,
         nav:true,
-        navText: ["<span><</span>","<span>></span>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
         responsive:{
             100:{
                 items:4
             }
         }
     });
-
 });
-
 
 $(document).ready(function(){
     $('.littleCarouselMobile--container').owlCarousel({
@@ -43,4 +40,18 @@ $(document).ready(function(){
             },         
         }
     });
+});
+
+$(document).ready(function() {
+    $(".inicioSesionBtn").click(function() {
+        $(".swal2-title").css({fontfamily:"Nunito"});
+        Swal.fire({  
+            title: '¡Lanzamiento muy pronto!',
+            imageUrl: './media/logo-smartphone.svg',
+            imageWidth: '75px',
+            confirmButtonText:'¡Genial!',
+            confirmButtonColor: '#6000D9'
+        })
+    });
+    
 });

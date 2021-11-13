@@ -1,9 +1,10 @@
+/* ======= Section "profesionales" carousel ===== */
 .owl-prev {
   width: 15px;
   height: 100px;
   position: absolute;
-  top: 40%;
-  left: 50px;
+  top: 35%;
+  left: 100px;
   margin: 0 0 0 50px;
   display: block !important;
   border:0px solid black;
@@ -11,21 +12,59 @@
 }
 
 .owl-next {
-  width: 15px;
   height: 100px;
   position: absolute;
-  top: 40%;
+  top: 35%;
   margin: 0 0 0 50px;
-  right: 50px;
+  right: 100px;
   display: block !important;
   border:0px solid black;
   font-size: 50px !important;
 }
 
+.owl-prev img, .owl-next img {
+  width: 56px;
+}
+
+@media (max-width: 1440px) {
+  body .owl-prev, body .owl-next {
+    top: 32%;
+  }
+  body .owl-prev img, body .owl-next img {
+    width: 42px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body .owl-prev, body .owl-next {
+    top: 30%;
+  }
+  body .owl-prev img, body .owl-next img {
+    width: 32px;
+  }
+}
+
+@media (max-width: 881px) {
+  
+  body .owl-prev img, body .owl-next img {
+    width: 27px;
+  }
+}
+
+
+
+/* sweet alert2 customization */
+.swal2-title {
+  font-family: Nunito;
+  color: #5B3D80 !important;
+}
+
+
+
+
+
 .owl-prev:hover, .owl-next:hover {
   background-color: unset !important;
-  color: black !important;
-  cursor: pointer;
 }
 
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}

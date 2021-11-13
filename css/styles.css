@@ -47,18 +47,18 @@ body .header {
     body .header .headerContainer .inicioSesionBtn {
       background-color: #2FEDC8;
       color: #5B3D80;
-      margin: 0 45px 0 -10px; }
+      margin: 0 45px 0 -10px;
+      transition: all .2s; }
       body .header .headerContainer .inicioSesionBtn:hover {
-        background-color: #5B3D80;
-        color: #19ebc4;
-        transition: all .2s; }
+        background-color: #21D6B2;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
     body .header .headerContainer .registrarmeBtn {
-      background-color: #5B3D80;
-      color: white; }
+      background-color: #6C5893;
+      color: white;
+      transition: all .2s; }
       body .header .headerContainer .registrarmeBtn:hover {
-        background-color: #19ebc4;
-        color: #5B3D80;
-        transition: all .2s; }
+        background: #5B3D80;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
     body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
       width: 185px;
       height: 45px;
@@ -559,7 +559,8 @@ body #planes {
             background: #420194; }
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
           background-color: #776094;
-          transition: all .1s; }
+          transition: all .1s;
+          margin: 4px 13.41% 0 13.41%; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {
             background-color: #5B3D80; }
 
@@ -1046,7 +1047,9 @@ body #littleCarouselMobile {
             line-height: 21px; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
             width: 19.5px;
-            margin: 0 0 2px 8px; } }
+            margin: 0 0 2px 8px; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+            margin: 2px 13.41% 0 13.41%; } }
 
 @media (max-width: 1200px) {
   body .main {
@@ -1202,8 +1205,10 @@ body #littleCarouselMobile {
             height: 34px;
             font-size: 13px;
             line-height: 17.5px; }
-          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            width: 16.25px; } }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
+            margin: 3px 13.41% 0 13.41%; }
+            body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+              width: 16.25px; } }
 
 @media (max-width: 1024px) {
   body .main .mainContainer {
@@ -1357,7 +1362,9 @@ body #littleCarouselMobile {
             font-size: 11.2px;
             line-height: 15px; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            width: 13.8px; } }
+            width: 13.8px; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+            margin: -3px 13.41% 0 13.41%; } }
 
 @media (max-width: 881px) {
   body .main {
@@ -1513,9 +1520,11 @@ body #littleCarouselMobile {
             height: 25px;
             font-size: 9.6px;
             line-height: 12.5px; }
-          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            width: 11.9px;
-            margin: 0 0 2px 6px; } }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
+            margin: 1px 13.41% 0 13.41%; }
+            body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+              width: 11.9px;
+              margin: 0 0 2px 6px; } }
 
 @media (max-width: 768px) {
   body .main {
@@ -1620,9 +1629,11 @@ body #littleCarouselMobile {
             height: 22px;
             font-size: 8.4px;
             line-height: 11.2px; }
-          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            width: 10.4px;
-            margin: 0 0 2px 6px; } }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
+            margin: 3px 13.41% 0 13.41%; }
+            body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
+              width: 10.4px;
+              margin: 0 0 2px 6px; } }
 
 @media (max-width: 700px) {
   body .main {
@@ -1767,13 +1778,13 @@ body #littleCarouselMobile {
         body #planes .planes--container .planes--container__cards .planes__card {
           margin: 0 auto; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:hover {
-            background: #6000D9; }
+            background-color: #6000d9; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:active {
-            background: #420194; }
+            background-color: #420194; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {
-            background: #776094; }
+            background-color: #776094; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:active {
-            background: #5B3D80; }
+            background-color: #5B3D80; }
           body #planes .planes--container .planes--container__cards .planes__card h3 {
             font-weight: bold;
             font-size: 29px;
@@ -1830,7 +1841,7 @@ body #littleCarouselMobile {
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
               display: none; }
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
-              background-color: #5B3D80; } }
+              margin: 3px 6.5% 0 6.5%; } }
 
 @media (max-width: 425px) {
   body .womanQuestion {
