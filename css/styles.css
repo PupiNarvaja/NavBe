@@ -638,11 +638,11 @@ body #profesionales {
           background: #00EDBF;
           padding: 8px 19px;
           margin: 20px 0 0 0;
-          color: #5B3D80; }
+          color: #5B3D80;
+          transition: all .2s; }
           body #profesionales .profesionales-carousel .item .item__info-div button:hover {
-            background-color: #5B3D80;
-            color: #19ebc4;
-            transition: all .2s; }
+            background-color: #21D6B2;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
 
 body #carousel3dotsMobile {
   background-size: contain, cover;

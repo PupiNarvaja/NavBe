@@ -41,17 +41,30 @@ $(document).ready(function(){
         }
     });
 });
-
+// ======= Sweet alert 2 ======
 $(document).ready(function() {
-    $(".inicioSesionBtn").click(function() {
-        $(".swal2-title").css({fontfamily:"Nunito"});
-        Swal.fire({  
-            title: '¡Lanzamiento muy pronto!',
-            imageUrl: './media/logo-smartphone.svg',
-            imageWidth: '75px',
-            confirmButtonText:'¡Genial!',
-            confirmButtonColor: '#6000D9'
-        })
-    });
-    
+    $(".inicioSesionBtn").click(() =>popUps());
+    $(".registrarmeBtn").click(() =>popUps());
+    $(".descargaBtn").click(() =>popUps());
+    $(".item button").click(() =>popUps());
+    $(".inscribirYaBtn").click(() =>popUps());
+    $(".inscribirGratisBtn").click(() =>popUps());
 });
+
+popUps = () => {Swal.fire({  
+    title: '¡Lanzamiento muy pronto!',
+    imageUrl: './media/logo-smartphone.svg',
+    imageWidth: '75px',
+    text: '- Equipo Navbe.',
+    confirmButtonText:'¡Genial!',
+    confirmButtonColor: '#6000D9'
+})};
+
+// ====== Changes mobile navbar links ======
+if (window.matchMedia("(max-width: 700px)").matches) {
+    $(".navbar ul").empty();
+    $(".navbar ul").prepend(`<a href="#carousel3dotsMobile"><img src="./media/aprendo.svg"><li>Aprendo</li></a>
+    <a href="#carousel3dotsMobile"><img src="./media/consulto.svg"><li>Consulto</li></a>
+    <a href="#carousel3dotsMobile"><img src="./media/comunidad.svg"><li>Comunidad</li></a>
+    <a href="#planes"><img src="./media/planes.svg"><li>Planes</li></a>`);
+};
