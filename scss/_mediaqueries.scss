@@ -172,7 +172,10 @@
        #planes {
         //    top: 5770px;
            height: 1017px;
+           background-position: 80px, 0;
             .planes--container {
+                top: 11.6%;
+                height: 71.7%;
                 min-width: 750px;
                 .planes--container__h2 {
                     font-size: 60px;
@@ -225,7 +228,10 @@
                                 img {
                                     width: 21.5px;
                                 }
-                            }   
+                            }
+                            .inscribirGratisBtn {
+                                margin: -2px 13.41% 0 13.41%;
+                            } 
                         }
                     }
                 }

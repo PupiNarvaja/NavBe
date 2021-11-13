@@ -425,17 +425,17 @@ body #planes {
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
   position: relative;
-  background-position: 80px, 0;
-  height: 1220px; }
+  background-position: 80px -40px, 0;
+  height: 1120px; }
   body #planes .womanPagosAlone {
     display: none; }
   body #planes .planes--container {
     position: absolute;
     left: 42.65%;
-    top: 11.6%;
+    top: 9.6%;
     width: 48.7%;
     min-width: 900px;
-    height: 71.7%;
+    height: 840px;
     display: flex;
     justify-content: space-between;
     flex-flow: column nowrap; }
@@ -554,7 +554,7 @@ body #planes {
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
           background-color: #776094;
           transition: all .1s;
-          margin: 4px 13.41% 0 13.41%; }
+          margin: 0px 13.41% 0 13.41%; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {
             background-color: #5B3D80; }
 
@@ -851,8 +851,11 @@ body #littleCarouselMobile {
     body #horarios .horarios--container p {
       font-size: 20px; }
   body #planes {
-    height: 1017px; }
+    height: 1017px;
+    background-position: 80px, 0; }
     body #planes .planes--container {
+      top: 11.6%;
+      height: 71.7%;
       min-width: 750px; }
       body #planes .planes--container .planes--container__h2 {
         font-size: 60px;
@@ -891,7 +894,9 @@ body #littleCarouselMobile {
             font-size: 17.5px;
             line-height: 26px; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-            width: 21.5px; } }
+            width: 21.5px; }
+          body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
+            margin: -2px 13.41% 0 13.41%; } }
 
 @media (max-width: 1440px) {
   body .womanQuestion {
