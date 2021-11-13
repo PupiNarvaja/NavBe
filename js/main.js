@@ -10,7 +10,7 @@ $(document).ready(function(){
         // margin:250,
         dots: false,
         nav:true,
-        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
         responsive:{
             100:{
                 items:3
@@ -27,7 +27,7 @@ if (window.matchMedia("(max-width: 768px)").matches) {
         loop:false,
         dots: false,
         nav:true,
-        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
         responsive:{
             100:{
                 items:3
@@ -45,7 +45,7 @@ if (window.matchMedia("(max-width: 1024px)").matches) {
         loop:false,
         dots: false,
         nav:true,
-        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
         responsive:{
             100:{
                 items:3
@@ -62,7 +62,7 @@ if (window.matchMedia("(max-width: 1440px)").matches) {
         loop:false,
         dots: false,
         nav:true,
-        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
         responsive:{
             100:{
                 items:3
@@ -121,8 +121,8 @@ popUps = () => {Swal.fire({
 // ====== Changes mobile navbar links ======
 if (window.matchMedia("(max-width: 700px)").matches) {
     $(".navbar ul").empty();
-    $(".navbar ul").prepend(`<a href="#carousel3dotsMobile"><img src="./media/aprendo.svg"><li>Aprendo</li></a>
-    <a href="#carousel3dotsMobile"><img src="./media/consulto.svg"><li>Consulto</li></a>
-    <a href="#carousel3dotsMobile"><img src="./media/comunidad.svg"><li>Comunidad</li></a>
-    <a href="#planes"><img src="./media/planes.svg"><li>Planes</li></a>`);
+    $(".navbar ul").prepend(`<a href="#carousel3dotsMobile"><img src="./media/aprendo.svg" alt="imagen de la seccion aprendo"><li>Aprendo</li></a>
+    <a href="#carousel3dotsMobile"><img src="./media/consulto.svg" alt="imagen de la seccion consulto"><li>Consulto</li></a>
+    <a href="#carousel3dotsMobile"><img src="./media/comunidad.svg" alt="imagen de la seccion comunidad"><li>Comunidad</li></a>
+    <a href="#planes"><img src="./media/planes.svg" alt="imagen de la seccion planes"><li>Planes</li></a>`);
 };

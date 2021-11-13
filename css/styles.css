@@ -204,7 +204,7 @@ body .main {
       margin: 0; }
     body .main .mainContainer .descargaBtn {
       width: 380px;
-      height: 55px;
+      height: 62px;
       background: #6000D9;
       border-radius: 100px;
       color: white;
@@ -358,7 +358,7 @@ body #consulta {
       width: 91.7%; }
     body #consulta .consulta--container .descargaBtn {
       width: 380px;
-      height: 55px;
+      height: 62px;
       background: #6000D9;
       border-radius: 100px;
       color: white;
@@ -425,7 +425,7 @@ body #planes {
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
   position: relative;
-  background-position: 80px -40px, 0;
+  background-position: 80px, 0;
   height: 1120px; }
   body #planes .womanPagosAlone {
     display: none; }
