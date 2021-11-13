@@ -1,7 +1,10 @@
 // ========== Carousels config ==========
 $(document).ready(function(){
     $('.profesionales-carousel').owlCarousel({
-        center: true,
+        // startPosition: 1,
+        fluidSpeed: true,
+        stagePadding: 160,
+        center: false,
         items:1,
         loop:false,
         // margin:250,
@@ -10,11 +13,66 @@ $(document).ready(function(){
         navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
         responsive:{
             100:{
-                items:4
+                items:3
             }
         }
     });
 });
+if (window.matchMedia("(max-width: 768px)").matches) {
+    $('.profesionales-carousel').owlCarousel({
+        fluidSpeed: true,
+        stagePadding: 69,
+        center: false,
+        items:1,
+        loop:false,
+        dots: false,
+        nav:true,
+        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        responsive:{
+            100:{
+                items:3
+            }
+        }
+    });
+}
+
+if (window.matchMedia("(max-width: 1024px)").matches) {
+    $('.profesionales-carousel').owlCarousel({
+        fluidSpeed: true,
+        stagePadding: 92,
+        center: false,
+        items:1,
+        loop:false,
+        dots: false,
+        nav:true,
+        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        responsive:{
+            100:{
+                items:3
+            }
+        }
+    });
+}
+if (window.matchMedia("(max-width: 1440px)").matches) {
+    $('.profesionales-carousel').owlCarousel({
+        fluidSpeed: true,
+        stagePadding: 130,
+        center: false,
+        items:1,
+        loop:false,
+        dots: false,
+        nav:true,
+        navText: ["<img src='./media/prevArrow.svg'/>","<img src='./media/nextArrow.svg'/>"], //["<img src='./media/backBtn.svg'/>","<img src='./media/backBtn.svg'/>"]
+        responsive:{
+            100:{
+                items:3
+            }
+        }
+    });
+}
+
+
+
 
 $(document).ready(function(){
     $('.littleCarouselMobile--container').owlCarousel({

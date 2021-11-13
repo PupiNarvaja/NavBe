@@ -2,6 +2,7 @@ body {
     #consulta {
         background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.png);
         @include backgrounds;
+        background-position: 0 -70px, 0;
         // @include backgrounds;
         // top: 3230px;
         .womanConsultaAlone {

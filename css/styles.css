@@ -329,7 +329,8 @@ body #consulta {
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  position: relative; }
+  position: relative;
+  background-position: 0 -70px, 0; }
   body #consulta .womanConsultaAlone {
     display: none; }
   body #consulta .consulta--container {
@@ -455,7 +456,7 @@ body #planes {
       flex-flow: row nowrap;
       justify-content: space-between;
       align-items: flex-end; }
-      body #planes .planes--container .planes--container__cards .planes__card h3 {
+      body #planes .planes--container .planes--container__cards .planes__card h3, body #planes .planes--container .planes--container__cards .planes__card .gratis {
         font-family: Roboto;
         font-size: 40px;
         font-style: normal;
@@ -469,7 +470,7 @@ body #planes {
         flex-flow: row nowrap;
         align-items: center;
         justify-content: center; }
-        body #planes .planes--container .planes--container__cards .planes__card h3 span {
+        body #planes .planes--container .planes--container__cards .planes__card h3 span, body #planes .planes--container .planes--container__cards .planes__card .gratis span {
           font-family: Roboto;
           font-size: 24px;
           font-style: normal;
@@ -480,13 +481,6 @@ body #planes {
           margin: 0 0 0 8px;
           border-radius: 10px;
           background: #00EDBF; }
-      body #planes .planes--container .planes--container__cards .planes__card .gratis {
-        font-family: Source Sans Pro;
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 900;
-        line-height: 50px;
-        letter-spacing: 0em; }
       body #planes .planes--container .planes--container__cards .planes__card div {
         height: 600px;
         width: 410px;
@@ -565,12 +559,12 @@ body #planes {
             background-color: #5B3D80; }
 
 body #profesionales {
-  height: 1400px;
+  height: 1200px;
   position: relative;
   width: 100%; }
   body #profesionales .profesionales--container {
     position: absolute;
-    top: 8.55%;
+    top: -50px;
     margin: 0 auto 0 9%;
     width: 75%; }
     body #profesionales .profesionales--container .profesionales__h2 {
@@ -591,7 +585,7 @@ body #profesionales {
       margin: 70px 0 0 0; }
   body #profesionales .profesionales-carousel {
     position: absolute;
-    top: 520px; }
+    top: 400px; }
     body #profesionales .profesionales-carousel .item {
       color: #Fff;
       max-width: 510px;
@@ -814,7 +808,7 @@ body #littleCarouselMobile {
       body #consulta .consulta--container .descargaBtn img {
         width: 21.5px; }
   body #profesionales {
-    height: 1266px; }
+    height: 1000px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 60px;
       line-height: 82px; }
@@ -824,7 +818,7 @@ body #littleCarouselMobile {
       max-width: 842px;
       margin: 58px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 517px; }
+      top: 310px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 16.6px 50px 16.6px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
@@ -955,7 +949,7 @@ body #littleCarouselMobile {
         font-size: 20px;
         margin: 0 0 0 75px; }
   body #profesionales {
-    height: 1140px; }
+    height: 900px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 54px;
       line-height: 73.5px; }
@@ -965,7 +959,7 @@ body #littleCarouselMobile {
       max-width: 758px;
       margin: 52.5px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 465px; }
+      top: 300px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 15px 50px 15px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
@@ -1117,7 +1111,7 @@ body #littleCarouselMobile {
       body #consulta .consulta--container .descargaBtn img {
         width: 16.25px; }
   body #profesionales {
-    height: 950px; }
+    height: 750px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 45px;
       line-height: 61.2px; }
@@ -1127,7 +1121,7 @@ body #littleCarouselMobile {
       max-width: 632px;
       margin: 43.75px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 387.5px; }
+      top: 230px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 12.5px 50px 12.5px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
@@ -1272,7 +1266,7 @@ body #littleCarouselMobile {
       body #consulta .consulta--container .descargaBtn img {
         width: 13.8px; }
   body #profesionales {
-    height: 810px; }
+    height: 640px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 38.5px;
       line-height: 52.2px; }
@@ -1282,7 +1276,7 @@ body #littleCarouselMobile {
       max-width: 538px;
       margin: 37px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 330px; }
+      top: 200px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 10.6px 50px 10.6px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
@@ -1434,7 +1428,7 @@ body #littleCarouselMobile {
       font-size: 14px;
       margin: 0 0 0 30px; }
   body #profesionales {
-    height: 697px; }
+    height: 550px; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-size: 33px;
       line-height: 45px; }
@@ -1444,7 +1438,7 @@ body #littleCarouselMobile {
       max-width: 463px;
       margin: 32px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 284px; }
+      top: 140px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 9.2px 50px 9.2px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
@@ -1543,17 +1537,19 @@ body #littleCarouselMobile {
     body #consulta .consulta--container p {
       height: 70px; }
   body #profesionales {
-    height: 608px; }
-    body #profesionales .profesionales--container .profesionales__h2 {
-      font-size: 28.8px;
-      line-height: 39px; }
-    body #profesionales .profesionales--container p {
-      font-size: 9.6px;
-      line-height: 12px;
-      max-width: 404px;
-      margin: 28px 0 0 0; }
+    height: 380px; }
+    body #profesionales .profesionales--container {
+      top: -100px; }
+      body #profesionales .profesionales--container .profesionales__h2 {
+        font-size: 28.8px;
+        line-height: 39px; }
+      body #profesionales .profesionales--container p {
+        font-size: 9.6px;
+        line-height: 12px;
+        max-width: 404px;
+        margin: 28px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 248px; }
+      top: 50px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 8px 50px 8px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {

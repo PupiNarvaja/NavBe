@@ -104,7 +104,7 @@
 //----------------------------- Sección Profesionales 1600px--------------------
         #profesionales {
             // top: 3600px;
-            height: 1266px;
+            height: 1000px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 60px;
@@ -118,7 +118,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 517px;
+                top: 310px;
                 .item {
                     margin: 20px 16.6px 50px 16.6px;
                     .profesionales-item-img-div {
@@ -328,7 +328,7 @@
 //----------------------------- Sección Profesionales 1440px--------------------
         #profesionales {
             // top: 3250px;
-            height: 1140px;
+            height: 900px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 54px;
@@ -342,7 +342,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 465px;
+                top: 300px;
                 .item {
                     margin: 20px 15px 50px 15px;
                     .profesionales-item-img-div {
@@ -581,7 +581,7 @@
 //----------------------------- Sección Profesionales 1200px--------------------
         #profesionales {
             // top: 2850px;
-            height: 950px;
+            height: 750px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 45px;
@@ -595,7 +595,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 387.5px;
+                top: 230px;
                 .item {
                     margin: 20px 12.5px 50px 12.5px;
                     .profesionales-item-img-div {
@@ -828,7 +828,7 @@
 //----------------------------- Sección Profesionales 1024px--------------------
         #profesionales {
             // top: 2450px;
-            height: 810px;
+            height: 640px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 38.5px;
@@ -842,7 +842,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 330px;
+                top: 200px;
                 .item {
                     margin: 20px 10.6px 50px 10.6px;
                     .profesionales-item-img-div {
@@ -1080,7 +1080,7 @@
 //----------------------------- Sección Profesionales 881px--------------------
         #profesionales {
             // top: 2100px;
-            height: 697px;
+            height: 550px;
             .profesionales--container {
                 .profesionales__h2 {
                     font-size: 33px;
@@ -1094,7 +1094,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 284px;
+                top: 140px;
                 .item {
                     margin: 20px 9.2px 50px 9.2px;
                     .profesionales-item-img-div {
@@ -1256,9 +1256,10 @@
         }
 //----------------------------- Sección Profesionales 768px--------------------
         #profesionales {
-            height: 608px;
+            height: 380px;
             // top: 1970px;
             .profesionales--container {
+                top: -100px;
                 .profesionales__h2 {
                     font-size: 28.8px;
                     line-height: 39px;
@@ -1271,7 +1272,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 248px;
+                top: 50px;
                 .item {
                     margin: 20px 8px 50px 8px;
                     .profesionales-item-img-div {

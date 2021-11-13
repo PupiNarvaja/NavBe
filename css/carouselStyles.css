@@ -1,10 +1,9 @@
 /* ======= Section "profesionales" carousel ===== */
 .owl-prev {
-  width: 15px;
   height: 100px;
   position: absolute;
   top: 35%;
-  left: 100px;
+  left: 105px;
   margin: 0 0 0 50px;
   display: block !important;
   border:0px solid black;
@@ -16,7 +15,7 @@
   position: absolute;
   top: 35%;
   margin: 0 0 0 50px;
-  right: 100px;
+  right: 105px;
   display: block !important;
   border:0px solid black;
   font-size: 50px !important;
@@ -30,6 +29,12 @@
   body .owl-prev, body .owl-next {
     top: 32%;
   }
+  body .owl-prev {
+    left: 90px;
+  }
+  body .owl-next {
+    right: 90px;
+  }
   body .owl-prev img, body .owl-next img {
     width: 42px;
   }
@@ -39,15 +44,26 @@
   body .owl-prev, body .owl-next {
     top: 30%;
   }
+  body .owl-prev {
+    left: 55px;
+  }
+  body .owl-next {
+    right: 55px;
+  }
   body .owl-prev img, body .owl-next img {
     width: 32px;
   }
 }
 
 @media (max-width: 881px) {
-  
   body .owl-prev img, body .owl-next img {
     width: 27px;
+  }
+  body .owl-prev {
+    left: 35px;
+  }
+  body .owl-next {
+    right: 35px;
   }
 }
 

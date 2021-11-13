@@ -36,7 +36,7 @@ body {
                 justify-content: space-between;
                 align-items: flex-end;
                 .planes__card {
-                    h3 {
+                    h3, .gratis {
                         font-family: Roboto;
                         font-size: 40px;
                         font-style: normal;
@@ -62,14 +62,6 @@ body {
                             border-radius: 10px;
                             background: #00EDBF;
                         }
-                    }
-                    .gratis {
-                        font-family: Source Sans Pro;
-                        font-size: 40px;
-                        font-style: normal;
-                        font-weight: 900;
-                        line-height: 50px;
-                        letter-spacing: 0em;
                     }
                     div {
                         height: 600px;
