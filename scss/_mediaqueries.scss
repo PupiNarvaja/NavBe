@@ -243,6 +243,14 @@
 
 @media (max-width: 1440px) {
     body {
+//----------------------------- Sección Aprende con nosotros 1440px--------------------
+        .main {
+            .mainContainer {
+                .descargaBtn {
+                    font-size: 18px;
+                }
+            }
+        }
         .womanQuestion {
             // top: 810px;
             height: 810px;
@@ -326,7 +334,7 @@
                     margin: 0 0 80px 0;
                 }
                 .descargaBtn {
-                    font-size: 20px;
+                    font-size: 18px;
                     margin: 0 0 0 75px;
                 }
             }
@@ -497,9 +505,9 @@
                     line-height: 25px;
                 }
                 .descargaBtn {
-                    width: 260px;
-                    height: 37.5px;
-                    font-size: 16px;
+                    // width: 260px;
+                    // height: 37.5px;
+                    font-size: 15px;
                     img {
                         width: 16.25px;
                     }
@@ -574,9 +582,9 @@
                     margin: 0 0 50px 0;
                 }
                 .descargaBtn {
-                    width: 260px;
-                    height: 37.5px;
-                    font-size: 16px;
+                    // width: 260px;
+                    // height: 37.5px;
+                    font-size: 15px;
                     margin: 0 0 0 60px;
                     img {
                         width: 16.25px;
@@ -729,9 +737,12 @@
     body {
 //----------------------------- Sección Main 1024px--------------------  
         .main {
+            background-position: -22px -8px;
             .mainContainer {
                 margin: 0 30% 0 43%;
                 .descargaBtn {
+                    font-size: 12.8px;
+                    margin: 60px 34% 0 0;
                     img {
                         width: 13.8px;
                     }
@@ -817,14 +828,16 @@
                 .consulta--container__h2 {
                     font-size: 38.4px;
                     line-height: 52.3px;
+                    margin: -20px 0 3.125vw 0;
                 }
                 p {
                     font-size: 12.8px;
                     line-height: 16px;
-                    margin: 0 0 40px 0;
+                    margin: 0 0 15px 0;
                 }
                 .descargaBtn {
                     margin: 0 0 0 50px;
+                    font-size: 12.8px;
                     img {
                         width: 13.8px;
                     }
@@ -848,7 +861,7 @@
                 }
             }
             .profesionales-carousel {
-                top: 200px;
+                top: 160px;
                 .item {
                     margin: 20px 10.6px 50px 10.6px;
                     .profesionales-item-img-div {
@@ -992,11 +1005,10 @@
                 p {
                     font-size: 14px;
                     width: 360px;
+                    line-height: 20px;
                 }
                 .descargaBtn {
-                    width: 220px;
-                    height: 35px;
-                    font-size: 14px;
+                    font-size: 9.6px;
                     margin: 50px 17% 0 0;
                 }
             }
@@ -1076,10 +1088,7 @@
                     margin: 0 0 15px 0;
                 }
                 .descargaBtn {
-                    width: 220px;
-                    height: 35px;
-                    font-size: 14px;
-                    margin: 0 0 0 30px;
+                    font-size: 9.6px;
                 }
             }
         }

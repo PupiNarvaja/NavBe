@@ -3,8 +3,6 @@ body {
         background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.png);
         @include backgrounds;
         background-position: 0 -70px, 0;
-        // @include backgrounds;
-        // top: 3230px;
         .womanConsultaAlone {
             display: none;
         }
@@ -16,18 +14,18 @@ body {
             width: 42.76%; //821px
             .consulta--container__h2 {
                 @include titulo2;
-                margin: 0 0 60px 0;
+                margin: 0 0 3.125vw 0; //margin: 0 0 60px 0;
             }
             p {
                 @include parrafo24px(normal, 24px, 30px);
-                margin: 0 0 98px 0;
+                margin: 0 0 5.1vw 0; //margin: 0 0 98px 0;
                 height: 99px;
                 width: 91.7%;
             }
             .descargaBtn {
                 @include descargaButton;
                 @include  parrafo24px(bold, 24px, 30px);
-                margin: 0 0 0 125px;
+                margin: 0 0 0 6.51vw; //margin: 0 0 0 125px;
                 display: flex;
                 justify-content: center;
                 align-items: center;

@@ -45,10 +45,10 @@
     top: 30%;
   }
   body .owl-prev {
-    left: 55px;
+    left: 50px;
   }
   body .owl-next {
-    right: 55px;
+    right: 50px;
   }
   body .owl-prev img, body .owl-next img {
     width: 32px;

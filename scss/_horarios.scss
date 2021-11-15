@@ -2,16 +2,15 @@ body {
     #horarios {
         background: url(../media/mujerCalendarioSola.png), url(../media/fondoSoloCalendario.png);
         @include backgrounds;
-        // background: url(../media/woman-calendar.jpg);
-        // top: 5900px;
-        // @include backgrounds;
+        background-position-x: 30px, 0;
         .womanCalendarioAlone {
             display: none;
         }
         .horarios--container {
             position: absolute;
             top: 7.2%;
-            right: 36.5%;
+            // right: 36.5%;
+            margin: 0 auto 0 9%;
             width: 56.9%;
             height: 42%;
             .horarios--container__h2 {

@@ -39,7 +39,7 @@ if (window.matchMedia("(max-width: 768px)").matches) {
 if (window.matchMedia("(max-width: 1024px)").matches) {
     $('.profesionales-carousel').owlCarousel({
         fluidSpeed: true,
-        stagePadding: 92,
+        stagePadding: 80,
         center: false,
         items:1,
         loop:false,

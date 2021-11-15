@@ -174,7 +174,6 @@ body .main {
   body .main .mainContainer {
     position: absolute;
     width: 750px;
-    height: 610px;
     margin: 0 30% 0 45%;
     top: 170px;
     display: flex;
@@ -203,8 +202,10 @@ body .main {
       color: #5B3D80;
       margin: 0; }
     body .main .mainContainer .descargaBtn {
-      width: 380px;
-      height: 62px;
+      width: 19.79vw;
+      max-width: 380px;
+      height: 3.23vw;
+      max-height: 62px;
       background: #6000D9;
       border-radius: 100px;
       color: white;
@@ -285,7 +286,7 @@ body #aprendo {
   body #aprendo .aprendo--container {
     position: absolute;
     top: 14.17%;
-    left: 8.6%; }
+    margin: 0 auto 0 9%; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -346,19 +347,21 @@ body #consulta {
       font-size: 72px;
       line-height: 98px;
       color: #5B3D80;
-      margin: 0 0 60px 0; }
+      margin: 0 0 3.125vw 0; }
     body #consulta .consulta--container p {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: normal;
       font-size: 24px;
       line-height: 30px;
-      margin: 0 0 98px 0;
+      margin: 0 0 5.1vw 0;
       height: 99px;
       width: 91.7%; }
     body #consulta .consulta--container .descargaBtn {
-      width: 380px;
-      height: 62px;
+      width: 19.79vw;
+      max-width: 380px;
+      height: 3.23vw;
+      max-height: 62px;
       background: #6000D9;
       border-radius: 100px;
       color: white;
@@ -371,7 +374,7 @@ body #consulta {
       font-weight: bold;
       font-size: 24px;
       line-height: 30px;
-      margin: 0 0 0 125px;
+      margin: 0 0 0 6.51vw;
       display: flex;
       justify-content: center;
       align-items: center; }
@@ -385,13 +388,14 @@ body #horarios {
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
-  position: relative; }
+  position: relative;
+  background-position-x: 30px, 0; }
   body #horarios .womanCalendarioAlone {
     display: none; }
   body #horarios .horarios--container {
     position: absolute;
     top: 7.2%;
-    right: 36.5%;
+    margin: 0 auto 0 9%;
     width: 56.9%;
     height: 42%; }
     body #horarios .horarios--container .horarios--container__h2 {
@@ -899,6 +903,8 @@ body #littleCarouselMobile {
             margin: -2px 13.41% 0 13.41%; } }
 
 @media (max-width: 1440px) {
+  body .main .mainContainer .descargaBtn {
+    font-size: 18px; }
   body .womanQuestion {
     height: 810px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -951,7 +957,7 @@ body #littleCarouselMobile {
         line-height: 22.5px;
         margin: 0 0 80px 0; }
       body #consulta .consulta--container .descargaBtn {
-        font-size: 20px;
+        font-size: 18px;
         margin: 0 0 0 75px; }
   body #profesionales {
     height: 900px; }
@@ -1066,9 +1072,7 @@ body #littleCarouselMobile {
         width: 420px;
         line-height: 25px; }
       body .main .mainContainer .descargaBtn {
-        width: 260px;
-        height: 37.5px;
-        font-size: 16px; }
+        font-size: 15px; }
         body .main .mainContainer .descargaBtn img {
           width: 16.25px; }
   body .womanQuestion {
@@ -1109,9 +1113,7 @@ body #littleCarouselMobile {
       line-height: 18.75px;
       margin: 0 0 50px 0; }
     body #consulta .consulta--container .descargaBtn {
-      width: 260px;
-      height: 37.5px;
-      font-size: 16px;
+      font-size: 15px;
       margin: 0 0 0 60px; }
       body #consulta .consulta--container .descargaBtn img {
         width: 16.25px; }
@@ -1210,10 +1212,15 @@ body #littleCarouselMobile {
               width: 16.25px; } }
 
 @media (max-width: 1024px) {
-  body .main .mainContainer {
-    margin: 0 30% 0 43%; }
-    body .main .mainContainer .descargaBtn img {
-      width: 13.8px; }
+  body .main {
+    background-position: -22px -8px; }
+    body .main .mainContainer {
+      margin: 0 30% 0 43%; }
+      body .main .mainContainer .descargaBtn {
+        font-size: 12.8px;
+        margin: 60px 34% 0 0; }
+        body .main .mainContainer .descargaBtn img {
+          width: 13.8px; }
   body .womanQuestion {
     height: 576px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -1261,13 +1268,15 @@ body #littleCarouselMobile {
     height: 576px; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-size: 38.4px;
-      line-height: 52.3px; }
+      line-height: 52.3px;
+      margin: -20px 0 3.125vw 0; }
     body #consulta .consulta--container p {
       font-size: 12.8px;
       line-height: 16px;
-      margin: 0 0 40px 0; }
+      margin: 0 0 15px 0; }
     body #consulta .consulta--container .descargaBtn {
-      margin: 0 0 0 50px; }
+      margin: 0 0 0 50px;
+      font-size: 12.8px; }
       body #consulta .consulta--container .descargaBtn img {
         width: 13.8px; }
   body #profesionales {
@@ -1281,7 +1290,7 @@ body #littleCarouselMobile {
       max-width: 538px;
       margin: 37px 0 0 0; }
     body #profesionales .profesionales-carousel {
-      top: 200px; }
+      top: 160px; }
       body #profesionales .profesionales-carousel .item {
         margin: 20px 10.6px 50px 10.6px; }
         body #profesionales .profesionales-carousel .item .profesionales-item-img-div img {
@@ -1377,11 +1386,10 @@ body #littleCarouselMobile {
         line-height: 40px; }
       body .main .mainContainer p {
         font-size: 14px;
-        width: 360px; }
+        width: 360px;
+        line-height: 20px; }
       body .main .mainContainer .descargaBtn {
-        width: 220px;
-        height: 35px;
-        font-size: 14px;
+        font-size: 9.6px;
         margin: 50px 17% 0 0; }
   body .womanQuestion {
     height: 495px; }
@@ -1428,10 +1436,7 @@ body #littleCarouselMobile {
       font-size: 11px;
       margin: 0 0 15px 0; }
     body #consulta .consulta--container .descargaBtn {
-      width: 220px;
-      height: 35px;
-      font-size: 14px;
-      margin: 0 0 0 30px; }
+      font-size: 9.6px; }
   body #profesionales {
     height: 550px; }
     body #profesionales .profesionales--container .profesionales__h2 {

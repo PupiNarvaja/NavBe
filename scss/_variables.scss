@@ -51,8 +51,10 @@ $violeta40: #88779F;
 }
 
 @mixin descargaButton {
-    width: 380px;
-    height: 62px;
+    width: 19.79vw;
+    max-width: 380px;
+    height: 3.23vw;
+    max-height: 62px;
     background: #6000D9;
     border-radius: 100px;
     color: white;

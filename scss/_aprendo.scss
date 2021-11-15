@@ -2,16 +2,14 @@ body {
     #aprendo {
         background: url(../media/MujerConMesa.png), url(../media/fondoSoloMesa.png);
         @include backgrounds;
-        // background: url(../media/woman-aprendo.svg);
-        // @include backgrounds;
-        // top: 2160px;
         .womanNetbookAlone {
             display: none;
         }
         .aprendo--container {
             position: absolute;
             top: 14.17%; //153px
-            left: 8.6%; //165px;
+            //left: 8.6%; 165px;
+            margin: 0 auto 0 9%;
            .aprendo--container__h2 {
             @include titulo2;
             margin: 0 0 44px 0;
