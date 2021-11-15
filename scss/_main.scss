@@ -31,7 +31,7 @@ body {
             }
             p {
                 @include parrafo24px(bold, 24px, 30px);
-                width: 665px;
+                // width: 665px;
                 color: $violeta;
                 margin: 0;
             }

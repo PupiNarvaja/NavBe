@@ -115,45 +115,18 @@ body .header {
 
 @media (max-width: 700px) {
   body .header {
-    height: 170px;
+    height: 100px;
     background-color: rgba(91, 61, 128, 0.1); }
     body .header .headerContainer .logo {
       display: block;
       width: 120px;
       position: absolute;
       left: 17px;
-      bottom: 72px; }
+      bottom: 5px; }
     body .header .headerContainer .logo-smartphone {
       display: none; }
     body .header .headerContainer .navbar {
-      height: 56px;
-      width: 100%;
-      background-color: #5B3D80;
-      position: absolute;
-      left: 0%;
-      right: 0%;
-      bottom: 0%;
-      display: flex;
-      margin: 0 auto; }
-      body .header .headerContainer .navbar ul {
-        width: 100%;
-        margin: 0;
-        font-family: 'Roboto', sans-serif;
-        font-size: 12px;
-        font-weight: 500;
-        justify-content: space-evenly; }
-        body .header .headerContainer .navbar ul a {
-          color: #88779f;
-          align-self: center;
-          -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-          body .header .headerContainer .navbar ul a:focus, body .header .headerContainer .navbar ul a:hover {
-            color: white; }
-          body .header .headerContainer .navbar ul a:focus, body .header .headerContainer .navbar ul a:hover img {
-            opacity: 1; }
-          body .header .headerContainer .navbar ul a img {
-            display: block;
-            margin: 0 auto 4px auto;
-            opacity: 0.4; }
+      display: none; }
     body .header .headerContainer .inicioSesionBtn, body .header .headerContainer .registrarmeBtn {
       display: none; } }
 
@@ -198,7 +171,6 @@ body .main {
       font-weight: bold;
       font-size: 24px;
       line-height: 30px;
-      width: 665px;
       color: #5B3D80;
       margin: 0; }
     body .main .mainContainer .descargaBtn {
@@ -655,7 +627,7 @@ body #carousel3dotsMobile {
   justify-content: center;
   align-items: center;
   display: none;
-  height: 1000px;
+  height: 950px;
   width: 100%; }
   body #carousel3dotsMobile #carouselExampleFade {
     position: absolute;
@@ -676,8 +648,8 @@ body #carousel3dotsMobile {
       height: 10px;
       /* change height */
       padding: 0;
-      margin-right: 3px;
-      margin-left: 3px;
+      margin-right: 5px;
+      margin-left: 5px;
       text-indent: -999px;
       cursor: pointer;
       background-color: #A5A5A5;
@@ -700,22 +672,22 @@ body #carousel3dotsMobile {
           font-family: Nunito;
           font-style: normal;
           font-weight: 900;
-          font-size: 30px;
-          line-height: 41px;
-          width: 95%;
-          margin: 0 auto -35px auto;
+          font-size: 24px;
+          line-height: 33px;
+          width: 94%;
+          margin: 0 auto -20px auto;
           position: inherit;
           bottom: 100px; }
         body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
           color: #5B3D80;
           width: 330px;
           margin: 0 auto;
-          height: 140px;
+          height: 125px;
           font-family: Source Sans Pro;
           font-style: normal;
           font-weight: 600;
-          font-size: 15px;
-          line-height: 19px;
+          font-size: 14px;
+          line-height: 18px;
           display: flex;
           justify-content: center;
           align-items: flex-end; }
@@ -723,7 +695,7 @@ body #carousel3dotsMobile {
 body #littleCarouselMobile {
   display: none;
   position: absolute;
-  top: 2430px;
+  top: 2220px;
   height: 200px; }
   body #littleCarouselMobile .littleCarouselMobile--container .owl-stage-outer {
     height: 250px;
@@ -772,8 +744,7 @@ body #littleCarouselMobile {
         font-size: 60px;
         line-height: 70px; }
       body .main .mainContainer p {
-        font-size: 20px;
-        width: 576px; }
+        font-size: 20px; }
       body .main .mainContainer .descargaBtn {
         margin: 60px 16% 0 0; }
         body .main .mainContainer .descargaBtn img {
@@ -1069,7 +1040,6 @@ body #littleCarouselMobile {
           line-height: 55px; }
       body .main .mainContainer p {
         font-size: 16px;
-        width: 420px;
         line-height: 25px; }
       body .main .mainContainer .descargaBtn {
         font-size: 15px; }
@@ -1386,7 +1356,6 @@ body #littleCarouselMobile {
         line-height: 40px; }
       body .main .mainContainer p {
         font-size: 14px;
-        width: 360px;
         line-height: 20px; }
       body .main .mainContainer .descargaBtn {
         font-size: 9.6px;
@@ -1647,15 +1616,15 @@ body #littleCarouselMobile {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 860px; }
+    height: 660px; }
     body .main .mainContainer {
       position: unset;
-      margin: 550px 0 0 0; }
+      margin: 60px 0 0 0; }
       body .main .mainContainer .coheteAlone {
         display: block;
         position: absolute;
-        top: 70px;
-        width: 250px;
+        top: -10px;
+        width: 230px;
         align-self: center;
         animation-name: float;
         animation-duration: 3s;
@@ -1672,30 +1641,28 @@ body #littleCarouselMobile {
       body .main .mainContainer .h1Container {
         display: none; }
       body .main .mainContainer p {
-        width: 292px;
-        height: 132px;
+        width: 310px;
         margin: 0 auto;
         font-size: 18px;
         line-height: 22.63px;
-        font-weight: 600;
         text-align: center; }
         body .main .mainContainer p br {
           display: none; }
       body .main .mainContainer .descargaBtn {
-        margin: 52px 0 0 0;
-        width: 270px;
-        height: 48px;
+        margin: 50px 0 0 0;
+        width: 225px;
+        height: 38px;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: 18px;
-        line-height: 23px; }
+        font-size: 16px;
+        line-height: 20px; }
         body .main .mainContainer .descargaBtn:hover {
           background-color: #6000D9; }
         body .main .mainContainer .descargaBtn:active {
           background: rgba(96, 0, 217, 0.7); }
         body .main .mainContainer .descargaBtn img {
-          display: none; }
+          width: 20px; }
   body .womanQuestion {
     height: 860px;
     background: url(../media/background-mobile.jpg);
@@ -1716,26 +1683,34 @@ body #littleCarouselMobile {
       left: unset;
       right: unset;
       height: 320px;
-      width: 85%;
+      width: 90%;
       padding: 0 0 0 20px; }
       body .womanQuestion .womanQuestion--container .womanQuestion__questions {
         order: 2;
-        height: 180px; }
+        height: 150px;
+        text-align: center;
+        width: 88%;
+        max-width: 290px;
+        margin: 0 auto; }
         body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
           font-family: Source Sans Pro;
           font-style: normal;
-          font-weight: 700;
-          font-size: 19px;
-          line-height: 23.88px;
-          color: #5B3D80; }
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 22px;
+          color: #5B3D80;
+          margin: 0 auto; }
       body .womanQuestion .womanQuestion--container p {
-        order: 1;
+        order: 2;
         color: #5B3D80;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: 600;
-        font-size: 15px;
-        line-height: 22px; }
+        font-size: 14px;
+        line-height: 22px;
+        width: 90%;
+        height: 130px;
+        text-align: center; }
   body #carousel3dotsMobile {
     display: flex; }
   body #littleCarouselMobile {
@@ -1845,7 +1820,7 @@ body #littleCarouselMobile {
               line-height: 21px;
               bottom: -4px; }
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
-              display: none; }
+              width: 18px; }
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
               margin: 3px 6.5% 0 6.5%; } }
 
@@ -1854,7 +1829,7 @@ body #littleCarouselMobile {
     background: url(../media/womanQuestionMobile.jpg), url(../media/background-mobile.jpg);
     background-size: 425px, cover;
     background-repeat: no-repeat;
-    background-position: top center; }
+    background-position: center -30px, center center; }
     body .womanQuestion .womanQuestionsAlone {
       display: none; }
     body .womanQuestion .womanQuestion--container {
@@ -1862,7 +1837,8 @@ body #littleCarouselMobile {
   body #carousel3dotsMobile #carouselExampleFade {
     width: 100%; }
     body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
-      width: 90%; }
+      width: 88%;
+      max-width: 300px; }
   body #aprendo .womanNetbookAlone {
     width: 100%; }
   body #consulta .womanConsultaAlone {
@@ -1911,30 +1887,35 @@ body #littleCarouselMobile {
                 line-height: 18px;
                 margin: 0 0 20px 0; }
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
-              bottom: -55px; } }
+              bottom: -55px; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
+    top: 620px; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
-    width: 90%;
-    margin: 0 auto; }
+    width: 82%;
+    font-size: 14px;
+    line-height: 18px; }
   body .womanQuestion {
-    background-size: 380px; }
+    background-size: 360px;
+    height: 800px; }
     body .womanQuestion .womanQuestion--container {
-      top: 55%;
-      width: 93%;
+      top: 53%;
       height: 295px; }
       body .womanQuestion .womanQuestion--container .womanQuestion__questions {
         height: 150px; }
-        body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
-          font-size: 17px; }
-  body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
-    top: unset; }
-  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
-    font-size: 28px; }
-  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
-    height: 170px; }
+      body .womanQuestion .womanQuestion--container p {
+        height: 100px; }
+  body #carousel3dotsMobile {
+    height: 900px; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
+      top: 570px; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+      height: 170px;
+      display: flex;
+      align-items: center; }
   body #littleCarouselMobile {
-    top: 2370px; }
+    top: 2090px; }
   body #aprendo .aprendo--container .aprendo--container__h2 {
     width: 100%;
     text-align: center;

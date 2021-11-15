@@ -163,7 +163,7 @@ body {
 @media (max-width: 700px) {
     body {
         .header {
-            height: 170px;
+            height: 100px;
             background-color: rgba(91, 61, 128, .1);
             .headerContainer {
                 // .backBtn{
@@ -180,7 +180,7 @@ body {
                     
                     position: absolute;
                     left: 17px;
-                    bottom: 72px;
+                    bottom: 5px;
                 }
                 .logo-smartphone {
                     display: none;
@@ -201,39 +201,40 @@ body {
                 //     right: 45px;
                 // }
                 .navbar {
-                    height: 56px;
-                    width: 100%;
-                    background-color: $violeta;
-                    position: absolute;
-                    left: 0%;
-                    right: 0%;
-                    bottom: 0%;
-                    display: flex;
-                    margin: 0 auto;
-                    ul {
-                        width: 100%;
-                        margin: 0;
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 12px;
-                        font-weight: 500;
-                        justify-content: space-evenly;
-                        a {
-                            color: rgba(136, 119, 159, 1);
-                            align-self: center;
-                            -webkit-tap-highlight-color: rgba(0,0,0,0);
-                            &:focus, &:hover {
-                                color: white;
-                            }
-                            &:focus, &:hover img {
-                                opacity: 1;
-                            }
-                            img {
-                                display: block;
-                                margin: 0 auto 4px auto;
-                                opacity: 0.4;
-                            }
-                        }
-                    }
+                    display: none;
+                    // height: 56px;
+                    // width: 100%;
+                    // background-color: $violeta;
+                    // position: absolute;
+                    // left: 0%;
+                    // right: 0%;
+                    // bottom: 0%;
+                    // display: flex;
+                    // margin: 0 auto;
+                    // ul {
+                    //     width: 100%;
+                    //     margin: 0;
+                    //     font-family: 'Roboto', sans-serif;
+                    //     font-size: 12px;
+                    //     font-weight: 500;
+                    //     justify-content: space-evenly;
+                    //     a {
+                    //         color: rgba(136, 119, 159, 1);
+                    //         align-self: center;
+                    //         -webkit-tap-highlight-color: rgba(0,0,0,0);
+                    //         &:focus, &:hover {
+                    //             color: white;
+                    //         }
+                    //         &:focus, &:hover img {
+                    //             opacity: 1;
+                    //         }
+                    //         img {
+                    //             display: block;
+                    //             margin: 0 auto 4px auto;
+                    //             opacity: 0.4;
+                    //         }
+                    //     }
+                    // }
                 }
                 .inicioSesionBtn, .registrarmeBtn {
                     display: none;

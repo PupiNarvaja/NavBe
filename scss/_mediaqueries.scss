@@ -29,7 +29,7 @@
                 }
                 p {
                     font-size: 20px;
-                    width: 576px;
+                    // width: 576px;
                 }
                 .descargaBtn {
                     margin: 60px 16% 0 0;
@@ -501,7 +501,7 @@
                 }
                 p {
                     font-size: 16px;
-                    width: 420px;
+                    // width: 420px;
                     line-height: 25px;
                 }
                 .descargaBtn {
@@ -1004,7 +1004,7 @@
                 }
                 p {
                     font-size: 14px;
-                    width: 360px;
+                    // width: 360px;
                     line-height: 20px;
                 }
                 .descargaBtn {
@@ -1416,15 +1416,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 860px;
+            height: 660px;
             .mainContainer {
                 position: unset;
-                margin: 550px 0 0 0;
+                margin: 60px 0 0 0;
                 .coheteAlone {
                     display: block;
                     position: absolute;
-                    top: 70px;
-                    width: 250px;
+                    top: -10px;
+                    width: 230px;
                     align-self: center;
 
                     animation-name: float;
@@ -1452,22 +1452,20 @@
                     display: none;
                 }
                 p {
-                    width: 292px;
-                    height: 132px;
+                    width: 310px;
                     margin: 0 auto;
                     font-size: 18px;
                     line-height: 22.63px;
-                    font-weight: 600;
                     text-align: center;
                     br {
                         display: none;
                     }
                 }
                 .descargaBtn {
-                    margin: 52px 0 0 0;
-                    width: 270px;
-                    height: 48px;
-                    @include parrafo24px(bold, 18px, 23px);
+                    margin: 50px 0 0 0;
+                    width: 225px;
+                    height: 38px;
+                    @include parrafo24px(bold, 16px, 20px);
                     &:hover {
                         background-color: #6000D9;
                     }
@@ -1475,7 +1473,8 @@
                         background: rgba(96, 0, 217, 0.7);
                     }
                     img {
-                        display: none;
+                        // display: none;
+                        width: 20px;
                     }
                 }
             }
@@ -1498,20 +1497,28 @@
                 left: unset;
                 right: unset;
                 height: 320px;
-                width: 85%;
+                width: 90%;
                 padding: 0 0 0 20px;
                 .womanQuestion__questions {
                     order: 2;
-                    height: 180px;
+                    height: 150px;
+                    text-align: center;
+                    width: 88%;
+                    max-width: 290px;
+                    margin: 0 auto;
                     li {
-                        @include parrafo24px(700, 19px, 23.88px);
+                        @include parrafo24px(600, 14px, 22px);
                         color: $violeta;
+                        margin: 0 auto;
                     }
                 }
                 p {
-                    order: 1;
+                    order: 2;
                     color: $violeta;
-                    @include parrafo24px(600, 15px, 22px); //18.86px
+                    @include parrafo24px(600, 14px, 22px); //18.86px
+                    width: 90%;
+                    height: 130px;
+                    text-align: center;
                 }
             }
         }
@@ -1648,7 +1655,8 @@
                             }
                             .inscribirYaBtn {
                                 img {
-                                    display: none;
+                                    // display: none;
+                                    width: 18px;
                                 }
                             }
                             .inscribirGratisBtn {
@@ -1669,7 +1677,7 @@
             background: url(../media/womanQuestionMobile.jpg), url(../media/background-mobile.jpg);
             background-size: 425px, cover;
             background-repeat: no-repeat;
-            background-position: top center;
+            background-position: center -30px, center center;
             .womanQuestionsAlone {
                 display: none;
             }
@@ -1685,7 +1693,8 @@
                     .carousel-item {
                         .carousel-caption {
                             p {
-                                width: 90%;
+                                width: 88%;
+                                max-width: 300px;
                             }
                         }
                     }
@@ -1773,6 +1782,14 @@
                 }
             }
         }
+//----------------------------- Sección Carousel secciones 380px--------------------
+        #carousel3dotsMobile {
+            #carouselExampleFade {
+                .carousel-indicators {
+                    top: 620px;
+                }
+            }
+        }
     }
 }
 
@@ -1782,40 +1799,45 @@
         .main {
             .mainContainer {
                 p {
-                    width: 90%;
-                    margin: 0 auto;
+                    width: 82%;
+                    font-size: 14px;
+                    line-height: 18px;
                 }
             }
         }
 //----------------------------- Sección Woman Questions 355px--------------------
         .womanQuestion {
-            background-size: 380px;
+            background-size: 360px;
+            height: 800px;
             .womanQuestion--container {
-                top: 55%;
-                width: 93%;
+                top: 53%;
+                // width: 93%;
                 height: 295px;
                 .womanQuestion__questions {
                     height: 150px;
-                    li {
-                        font-size: 17px;
-                    }
+                    // li {
+                    //     font-size: 17px;
+                    // }
+                }
+                p {
+                    height: 100px;
                 }
             }
         }
 //----------------------------- Sección Carousel secciones 355px--------------------
         #carousel3dotsMobile {
+            height: 900px;
             #carouselExampleFade {
                 .carousel-indicators {
-                    top: unset;
+                    top: 570px;
                 }
                 .carousel-inner {
                     .carousel-item {
                         .carousel-caption {
-                            h5 {
-                                font-size: 28px;
-                            }
                             p {
                                 height: 170px;
+                                display: flex;
+                                align-items: center;
                             }
                         }
                     }
@@ -1824,7 +1846,7 @@
         }
 //----------------------------- Sección littleCarouselMobile 355px--------------------
         #littleCarouselMobile {
-            top: 2370px;
+            top: 2090px;
         }
 //----------------------------- Sección Aprendo 355px---------------------------
         #aprendo {
