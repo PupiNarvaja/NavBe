@@ -1,6 +1,6 @@
 body {
     #consulta {
-        background: url(../media/mujerLaptopFalda.webp), url(../media/fondoNotebookEnFalda.webp);
+        background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.jpg);
         @include backgrounds;
         background-position: 0 -70px, 0;
         .womanConsultaAlone {
@@ -11,7 +11,7 @@ body {
             top: 14.5%; //182px
             right: 7.3%; //140px
             height: 18%; //347px
-            width: 42.76%; //821px
+            width: 43.76%; //821px
             .consulta--container__h2 {
                 @include titulo2;
                 margin: 0 0 3.125vw 0; //margin: 0 0 60px 0;

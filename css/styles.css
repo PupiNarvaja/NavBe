@@ -295,7 +295,7 @@ body .main {
         margin: 0 10px 0 0; }
 
 body .womanQuestion {
-  background: url(../media/mujerQuestionSola.webp), url(../media/fondoQuestions.webp);
+  background: url(../media/mujerQuestionSola.png), url(../media/fondoQuestions.jpg);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -342,7 +342,7 @@ body .womanQuestion {
       margin: 0; }
 
 body #aprendo {
-  background: url(../media/MujerConMesa.webp), url(../media/fondoSoloMesa.webp);
+  background: url(../media/MujerConMesa.png), url(../media/fondoSoloMesa.jpg);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -392,7 +392,7 @@ body #aprendo {
           margin: 0 0 0 44.36px; }
 
 body #consulta {
-  background: url(../media/mujerLaptopFalda.webp), url(../media/fondoNotebookEnFalda.webp);
+  background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.jpg);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -405,7 +405,7 @@ body #consulta {
     top: 14.5%;
     right: 7.3%;
     height: 18%;
-    width: 42.76%; }
+    width: 43.76%; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -450,7 +450,7 @@ body #consulta {
         margin: 0 10px 0 0; }
 
 body #horarios {
-  background: url(../media/mujerCalendarioSola.webp), url(../media/fondoSoloCalendario.webp);
+  background: url(../media/mujerCalendarioSola.png), url(../media/fondoSoloCalendario.jpg);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -490,7 +490,7 @@ body #horarios {
       width: 60.3%; }
 
 body #planes {
-  background: url(../media/mujerSolaTarjeta.webp), url(../media/FondoSoloTarjeta.webp);
+  background: url(../media/mujerSolaTarjeta.png), url(../media/FondoSoloTarjeta.png);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -1952,7 +1952,7 @@ body #littleCarouselMobile {
 
 @media (max-width: 380px) {
   body #planes {
-    background: url(../media/woman-planes-alone.webp), url(../media/background-mobile.jpg);
+    background: url(../media/woman-planes-alone.png), url(../media/background-mobile.jpg);
     background-size: 380px, cover;
     background-repeat: no-repeat;
     background-position: top center;
