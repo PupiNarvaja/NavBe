@@ -1,0 +1,112 @@
+body {
+    #preloader {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        animation-name: fadeOut;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            85% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+        .preloader--container {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            animation-name: fly;
+            animation-duration: 2.5s;
+            animation-fill-mode: forwards;
+            @keyframes fly {
+                0% {
+                    position: absolute;
+                    bottom: 5vh;
+                }
+                100% {
+                    position: absolute;
+                    bottom: 50vh;
+                }
+            }
+            img {
+                margin: 0 0 20px 0;
+                animation-name: rotate;
+                animation-duration: 2.5s;
+                animation-fill-mode: forwards;
+                @keyframes rotate {
+                    0% {
+                        transform: rotate(-45deg);
+                    }
+                    60% {
+                        transform: rotate(-45deg);
+                    }
+                    100% {
+                        transform: rotate(0deg);
+                    }
+                }
+            }
+            h2 {
+                font-size: 34px;
+                margin: 0 0 30px 0;
+                font-family: Source Sans Pro;
+                font-style: normal;
+                font-weight: bold;
+                color: $violeta;
+                animation-name: disappear;
+                animation-duration: 2.5s;
+                animation-fill-mode: forwards;
+                @keyframes disappear {
+                    0% {
+                        opacity: 1;
+                    }
+                    60% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
+                    }
+                }
+            }
+            p {
+                font-family: Nunito;
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 33px;
+                color: $violeta;
+                animation-name: appear;
+                animation-duration: 2.5s;
+                animation-fill-mode: forwards;
+                max-width: 280px;
+                text-align: center;
+                @keyframes appear {
+                    0% {
+                        opacity: 0;
+                    }
+                    60% {
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

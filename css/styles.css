@@ -5,6 +5,98 @@
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+body #preloader {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  animation-name: fadeOut;
+  animation-duration: 4s;
+  animation-fill-mode: forwards; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  85% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+  body #preloader .preloader--container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    animation-name: fly;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards; }
+
+@keyframes fly {
+  0% {
+    position: absolute;
+    bottom: 5vh; }
+  100% {
+    position: absolute;
+    bottom: 50vh; } }
+    body #preloader .preloader--container img {
+      margin: 0 0 20px 0;
+      animation-name: rotate;
+      animation-duration: 2.5s;
+      animation-fill-mode: forwards; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-45deg); }
+  60% {
+    transform: rotate(-45deg); }
+  100% {
+    transform: rotate(0deg); } }
+    body #preloader .preloader--container h2 {
+      font-size: 34px;
+      margin: 0 0 30px 0;
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: bold;
+      color: #5B3D80;
+      animation-name: disappear;
+      animation-duration: 2.5s;
+      animation-fill-mode: forwards; }
+
+@keyframes disappear {
+  0% {
+    opacity: 1; }
+  60% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+    body #preloader .preloader--container p {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 33px;
+      color: #5B3D80;
+      animation-name: appear;
+      animation-duration: 2.5s;
+      animation-fill-mode: forwards;
+      max-width: 280px;
+      text-align: center; }
+
+@keyframes appear {
+  0% {
+    opacity: 0; }
+  60% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
 body .header {
   display: flex;
   background-color: rgba(198, 247, 238, 0.3);
@@ -117,7 +209,6 @@ body .header {
   body .header {
     height: 100px;
     background-color: #EFECF3;
-    opacity: 1;
     position: fixed;
     z-index: 99; }
     body .header .headerContainer .logo {
@@ -204,7 +295,7 @@ body .main {
         margin: 0 10px 0 0; }
 
 body .womanQuestion {
-  background: url(../media/mujerQuestionSola.png), url(../media/fondoQuestions.png);
+  background: url(../media/mujerQuestionSola.webp), url(../media/fondoQuestions.webp);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -251,7 +342,7 @@ body .womanQuestion {
       margin: 0; }
 
 body #aprendo {
-  background: url(../media/MujerConMesa.png), url(../media/fondoSoloMesa.png);
+  background: url(../media/MujerConMesa.webp), url(../media/fondoSoloMesa.webp);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -301,7 +392,7 @@ body #aprendo {
           margin: 0 0 0 44.36px; }
 
 body #consulta {
-  background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.png);
+  background: url(../media/mujerLaptopFalda.webp), url(../media/fondoNotebookEnFalda.webp);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -359,7 +450,7 @@ body #consulta {
         margin: 0 10px 0 0; }
 
 body #horarios {
-  background: url(../media/mujerCalendarioSola.png), url(../media/fondoSoloCalendario.png);
+  background: url(../media/mujerCalendarioSola.webp), url(../media/fondoSoloCalendario.webp);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -399,7 +490,7 @@ body #horarios {
       width: 60.3%; }
 
 body #planes {
-  background: url(../media/mujerSolaTarjeta.png), url(../media/FondoSoloTarjeta.png);
+  background: url(../media/mujerSolaTarjeta.webp), url(../media/FondoSoloTarjeta.webp);
   background-size: contain, cover;
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
@@ -1861,7 +1952,7 @@ body #littleCarouselMobile {
 
 @media (max-width: 380px) {
   body #planes {
-    background: url(../media/woman-planes-alone.png), url(../media/background-mobile.jpg);
+    background: url(../media/woman-planes-alone.webp), url(../media/background-mobile.jpg);
     background-size: 380px, cover;
     background-repeat: no-repeat;
     background-position: top center;
