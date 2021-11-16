@@ -1,5 +1,11 @@
 $violeta: #5B3D80;
+$violeta80: #6C5893;
+$violeta60: #776094;
 $violeta40: #88779F;
+$verde: #47DBC2;
+$verdeClaro: #00EDBF;
+$colorEspecial: #6000D9;
+
 @mixin titulo2 {
     font-family: Nunito;
     font-style: normal;
@@ -30,14 +36,6 @@ $violeta40: #88779F;
     background-repeat: no-repeat, no-repeat;
     height: 1080px;
     position: relative;
-
-
-    // position: absolute;
-    // height: 1080px;
-    // width: 100%;
-    // left: 0px;
-    // background-repeat: no-repeat;
-    // background-size: contain;
 }
 
 @mixin mobile-backgrounds {

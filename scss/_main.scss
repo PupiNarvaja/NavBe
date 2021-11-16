@@ -6,8 +6,6 @@ body {
         .mainContainer {
             position: absolute;
             width: 750px;
-            // height: 610px;
-            // right: 13.4%;
             margin: 0 30% 0 45%;
             top: 170px;
             display: flex;
@@ -31,7 +29,6 @@ body {
             }
             p {
                 @include parrafo24px(bold, 24px, 30px);
-                // width: 665px;
                 color: $violeta;
                 margin: 0;
             }

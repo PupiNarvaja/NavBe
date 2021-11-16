@@ -53,10 +53,10 @@ if (window.matchMedia("(max-width: 1024px)").matches) {
         }
     });
 }
-if (window.matchMedia("(max-width: 1440px)").matches) {
+if (window.matchMedia("(max-width: 1600px)").matches) {
     $('.profesionales-carousel').owlCarousel({
         fluidSpeed: true,
-        stagePadding: 130,
+        stagePadding: 125,
         center: false,
         items:1,
         loop:false,
@@ -70,7 +70,23 @@ if (window.matchMedia("(max-width: 1440px)").matches) {
         }
     });
 }
-
+// if (window.matchMedia("(max-width: 1600px)").matches) {
+//     $('.profesionales-carousel').owlCarousel({
+//         fluidSpeed: true,
+//         stagePadding: 125,
+//         center: false,
+//         items:1,
+//         loop:false,
+//         dots: false,
+//         nav:true,
+//         navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
+//         responsive:{
+//             100:{
+//                 items:3
+//             }
+//         }
+//     });
+// }
 
 
 

@@ -25,7 +25,7 @@
   width: 56px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1600px) {
   body .owl-prev, body .owl-next {
     top: 32%;
   }
@@ -67,17 +67,11 @@
   }
 }
 
-
-
 /* sweet alert2 customization */
 .swal2-title {
   font-family: Nunito;
   color: #5B3D80 !important;
 }
-
-
-
-
 
 .owl-prev:hover, .owl-next:hover {
   background-color: unset !important;
@@ -94,9 +88,6 @@
 .carousel-fade .active.carousel-item-end {
   transition: opacity 0s 0s;
 }
-
-
-
 
 @media (max-width: 881px)  {
   .owl-prev, .owl-next {
