@@ -165,6 +165,8 @@ body {
         .header {
             height: 100px;
             background-color: rgba(91, 61, 128, .1);
+            position: fixed;
+            z-index: 99;
             .headerContainer {
                 // .backBtn{
                 //     display: block;

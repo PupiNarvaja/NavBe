@@ -1688,7 +1688,6 @@
 //----------------------------- Sección Carousel secciones  425px--------------------
         #carousel3dotsMobile {
             #carouselExampleFade {
-                width: 100%;
                 .carousel-inner {
                     .carousel-item {
                         .carousel-caption {
@@ -1786,7 +1785,22 @@
         #carousel3dotsMobile {
             #carouselExampleFade {
                 .carousel-indicators {
-                    top: 620px;
+                    margin-bottom: -10px;
+                    top: -25px;
+                }
+                .carousel-inner {
+                    .carousel-item {
+                        .carousel-caption {
+                            h5 {
+                                height: 70px;
+                                margin: 0 auto;
+                            }
+                            p {
+                                height: 120px;
+                                margin: 0 auto;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -1829,24 +1843,13 @@
             height: 900px;
             #carouselExampleFade {
                 .carousel-indicators {
-                    top: 570px;
-                }
-                .carousel-inner {
-                    .carousel-item {
-                        .carousel-caption {
-                            p {
-                                height: 170px;
-                                display: flex;
-                                align-items: center;
-                            }
-                        }
-                    }
+                    margin-bottom: 10px;
                 }
             }
         }
 //----------------------------- Sección littleCarouselMobile 355px--------------------
         #littleCarouselMobile {
-            top: 2090px;
+            top: 2140px;
         }
 //----------------------------- Sección Aprendo 355px---------------------------
         #aprendo {
@@ -1887,6 +1890,24 @@
                     margin: 0 auto;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+//----------------------------- Sección Carousel secciones 320px--------------------
+        #carousel3dotsMobile {
+            height: 780px;
+            #carouselExampleFade {
+                .carousel-indicators {
+                    margin-bottom: 70px;
+                    top: -35px;
+                }
+            }
+        }
+        #littleCarouselMobile {
+            top: 2070px;
         }
     }
 }

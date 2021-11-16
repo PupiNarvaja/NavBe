@@ -9,14 +9,20 @@ body {
         #carouselExampleFade {
             position: absolute;
             top: 0;
-            width: 411px;
+            width: 100%;
+            max-width: 425px;
             margin: 0 auto;
             height: 650px;
             display: flex;
             flex-flow: column nowrap;
             justify-content: space-between;
             .carousel-indicators {
-                top: 640px;
+                position: relative;
+                order: 2;
+                // top: 640px;
+            }
+            .carousel-indicators {
+                margin-bottom: -20px;
             }
             .carousel-indicators [data-bs-target] {
                 box-sizing: content-box;
@@ -41,7 +47,7 @@ body {
               background-color: #5B3D80;
             }
             .carousel-inner {
-                width: 100%;
+                // width: 100%;
                 .carousel-item {
                     .carousel-caption {
                         position: sticky;
@@ -60,12 +66,11 @@ body {
                         p {
                             color: $violeta;
                             width: 330px;
-                            margin: 0 auto;
-                            height: 125px;
+                            margin: 0 auto -45px auto;
+                            height: 170px;
                             @include parrafo24px(600, 14px, 18px);
                             display: flex;
-                            justify-content: center;
-                            align-items: flex-end;
+                            align-items: center;
                         }
                     }
                 }
@@ -75,7 +80,7 @@ body {
     #littleCarouselMobile {
         display: none;
         position: absolute;
-        top: 2220px;
+        top: 2250px;
         height: 200px;
         .littleCarouselMobile--container {
             .owl-stage-outer {

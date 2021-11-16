@@ -116,7 +116,9 @@ body .header {
 @media (max-width: 700px) {
   body .header {
     height: 100px;
-    background-color: rgba(91, 61, 128, 0.1); }
+    background-color: rgba(91, 61, 128, 0.1);
+    position: fixed;
+    z-index: 99; }
     body .header .headerContainer .logo {
       display: block;
       width: 120px;
@@ -632,14 +634,18 @@ body #carousel3dotsMobile {
   body #carousel3dotsMobile #carouselExampleFade {
     position: absolute;
     top: 0;
-    width: 411px;
+    width: 100%;
+    max-width: 425px;
     margin: 0 auto;
     height: 650px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between; }
     body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
-      top: 640px; }
+      position: relative;
+      order: 2; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
+      margin-bottom: -20px; }
     body #carousel3dotsMobile #carouselExampleFade .carousel-indicators [data-bs-target] {
       box-sizing: content-box;
       flex: 0 1 auto;
@@ -663,39 +669,36 @@ body #carousel3dotsMobile {
       /* add border-radius */ }
     body #carousel3dotsMobile #carouselExampleFade .carousel-indicators .active {
       background-color: #5B3D80; }
-    body #carousel3dotsMobile #carouselExampleFade .carousel-inner {
-      width: 100%; }
-      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
-        position: sticky; }
-        body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
-          color: #5B3D80;
-          font-family: Nunito;
-          font-style: normal;
-          font-weight: 900;
-          font-size: 24px;
-          line-height: 33px;
-          width: 94%;
-          margin: 0 auto -20px auto;
-          position: inherit;
-          bottom: 100px; }
-        body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
-          color: #5B3D80;
-          width: 330px;
-          margin: 0 auto;
-          height: 125px;
-          font-family: Source Sans Pro;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 14px;
-          line-height: 18px;
-          display: flex;
-          justify-content: center;
-          align-items: flex-end; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+      position: sticky; }
+      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
+        color: #5B3D80;
+        font-family: Nunito;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 33px;
+        width: 94%;
+        margin: 0 auto -20px auto;
+        position: inherit;
+        bottom: 100px; }
+      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+        color: #5B3D80;
+        width: 330px;
+        margin: 0 auto -45px auto;
+        height: 170px;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        display: flex;
+        align-items: center; }
 
 body #littleCarouselMobile {
   display: none;
   position: absolute;
-  top: 2220px;
+  top: 2250px;
   height: 200px; }
   body #littleCarouselMobile .littleCarouselMobile--container .owl-stage-outer {
     height: 250px;
@@ -1834,11 +1837,9 @@ body #littleCarouselMobile {
       display: none; }
     body .womanQuestion .womanQuestion--container {
       top: 58%; }
-  body #carousel3dotsMobile #carouselExampleFade {
-    width: 100%; }
-    body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
-      width: 88%;
-      max-width: 300px; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+    width: 88%;
+    max-width: 300px; }
   body #aprendo .womanNetbookAlone {
     width: 100%; }
   body #consulta .womanConsultaAlone {
@@ -1889,7 +1890,14 @@ body #littleCarouselMobile {
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
               bottom: -55px; }
   body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
-    top: 620px; } }
+    margin-bottom: -10px;
+    top: -25px; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
+    height: 70px;
+    margin: 0 auto; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+    height: 120px;
+    margin: 0 auto; } }
 
 @media (max-width: 355px) {
   body .main .mainContainer p {
@@ -1909,13 +1917,9 @@ body #littleCarouselMobile {
   body #carousel3dotsMobile {
     height: 900px; }
     body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
-      top: 570px; }
-    body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
-      height: 170px;
-      display: flex;
-      align-items: center; }
+      margin-bottom: 10px; }
   body #littleCarouselMobile {
-    top: 2090px; }
+    top: 2140px; }
   body #aprendo .aprendo--container .aprendo--container__h2 {
     width: 100%;
     text-align: center;
@@ -1938,3 +1942,12 @@ body #littleCarouselMobile {
     body #horarios .horarios--container p {
       width: 90%;
       margin: 0 auto; } }
+
+@media (max-width: 320px) {
+  body #carousel3dotsMobile {
+    height: 780px; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
+      margin-bottom: 70px;
+      top: -35px; }
+  body #littleCarouselMobile {
+    top: 2070px; } }
