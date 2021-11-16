@@ -26,15 +26,15 @@
     <header class="header">
         <div class="headerContainer">
             <button type="button" name="backButton" class="backBtn"><img src="./media/backBtn.svg"></button>     <!--aparecerá solo en pantallas pequeñas-->
-            <img src="./media/logo.svg" alt="logo" class="logo">
-            <img src="./media/logo-smartphone.svg" alt="logo" class="logo-smartphone">     <!--aparecerá solo en pantallas pequeñas-->
-            <img src="./media/notificaciones.svg" alt="notificaciones" class="notificaciones">     <!--aparecerá solo en pantallas pequeñas-->
+            <img data-src="./media/logo.svg" alt="logo" class="logo lazyload">
+            <img data-src="./media/logo-smartphone.svg" alt="logo" class="logo-smartphone lazyload">     <!--aparecerá solo en pantallas pequeñas-->
+            <img data-src="./media/notificaciones.svg" alt="notificaciones" class="notificaciones lazyload">     <!--aparecerá solo en pantallas pequeñas-->
             <nav class="navbar">
                 <ul>
-                    <a href="#aprendo"><img src="./media/aprendo.svg"><li>Aprendo</li></a>
-                    <a href="#consulta"><img src="./media/consulto.svg"><li>Consulto</li></a>
-                    <a href="#horarios"><img src="./media/comunidad.svg"><li>Comunidad</li></a>
-                    <a href="#planes"><img src="./media/planes.svg"><li>Planes</li></a>
+                    <a href="#aprendo"><img data-src="./media/aprendo.svg" class="lazyload"><li>Aprendo</li></a>
+                    <a href="#consulta"><img data-src="./media/consulto.svg" class="lazyload"><li>Consulto</li></a>
+                    <a href="#horarios"><img data-src="./media/comunidad.svg" class="lazyload"><li>Comunidad</li></a>
+                    <a href="#planes"><img data-src="./media/planes.svg" class="lazyload"><li>Planes</li></a>
                 </ul>
             </nav>
             <button class="inicioSesionBtn" type="button">INICIA SESIÓN</button>
@@ -44,7 +44,7 @@
 
     <div id="preloader">
         <div class="preloader--container">
-            <img src="./media/logo-smartphone.svg" alt="logo">
+            <img data-src="./media/logo-smartphone.svg" class="lazyload" alt="logo">
             <h2>navbe</h2>
             <p>Salud y educación para mamás, papás y tutores.</p>
         </div>
@@ -52,18 +52,18 @@
 
     <main class="main">
         <div class="mainContainer">
-            <img src="./media/cohete.png" alt="cohete" class="coheteAlone">
+            <img data-src="./media/cohete.png" alt="cohete" class="coheteAlone lazyload">
             <div class="h1Container">
                 <h1>Salud y educación<br> en línea para mamás, papás y tutores</h1>
             </div>
             <p>Navbe es una red online de profesionales de la salud,<br> educación, finanzas, y una red de padres que colaboran<br> entre sí para compartir experiencias, ciencia y conocimiento.</p>
-            <button class="descargaBtn"><img src="./media/fire.svg" alt="fuego decorativo">DESCARGA LA APP</button>
+            <button class="descargaBtn"><img data-src="./media/fire.svg" class="lazyload" alt="fuego decorativo">DESCARGA LA APP</button>
         </div>
     </main>
 
     <section class="womanQuestion">
-        <img src="./media/question-woman-alone.png" alt="mujer tiene dudas" class="womanQuestionsAlone">
-        <img src="./media/elementos.svg" alt="elementos decorativos" class="decoElements">
+        <img data-src="./media/question-woman-alone.png" alt="mujer tiene dudas" class="womanQuestionsAlone lazyload">
+        <img data-src="./media/elementos.svg" alt="elementos decorativos" class="decoElements lazyload">
         <div class="womanQuestion--container">
             <ul class="womanQuestion__questions">
                 <li>¿Esta receta es nutritiva?</li>
@@ -84,21 +84,21 @@
             </div>
             <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="100000">
-                <img src="./media/woman-table-alone.png" class="d-block w-100" alt="mujer sentada en mesa">
+                <img data-src="./media/woman-table-alone.png" class="d-block w-100 lazyload" alt="mujer sentada en mesa">
                 <div class="carousel-caption d-md-block">
                 <h5>Aprende con nosotros<br> con nuestros cursos</h5>
                 <p>Lecciones cortas y divertidas, talleres rápidos, consultas en línea con profesionales de la salud, educación y más recursos de apoyo en la crianza de tus hijas/os y desarrollo del hogar.</p>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="2000">
-                <img src="./media/woman-consulta-alone.png" class="d-block w-100"  alt="mujer sentada aprendiendo">
+                <img data-src="./media/woman-consulta-alone.png" class="d-block w-100 lazyload"  alt="mujer sentada aprendiendo">
                 <div class="carousel-caption d-md-block">
                 <h5>Consulta online con<br> nuestros especialistas</h5>
                 <p>Construimos un equipo multidisciplinario formado por especialistas en educación, salud mental, desarrollo infantil, atención temprana, pedagogía, educación online, finanzas y desarrollo de software.</p>
                 </div>
             </div>
             <div class="carousel-item " data-bs-interval="3000">
-                <img src="./media/woman-calendar-alone.png" class="d-block w-100" alt="mujer con calendario">
+                <img data-src="./media/woman-calendar-alone.png" class="d-block w-100 lazyload" alt="mujer con calendario">
                 <div class="carousel-caption d-md-block">
                 <h5>Nos adaptamos a tus<br> horarios</h5>
                 <p>Aunque sigas tu ritmo y tengas flexibilidad horaria, nunca estarás solo. Te ofrecemos un coach que te guía en todo el proceso, te acompañará a lo largo de tu formación y te ayudará a seguir adelante en los momentos más difíciles.</p>
@@ -111,23 +111,23 @@
     <section id="littleCarouselMobile">
         <div class="owl-carousel owl-theme littleCarouselMobile--container">
             <div class="item">
-                <img src="./media/curso-gratuito.svg" alt="curso gratuito">
+                <img data-src="./media/curso-gratuito.svg" class="lazyload" alt="curso gratuito">
                 <p>Accede<br> a cursos gratuitos</p>
             </div>
             <div class="item">
-                <img src="./media/talleres.svg" alt="talleres">
+                <img data-src="./media/talleres.svg" class="lazyload" alt="talleres">
                 <p>Talleres</p>
             </div>
             <div class="item">
-                <img src="./media/podcast.svg" alt="podcast">
+                <img data-src="./media/podcast.svg" class="lazyload" alt="podcast">
                 <p>Podcast</p>
             </div>
             <div class="item">
-                <img src="./media/videos.svg" alt="videos">
+                <img data-src="./media/videos.svg" class="lazyload" alt="videos">
                 <p>Videos</p>
             </div>
             <div class="item">
-                <img src="./media/consultas-enlinea.svg" alt="consultas">
+                <img data-src="./media/consultas-enlinea.svg" class="lazyload" alt="consultas">
                 <p>Consultas en línea con profesionales</p>
             </div>
         </div>
@@ -137,33 +137,33 @@
 
 
     <section id="aprendo">
-        <img src="./media/woman-table-alone.png" class="womanNetbookAlone" alt="mujer sentada aprendiendo">
+        <img data-src="./media/woman-table-alone.png" class="womanNetbookAlone lazyload" alt="mujer sentada aprendiendo">
         <div class="aprendo--container">
             <h2 class="aprendo--container__h2">Aprende con nosotros</h2>
             <p>Lecciones cortas y divertidas, talleres rápidos, consultas en línea con profesionales de la salud, educación y más recursos de apoyo en la crianza de tus hijas/os y desarrollo del hogar.</p>
             <div class="cards--container">
                 <div>
-                    <img src="./media/curso-gratuito.svg" alt="cursos gratuitos" class="img1">
+                    <img data-src="./media/curso-gratuito.svg" alt="cursos gratuitos" class="img1 lazyload">
                     <span class="m1">Accede a cursos gratuitos</span>
                 </div>
 
                 <div>
-                    <img src="./media/talleres.svg" alt="talleres" class="img2">
+                    <img data-src="./media/talleres.svg" alt="talleres" class="img2 lazyload">
                     <span class="m2">Talleres </span>
                 </div>
 
                 <div>
-                    <img src="./media/podcast.svg" alt="podcast" class="img3">
+                    <img data-src="./media/podcast.svg" alt="podcast" class="img3 lazyload">
                     <span class="m3">Podcast</span>
                 </div>
 
                 <div>
-                    <img src="./media/videos.svg" alt="videos" class="img4">
+                    <img data-src="./media/videos.svg" alt="videos" class="img4 lazyload">
                     <span class="m4">Videos</span>
                 </div>
 
                 <div>
-                    <img src="./media/consultas-enlinea.svg" alt="consultas en linea" class="img5">
+                    <img data-src="./media/consultas-enlinea.svg" alt="consultas en linea" class="img5 lazyload">
                     <span class="m5">Consultas en línea con profesionales</span>
                 </div>
             </div>
@@ -173,11 +173,11 @@
 
 
     <section id="consulta">
-        <img src="./media/woman-consulta-alone.png" class="womanConsultaAlone" alt="mujer sentada con notebook">
+        <img data-src="./media/woman-consulta-alone.png" class="womanConsultaAlone lazyload" alt="mujer sentada con notebook">
         <div class="consulta--container">
             <h2 class="consulta--container__h2">Consulta online con nuestros profesionales</h2>
             <p>Construimos un equipo multidisciplinario. Formado por especialistas en educación, salud mental, desarrollo infantil, atención temprana, pedagogía, educación online, finanzas y desarrollo de software.</p>
-            <button class="descargaBtn"><img src="./media/fire.svg" alt="fuego decorativo">DESCARGA LA APP</button>
+            <button class="descargaBtn"><img data-src="./media/fire.svg" class="lazyload" alt="fuego decorativo">DESCARGA LA APP</button>
         </div>
     </section>
     
@@ -189,7 +189,7 @@
             <div class="owl-carousel owl-theme profesionales-carousel">
                 <div class="item">
                     <div class="profesionales-item-img-div">
-                        <img src="./media/profesionalGaitan.jpg" alt="profesional">
+                        <img data-src="./media/profesionalGaitan.jpg" class="lazyload" alt="profesional">
                     </div>
                     <div class="item__info-div">
                         <h3>Lucía Gaitan</h3>
@@ -200,7 +200,7 @@
 
                 <div class="item">
                     <div class="profesionales-item-img-div">
-                        <img src="./media/profesionalRomero.jpg" alt="profesional">
+                        <img data-src="./media/profesionalRomero.jpg" class="lazyload" alt="profesional">
                     </div>
                     <div class="item__info-div">
                         <h3>Mar Romero</h3>
@@ -211,7 +211,7 @@
 
                 <div class="item">
                     <div class="profesionales-item-img-div">
-                        <img src="./media/profesionalBarba.jpg" alt="profesional">
+                        <img data-src="./media/profesionalBarba.jpg" class="lazyload" alt="profesional">
                     </div>
                     <div class="item__info-div">
                         <h3>José Carlos Ruiz</h3>
@@ -222,7 +222,7 @@
 
                 <div class="item">
                     <div class="profesionales-item-img-div">
-                        <img src="./media/profesionalRuiz.jpg" alt="profesional">
+                        <img data-src="./media/profesionalRuiz.jpg" class="lazyload" alt="profesional">
                     </div>
                     <div class="item__info-div">
                         <h3>José Carlos Ruiz</h3>
@@ -233,7 +233,7 @@
 
                 <div class="item">
                     <div class="profesionales-item-img-div">
-                        <img src="./media/profesionalMendoza.jpg" alt="profesional">
+                        <img data-src="./media/profesionalMendoza.jpg" class="lazyload" alt="profesional">
                     </div>
                     <div class="item__info-div">
                         <h3>Mónica Mendoza</h3>
@@ -245,7 +245,7 @@
     </section>
 
     <section id="horarios">
-        <img src="./media/woman-calendar-alone.png" class="womanCalendarioAlone" alt="mujer con calendario">
+        <img data-src="./media/woman-calendar-alone.png" class="womanCalendarioAlone lazyload" alt="mujer con calendario">
         <div class="horarios--container">
             <h2 class="horarios--container__h2">Nos adaptamos a tus horarios</h2>
                 <h3 class="horarios--container__h3">Sabemos que puede ser difícil encontrar un espacio para ti. </h3>
@@ -255,7 +255,7 @@
 
 
     <section id="planes">
-        <img src="./media/woman-planes-alone.png" class="womanPagosAlone" alt="mujer con tarjeta">
+        <img data-src="./media/woman-planes-alone.png" class="womanPagosAlone lazyload" alt="mujer con tarjeta">
         <div class="planes--container">
             <h2 class="planes--container__h2">Planes</h2>
             <div class="planes--container__cards">
@@ -272,7 +272,7 @@
                             <li>Promociones</li>
                             <li>Rutas de aprendizaje</li>
                         </ul>
-                        <button class="inscribirYaBtn">Inscríbete ya!<img src="./media/fire.svg" alt="fuego decorativo"></button>
+                        <button class="inscribirYaBtn">Inscríbete ya!<img data-src="./media/fire.svg" class="lazyload" alt="fuego decorativo"></button>
                     </div>
                 </div>
                 <div class="planes__card">
@@ -293,7 +293,9 @@
         </div>
     </section>
 
-
+    <!-- lazy load begins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js" async></script>
+    <!-- lazy load ends -->
     <!-- sweet alert begins -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- sweet alert ends -->
