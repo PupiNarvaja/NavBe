@@ -1408,7 +1408,7 @@
                     height: 38px;
                     @include parrafo24px(bold, 16px, 20px);
                     &:hover {
-                        background-color: #6000D9;
+                        background-color: $colorEspecial;
                     }
                     &:active {
                         background: rgba(96, 0, 217, 0.7);
@@ -1517,13 +1517,13 @@
                         margin: 0 auto;
                         div {
                             .inscribirYaBtn:hover {
-                                background-color: rgba(96, 0, 217, 1);
+                                background-color: $colorEspecial;
                             }
                             .inscribirYaBtn:active {
                                 background-color: #420194;
                             }
                             .inscribirGratisBtn:hover {
-                                background-color: rgba(119, 96, 148, 1);
+                                background-color: $violeta60;
                             }
                             .inscribirGratisBtn:active {
                                 background-color: $violeta;

@@ -2,9 +2,6 @@ body {
     .womanQuestion {
         background: url(../media/mujerQuestionSola.png), url(../media/fondoQuestions.jpg);
         @include backgrounds;
-        // background: url(../media/woman-preguntas.svg);
-        // @include backgrounds;
-        // top: 1080px;
         .womanQuestionsAlone {
             display: none;
         }

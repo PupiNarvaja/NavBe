@@ -61,7 +61,7 @@ body #preloader {
   100% {
     transform: rotate(0deg); } }
     body #preloader .preloader--container h2 {
-      font-size: clamp(42px, calc(4.69vw + 1rem), 160px);
+      font-size: clamp(42px, calc(4.69vw + 1rem), 150px);
       margin: 0 0 1.5vh 0;
       font-family: Source Sans Pro;
       font-style: normal;
@@ -616,7 +616,7 @@ body #planes {
           color: white;
           cursor: pointer; }
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
-          background-color: #6000d9;
+          background-color: #5B3D80;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -1858,7 +1858,7 @@ body #littleCarouselMobile {
         body #planes .planes--container .planes--container__cards .planes__card {
           margin: 0 auto; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:hover {
-            background-color: #6000d9; }
+            background-color: #6000D9; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn:active {
             background-color: #420194; }
           body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn:hover {

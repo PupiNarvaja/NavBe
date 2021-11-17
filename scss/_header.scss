@@ -40,7 +40,7 @@ body {
                         color: black;
                         transition: all .2s;
                         &:hover {
-                            color: #47DBC2;
+                            color: $verde;
                         }
                         img {
                             display: none;
@@ -59,7 +59,7 @@ body {
                 }
             }
             .registrarmeBtn {
-                background-color: #6C5893;
+                background-color: $violeta80;
                 color: white;
                 transition: all .2s;
                 &:hover {
