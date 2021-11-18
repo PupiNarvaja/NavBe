@@ -134,7 +134,7 @@
                 }
             }
         }
- //----------------------------- Sección Consulta 1440px---------------------------
+//----------------------------- Sección Consulta 1440px---------------------------
         #consulta {
             height: 810px;
         }
@@ -810,7 +810,6 @@
                 font-size: unset;
                 .planes--container__h2 {
                     font-weight: 900;
-                    font-size: 40px;
                     line-height: 55px;
                     text-align: center;
                 }
@@ -903,9 +902,6 @@
                                     width: 18px;
                                 }
                             }
-                            .inscribirGratisBtn {
-                                // margin: 3px 6.5% 0 6.5%;
-                            }
                         }
                     }
                 }
@@ -934,6 +930,10 @@
             #carouselExampleFade {
                 .carousel-inner {
                     .carousel-item {
+                        .div-img-container {
+                            width: 100%;
+                            min-height: 450px;
+                        }
                         .carousel-caption {
                             p {
                                 width: 88%;
@@ -1136,7 +1136,7 @@
             #carouselExampleFade {
                 .carousel-indicators {
                     margin-bottom: 70px;
-                    top: -35px;
+                    top: -20px;
                 }
             }
         }

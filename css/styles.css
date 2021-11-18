@@ -778,31 +778,33 @@ body #carousel3dotsMobile {
       /* add border-radius */ }
     body #carousel3dotsMobile #carouselExampleFade .carousel-indicators .active {
       background-color: #5B3D80; }
-    body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
-      position: sticky; }
-      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
-        color: #5B3D80;
-        font-family: Nunito;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 24px;
-        line-height: 33px;
-        width: 94%;
-        margin: 0 auto -20px auto;
-        position: inherit;
-        bottom: 100px; }
-      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
-        color: #5B3D80;
-        width: 330px;
-        margin: 0 auto -45px auto;
-        height: 170px;
-        font-family: Source Sans Pro;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 18px;
-        display: flex;
-        align-items: center; }
+    body #carousel3dotsMobile #carouselExampleFade .carousel-inner {
+      width: 100%; }
+      body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+        position: sticky; }
+        body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
+          color: #5B3D80;
+          font-family: Nunito;
+          font-style: normal;
+          font-weight: 900;
+          font-size: 24px;
+          line-height: 33px;
+          width: 94%;
+          margin: 0 auto -20px auto;
+          position: inherit;
+          bottom: 100px; }
+        body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
+          color: #5B3D80;
+          width: 330px;
+          margin: 0 auto -45px auto;
+          height: 170px;
+          font-family: Source Sans Pro;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 18px;
+          display: flex;
+          align-items: center; }
 
 body #littleCarouselMobile {
   display: none;
@@ -1370,7 +1372,6 @@ body #littleCarouselMobile {
       font-size: unset; }
       body #planes .planes--container .planes--container__h2 {
         font-weight: 900;
-        font-size: 40px;
         line-height: 55px;
         text-align: center; }
       body #planes .planes--container .planes--container__cards {
@@ -1455,6 +1456,9 @@ body #littleCarouselMobile {
       display: none; }
     body .womanQuestion .womanQuestion--container {
       top: 58%; }
+  body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .div-img-container {
+    width: 100%;
+    min-height: 450px; }
   body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .carousel-caption p {
     width: 88%;
     max-width: 300px; }
@@ -1564,6 +1568,6 @@ body #littleCarouselMobile {
     height: 780px; }
     body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
       margin-bottom: 70px;
-      top: -35px; }
+      top: -20px; }
   body #littleCarouselMobile {
     top: 2070px; } }
