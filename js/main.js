@@ -1,13 +1,11 @@
 // ========== Carousels config ==========
 $(document).ready(function(){
     $('.profesionales-carousel').owlCarousel({
-        // startPosition: 1,
         fluidSpeed: true,
         stagePadding: 160,
         center: false,
         items:1,
         loop:false,
-        // margin:250,
         dots: false,
         nav:true,
         navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
@@ -70,25 +68,6 @@ if (window.matchMedia("(max-width: 1600px)").matches) {
         }
     });
 }
-// if (window.matchMedia("(max-width: 1600px)").matches) {
-//     $('.profesionales-carousel').owlCarousel({
-//         fluidSpeed: true,
-//         stagePadding: 125,
-//         center: false,
-//         items:1,
-//         loop:false,
-//         dots: false,
-//         nav:true,
-//         navText: ["<img src='./media/prevArrow.svg' alt='boton previo' aria-label='boton previo'/>","<img src='./media/nextArrow.svg' alt='boton siguiente' aria-label='boton previo'/>"],
-//         responsive:{
-//             100:{
-//                 items:3
-//             }
-//         }
-//     });
-// }
-
-
 
 $(document).ready(function(){
     $('.littleCarouselMobile--container').owlCarousel({
@@ -98,7 +77,6 @@ $(document).ready(function(){
         dots: false,
         nav: false,
         autoplay: false,
-        // centerPadding: '60px',
         responsive:{
             0:{
                 items:2
@@ -135,10 +113,10 @@ popUps = () => {Swal.fire({
 })};
 
 // ====== Changes mobile navbar links ======
-if (window.matchMedia("(max-width: 700px)").matches) {
-    $(".navbar ul").empty();
-    $(".navbar ul").prepend(`<a href="#carousel3dotsMobile"><img src="./media/aprendo.svg" alt="imagen de la seccion aprendo"><li>Aprendo</li></a>
-    <a href="#carousel3dotsMobile"><img src="./media/consulto.svg" alt="imagen de la seccion consulto"><li>Consulto</li></a>
-    <a href="#carousel3dotsMobile"><img src="./media/comunidad.svg" alt="imagen de la seccion comunidad"><li>Comunidad</li></a>
-    <a href="#planes"><img src="./media/planes.svg" alt="imagen de la seccion planes"><li>Planes</li></a>`);
-};
+// if (window.matchMedia("(max-width: 700px)").matches) {
+//     $(".navbar ul").empty();
+//     $(".navbar ul").prepend(`<a href="#carousel3dotsMobile"><img src="./media/aprendo.svg" alt="imagen de la seccion aprendo"><li>Aprendo</li></a>
+//     <a href="#carousel3dotsMobile"><img src="./media/consulto.svg" alt="imagen de la seccion consulto"><li>Consulto</li></a>
+//     <a href="#carousel3dotsMobile"><img src="./media/comunidad.svg" alt="imagen de la seccion comunidad"><li>Comunidad</li></a>
+//     <a href="#planes"><img src="./media/planes.svg" alt="imagen de la seccion planes"><li>Planes</li></a>`);
+// };

@@ -1,25 +1,13 @@
 @media (max-width: 1600px) {
+    :root {
+        font-size: 13.33333376px;
+    }
     body {
         .main {
             height: 900px;
             .mainContainer {
                 top: 140px;
                 width: 650px;
-                .h1Container {
-                    h1 {
-                        font-size: 60px;
-                        line-height: 70px
-                    }
-                }
-                p {
-                    font-size: 20px;
-                }
-                .descargaBtn {
-                    margin: 60px 16% 0 0;
-                    img {
-                        width: 21.5px;
-                    }
-                }
             }
         }
 //----------------------------- Sección Woman Question 1600px--------------------
@@ -218,15 +206,11 @@
 
 
 @media (max-width: 1440px) {
+    :root {
+        font-size: 12px;
+    }
     body {
-//----------------------------- Sección Aprende con nosotros 1440px--------------------
-        .main {
-            .mainContainer {
-                .descargaBtn {
-                    font-size: 18px;
-                }
-            }
-        }
+//----------------------------- Sección womanQuestion 1440px--------------------
         .womanQuestion {
             height: 810px;
             .womanQuestion--container {
@@ -455,29 +439,15 @@
 }
 
 @media (max-width: 1200px) {
+    :root {
+        font-size: 10px;
+    }
     body {
         .main {
             height: 700px;
             .mainContainer {
                 width: 500px;
                 top: 80px;
-                .h1Container {
-                    margin: 0 0 30px 0;
-                    h1 {
-                        font-size: 42px;
-                        line-height: 55px;
-                    }
-                }
-                p {
-                    font-size: 16px;
-                    line-height: 25px;
-                }
-                .descargaBtn {
-                    font-size: 15px;
-                    img {
-                        width: 16.25px;
-                    }
-                }
             }
         }
 //----------------------------- Sección Woman Question 1200px--------------------
@@ -693,19 +663,15 @@
 }
 
 @media (max-width: 1024px) {
+    :root {
+        font-size: 8.533334px;
+    }
     body {
 //----------------------------- Sección Main 1024px--------------------  
         .main {
             background-position: -22px -8px;
             .mainContainer {
                 margin: 0 30% 0 43%;
-                .descargaBtn {
-                    font-size: 12.8px;
-                    margin: 60px 34% 0 0;
-                    img {
-                        width: 13.8px;
-                    }
-                }
             }
         }
 //----------------------------- Sección Woman Question 1024px--------------------
@@ -942,27 +908,16 @@
 }
 
 @media (max-width: 881px) {
+    :root {
+        font-size: 7.3333335px;
+    }
     body {
         .main {
             height: 560px;
             .mainContainer {
-                width: 380px;
-                top: 40px;
+                width: 378px;
+                top: 50px;
                 margin: 0 30% 0 45%;
-                .h1Container {
-                    h1 {
-                        font-size: 36px;
-                        line-height: 40px;
-                    }
-                }
-                p {
-                    font-size: 14px;
-                    line-height: 20px;
-                }
-                .descargaBtn {
-                    font-size: 9.6px;
-                    margin: 50px 17% 0 0;
-                }
             }
         }
 //----------------------------- Sección Woman Question 881px--------------------
@@ -1179,6 +1134,9 @@
 }
 
 @media (max-width: 768px) {
+    :root {
+        font-size: 6.4px;
+    }
     body {
         .main {
             background-position-x: -30px;
@@ -1351,6 +1309,9 @@
 }
 
 @media (max-width: 700px) {
+    :root {
+        font-size: 16px;
+    }
     body {
         .main {
             background: none;
@@ -1406,6 +1367,7 @@
                     margin: 50px 0 0 0;
                     width: 225px;
                     height: 38px;
+                    align-self: center;
                     @include parrafo24px(bold, 16px, 20px);
                     &:hover {
                         background-color: $colorEspecial;

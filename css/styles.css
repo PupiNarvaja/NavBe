@@ -248,17 +248,18 @@ body .main {
     margin: 0 30% 0 45%;
     top: 170px;
     display: flex;
-    flex-flow: column nowrap; }
+    flex-flow: column nowrap;
+    font-size: 2rem; }
     body .main .mainContainer .coheteAlone {
       display: none; }
     body .main .mainContainer .h1Container {
-      margin: 0 0 50px 0; }
+      margin: 0 0 1.5625em 0; }
       body .main .mainContainer .h1Container h1 {
         font-family: 'Nunito', sans-serif;
-        font-size: 72px;
+        font-size: 2.25em;
         font-style: normal;
         font-weight: 900;
-        line-height: 85px;
+        line-height: 1.180em;
         letter-spacing: 0em;
         text-align: left;
         margin: 0;
@@ -267,8 +268,8 @@ body .main {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 0.75em;
+      line-height: 1.25em;
       color: #5B3D80;
       margin: 0; }
     body .main .mainContainer .descargaBtn {
@@ -286,17 +287,17 @@ body .main {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 22px;
-      line-height: 27.65px;
-      margin: 95px 19% 0 0;
-      align-self: center;
+      font-size: 0.6875em;
+      line-height: 1.27em;
+      margin: 5.45em 0 0 4.27em;
       display: flex;
       justify-content: center;
       align-items: center; }
       body .main .mainContainer .descargaBtn:hover {
         background: rgba(96, 0, 217, 0.7); }
       body .main .mainContainer .descargaBtn img {
-        margin: 0 10px 0 0; }
+        margin: 0 10px 0 0;
+        width: 1.1818em; }
 
 body .womanQuestion {
   background: url(../media/mujerQuestionSola.png), url(../media/fondoQuestions.jpg);
@@ -616,7 +617,7 @@ body #planes {
           color: white;
           cursor: pointer; }
         body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn {
-          background-color: #5B3D80;
+          background-color: #6000D9;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -834,20 +835,13 @@ body #littleCarouselMobile {
       height: 36px; }
 
 @media (max-width: 1600px) {
+  :root {
+    font-size: 13.33333376px; }
   body .main {
     height: 900px; }
     body .main .mainContainer {
       top: 140px;
       width: 650px; }
-      body .main .mainContainer .h1Container h1 {
-        font-size: 60px;
-        line-height: 70px; }
-      body .main .mainContainer p {
-        font-size: 20px; }
-      body .main .mainContainer .descargaBtn {
-        margin: 60px 16% 0 0; }
-        body .main .mainContainer .descargaBtn img {
-          width: 21.5px; }
   body .womanQuestion {
     height: 900px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -973,8 +967,8 @@ body #littleCarouselMobile {
             margin: -2px 13.41% 0 13.41%; } }
 
 @media (max-width: 1440px) {
-  body .main .mainContainer .descargaBtn {
-    font-size: 18px; }
+  :root {
+    font-size: 12px; }
   body .womanQuestion {
     height: 810px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -1127,23 +1121,13 @@ body #littleCarouselMobile {
             margin: 2px 13.41% 0 13.41%; } }
 
 @media (max-width: 1200px) {
+  :root {
+    font-size: 10px; }
   body .main {
     height: 700px; }
     body .main .mainContainer {
       width: 500px;
       top: 80px; }
-      body .main .mainContainer .h1Container {
-        margin: 0 0 30px 0; }
-        body .main .mainContainer .h1Container h1 {
-          font-size: 42px;
-          line-height: 55px; }
-      body .main .mainContainer p {
-        font-size: 16px;
-        line-height: 25px; }
-      body .main .mainContainer .descargaBtn {
-        font-size: 15px; }
-        body .main .mainContainer .descargaBtn img {
-          width: 16.25px; }
   body .womanQuestion {
     height: 675px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -1281,15 +1265,12 @@ body #littleCarouselMobile {
               width: 16.25px; } }
 
 @media (max-width: 1024px) {
+  :root {
+    font-size: 8.533334px; }
   body .main {
     background-position: -22px -8px; }
     body .main .mainContainer {
       margin: 0 30% 0 43%; }
-      body .main .mainContainer .descargaBtn {
-        font-size: 12.8px;
-        margin: 60px 34% 0 0; }
-        body .main .mainContainer .descargaBtn img {
-          width: 13.8px; }
   body .womanQuestion {
     height: 576px; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
@@ -1444,21 +1425,14 @@ body #littleCarouselMobile {
             margin: -3px 13.41% 0 13.41%; } }
 
 @media (max-width: 881px) {
+  :root {
+    font-size: 7.3333335px; }
   body .main {
     height: 560px; }
     body .main .mainContainer {
-      width: 380px;
-      top: 40px;
+      width: 378px;
+      top: 50px;
       margin: 0 30% 0 45%; }
-      body .main .mainContainer .h1Container h1 {
-        font-size: 36px;
-        line-height: 40px; }
-      body .main .mainContainer p {
-        font-size: 14px;
-        line-height: 20px; }
-      body .main .mainContainer .descargaBtn {
-        font-size: 9.6px;
-        margin: 50px 17% 0 0; }
   body .womanQuestion {
     height: 495px; }
     body .womanQuestion .womanQuestion--container {
@@ -1599,6 +1573,8 @@ body #littleCarouselMobile {
               margin: 0 0 2px 6px; } }
 
 @media (max-width: 768px) {
+  :root {
+    font-size: 6.4px; }
   body .main {
     background-position-x: -30px; }
   body .womanQuestion .womanQuestion--container .womanQuestion__questions {
@@ -1710,6 +1686,8 @@ body #littleCarouselMobile {
               margin: 0 0 2px 6px; } }
 
 @media (max-width: 700px) {
+  :root {
+    font-size: 16px; }
   body .main {
     background: none;
     display: flex;
@@ -1751,6 +1729,7 @@ body #littleCarouselMobile {
         margin: 50px 0 0 0;
         width: 225px;
         height: 38px;
+        align-self: center;
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: bold;

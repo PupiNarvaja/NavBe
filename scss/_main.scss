@@ -10,17 +10,18 @@ body {
             top: 170px;
             display: flex;
             flex-flow: column nowrap;
+            font-size: 2rem;
             .coheteAlone {
                 display: none;
             }
             .h1Container {
-                margin: 0 0 50px 0;
+                margin: 0 0 1.5625em 0;
                 h1 {
                     font-family: 'Nunito', sans-serif;
-                    font-size: 72px;
+                    font-size: 2.25em;
                     font-style: normal;
                     font-weight: 900;
-                    line-height: 85px;
+                    line-height: 1.180em;
                     letter-spacing: 0em;
                     text-align: left;
                     margin: 0;
@@ -28,20 +29,20 @@ body {
                 }
             }
             p {
-                @include parrafo24px(bold, 24px, 30px);
+                @include parrafo24px(bold, 0.75em, 1.25em);
                 color: $violeta;
                 margin: 0;
             }
             .descargaBtn {
                 @include descargaButton;
-                @include parrafo24px(bold, 22px, 27.65px);
-                margin: 95px 19% 0 0;
-                align-self: center;
+                @include parrafo24px(bold, 0.6875em, 1.27em);
+                margin: 5.45em 0 0 4.27em;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 img {
                     margin: 0 10px 0 0;
+                    width: 1.1818em;
                 }
             }
         }
