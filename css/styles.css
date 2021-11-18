@@ -471,10 +471,11 @@ body #horarios {
     display: none; }
   body #horarios .horarios--container {
     position: absolute;
-    top: 7.2%;
+    top: 13%;
     margin: 0 auto 0 9%;
-    width: 56.9%;
-    height: 42%; }
+    width: 59.9%;
+    font-size: 2rem;
+    height: 14.1875em; }
     body #horarios .horarios--container .horarios--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -482,22 +483,23 @@ body #horarios {
       font-size: 2.25em;
       line-height: 1.361em;
       color: #5B3D80;
-      margin: 0 0 30px 0; }
+      margin: 0 0 0.9375em 0;
+      width: 110%; }
     body #horarios .horarios--container .horarios--container__h3 {
       font-family: Nunito;
       font-style: normal;
       font-weight: bold;
-      font-size: 48px;
-      line-height: 65px;
+      font-size: 1.5em;
+      line-height: 1.354166em;
       color: #5B3D80;
       width: 64%;
-      margin: 0 0 55px 0; }
+      margin: 0 0 1.145833em 0; }
     body #horarios .horarios--container p {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 0.75em;
+      line-height: 1.25em;
       width: 60.3%; }
 
 body #planes {
@@ -869,16 +871,6 @@ body #littleCarouselMobile {
           height: 183px; }
   body #horarios {
     height: 900px; }
-    body #horarios .horarios--container .horarios--container__h2 {
-      font-size: 60px;
-      line-height: 82px;
-      margin: 0 0 26px 0; }
-    body #horarios .horarios--container .horarios--container__h3 {
-      font-size: 40px;
-      line-height: 54px;
-      margin: 0 0 45px 0; }
-    body #horarios .horarios--container p {
-      font-size: 20px; }
   body #planes {
     height: 1017px;
     background-position: 80px, 0; }
@@ -968,19 +960,6 @@ body #littleCarouselMobile {
           height: 165px; }
   body #horarios {
     height: 810px; }
-    body #horarios .horarios--container {
-      height: 38%; }
-      body #horarios .horarios--container .horarios--container__h2 {
-        font-size: 54px;
-        line-height: 73.5px;
-        margin: 0 0 26px 0; }
-      body #horarios .horarios--container .horarios--container__h3 {
-        font-size: 36px;
-        line-height: 48.6px;
-        margin: 0 0 40px 0; }
-      body #horarios .horarios--container p {
-        font-size: 18px;
-        line-height: 22.5px; }
   body #planes {
     height: 915px; }
     body #planes .planes--container {
@@ -1070,17 +1049,6 @@ body #littleCarouselMobile {
           height: 137.5px; }
   body #horarios {
     height: 675px; }
-    body #horarios .horarios--container .horarios--container__h2 {
-      font-size: 45px;
-      line-height: 61.25px;
-      margin: 0 0 18px 0; }
-    body #horarios .horarios--container .horarios--container__h3 {
-      font-size: 30px;
-      line-height: 40.5px;
-      margin: 0 0 35px 0; }
-    body #horarios .horarios--container p {
-      font-size: 15px;
-      line-height: 18.75px; }
   body #planes {
     background-position: 60px, 0;
     height: 762.5px; }
@@ -1178,17 +1146,6 @@ body #littleCarouselMobile {
           height: 117px; }
   body #horarios {
     height: 576px; }
-    body #horarios .horarios--container .horarios--container__h2 {
-      font-size: 38.4px;
-      line-height: 52.3px;
-      margin: 0 0 16px 0; }
-    body #horarios .horarios--container .horarios--container__h3 {
-      font-size: 25.6px;
-      line-height: 34.56px;
-      margin: 0 0 30px 0; }
-    body #horarios .horarios--container p {
-      font-size: 12.8px;
-      line-height: 16px; }
   body #planes {
     height: 650px; }
     body #planes .planes--container {
@@ -1280,16 +1237,6 @@ body #littleCarouselMobile {
           height: 101px; }
   body #horarios {
     height: 495px; }
-    body #horarios .horarios--container .horarios--container__h2 {
-      font-size: 33px;
-      line-height: 45px;
-      margin: 0 0 14px 0; }
-    body #horarios .horarios--container .horarios--container__h3 {
-      font-size: 22px;
-      line-height: 29.7px;
-      margin: 0 0 26px 0; }
-    body #horarios .horarios--container p {
-      font-size: 11px; }
   body #planes {
     height: 560px; }
     body #planes .planes--container {
@@ -1359,17 +1306,6 @@ body #littleCarouselMobile {
           border-radius: 20px 20px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 88px; }
-  body #horarios .horarios--container {
-    width: 62%;
-    right: 32%; }
-    body #horarios .horarios--container .horarios--container__h2 {
-      line-height: 39.2px;
-      margin: 0 0 12px 0; }
-    body #horarios .horarios--container .horarios--container__h3 {
-      width: 70%;
-      font-size: 22px;
-      line-height: 29.7px;
-      margin: 0 0 22px 0; }
   body #planes {
     height: 560px; }
     body #planes .planes--container {
