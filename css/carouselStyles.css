@@ -68,12 +68,12 @@
 }
 
 /* sweet alert2 customization */
-.swal2-title {
+ body .swal2-title {
   font-family: Nunito;
-  color: #5B3D80 !important;
+  color: #5B3D80;
 }
 
-.owl-prev:hover, .owl-next:hover {
+body .owl-prev:hover, .owl-next:hover {
   background-color: unset !important;
 }
 

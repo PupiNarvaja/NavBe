@@ -52,61 +52,30 @@
                 top: 11.6%;
                 height: 71.7%;
                 min-width: 750px;
-                .planes--container__h2 {
-                    font-size: 60px;
-                    line-height: 82px;
-                }
                 .planes--container__cards {
                     max-width: 780px;
                     .planes__card {
-                        h3, .gratis {
-                            font-size: 33.33px;
-                            line-height: 41.6px;
-                        }
-                        h3 {
-                            span {
-                                font-size: 20px;
-                                line-height: 23.3px;
-                                padding: 6.6px 13.3px;
-                            }
-                        }
                         div {
                             height: 500px;
                             width: 342px;
                             padding: 52.5px 0 0 0;
                             h4, .gratis__h4 {
-                                font-size: 20px;
-                                line-height: 23.3px;
                                 width: 225px;
                             }
                             h5 {
-                                font-size: 13.3px;
-                                line-height: 16.6px;
-                                margin: 3px 0 25px 60px;;
+                                padding: 3px 0 0 60px;
                             }
                             ul {
                                 padding: 0 0 0 85px;
                                 height: 230px;
                                 li {
-                                    font-size: 15px;
-                                    line-height: 19px;
                                     margin: 0 0 25px 0;
                                 }
                             }
                             .inscribirYaBtn, .inscribirGratisBtn {
                                 bottom: -58px;
                                 height: 45.8px;
-                                font-size: 17.5px;
-                                line-height: 26px;
                             }
-                            .inscribirYaBtn{
-                                img {
-                                    width: 21.5px;
-                                }
-                            }
-                            .inscribirGratisBtn {
-                                margin: -2px 13.41% 0 13.41%;
-                            } 
                         }
                     }
                 }
@@ -196,49 +165,24 @@
             height: 915px;
             .planes--container {
                 min-width: 680px;
-                .planes--container__h2 {
-                    font-size: 54px;
-                    line-height: 73.5px;
-                }
                 .planes--container__cards {
                     max-width: 700px;
                     .planes__card {
-                        h3, .gratis {
-                            font-size: 30px;
-                            line-height: 35.25px;
-                        }
-                        h3 {
-                            span {
-                                font-size: 17px;
-                                line-height: 21px;
-                                padding: 6px 12px;
-                            }
-                        }
                         div {
                             height: 450px;
                             width: 307.5px;
                             padding: 47.25px 0 0 0;
                             border-radius: 40px;
                             h4, .gratis__h4 {
-                                font-size: 18px;
-                                line-height: 21px;
                                 width: 202.5px;
                             }
-                            .gratis__h4 {
-                                margin: 0 auto 52.25px auto;
-                                height: 20px;
-                            }
                             h5 {
-                                font-size: 12px;
-                                line-height: 15px;
-                                margin: 3px 0 22.5px 54px;
+                                padding: 3px 0 0 54px;
                             }
                             ul {
                                 padding: 0 0 0 75px;
                                 height: 206px;
                                 li {
-                                    font-size: 13.5px;
-                                    line-height: 18px;
                                     margin: 0 0 18px 0;
                                     padding: 0 0 0 10px;
                                 }
@@ -246,18 +190,12 @@
                             .inscribirYaBtn, .inscribirGratisBtn {
                                 bottom: -40px;
                                 height: 41.25px;
-                                font-size: 15.75px;
-                                line-height: 21px;
                             }
                             .inscribirYaBtn{
                                 img {
-                                    width: 19.5px;
                                     margin: 0 0 2px 8px;
                                 }
-                            }
-                            .inscribirGratisBtn {
-                                margin: 2px 13.41% 0 13.41%;
-                            }      
+                            }     
                         }
                     }
                 }
@@ -342,63 +280,34 @@
             height: 762.5px;
             .planes--container {
                 min-width: 560px;
-                .planes--container__h2 {
-                    font-size: 45px;
-                    line-height: 61.2px;
-                }
                 .planes--container__cards {
                     max-width: 585px;
                     .planes__card {
-                        h3, .gratis {
-                            font-size: 25px;
-                            line-height: 29.4px;
-                        }
-                        h3 {
-                            span {
-                                font-size: 15px;
-                                line-height: 17.5px;
-                                padding: 5px 10px;
-                            }
-                        }
                         div {
                             height: 375px;
                             width: 256px;
                             padding: 39.3px 0 0 0;
                             h4, .gratis__h4 {
-                                font-size: 15px;
-                                line-height: 17.5px;
                                 width: 169px;
                             }
                             .gratis__h4 {
                                 margin: 0 auto 38.75px auto; 
                             }
                             h5 {
-                                font-size: 10px;
-                                line-height: 12.5px;
-                                margin: 3px 0 18.75px 60px;
-                                height: 20px;
+                                padding: 3px 0 0 45px;
+                                height: 38.75px;
                             }
                             ul {
-                                padding: 0 0 0 65px;
+                                padding: 0 0 0 70px;
                                 height: 172px;
                                 li {
-                                    font-size: 11.25px;
-                                    line-height: 15px;
                                     margin: 0 0 18.75px 0;
                                     padding: 0 0 0 9px;
                                 }
                             }
                             .inscribirYaBtn, .inscribirGratisBtn {
-                                bottom: -30px;
+                                bottom: -45px;
                                 height: 34px;
-                                font-size: 13px;
-                                line-height: 17.5px;
-                            }
-                            .inscribirYaBtn{
-                                margin: 3px 13.41% 0 13.41%;
-                                img {
-                                    width: 16.25px;
-                                }
                             }
                         }
                     }
@@ -500,24 +409,11 @@
             height: 650px;
             .planes--container {
                 min-width: 500px;
-                .planes--container__h2 {
-                    font-size: 38.5px;
-                    line-height: 52.2px;
-                }
                 .planes--container__cards {
                     max-width: 500px;
                     .planes__card {
                         h3, .gratis {
-                            font-size: 21.3px;
-                            line-height: 25px;
                             margin: 0 0 35px 0;
-                        }
-                        h3 {
-                            span {
-                                font-size: 12.8px;
-                                line-height: 15px;
-                                padding: 4.2px 8.5px;
-                            }
                         }
                         div {
                             height: 320px;
@@ -525,26 +421,20 @@
                             padding: 33.6px 0 0 0;
                             border-radius: 30px;
                             h4, .gratis__h4 {
-                                font-size: 12.8px;
-                                line-height: 15px;
                                 width: 144px;
                             }
                             .gratis__h4 {
                                 margin: 0 auto 32px auto; 
                             }
                             h5 {
-                                font-size: 8.5px;
-                                line-height: 10.6px;
-                                margin: 3px 0 16px 38px;
-                                height: 16px;
+                                padding: 3px 0 16px 38px;
+                                height: 32px;
                             }
                             ul {
                                 list-style-image: url(../media/item-lista-planes-1024.svg);
                                 padding: 0 0 0 55px;
                                 height: 147px;
                                 li {
-                                    font-size: 9.6px;
-                                    line-height: 12.8px;
                                     margin: 0 0 14px 0;
                                     padding: 0 0 0 6px;
                                 }
@@ -552,17 +442,7 @@
                             .inscribirYaBtn, .inscribirGratisBtn {
                                 bottom: -26px;
                                 height: 29.3px;
-                                font-size: 11.2px;
-                                line-height: 15px;
-                            }
-                            .inscribirYaBtn{
-                                img {
-                                    width: 13.8px;
-                                }
-                            }
-                            .inscribirGratisBtn {
-                                margin: -3px 13.41% 0 13.41%;
-                            }      
+                            }    
                         }
                     }
                 }
@@ -646,25 +526,12 @@
         #planes {
             height: 560px;
             .planes--container {
-                min-width: 380px;
-                .planes--container__h2 {
-                    font-size: 32.5px;
-                    line-height: 45px;
-                }
+                min-width: 430px;
                 .planes--container__cards {
                     max-width: 430px;
                     .planes__card {
                         h3, .gratis {
-                            font-size: 18.3px;
-                            line-height: 21.5px;
                             margin: 0 0 30px 0;
-                        }
-                        h3 {
-                            span {
-                                font-size: 11px;
-                                line-height: 12.5px;
-                                padding: 3.6px 7.3px;
-                            }
                         }
                         div {
                             height: 275px;
@@ -672,25 +539,19 @@
                             padding: 28.9px 0 0 0;
                             border-radius: 25px;
                             h4, .gratis__h4 {
-                                font-size: 11px;
-                                line-height: 12.5px;
                                 width: 124px;
                             }
                             .gratis__h4 {
                                 margin: 0 auto 18.5px auto; 
                             }
                             h5 {
-                                font-size: 7.3px;
-                                line-height: 9.1px;
-                                margin: 3px 0 12.75px 32px;
-                                height: 11.75px;
+                                padding: 3px 0 0 32px;
+                                height: 18.5px;
                             }
                             ul {
                                 padding: 0 0 0 50px;
                                 height: 126px;
                                 li {
-                                    font-size: 8.25px;
-                                    line-height: 11px;
                                     margin: 0 0 13.75px 0;
                                     padding: 0 0 0 2px;
                                 }
@@ -698,13 +559,9 @@
                             .inscribirYaBtn, .inscribirGratisBtn {
                                 bottom: -30px;
                                 height: 25px;
-                                font-size: 9.6px;
-                                line-height: 12.5px;
                             }
                             .inscribirYaBtn{
-                                margin: 1px 13.41% 0 13.41%;
                                 img {
-                                    width: 11.9px;
                                     margin: 0 0 2px 6px;
                                 }
                             }       
@@ -752,24 +609,12 @@
             .planes--container {
                 height: 64%;
                 top: 9%;
-                .planes--container__h2 {
-                    font-size: 28.8px;
-                    line-height: 39px;
-                }
+                min-width: 380px;
                 .planes--container__cards {
                     max-width: 374px;
                     .planes__card {
                         h3, .gratis {
-                            font-size: 16px;
-                            line-height: 18.8px;
                             margin: 0 0 26px 0;
-                        }
-                        h3 {
-                            span {
-                                font-size: 9.6px;
-                                line-height: 11.2px;
-                                padding: 3.2px 6.4px;
-                            }
                         }
                         div {
                             height: 240px;
@@ -777,25 +622,15 @@
                             padding: 25.2px 0 0 0;
                             border-radius: 20px;
                             h4, .gratis__h4 {
-                                font-size: 9.6px;
-                                line-height: 11.2px;
                                 width: 108px;
                             }
-                            .gratis__h4 {
-                                margin: 0 auto 11px auto; 
-                            }
                             h5 {
-                                font-size: 6.4px;
-                                line-height: 8px;
-                                margin: 2px 0 8px 28.5px;
-                                height: 11px;
+                                padding: 2px 0 0 28.5px;
                             }
                             ul {
                                 padding: 0 0 0 45px;
                                 height: 110px;
                                 li {
-                                    font-size: 7.2px;
-                                    line-height: 9.6px;
                                     margin: 0 0 12px 0;
                                     padding: 0;
                                 }
@@ -803,13 +638,9 @@
                             .inscribirYaBtn, .inscribirGratisBtn {
                                 bottom: -24px;
                                 height: 22px;
-                                font-size: 8.4px;
-                                line-height: 11.2px;
                             }
                             .inscribirYaBtn{
-                                margin: 3px 13.41% 0 13.41%;
                                 img {
-                                    width: 10.4px;
                                     margin: 0 0 2px 6px;
                                 }
                             }    
@@ -976,6 +807,7 @@
                 top: 470px;
                 left: unset;
                 justify-content: unset;
+                font-size: unset;
                 .planes--container__h2 {
                     font-weight: 900;
                     font-size: 40px;
@@ -1046,8 +878,8 @@
                             h5 {
                                 font-size: 14px;
                                 line-height: 18px;
-                                height: 30px;
-                                margin: 6px 0 8px 24px;
+                                height: 40px;
+                                padding: 6px 0 0 24px;
                             }
                             ul {
                                 padding: 0 0 0 35px;
@@ -1072,7 +904,7 @@
                                 }
                             }
                             .inscribirGratisBtn {
-                                margin: 3px 6.5% 0 6.5%;
+                                // margin: 3px 6.5% 0 6.5%;
                             }
                         }
                     }
@@ -1137,27 +969,18 @@
                 margin: 0 auto;
             }
         }
-//----------------------------- Sección Planes 700px--------------------
+//----------------------------- Sección Planes 425px--------------------
         #planes {
-            background-image: url(../media/planesMobile.jpg);
-            background-size: 425px;
+            background: url(../media/woman-planes-alone.png), url(../media/background-mobile.jpg);
+            background-size: 425px, cover;
+            background-repeat: no-repeat;
+            background-position: top center;
+            height: 1690px;
             .womanPagosAlone {
                 display: none;
             }
-        }
-    }
-}
-
-@media (max-width: 380px) {
-    body {
-        #planes {
-            background: url(../media/woman-planes-alone.png), url(../media/background-mobile.jpg);
-            background-size: 380px, cover;
-            background-repeat: no-repeat;
-            background-position: top center;
-            height: 1650px;
             .planes--container {
-                top: 440px;
+                top: 480px;
                 .planes--container__cards {
                     flex-flow: column nowrap;
                     margin: 0;
@@ -1173,7 +996,8 @@
                                 margin: 0 24px 44px 48px;
                             }
                             h5 {
-                                margin: 8px 0 10px 48px;
+                                padding: 8px 0 0 48px;
+                                height: 44px;
                             }
                             ul {
                                 padding: 0 0 0 48px;
@@ -1191,6 +1015,11 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 380px) {
+    body {  
 //----------------------------- Sección Carousel secciones 380px--------------------
         #carousel3dotsMobile {
             #carouselExampleFade {
@@ -1216,7 +1045,6 @@
         }
     }
 }
-
 
 @media (max-width: 355px) {
     body {

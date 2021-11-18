@@ -37,11 +37,11 @@ body {
             @keyframes fly {
                 0% {
                     position: absolute;
-                    bottom: 0vh;
+                    bottom: -5vh;
                 }
                 100% {
                     position: absolute;
-                    bottom: 45vh;
+                    bottom: 40vh;
                 }
             }
             img {
