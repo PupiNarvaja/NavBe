@@ -358,7 +358,8 @@ body #aprendo {
   body #aprendo .aprendo--container {
     position: absolute;
     top: 14.17%;
-    margin: 0 auto 0 9%; }
+    margin: 0 auto 0 9%;
+    font-size: 2rem; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -366,28 +367,30 @@ body #aprendo {
       font-size: 72px;
       line-height: 98px;
       color: #5B3D80;
-      margin: 0 0 44px 0; }
+      font-size: 2.25em;
+      line-height: 1.361em;
+      margin: 0 0 0.61em 0; }
     body #aprendo .aprendo--container p {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: 24px;
-      line-height: 30px;
-      width: 703px;
-      height: 85px;
+      font-size: 0.75em;
+      line-height: 1.25em;
+      width: 29.2916em;
+      height: 3.5416em;
       color: #131313; }
     body #aprendo .aprendo--container .cards--container {
-      margin: 110px 0 0 0; }
+      margin: 3.4375em 0 0 0; }
       body #aprendo .aprendo--container .cards--container div {
         display: flex;
         align-items: center;
-        margin: 30px 0; }
+        margin: 0.9375em 0; }
         body #aprendo .aprendo--container .cards--container div span {
           font-family: Source Sans Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: 24px;
-          line-height: 30px; }
+          font-size: 0.75em;
+          line-height: 1.25em; }
         body #aprendo .aprendo--container .cards--container div .m1 {
           margin: 0 0 0 42.22px; }
         body #aprendo .aprendo--container .cards--container div .m2 {
@@ -847,17 +850,6 @@ body #littleCarouselMobile {
     height: 900px; }
   body #aprendo {
     height: 900px; }
-    body #aprendo .aprendo--container .aprendo--container__h2 {
-      font-size: 60px;
-      margin: 0 0 36.7px 0; }
-    body #aprendo .aprendo--container p {
-      font-size: 20px; }
-    body #aprendo .aprendo--container .cards--container {
-      margin: 91.6px 0 0 0; }
-      body #aprendo .aprendo--container .cards--container div {
-        margin: 25px 0; }
-        body #aprendo .aprendo--container .cards--container div span {
-          font-size: 20px; }
   body #consulta {
     height: 900px; }
     body #consulta .consulta--container .consulta--container__h2 {
@@ -969,37 +961,26 @@ body #littleCarouselMobile {
     height: 810px; }
   body #aprendo {
     height: 810px; }
-    body #aprendo .aprendo--container .aprendo--container__h2 {
-      font-size: 54px;
-      margin: 0 0 22.5px 0; }
-    body #aprendo .aprendo--container p {
-      font-size: 18px;
-      line-height: 22.5px;
-      width: 530px; }
-    body #aprendo .aprendo--container .cards--container {
-      margin: 0 0 82.5px 0; }
-      body #aprendo .aprendo--container .cards--container div {
-        margin: 22.5px 0; }
-        body #aprendo .aprendo--container .cards--container div .img1 {
-          width: 37.335px; }
-        body #aprendo .aprendo--container .cards--container div .img2 {
-          width: 33.75px; }
-        body #aprendo .aprendo--container .cards--container div .img3 {
-          width: 30px; }
-        body #aprendo .aprendo--container .cards--container div .img4 {
-          width: 30px; }
-        body #aprendo .aprendo--container .cards--container div .img5 {
-          width: 33.75px; }
-        body #aprendo .aprendo--container .cards--container div span {
-          font-size: 18px; }
-        body #aprendo .aprendo--container .cards--container div .m1 {
-          margin: 0 0 0 31.6px; }
-        body #aprendo .aprendo--container .cards--container div .m2 {
-          margin: 0 0 0 33.51px; }
-        body #aprendo .aprendo--container .cards--container div .m3, body #aprendo .aprendo--container .cards--container div .m4 {
-          margin: 0 0 0 36.75px; }
-        body #aprendo .aprendo--container .cards--container div .m5 {
-          margin: 0 0 0 33.27px; }
+    body #aprendo .aprendo--container .cards--container div .img1 {
+      width: 37.335px; }
+    body #aprendo .aprendo--container .cards--container div .img2 {
+      width: 33.75px; }
+    body #aprendo .aprendo--container .cards--container div .img3 {
+      width: 30px; }
+    body #aprendo .aprendo--container .cards--container div .img4 {
+      width: 30px; }
+    body #aprendo .aprendo--container .cards--container div .img5 {
+      width: 33.75px; }
+    body #aprendo .aprendo--container .cards--container div span {
+      font-size: 18px; }
+    body #aprendo .aprendo--container .cards--container div .m1 {
+      margin: 0 0 0 31.6px; }
+    body #aprendo .aprendo--container .cards--container div .m2 {
+      margin: 0 0 0 33.51px; }
+    body #aprendo .aprendo--container .cards--container div .m3, body #aprendo .aprendo--container .cards--container div .m4 {
+      margin: 0 0 0 36.75px; }
+    body #aprendo .aprendo--container .cards--container div .m5 {
+      margin: 0 0 0 33.27px; }
   body #consulta {
     height: 810px; }
     body #consulta .consulta--container {
@@ -1123,12 +1104,6 @@ body #littleCarouselMobile {
     height: 675px; }
   body #aprendo {
     height: 675px; }
-    body #aprendo .aprendo--container .aprendo--container__h2 {
-      font-size: 45px; }
-    body #aprendo .aprendo--container p {
-      font-size: 15px;
-      line-height: 18.75px;
-      width: 442px; }
     body #aprendo .aprendo--container .cards--container div .img1 {
       width: 31.1125px; }
     body #aprendo .aprendo--container .cards--container div .img2 {
@@ -1262,39 +1237,26 @@ body #littleCarouselMobile {
       list-style-image: url(../media/item-lista-mobile.svg); }
   body #aprendo {
     height: 576px; }
-    body #aprendo .aprendo--container {
-      top: 7%; }
-      body #aprendo .aprendo--container .aprendo--container__h2 {
-        font-size: 38.4px;
-        height: 90px;
-        margin: 0; }
-      body #aprendo .aprendo--container p {
-        font-size: 12.8px;
-        line-height: 16px;
-        width: 375px;
-        height: 75px; }
-      body #aprendo .aprendo--container .cards--container div {
-        margin: 16px 0; }
-        body #aprendo .aprendo--container .cards--container div .img1 {
-          width: 26.55px; }
-        body #aprendo .aprendo--container .cards--container div .img2 {
-          width: 24.17px; }
-        body #aprendo .aprendo--container .cards--container div .img3 {
-          width: 21.332px; }
-        body #aprendo .aprendo--container .cards--container div .img4 {
-          width: 21.332px; }
-        body #aprendo .aprendo--container .cards--container div .img5 {
-          width: 24.34px; }
-        body #aprendo .aprendo--container .cards--container div span {
-          font-size: 12.8px; }
-        body #aprendo .aprendo--container .cards--container div .m1 {
-          margin: 0 0 0 22.52px; }
-        body #aprendo .aprendo--container .cards--container div .m2 {
-          margin: 0 0 0 23.8px; }
-        body #aprendo .aprendo--container .cards--container div .m3, body #aprendo .aprendo--container .cards--container div .m4 {
-          margin: 0 0 0 26.1px; }
-        body #aprendo .aprendo--container .cards--container div .m5 {
-          margin: 0 0 0 23.66px; }
+    body #aprendo .aprendo--container .cards--container div .img1 {
+      width: 26.55px; }
+    body #aprendo .aprendo--container .cards--container div .img2 {
+      width: 24.17px; }
+    body #aprendo .aprendo--container .cards--container div .img3 {
+      width: 21.332px; }
+    body #aprendo .aprendo--container .cards--container div .img4 {
+      width: 21.332px; }
+    body #aprendo .aprendo--container .cards--container div .img5 {
+      width: 24.34px; }
+    body #aprendo .aprendo--container .cards--container div span {
+      font-size: 12.8px; }
+    body #aprendo .aprendo--container .cards--container div .m1 {
+      margin: 0 0 0 22.52px; }
+    body #aprendo .aprendo--container .cards--container div .m2 {
+      margin: 0 0 0 23.8px; }
+    body #aprendo .aprendo--container .cards--container div .m3, body #aprendo .aprendo--container .cards--container div .m4 {
+      margin: 0 0 0 26.1px; }
+    body #aprendo .aprendo--container .cards--container div .m5 {
+      margin: 0 0 0 23.66px; }
   body #consulta {
     height: 576px; }
     body #consulta .consulta--container .consulta--container__h2 {
@@ -1418,27 +1380,18 @@ body #littleCarouselMobile {
     height: 495px; }
   body #aprendo {
     height: 495px; }
-    body #aprendo .aprendo--container {
-      top: 6%; }
-      body #aprendo .aprendo--container .aprendo--container__h2 {
-        font-size: 33px;
-        height: 90px;
-        margin: 0; }
-      body #aprendo .aprendo--container p {
-        font-size: 11px;
-        width: 322px; }
-      body #aprendo .aprendo--container .cards--container div .img1 {
-        width: 22.8px; }
-      body #aprendo .aprendo--container .cards--container div .img2 {
-        width: 20.8px; }
-      body #aprendo .aprendo--container .cards--container div .img3 {
-        width: 18.32px; }
-      body #aprendo .aprendo--container .cards--container div .img4 {
-        width: 18.32px; }
-      body #aprendo .aprendo--container .cards--container div .img5 {
-        width: 20.9px; }
-      body #aprendo .aprendo--container .cards--container div span {
-        font-size: 11px; }
+    body #aprendo .aprendo--container .cards--container div .img1 {
+      width: 22.8px; }
+    body #aprendo .aprendo--container .cards--container div .img2 {
+      width: 20.8px; }
+    body #aprendo .aprendo--container .cards--container div .img3 {
+      width: 18.32px; }
+    body #aprendo .aprendo--container .cards--container div .img4 {
+      width: 18.32px; }
+    body #aprendo .aprendo--container .cards--container div .img5 {
+      width: 20.9px; }
+    body #aprendo .aprendo--container .cards--container div span {
+      font-size: 11px; }
   body #consulta {
     height: 495px; }
     body #consulta .consulta--container .consulta--container__h2 {
@@ -1546,10 +1499,8 @@ body #littleCarouselMobile {
 @media (max-width: 768px) {
   :root {
     font-size: 6.4px; }
-  body #aprendo .aprendo--container {
-    top: 3%; }
-    body #aprendo .aprendo--container p {
-      height: 55px; }
+  body .main {
+    height: 500px; }
   body #consulta .consulta--container {
     width: 48%; }
     body #consulta .consulta--container .consulta--container__h2 {

@@ -17,24 +17,6 @@
 //----------------------------- Sección Aprende con nosotros 1600px--------------------
         #aprendo {
             height: 900px;
-            .aprendo--container {
-                .aprendo--container__h2 {
-                    font-size: 60px;
-                    margin: 0 0 36.7px 0;
-                }
-                p {
-                    font-size: 20px;
-                }
-                .cards--container {
-                    margin: 91.6px 0 0 0;
-                    div {
-                        margin: 25px 0;
-                        span {
-                            font-size: 20px;
-                        }
-                    }
-                }
-            }
         }
 //----------------------------- Sección Consulta 1600px---------------------------
         #consulta {
@@ -207,19 +189,8 @@
         #aprendo {
             height: 810px;
             .aprendo--container {
-                .aprendo--container__h2 {
-                    font-size: 54px;
-                    margin: 0 0 22.5px 0;
-                }
-                p {
-                    font-size: 18px;
-                    line-height: 22.5px;
-                    width: 530px;
-                }
                 .cards--container {
-                    margin: 0 0 82.5px 0;
                     div {
-                        margin: 22.5px 0;
                         .img1 {
                             width: 37.335px;
                         }
@@ -436,14 +407,6 @@
         #aprendo {
             height: 675px;
             .aprendo--container {
-                .aprendo--container__h2 {
-                    font-size: 45px;
-                }
-                p {
-                    font-size: 15px;
-                    line-height: 18.75px;
-                    width: 442px;
-                }
                 .cards--container {
                     div {
                         .img1 {
@@ -653,21 +616,8 @@
         #aprendo {
             height: 576px;
             .aprendo--container {
-                top: 7%;
-                .aprendo--container__h2 {
-                    font-size: 38.4px;
-                    height: 90px;
-                    margin: 0;
-                }
-                p {
-                    font-size: 12.8px;
-                    line-height: 16px;
-                    width: 375px;
-                    height: 75px;
-                }
                 .cards--container {
                     div {
-                        margin: 16px 0;
                         .img1 {
                             width: 26.55px;
                         }
@@ -887,16 +837,6 @@
         #aprendo {
             height: 495px;
             .aprendo--container {
-                top: 6%;
-                .aprendo--container__h2 {
-                    font-size: 33px;
-                    height: 90px;
-                    margin: 0;
-                }
-                p {
-                    font-size: 11px;
-                    width: 322px;
-                }
                 .cards--container {
                     div {
                         .img1 {
@@ -1081,14 +1021,9 @@
         font-size: 6.4px;
     }
     body {
-//----------------------------- Sección Aprende con nosotros 768px--------------------
-        #aprendo {
-            .aprendo--container {
-                top: 3%;
-                p {
-                    height: 55px;
-                }
-            }
+//----------------------------- Sección Main 768px---------------------------
+        .main {
+            height: 500px;
         }
 //----------------------------- Sección Consulta 768px---------------------------
         #consulta {
