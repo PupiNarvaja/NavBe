@@ -406,15 +406,16 @@ body #consulta {
   background-repeat: no-repeat, no-repeat;
   height: 1080px;
   position: relative;
-  background-position: 0 -70px, 0; }
+  background-position: 0 -50px, 0; }
   body #consulta .womanConsultaAlone {
     display: none; }
   body #consulta .consulta--container {
     position: absolute;
     top: 14.5%;
-    right: 7.3%;
-    height: 18%;
-    width: 43.76%; }
+    right: 4.3%;
+    height: 10.84375em;
+    width: 48.76%;
+    font-size: 2rem; }
     body #consulta .consulta--container .consulta--container__h2 {
       font-family: Nunito;
       font-style: normal;
@@ -422,15 +423,17 @@ body #consulta {
       font-size: 72px;
       line-height: 98px;
       color: #5B3D80;
-      margin: 0 0 3.125vw 0; }
+      font-size: 2.25em;
+      line-height: 1.361em;
+      margin: 0 0 0.833em 0; }
     body #consulta .consulta--container p {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 0.75em;
+      line-height: 1.25em;
       margin: 0 0 5.1vw 0;
-      height: 99px;
+      height: 4.125em;
       width: 91.7%; }
     body #consulta .consulta--container .descargaBtn {
       width: 19.79vw;
@@ -447,8 +450,8 @@ body #consulta {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: bold;
-      font-size: 24px;
-      line-height: 30px;
+      font-size: 0.75em;
+      line-height: 1.25em;
       margin: 0 0 0 6.51vw;
       display: flex;
       justify-content: center;
@@ -456,7 +459,8 @@ body #consulta {
       body #consulta .consulta--container .descargaBtn:hover {
         background: rgba(96, 0, 217, 0.7); }
       body #consulta .consulta--container .descargaBtn img {
-        margin: 0 10px 0 0; }
+        margin: 0 10px 0 0;
+        width: 1.0833em; }
 
 body #horarios {
   background: url(../media/mujerCalendarioSola.png), url(../media/fondoSoloCalendario.jpg);
@@ -852,17 +856,6 @@ body #littleCarouselMobile {
     height: 900px; }
   body #consulta {
     height: 900px; }
-    body #consulta .consulta--container .consulta--container__h2 {
-      font-size: 60px;
-      line-height: 82px;
-      margin: 0 0 40px 0; }
-    body #consulta .consulta--container p {
-      font-size: 20px; }
-    body #consulta .consulta--container .descargaBtn {
-      font-size: 22px;
-      margin: 0 0 0 100px; }
-      body #consulta .consulta--container .descargaBtn img {
-        width: 21.5px; }
   body #profesionales {
     height: 1000px; }
     body #profesionales .profesionales--container .profesionales__h2 {
@@ -983,18 +976,6 @@ body #littleCarouselMobile {
       margin: 0 0 0 33.27px; }
   body #consulta {
     height: 810px; }
-    body #consulta .consulta--container {
-      top: 15%; }
-      body #consulta .consulta--container .consulta--container__h2 {
-        font-size: 54px;
-        line-height: 73.5px; }
-      body #consulta .consulta--container p {
-        font-size: 18px;
-        line-height: 22.5px;
-        margin: 0 0 80px 0; }
-      body #consulta .consulta--container .descargaBtn {
-        font-size: 18px;
-        margin: 0 0 0 75px; }
   body #profesionales {
     height: 900px; }
     body #profesionales .profesionales--container .profesionales__h2 {
@@ -1118,18 +1099,6 @@ body #littleCarouselMobile {
       font-size: 15px; }
   body #consulta {
     height: 675px; }
-    body #consulta .consulta--container .consulta--container__h2 {
-      font-size: 45px;
-      line-height: 61.25px; }
-    body #consulta .consulta--container p {
-      font-size: 15px;
-      line-height: 18.75px;
-      margin: 0 0 50px 0; }
-    body #consulta .consulta--container .descargaBtn {
-      font-size: 15px;
-      margin: 0 0 0 60px; }
-      body #consulta .consulta--container .descargaBtn img {
-        width: 16.25px; }
   body #profesionales {
     height: 750px; }
     body #profesionales .profesionales--container .profesionales__h2 {
@@ -1259,19 +1228,6 @@ body #littleCarouselMobile {
       margin: 0 0 0 23.66px; }
   body #consulta {
     height: 576px; }
-    body #consulta .consulta--container .consulta--container__h2 {
-      font-size: 38.4px;
-      line-height: 52.3px;
-      margin: -20px 0 3.125vw 0; }
-    body #consulta .consulta--container p {
-      font-size: 12.8px;
-      line-height: 16px;
-      margin: 0 0 15px 0; }
-    body #consulta .consulta--container .descargaBtn {
-      margin: 0 0 0 50px;
-      font-size: 12.8px; }
-      body #consulta .consulta--container .descargaBtn img {
-        width: 13.8px; }
   body #profesionales {
     height: 640px; }
     body #profesionales .profesionales--container .profesionales__h2 {
@@ -1394,15 +1350,6 @@ body #littleCarouselMobile {
       font-size: 11px; }
   body #consulta {
     height: 495px; }
-    body #consulta .consulta--container .consulta--container__h2 {
-      font-size: 33px;
-      line-height: 45px;
-      margin: 0 0 30px 0; }
-    body #consulta .consulta--container p {
-      font-size: 11px;
-      margin: 0 0 15px 0; }
-    body #consulta .consulta--container .descargaBtn {
-      font-size: 9.6px; }
   body #profesionales {
     height: 550px; }
     body #profesionales .profesionales--container .profesionales__h2 {
@@ -1501,13 +1448,6 @@ body #littleCarouselMobile {
     font-size: 6.4px; }
   body .main {
     height: 500px; }
-  body #consulta .consulta--container {
-    width: 48%; }
-    body #consulta .consulta--container .consulta--container__h2 {
-      line-height: 39.2px;
-      margin: 0 0 30px 0; }
-    body #consulta .consulta--container p {
-      height: 70px; }
   body #profesionales {
     height: 380px; }
     body #profesionales .profesionales--container {

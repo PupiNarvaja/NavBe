@@ -2,35 +2,39 @@ body {
     #consulta {
         background: url(../media/mujerLaptopFalda.png), url(../media/fondoNotebookEnFalda.jpg);
         @include backgrounds;
-        background-position: 0 -70px, 0; //probar -50px
+        background-position: 0 -50px, 0;
         .womanConsultaAlone {
             display: none;
         }
         .consulta--container {
             position: absolute;
             top: 14.5%; //182px
-            right: 7.3%; //140px
-            height: 18%; //347px
-            width: 43.76%; //821px
+            right: 4.3%; //140px 4.3
+            height: 10.84375em; //347px
+            width: 48.76%; //821px 48.76
+            font-size: 2rem;
             .consulta--container__h2 {
                 @include titulo2;
-                margin: 0 0 3.125vw 0; //margin: 0 0 60px 0;
+                font-size: 2.25em;
+                line-height: 1.361em;
+                margin: 0 0 0.833em 0; //margin: 0 0 60px 0;
             }
             p {
-                @include parrafo24px(normal, 24px, 30px);
+                @include parrafo24px(normal, 0.75em, 1.25em);
                 margin: 0 0 5.1vw 0; //margin: 0 0 98px 0;
-                height: 99px;
+                height: 4.125em;
                 width: 91.7%;
             }
             .descargaBtn {
                 @include descargaButton;
-                @include  parrafo24px(bold, 24px, 30px);
+                @include parrafo24px(bold, 0.75em, 1.25em);
                 margin: 0 0 0 6.51vw; //margin: 0 0 0 125px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 img {
                     margin: 0 10px 0 0;
+                    width: 1.0833em;
                 }
             }
         }
