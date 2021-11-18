@@ -364,8 +364,8 @@ body #aprendo {
       font-family: Nunito;
       font-style: normal;
       font-weight: 800;
-      font-size: 72px;
-      line-height: 98px;
+      font-size: 2.25em;
+      line-height: 1.361em;
       color: #5B3D80;
       font-size: 2.25em;
       line-height: 1.361em;
@@ -420,11 +420,9 @@ body #consulta {
       font-family: Nunito;
       font-style: normal;
       font-weight: 800;
-      font-size: 72px;
-      line-height: 98px;
-      color: #5B3D80;
       font-size: 2.25em;
       line-height: 1.361em;
+      color: #5B3D80;
       margin: 0 0 0.833em 0; }
     body #consulta .consulta--container p {
       font-family: Source Sans Pro;
@@ -481,8 +479,8 @@ body #horarios {
       font-family: Nunito;
       font-style: normal;
       font-weight: 800;
-      font-size: 72px;
-      line-height: 98px;
+      font-size: 2.25em;
+      line-height: 1.361em;
       color: #5B3D80;
       margin: 0 0 30px 0; }
     body #horarios .horarios--container .horarios--container__h3 {
@@ -526,8 +524,8 @@ body #planes {
       font-family: Nunito;
       font-style: normal;
       font-weight: 800;
-      font-size: 72px;
-      line-height: 98px;
+      font-size: 2.25em;
+      line-height: 1.361em;
       color: #5B3D80;
       width: 230px;
       margin: 0 auto;
@@ -649,23 +647,24 @@ body #profesionales {
     position: absolute;
     top: -50px;
     margin: 0 auto 0 9%;
-    width: 75%; }
+    width: 75%;
+    font-size: 2rem; }
     body #profesionales .profesionales--container .profesionales__h2 {
       font-family: Nunito;
       font-style: normal;
       font-weight: 800;
-      font-size: 72px;
-      line-height: 98px;
+      font-size: 2.25em;
+      line-height: 1.361em;
       color: #5B3D80;
       margin: 0; }
     body #profesionales .profesionales--container p {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: normal;
-      font-size: 24px;
-      line-height: 30px;
-      max-width: 1010px;
-      margin: 70px 0 0 0; }
+      font-size: 0.75em;
+      line-height: 1.25em;
+      max-width: 42.0833em;
+      margin: 2.9166em 0 0 0; }
   body #profesionales .profesionales-carousel {
     position: absolute;
     top: 400px; }
@@ -687,34 +686,36 @@ body #profesionales {
         -moz-box-shadow: 0px 2px 10px -3px #8d8d8d;
         display: flex;
         flex-flow: column nowrap;
-        align-items: center; }
+        align-items: center;
+        font-size: 2rem; }
         body #profesionales .profesionales-carousel .item .item__info-div h3 {
           font-family: Source Sans Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: 32px;
-          line-height: 40px;
+          font-size: 1em;
+          line-height: 1.25em;
           color: black;
-          margin: 20px 0 0 0; }
+          margin: 0.625em 0 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div p {
           font-family: Source Sans Pro;
           font-style: normal;
           font-weight: 600;
-          font-size: 24px;
-          line-height: 30px;
+          font-size: 0.75em;
+          line-height: 1.25em;
           color: #5B3D80;
-          margin: 15px 0 0 0; }
+          margin: 0.625em 0 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div button {
           font-family: Source Sans Pro;
           font-style: normal;
           font-weight: bold;
-          font-size: 20px;
-          line-height: 25px;
+          font-size: 0.625em;
+          line-height: 1.25em;
           border: none;
           border-radius: 20px;
           background: #00EDBF;
           padding: 8px 19px;
-          margin: 20px 0 0 0;
+          padding: 0.4em 0.95em;
+          margin: 1em 0 0 0;
           color: #5B3D80;
           transition: all .2s; }
           body #profesionales .profesionales-carousel .item .item__info-div button:hover {
@@ -858,14 +859,6 @@ body #littleCarouselMobile {
     height: 900px; }
   body #profesionales {
     height: 1000px; }
-    body #profesionales .profesionales--container .profesionales__h2 {
-      font-size: 60px;
-      line-height: 82px; }
-    body #profesionales .profesionales--container p {
-      font-size: 20px;
-      line-height: 25px;
-      max-width: 842px;
-      margin: 58px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 310px; }
       body #profesionales .profesionales-carousel .item {
@@ -874,19 +867,6 @@ body #littleCarouselMobile {
           border-radius: 41.6px 41.6px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 183px; }
-          body #profesionales .profesionales-carousel .item .item__info-div h3 {
-            font-size: 26.6px;
-            line-height: 33.3px;
-            margin: 16.6px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div p {
-            font-size: 20px;
-            line-height: 25px;
-            margin: 12.5px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div button {
-            font-size: 16.6px;
-            line-height: 20.8px;
-            padding: 6.6px 13.2px;
-            margin: 16.6px 0 0 0; }
   body #horarios {
     height: 900px; }
     body #horarios .horarios--container .horarios--container__h2 {
@@ -978,14 +958,6 @@ body #littleCarouselMobile {
     height: 810px; }
   body #profesionales {
     height: 900px; }
-    body #profesionales .profesionales--container .profesionales__h2 {
-      font-size: 54px;
-      line-height: 73.5px; }
-    body #profesionales .profesionales--container p {
-      font-size: 18px;
-      line-height: 22.5px;
-      max-width: 758px;
-      margin: 52.5px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 300px; }
       body #profesionales .profesionales-carousel .item {
@@ -994,19 +966,6 @@ body #littleCarouselMobile {
           border-radius: 37.5px 37.5px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 165px; }
-          body #profesionales .profesionales-carousel .item .item__info-div h3 {
-            font-size: 24px;
-            line-height: 30px;
-            margin: 15px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div p {
-            font-size: 18px;
-            line-height: 22.5px;
-            margin: 13px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div button {
-            font-size: 15px;
-            line-height: 18.75px;
-            margin: 13px 0 0 0;
-            padding: 6px 12px; }
   body #horarios {
     height: 810px; }
     body #horarios .horarios--container {
@@ -1101,14 +1060,6 @@ body #littleCarouselMobile {
     height: 675px; }
   body #profesionales {
     height: 750px; }
-    body #profesionales .profesionales--container .profesionales__h2 {
-      font-size: 45px;
-      line-height: 61.2px; }
-    body #profesionales .profesionales--container p {
-      font-size: 15px;
-      line-height: 18.75px;
-      max-width: 632px;
-      margin: 43.75px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 230px; }
       body #profesionales .profesionales-carousel .item {
@@ -1117,19 +1068,6 @@ body #littleCarouselMobile {
           border-radius: 31.25px 31.25px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 137.5px; }
-          body #profesionales .profesionales-carousel .item .item__info-div h3 {
-            font-size: 20px;
-            line-height: 25px;
-            margin: 12.25px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div p {
-            font-size: 15px;
-            line-height: 18.75px;
-            margin: 9.3px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div button {
-            font-size: 12.5px;
-            line-height: 15.6px;
-            margin: 9.3px 0 0 0;
-            padding: 5px 10px; }
   body #horarios {
     height: 675px; }
     body #horarios .horarios--container .horarios--container__h2 {
@@ -1230,14 +1168,6 @@ body #littleCarouselMobile {
     height: 576px; }
   body #profesionales {
     height: 640px; }
-    body #profesionales .profesionales--container .profesionales__h2 {
-      font-size: 38.5px;
-      line-height: 52.2px; }
-    body #profesionales .profesionales--container p {
-      font-size: 12.8px;
-      line-height: 16px;
-      max-width: 538px;
-      margin: 37px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 160px; }
       body #profesionales .profesionales-carousel .item {
@@ -1246,18 +1176,6 @@ body #littleCarouselMobile {
           border-radius: 26.6px 26.6px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 117px; }
-          body #profesionales .profesionales-carousel .item .item__info-div h3 {
-            font-size: 17px;
-            line-height: 21.3px;
-            margin: 10.6px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div p {
-            font-size: 12.8px;
-            line-height: 16px;
-            margin: 8px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div button {
-            font-size: 10.6px;
-            line-height: 13.3px;
-            padding: 4.2px 8.4px; }
   body #horarios {
     height: 576px; }
     body #horarios .horarios--container .horarios--container__h2 {
@@ -1352,14 +1270,6 @@ body #littleCarouselMobile {
     height: 495px; }
   body #profesionales {
     height: 550px; }
-    body #profesionales .profesionales--container .profesionales__h2 {
-      font-size: 33px;
-      line-height: 45px; }
-    body #profesionales .profesionales--container p {
-      font-size: 11px;
-      line-height: 13.75px;
-      max-width: 463px;
-      margin: 32px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 140px; }
       body #profesionales .profesionales-carousel .item {
@@ -1368,17 +1278,6 @@ body #littleCarouselMobile {
           border-radius: 23px 23px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 101px; }
-          body #profesionales .profesionales-carousel .item .item__info-div h3 {
-            font-size: 14.6px;
-            line-height: 18.3px;
-            margin: 9.1px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div p {
-            font-size: 11px;
-            line-height: 13.75px; }
-          body #profesionales .profesionales-carousel .item .item__info-div button {
-            font-size: 9.1px;
-            line-height: 11.5px;
-            padding: 3.6px 6.4px; }
   body #horarios {
     height: 495px; }
     body #horarios .horarios--container .horarios--container__h2 {
@@ -1452,14 +1351,6 @@ body #littleCarouselMobile {
     height: 380px; }
     body #profesionales .profesionales--container {
       top: -100px; }
-      body #profesionales .profesionales--container .profesionales__h2 {
-        font-size: 28.8px;
-        line-height: 39px; }
-      body #profesionales .profesionales--container p {
-        font-size: 9.6px;
-        line-height: 12px;
-        max-width: 404px;
-        margin: 28px 0 0 0; }
     body #profesionales .profesionales-carousel {
       top: 50px; }
       body #profesionales .profesionales-carousel .item {
@@ -1468,17 +1359,6 @@ body #littleCarouselMobile {
           border-radius: 20px 20px 0 0; }
         body #profesionales .profesionales-carousel .item .item__info-div {
           height: 88px; }
-          body #profesionales .profesionales-carousel .item .item__info-div h3 {
-            font-size: 12.8px;
-            line-height: 16px;
-            margin: 8px 0 0 0; }
-          body #profesionales .profesionales-carousel .item .item__info-div p {
-            font-size: 9.6px;
-            line-height: 12px; }
-          body #profesionales .profesionales-carousel .item .item__info-div button {
-            font-size: 8px;
-            line-height: 10px;
-            padding: 3.2px 6.2px; }
   body #horarios .horarios--container {
     width: 62%;
     right: 32%; }

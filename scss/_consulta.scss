@@ -15,8 +15,6 @@ body {
             font-size: 2rem;
             .consulta--container__h2 {
                 @include titulo2;
-                font-size: 2.25em;
-                line-height: 1.361em;
                 margin: 0 0 0.833em 0; //margin: 0 0 60px 0;
             }
             p {
