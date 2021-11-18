@@ -15,28 +15,29 @@ body {
         .womanQuestion--container {
             position: absolute;
             width: 39.75%; //763px
-            height: 37%; //400 px ---375px 34.7%
+            height: 12.5em; //400 px ---375px 34.7%
             top: 25%; //270  25%
             left: 45.57%; //875  45.57%
             right: 54.43%;
             display: flex;
             flex-flow: column nowrap;
             justify-content: space-between;
+            font-size: 2rem;
             .womanQuestion__questions {
                 list-style-image: url(../media/item-lista.svg);
-                height: 50%;
+                height: 6.25em;
                 display: flex;
                 flex-flow: column nowrap;
                 justify-content: space-between;
                 margin: 0;
                 padding: 0;
                 li {
-                    @include parrafo24px(bold, 24px, 30px);
+                    @include parrafo24px(bold, 0.75em, 1.25em);
                 }
             }
             p {
-                @include parrafo24px(400, 24px, 30px);
-                height: 136px;
+                @include parrafo24px(400, 0.75em, 1.25em);
+                height: 5.67em;
                 margin: 0;
             }
         }

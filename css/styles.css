@@ -316,16 +316,17 @@ body .womanQuestion {
   body .womanQuestion .womanQuestion--container {
     position: absolute;
     width: 39.75%;
-    height: 37%;
+    height: 12.5em;
     top: 25%;
     left: 45.57%;
     right: 54.43%;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between; }
+    justify-content: space-between;
+    font-size: 2rem; }
     body .womanQuestion .womanQuestion--container .womanQuestion__questions {
       list-style-image: url(../media/item-lista.svg);
-      height: 50%;
+      height: 6.25em;
       display: flex;
       flex-flow: column nowrap;
       justify-content: space-between;
@@ -335,15 +336,15 @@ body .womanQuestion {
         font-family: Source Sans Pro;
         font-style: normal;
         font-weight: bold;
-        font-size: 24px;
-        line-height: 30px; }
+        font-size: 0.75em;
+        line-height: 1.25em; }
     body .womanQuestion .womanQuestion--container p {
       font-family: Source Sans Pro;
       font-style: normal;
       font-weight: 400;
-      font-size: 24px;
-      line-height: 30px;
-      height: 136px;
+      font-size: 0.75em;
+      line-height: 1.25em;
+      height: 5.67em;
       margin: 0; }
 
 body #aprendo {
@@ -844,11 +845,6 @@ body #littleCarouselMobile {
       width: 650px; }
   body .womanQuestion {
     height: 900px; }
-    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
-      font-size: 20px; }
-    body .womanQuestion .womanQuestion--container p {
-      font-size: 20px;
-      height: 113px; }
   body #aprendo {
     height: 900px; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
@@ -971,11 +967,6 @@ body #littleCarouselMobile {
     font-size: 12px; }
   body .womanQuestion {
     height: 810px; }
-    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
-      font-size: 18px; }
-    body .womanQuestion .womanQuestion--container p {
-      font-size: 18px;
-      height: 102px; }
   body #aprendo {
     height: 810px; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
@@ -1130,12 +1121,6 @@ body #littleCarouselMobile {
       top: 80px; }
   body .womanQuestion {
     height: 675px; }
-    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
-      font-size: 16px; }
-    body .womanQuestion .womanQuestion--container p {
-      line-height: 24px;
-      font-size: 16px;
-      height: 85px; }
   body #aprendo {
     height: 675px; }
     body #aprendo .aprendo--container .aprendo--container__h2 {
@@ -1273,12 +1258,8 @@ body #littleCarouselMobile {
       margin: 0 30% 0 43%; }
   body .womanQuestion {
     height: 576px; }
-    body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
-      font-size: 14px; }
-    body .womanQuestion .womanQuestion--container p {
-      line-height: 20px;
-      font-size: 14px;
-      height: 72.5px; }
+    body .womanQuestion .womanQuestion--container .womanQuestion__questions {
+      list-style-image: url(../media/item-lista-mobile.svg); }
   body #aprendo {
     height: 576px; }
     body #aprendo .aprendo--container {
@@ -1435,16 +1416,6 @@ body #littleCarouselMobile {
       margin: 0 30% 0 45%; }
   body .womanQuestion {
     height: 495px; }
-    body .womanQuestion .womanQuestion--container {
-      width: 50%; }
-      body .womanQuestion .womanQuestion--container .womanQuestion__questions li {
-        font-size: 12px; }
-        body .womanQuestion .womanQuestion--container .womanQuestion__questions li br {
-          display: none; }
-      body .womanQuestion .womanQuestion--container p {
-        line-height: 16px;
-        font-size: 12px;
-        height: 62.3px; }
   body #aprendo {
     height: 495px; }
     body #aprendo .aprendo--container {
@@ -1575,10 +1546,6 @@ body #littleCarouselMobile {
 @media (max-width: 768px) {
   :root {
     font-size: 6.4px; }
-  body .main {
-    background-position-x: -30px; }
-  body .womanQuestion .womanQuestion--container .womanQuestion__questions {
-    list-style-image: url(../media/item-lista-mobile.svg); }
   body #aprendo .aprendo--container {
     top: 3%; }
     body #aprendo .aprendo--container p {
