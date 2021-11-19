@@ -107,9 +107,9 @@ popUps = () => {Swal.fire({
     title: '¡Lanzamiento muy pronto!',
     imageUrl: './media/logo-smartphone.svg',
     imageWidth: '75px',
-    text: '- Equipo Navbe.',
-    confirmButtonText:'¡Genial!',
-    confirmButtonColor: '#6000D9'
+    confirmButtonText:'Listo!',
+    confirmButtonColor: '#6000D9',
+    border: 'none'
 })};
 
 // ====== Changes mobile navbar links ======

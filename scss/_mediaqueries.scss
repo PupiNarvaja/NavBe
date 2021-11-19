@@ -810,7 +810,6 @@
                 font-size: unset;
                 .planes--container__h2 {
                     font-weight: 900;
-                    line-height: 55px;
                     text-align: center;
                 }
                 .planes--container__cards {
@@ -851,20 +850,18 @@
                             font-family: Nunito;
                             font-weight: bold;
                             font-size: 30px;
-                            line-height: 41px;
-                            margin: 0 0 20px 0;
                         }
                         div {
                             width: 186px;
                             height: 400px;
-                            padding: 30px 0 0 0;
+                            padding: 35px 0 0 0;
                             border-radius: 30px;
                             h4 {
                                 font-weight: bold;
                                 font-size: 20px;
                                 line-height: 25px;
                                 color: $violeta;
-                                margin: 0 29px 0 24px;
+                                margin: 0 29px 0 35px;
                             }
                             .gratis__h4 {
                                 font-weight: bold;
@@ -872,13 +869,13 @@
                                 line-height: 25px;
                                 color: $violeta;
                                 height: unset;
-                                margin: 0 24px 40px 29px;
+                                margin: 0 24px 50px 35px;
                             }
                             h5 {
                                 font-size: 14px;
                                 line-height: 18px;
-                                height: 40px;
-                                padding: 6px 0 0 24px;
+                                height: 50px;
+                                padding: 6px 0 0 35px;
                             }
                             ul {
                                 padding: 0 0 0 35px;
@@ -893,9 +890,9 @@
                                 height: 37px;
                                 width: 87%;
                                 margin: 0 6.5%;
-                                font-size: 17px;
+                                font-size: 14px;
                                 line-height: 21px;
-                                bottom: -4px;
+                                bottom: -12px;
                             }
                             .inscribirYaBtn {
                                 img {
@@ -923,6 +920,13 @@
             }
             .womanQuestion--container {
                 top: 58%;
+                .womanQuestion__questions {
+                    li {
+                        br {
+                            display: none;
+                        }
+                    }
+                }
             }
         }
 //----------------------------- Sección Carousel secciones  425px--------------------
@@ -986,6 +990,12 @@
                     margin: 0;
                     .planes__card {
                         margin: 40px auto 0 auto;
+                        h3 {
+                            margin: 0 0 10px 0;
+                        }
+                        .gratis {
+                            margin: 0 0 10px 0;
+                        }
                         div {
                             width: 248px;
                             height: 460px;
@@ -993,11 +1003,11 @@
                                 margin: 0 auto 0 48px;
                             }
                             .gratis__h4 {
-                                margin: 0 24px 44px 48px;
+                                margin: 0 24px 50px 48px;
                             }
                             h5 {
                                 padding: 8px 0 0 48px;
-                                height: 44px;
+                                height: 50px;
                             }
                             ul {
                                 padding: 0 0 0 48px;
@@ -1008,7 +1018,9 @@
                                 }
                             }
                             .inscribirYaBtn, .inscribirGratisBtn {
-                                bottom: -55px;
+                                bottom: -75px;
+                                width: 200px;
+                                margin: 0 auto;
                             }
                         }
                     }

@@ -73,6 +73,14 @@
   color: #5B3D80;
 }
 
+.swal2-popup .swal2-styled:focus {
+  box-shadow: none !important;
+}
+
+body .swal2-styled.swal2-confirm {
+  border-radius: 10px;
+}
+
 body .owl-prev:hover, .owl-next:hover {
   background-color: unset !important;
 }

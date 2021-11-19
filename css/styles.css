@@ -1372,7 +1372,6 @@ body #littleCarouselMobile {
       font-size: unset; }
       body #planes .planes--container .planes--container__h2 {
         font-weight: 900;
-        line-height: 55px;
         text-align: center; }
       body #planes .planes--container .planes--container__cards {
         height: 450px;
@@ -1403,32 +1402,30 @@ body #littleCarouselMobile {
           body #planes .planes--container .planes--container__cards .planes__card .gratis {
             font-family: Nunito;
             font-weight: bold;
-            font-size: 30px;
-            line-height: 41px;
-            margin: 0 0 20px 0; }
+            font-size: 30px; }
           body #planes .planes--container .planes--container__cards .planes__card div {
             width: 186px;
             height: 400px;
-            padding: 30px 0 0 0;
+            padding: 35px 0 0 0;
             border-radius: 30px; }
             body #planes .planes--container .planes--container__cards .planes__card div h4 {
               font-weight: bold;
               font-size: 20px;
               line-height: 25px;
               color: #5B3D80;
-              margin: 0 29px 0 24px; }
+              margin: 0 29px 0 35px; }
             body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
               font-weight: bold;
               font-size: 20px;
               line-height: 25px;
               color: #5B3D80;
               height: unset;
-              margin: 0 24px 40px 29px; }
+              margin: 0 24px 50px 35px; }
             body #planes .planes--container .planes--container__cards .planes__card div h5 {
               font-size: 14px;
               line-height: 18px;
-              height: 40px;
-              padding: 6px 0 0 24px; }
+              height: 50px;
+              padding: 6px 0 0 35px; }
             body #planes .planes--container .planes--container__cards .planes__card div ul {
               padding: 0 0 0 35px;
               height: 190px; }
@@ -1440,9 +1437,9 @@ body #littleCarouselMobile {
               height: 37px;
               width: 87%;
               margin: 0 6.5%;
-              font-size: 17px;
+              font-size: 14px;
               line-height: 21px;
-              bottom: -4px; }
+              bottom: -12px; }
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn img {
               width: 18px; } }
 
@@ -1456,6 +1453,8 @@ body #littleCarouselMobile {
       display: none; }
     body .womanQuestion .womanQuestion--container {
       top: 58%; }
+      body .womanQuestion .womanQuestion--container .womanQuestion__questions li br {
+        display: none; }
   body #carousel3dotsMobile #carouselExampleFade .carousel-inner .carousel-item .div-img-container {
     width: 100%;
     min-height: 450px; }
@@ -1489,16 +1488,20 @@ body #littleCarouselMobile {
         margin: 0; }
         body #planes .planes--container .planes--container__cards .planes__card {
           margin: 40px auto 0 auto; }
+          body #planes .planes--container .planes--container__cards .planes__card h3 {
+            margin: 0 0 10px 0; }
+          body #planes .planes--container .planes--container__cards .planes__card .gratis {
+            margin: 0 0 10px 0; }
           body #planes .planes--container .planes--container__cards .planes__card div {
             width: 248px;
             height: 460px; }
             body #planes .planes--container .planes--container__cards .planes__card div h4 {
               margin: 0 auto 0 48px; }
             body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
-              margin: 0 24px 44px 48px; }
+              margin: 0 24px 50px 48px; }
             body #planes .planes--container .planes--container__cards .planes__card div h5 {
               padding: 8px 0 0 48px;
-              height: 44px; }
+              height: 50px; }
             body #planes .planes--container .planes--container__cards .planes__card div ul {
               padding: 0 0 0 48px; }
               body #planes .planes--container .planes--container__cards .planes__card div ul li {
@@ -1506,7 +1509,9 @@ body #littleCarouselMobile {
                 line-height: 18px;
                 margin: 0 0 20px 0; }
             body #planes .planes--container .planes--container__cards .planes__card div .inscribirYaBtn, body #planes .planes--container .planes--container__cards .planes__card div .inscribirGratisBtn {
-              bottom: -55px; } }
+              bottom: -75px;
+              width: 200px;
+              margin: 0 auto; } }
 
 @media (max-width: 380px) {
   body #carousel3dotsMobile #carouselExampleFade .carousel-indicators {
