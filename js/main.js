@@ -109,8 +109,7 @@ popUps = () => {Swal.fire({
     imageUrl: './media/logo-smartphone.svg',
     imageWidth: '75px',
     confirmButtonText:'Listo!',
-    confirmButtonColor: '#6000D9',
-    border: 'none'
+    confirmButtonColor: '#6000D9'
 })};
 
 // ====== Changes mobile navbar links ======
