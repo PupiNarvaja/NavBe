@@ -41,7 +41,7 @@ body {
             }
             div {
                 .footer-copyright{
-                    font-family: Helvetica Neue;
+                    font-family: Roboto;
                     font-style: normal;
                     font-weight: normal;
                     position: relative;
@@ -105,13 +105,17 @@ body {
                         margin: 0 auto;
                         order: -1;
                         text-align: center;
+                        font-size: 12px;
                     }
                 }
                 .footer-siguenos{
-                    margin: 0; // margin: 1.4375em 0 0 0;
+                    margin: 0;
                     height: unset;
                     order: -2;
                     align-self: center;
+                    .footer-siguenos-span {
+                        font-size: 18px;
+                    }
                     div {
                         .fix{
                             width: 90%;

@@ -585,7 +585,7 @@ body #planes {
           margin: 0 auto; }
         body #planes .planes--container .planes--container__cards .planes__card div .gratis__h4 {
           width: 270px;
-          margin: 0 auto 62px auto; }
+          margin: 0 auto 60px auto; }
         body #planes .planes--container .planes--container__cards .planes__card div h5 {
           font-family: Source Sans Pro;
           font-style: normal;
@@ -883,7 +883,7 @@ body .footer {
           text-decoration: none;
           color: white; }
     body .footer .footer--container div .footer-copyright {
-      font-family: Helvetica Neue;
+      font-family: Roboto;
       font-style: normal;
       font-weight: normal;
       position: relative;
@@ -932,12 +932,15 @@ body .footer {
         width: fit-content;
         margin: 0 auto;
         order: -1;
-        text-align: center; }
+        text-align: center;
+        font-size: 12px; }
       body .footer .footer--container .footer-siguenos {
         margin: 0;
         height: unset;
         order: -2;
         align-self: center; }
+        body .footer .footer--container .footer-siguenos .footer-siguenos-span {
+          font-size: 18px; }
         body .footer .footer--container .footer-siguenos div .fix {
           width: 90%; } }
 
@@ -1513,7 +1516,7 @@ body .footer {
               line-height: 25px;
               color: #5B3D80;
               height: unset;
-              margin: 0 24px 50px 35px; }
+              margin: 0 24px 49px 35px; }
             body #planes .planes--container .planes--container__cards .planes__card div h5 {
               font-size: 14px;
               line-height: 18px;
