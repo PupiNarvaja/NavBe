@@ -101,6 +101,7 @@ $(document).ready(function() {
     $(".item button").click(() =>popUps());
     $(".inscribirYaBtn").click(() =>popUps());
     $(".inscribirGratisBtn").click(() =>popUps());
+    $(".fix").click(() =>popUps());
 });
 
 popUps = () => {Swal.fire({  
