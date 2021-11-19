@@ -848,6 +848,99 @@ body #littleCarouselMobile {
       margin: 5px 0 0 0;
       height: 36px; }
 
+body .footer {
+  font-size: 2rem;
+  width: 100%;
+  height: 11.03125em;
+  background-color: #5B3D80;
+  color: white; }
+  body .footer .footer--container {
+    height: 100%;
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    body .footer .footer--container .footer-cohete {
+      margin: 1.4375em 0 0 0;
+      height: 8.03125em;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-between;
+      align-items: flex-end; }
+      body .footer .footer--container .footer-cohete .coheteFooter {
+        width: 4.375em; }
+      body .footer .footer--container .footer-cohete .listaFooter {
+        list-style: none;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.59375em;
+        line-height: 2.2105em;
+        margin: 0;
+        padding: 0; }
+        body .footer .footer--container .footer-cohete .listaFooter li a {
+          text-decoration: none;
+          color: white; }
+    body .footer .footer--container div .footer-copyright {
+      font-family: Helvetica Neue;
+      font-style: normal;
+      font-weight: normal;
+      position: relative;
+      top: 81%;
+      font-size: 0.4375em;
+      line-height: 1.214em; }
+    body .footer .footer--container .footer-siguenos {
+      max-width: 6.5625em;
+      height: 2.90625em;
+      margin: 6.5625em 0 0 0;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center; }
+      body .footer .footer--container .footer-siguenos .footer-siguenos-span {
+        font-size: 0.75em;
+        font-family: Source Sans Pro;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.25em; }
+      body .footer .footer--container .footer-siguenos div {
+        display: flex;
+        flex-flow: row nowrap; }
+        body .footer .footer--container .footer-siguenos div .fix {
+          padding-right: 0.625em;
+          padding: 0 0.3125em;
+          width: 100%;
+          margin: 0 auto;
+          height: auto; }
+
+@media (max-width: 700px) {
+  body .footer {
+    height: 13.0313em; }
+    body .footer .footer--container {
+      flex-flow: column nowrap; }
+      body .footer .footer--container .footer-cohete {
+        height: unset;
+        display: flex;
+        align-items: center;
+        order: -3; }
+        body .footer .footer--container .footer-cohete .coheteFooter {
+          width: 4.375em; }
+        body .footer .footer--container .footer-cohete .listaFooter {
+          display: none; }
+      body .footer .footer--container div .footer-copyright {
+        top: -80%;
+        width: fit-content;
+        margin: 0 auto;
+        order: -1;
+        text-align: center; }
+      body .footer .footer--container .footer-siguenos {
+        margin: 0;
+        height: unset;
+        order: -2;
+        align-self: center; }
+        body .footer .footer--container .footer-siguenos div .fix {
+          width: 90%; } }
+
 @media (max-width: 1600px) {
   :root {
     font-size: 13.33333376px; }
@@ -1204,7 +1297,7 @@ body #littleCarouselMobile {
     height: 560px; }
     body #planes .planes--container {
       height: 64%;
-      top: 9%;
+      top: 17%;
       min-width: 380px; }
       body #planes .planes--container .planes--container__cards {
         max-width: 374px; }
